@@ -4,7 +4,7 @@
   
   <link href="/atom.xml" rel="self"/>
   <link href="http://yoursite.com/"/>
-  <updated>2016-02-05T02:36:49.130Z</updated>
+  <updated>2016-01-16T04:53:00.764Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,24 +15,1686 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title><![CDATA[Hello World]]></title>
-    <link href="http://yoursite.com/2016/02/05/hello-world/"/>
-    <id>http://yoursite.com/2016/02/05/hello-world/</id>
-    <published>2016-02-05T02:36:49.130Z</published>
-    <updated>2016-02-05T02:36:49.130Z</updated>
-    <content type="html"><![CDATA[<p>Welcome to <a href="http://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="http://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="http://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
-<h2 id="Quick_Start"><a href="#Quick_Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create_a_new_post"><a href="#Create_a_new_post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
-<p>More info: <a href="http://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a></p>
-<h3 id="Run_server"><a href="#Run_server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="http://hexo.io/docs/server.html" target="_blank" rel="external">Server</a></p>
-<h3 id="Generate_static_files"><a href="#Generate_static_files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="http://hexo.io/docs/generating.html" target="_blank" rel="external">Generating</a></p>
-<h3 id="Deploy_to_remote_sites"><a href="#Deploy_to_remote_sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="http://hexo.io/docs/deployment.html" target="_blank" rel="external">Deployment</a></p>
+    <title><![CDATA[想起来啥写啥]]></title>
+    <link href="http://yoursite.com/2016/02/06/hello-world/"/>
+    <id>http://yoursite.com/2016/02/06/hello-world/</id>
+    <published>2016-02-06T15:23:57.681Z</published>
+    <updated>2016-01-16T04:53:00.764Z</updated>
+    <content type="html"><![CDATA[<h1 id="0x10-0x01-0x0A"><a href="#0x10-0x01-0x0A" class="headerlink" title="0x10.0x01.0x0A"></a>0x10.0x01.0x0A</h1><p>新年新气象，感觉kenshichong这个id不会跟自己太长时间，起源来自于朋友的一句话，“你们牛逼就行了，我就默默的啃屎”，联想到屎壳郎这种动物，就用了kenshichong这个id。。。所以今天决定换id，就是beet1e了</p>
+<p>接下来的计划就是：</p>
+<h2 id="0x00"><a href="#0x00" class="headerlink" title="0x00"></a>0x00</h2><p>把最近一直在看的书做好总结，看了好多心目中菊苣的blog，感觉理论还是挺重要的，但自己只动脑不动手的习惯得改-_-~!</p>
+<h2 id="0x01"><a href="#0x01" class="headerlink" title="0x01"></a>0x01</h2><p>打xctf，开始接触misc，crypt，为小队多出点力，争取进线下，能够和各种菊苣见见；</p>
+<h2 id="0x02"><a href="#0x02" class="headerlink" title="0x02"></a>0x02</h2><p>安卓</p>
+<h2 id="0x03"><a href="#0x03" class="headerlink" title="0x03"></a>0x03</h2><p>GEEK，智能家电，物联网之类的</p>
+<p>希望这些计划都能实现，新的一年，干劲满满，gan ba lei</p>
+<h1 id="0x10-0x01-0x07"><a href="#0x10-0x01-0x07" class="headerlink" title="0x10.0x01.0x07"></a>0x10.0x01.0x07</h1><p>不要走别人认为你走这条路比较好的路，没什么j8意思。。。</p>
 ]]></content>
     <summary type="html">
-    <![CDATA[<p>Welcome to <a href="http://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="http://hexo.io]]>
+    <![CDATA[<h1 id="0x10-0x01-0x0A"><a href="#0x10-0x01-0x0A" class="headerlink" title="0x10.0x01.0x0A"></a>0x10.0x01.0x0A</h1><p>新年新气象，感觉kenshichong这个i]]>
     </summary>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[写着玩-狂艹装载]]></title>
+    <link href="http://yoursite.com/2016/01/19/%E5%86%99%E7%9D%80%E7%8E%A9-%E7%8B%82%E8%89%B9%E8%A3%85%E8%BD%BD/"/>
+    <id>http://yoursite.com/2016/01/19/写着玩-狂艹装载/</id>
+    <published>2016-01-19T11:37:30.000Z</published>
+    <updated>2016-01-19T12:14:15.251Z</updated>
+    <content type="html"><![CDATA[<h1 id="0x00__u53E3_u80E1"><a href="#0x00__u53E3_u80E1" class="headerlink" title="0x00 口胡"></a>0x00 口胡</h1><p>最近有点痴迷一些计算机中的机制、策略等理论姿势，觉得有些机制或策略很有意思，以后会多看些这方面的书籍吧，为挖洞之路打基础。</p>
+<h1 id="0x01__u5F00_u8279-_u4E00_u4E9B_u6742_u4E03_u6742_u516B_u7684_u4E1C_u897F"><a href="#0x01__u5F00_u8279-_u4E00_u4E9B_u6742_u4E03_u6742_u516B_u7684_u4E1C_u897F" class="headerlink" title="0x01 开艹-一些杂七杂八的东西"></a>0x01 开艹-一些杂七杂八的东西</h1><p>可执行文件只有装载到内存以后才能被CPU执行，装载强调的是怎样放入内存以及如何放。</p>
+<p>对于Windows操作系统来说，它的进程虚拟地址空间划分是操作系统占用2GB，剩2GB给进程。windows有个启动参数可以将操作系统占用的虚拟地址空间减少到1GB，即跟linux一样(linux是系统：进程=1:3)。方法为修改Windows系统盘根目录下的Boot.ini(默认是隐藏的)，加上”/3G”参数：<br><img src="/img/写着玩-狂艹装载/0.PNG" alt=""></p>
+<p>程序运行时是有局部性原理的，所以我们可以将程序最常用的部分驻留内存，而将一些不太常用的数据存放在磁盘里面，这就是动态载入的基本原理。覆盖载入和页映射是两种很典型的动态装载方法，都利用了程序的局部性原理。思想就是程序用到哪个模块就将哪个模块装入内存，如果不用就暂时不装入，存放在磁盘中。</p>
+<p>覆盖载入就是覆盖，就是说内存就那么点，满了的话你要再想往里面装载的话，就得覆盖，至于覆盖的策略一般要保证程序能够正常执行，禁止跨树间调用</p>
+<p>页映射的话就是，大小按页进行装载入内存，采取的策略是由操作系统定的。</p>
+<h1 id="0x02__u4ECEOS_u89D2_u5EA6_u770B_u53EF_u6267_u884C_u6587_u4EF6_u7684_u88C5_u8F7D"><a href="#0x02__u4ECEOS_u89D2_u5EA6_u770B_u53EF_u6267_u884C_u6587_u4EF6_u7684_u88C5_u8F7D" class="headerlink" title="0x02 从OS角度看可执行文件的装载"></a>0x02 从OS角度看可执行文件的装载</h1>]]></content>
+    <summary type="html">
+    <![CDATA[<h1 id="0x00__u53E3_u80E1"><a href="#0x00__u53E3_u80E1" class="headerlink" title="0x00 口胡"></a>0x00 口胡</h1><p>最近有点痴迷一些计算机中的机制、策略等理论姿势，觉得有些机制]]>
+    </summary>
+    
+      <category term="人丑就要多读书" scheme="http://yoursite.com/tags/%E4%BA%BA%E4%B8%91%E5%B0%B1%E8%A6%81%E5%A4%9A%E8%AF%BB%E4%B9%A6/"/>
+    
+      <category term="reverse related" scheme="http://yoursite.com/categories/reverse-related/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[写着玩-回顾以前的PE岁月]]></title>
+    <link href="http://yoursite.com/2016/01/19/%E5%86%99%E7%9D%80%E7%8E%A9-%E5%9B%9E%E9%A1%BE%E4%BB%A5%E5%89%8D%E7%9A%84PE%E5%B2%81%E6%9C%88/"/>
+    <id>http://yoursite.com/2016/01/19/写着玩-回顾以前的PE岁月/</id>
+    <published>2016-01-19T07:24:33.000Z</published>
+    <updated>2016-01-19T11:36:08.567Z</updated>
+    <content type="html"><![CDATA[<h1 id="0x00__u53E3_u80E1"><a href="#0x00__u53E3_u80E1" class="headerlink" title="0x00 口胡"></a>0x00 口胡</h1><p>怎么说呢，看到PE，满满的都是感动，想起了一年前，自己刚开始接触计算机时躲在被窝里怒刷汇编视频与PE视频的岁月了。。。当时自己还是傻白甜，看不懂就看很多遍，强行建立PE姿势，很感谢当初认真的自己吧，也感谢陪伴我度过日子的鱼C论坛，虽然现在很少逛了，希望它越办越好吧。。。</p>
+<p>这篇不会讲太多，类似于过渡篇把。结构上的东西也不会讲太多，主要还是记录点有意思的东西。PE都被讲烂了，直接用一些PE工具看结构吧，挺直观的。。。</p>
+<h1 id="0x01_PE_u7684_u524D_u8EAB-COFF"><a href="#0x01_PE_u7684_u524D_u8EAB-COFF" class="headerlink" title="0x01 PE的前身-COFF"></a>0x01 PE的前身-COFF</h1><p>PE是32位windows的，PE32+是win64的。然而新的PE32+并没有添加任何结构，最大的变化就是把那些原来32位的字段变成了64位，呵呵。。。</p>
+<p><img src="/img/写着玩-回顾以前的PE岁月/0.PNG" alt=""></p>
+<p>给出COFF目标文件格式：</p>
+<p><img src="/img/写着玩-回顾以前的PE岁月/1.PNG" alt=""></p>
+<p>COFF文件的文件头部包括了两部分，一个是描述文件总体结构和属性的映像头(Image Header/IMAGE_FILE_HEADER)，另外一个是描述该文件中包含的段属性的段表(Section Table/IMAGE_SECTION_HEADER)。</p>
+<h2 id="IMAGE_FILE_HEADER"><a href="#IMAGE_FILE_HEADER" class="headerlink" title="IMAGE_FILE_HEADER"></a>IMAGE_FILE_HEADER</h2><p><img src="/img/写着玩-回顾以前的PE岁月/2.PNG" alt=""><br><img src="/img/写着玩-回顾以前的PE岁月/3.PNG" alt=""></p>
+<h2 id="IMAGE_SECTION_HEADER"><a href="#IMAGE_SECTION_HEADER" class="headerlink" title="IMAGE_SECTION_HEADER"></a>IMAGE_SECTION_HEADER</h2><p><img src="/img/写着玩-回顾以前的PE岁月/4.PNG" alt=""><br><img src="/img/写着玩-回顾以前的PE岁月/5.PNG" alt=""><br><img src="/img/写着玩-回顾以前的PE岁月/6.PNG" alt=""></p>
+<h2 id="u9ED1_u9B54_u6CD51-drectve_u6BB5"><a href="#u9ED1_u9B54_u6CD51-drectve_u6BB5" class="headerlink" title="黑魔法1-.drectve段"></a>黑魔法1-.drectve段</h2><p>.drectve段实际上是Directive的缩写，它的内容是编译器传递给链接器的指令(Directive)，即编译器希望告诉链接器应该怎样链接这个目标文件。.drectve段的标志位是”0x100A00”，是一些标志位的组合：<br><img src="/img/写着玩-回顾以前的PE岁月/7.PNG" alt=""><br>即该段是信息段，并非程序数据；该段可以在最后链接成可执行文件的时候被抛弃；该段在文件中的对齐方式是1个字节对齐。</p>
+<p>我们可以用dumpbin对.drectve进行解析，给出内容：<br><img src="/img/写着玩-回顾以前的PE岁月/8.PNG" alt=""><br><img src="/img/写着玩-回顾以前的PE岁月/9.PNG" alt=""></p>
+<h2 id="u9ED1_u9B54_u6CD52-_u8C03_u8BD5_u4FE1_u606F"><a href="#u9ED1_u9B54_u6CD52-_u8C03_u8BD5_u4FE1_u606F" class="headerlink" title="黑魔法2-调试信息"></a>黑魔法2-调试信息</h2><p>COFF文件中所有以”.debug”开始的段都包含着调试信息。这些段中往往有一些意想不到的信息，也可以算是一个<strong>坑点</strong>。</p>
+<p>比如，”.debug$S”表示包含的是符号(Symbol)相关的调试信息段；”.debug$P”表示包含预编译头文件(Precompiled Header Files)相关的调试信息段；”.debug$T”表示包含类型(Type)相关的调试信息段。</p>
+<p>给出.debug$S段的输出信息：</p>
+<p><img src="/img/写着玩-回顾以前的PE岁月/10.PNG" alt=""></p>
+<h2 id="COFF_u7B26_u53F7_u8868"><a href="#COFF_u7B26_u53F7_u8868" class="headerlink" title="COFF符号表"></a>COFF符号表</h2><p>COFF文件的符号表包含的内容几乎跟ELF文件的符号表一样，主要就是符号名、符号的类型、所在的位置等。</p>
+<p>给出符号表的输出信息：</p>
+<p><img src="/img/写着玩-回顾以前的PE岁月/11.PNG" alt=""><br><img src="/img/写着玩-回顾以前的PE岁月/12.PNG" alt=""><br><img src="/img/写着玩-回顾以前的PE岁月/13.PNG" alt=""></p>
+<h1 id="0x02_Windows_u4E0B_u7684ELF-PE"><a href="#0x02_Windows_u4E0B_u7684ELF-PE" class="headerlink" title="0x02 Windows下的ELF-PE"></a>0x02 Windows下的ELF-PE</h1><p>PE文件是基于COFF的扩展，它比COFF文件多了几个结构。最主要的变化有两个：第一个是文件最开始的部分不是COFF文件头，而是DOS_MZ可执行文件格式的文件头和桩代码(DOS MZ File Header and Stub，比较有意思的一个结构)；第二个变化是原来的COFF文件头中的”IMAGE_FILE_HEADER”部分扩展成了PE文件的文件头结构”IMAGE_NT_HEADERS”。这个结构包括了原来的”Image Header”及新增的PE扩展头部结构(PE Optional Header)。</p>
+<p>给出PE文件的结构：<br><img src="/img/写着玩-回顾以前的PE岁月/14.PNG" alt=""></p>
+<p>为了所谓的兼容性-兼容DOS，PE文件的魔数是”MZ”，因为DOS下的可执行文件格式是”MZ”。PE文件中”Image DOS Header”和”DOS Stub”这两个结构也是为了兼容DOS。</p>
+<p>“IMAGE_DOS_HEADER”结构其实跟DOS的”MZ”可执行结构的头部完全一样，所以从某个角度看，PE文件其实也是一个”MZ”文件。”IMAGE_DOS_HEADER”的结构中的前两个字节是”e_magic”结构，它是里面包含了”MZ”这两个字母的ASCII码；”e_cs”和”e_ip”两个成员指向程序的入口地址。</p>
+<p>当PE可执行映像在DOS下被加载的时候，DOS系统检测到该文件，发现最开始两个字节是”MZ”，于是认为他是一个”MZ”可执行文件。然后DOS系统就将PE文件当做正常的”MZ”文件开始执行。DOS系统会读取”e_cs”和”e_ip”这两个成员的值，以跳转到程序的入口地址。然而PE文件中，”e_cs”和”e_ip”这两个成员并不指向程序真正的入口地址，而是指向文件中的”DOS stub”。”DOS stub”是一段可以在DOS下运行的一小段代码，这段代码的唯一作用是向终端输出一行字：”This program cannot be run in DOS”，然后退出程序，表示该程序不能在DOS下运行。这是PE文件结构兼容DOS “MZ”可执行文件结构的体现。</p>
+<h2 id="IMAGE_DOS_HEADER_u7684_u5F15_u5BFC_u4F5C_u7528"><a href="#IMAGE_DOS_HEADER_u7684_u5F15_u5BFC_u4F5C_u7528" class="headerlink" title="IMAGE_DOS_HEADER的引导作用"></a>IMAGE_DOS_HEADER的引导作用</h2><p><img src="/img/写着玩-回顾以前的PE岁月/15.PNG" alt=""></p>
+<h2 id="IMAGE_NT_HEADERS"><a href="#IMAGE_NT_HEADERS" class="headerlink" title="IMAGE_NT_HEADERS"></a>IMAGE_NT_HEADERS</h2><p><img src="/img/写着玩-回顾以前的PE岁月/16.PNG" alt=""></p>
+<p>这里有必要强调一下，IMAGE_NT_HEADERS包括IMAGE_FILE_HEADER和IMAGE_OPTIONAL_HEADER两个结构，NT才是爸爸，我老是搞混。。。</p>
+<p><img src="/img/写着玩-回顾以前的PE岁月/17.PNG" alt=""></p>
+<p>给出IMAGE_OPTIONAL_HEADER(x64下叫IMAGE_OPTIONAL_HEADER64)结构定义：</p>
+<p><img src="/img/写着玩-回顾以前的PE岁月/18.PNG" alt=""><br><img src="/img/写着玩-回顾以前的PE岁月/19.PNG" alt=""></p>
+<p>里面有很多成员，我们捡一些有意思的说，其他的字段也很重要，可以去MSDN查详细信息。总之，这个结构<strong>很重要</strong></p>
+<p>Windows在装载PE可执行文件时，往往需要很快的找到一些装载所需要的数据结构，比如<strong>导入表</strong>、<strong>导出表</strong>、<strong>资源</strong>、<strong>重定位表</strong>。这些重要的数据的位置和长度都被保存在一个叫数据目录(Data Directory)的结构里面，其实他就是前面”IMAGE_OPTIONAL_HEADER”结构里面的”DataDirectory”成员，这个成员是一个”IMAGE_DATA<em>DIRECTORY”的结构数组(又是数组→</em>→)</p>
+<p>给出_IMAGE_DATA_DIRECTORY结构的定义：</p>
+<p><img src="/img/写着玩-回顾以前的PE岁月/20.PNG" alt=""><br><img src="/img/写着玩-回顾以前的PE岁月/21.PNG" alt=""></p>
+<p>数组中还包含其他的表，比如导入表、资源表、异常表、重定位表、调试信息表、线程私有存储(TLS)等的地址和长度。这些表多数跟装载和DLL动态链接有关，都很重要。通过解析DataDirectory结构就可以了解这些表的位置和长度</p>
+<h1 id="0x03__u5C0F_u7ED3"><a href="#0x03__u5C0F_u7ED3" class="headerlink" title="0x03 小结"></a>0x03 小结</h1><p>介绍了Windows下的可执行文件和目标文件格式PE/COFF，与ELF文件很相似。COFF有个很有意思的段叫”.drectve段”，保存的是编译器传递给链接器的命令行参数，可以通过这个段实现指定运行库等功能。</p>
+<p>下面即将进入有意思的动态链接与装载部分。。。</p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<h1 id="0x00__u53E3_u80E1"><a href="#0x00__u53E3_u80E1" class="headerlink" title="0x00 口胡"></a>0x00 口胡</h1><p>怎么说呢，看到PE，满满的都是感动，想起了一年前，自己刚开始]]>
+    </summary>
+    
+      <category term="人丑就要多读书" scheme="http://yoursite.com/tags/%E4%BA%BA%E4%B8%91%E5%B0%B1%E8%A6%81%E5%A4%9A%E8%AF%BB%E4%B9%A6/"/>
+    
+      <category term="reverse related" scheme="http://yoursite.com/categories/reverse-related/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[写着玩-强撸静态链接（续）]]></title>
+    <link href="http://yoursite.com/2016/01/18/%E5%86%99%E7%9D%80%E7%8E%A9-%E5%BC%BA%E6%92%B8%E9%9D%99%E6%80%81%E9%93%BE%E6%8E%A5%EF%BC%88%E7%BB%AD%EF%BC%89/"/>
+    <id>http://yoursite.com/2016/01/18/写着玩-强撸静态链接（续）/</id>
+    <published>2016-01-18T11:03:01.000Z</published>
+    <updated>2016-01-19T07:22:41.141Z</updated>
+    <content type="html"><![CDATA[<h1 id="0x00__u53E3_u80E1"><a href="#0x00__u53E3_u80E1" class="headerlink" title="0x00 口胡"></a>0x00 口胡</h1><p>没啥好说的，接着撸。。。</p>
+<h1 id="0x01__u9759_u6001_u94FE_u63A5_u4E2D_u7684_u7A7A_u95F4_u4E0E_u5730_u5740_u5206_u914D"><a href="#0x01__u9759_u6001_u94FE_u63A5_u4E2D_u7684_u7A7A_u95F4_u4E0E_u5730_u5740_u5206_u914D" class="headerlink" title="0x01 静态链接中的空间与地址分配"></a>0x01 静态链接中的空间与地址分配</h1><p>采用相似段合并的策略，即将相同性质的段合并到一起，给张图：<br><img src="/img/写着玩-强撸静态链接（续）/0.PNG" alt=""></p>
+<p>要明确虚拟地址空间以及文件空间的概念</p>
+<p><img src="/img/写着玩-强撸静态链接（续）/1.PNG" alt=""></p>
+<p>在linux下，ELF可执行文件默认从地址0x08048000开始分配。</p>
+<p>使用这种将相同性质的段合并策略的链接器一般都采用两步链接的方法：</p>
+<p><img src="/img/写着玩-强撸静态链接（续）/2.PNG" alt=""></p>
+<p>给定一个例子，方便下面用它来说明一些问题：</p>
+<p><img src="/img/写着玩-强撸静态链接（续）/3.PNG" alt=""></p>
+<p>采用合并相同性质段时，对于符号地址的确定就显得很简单，就是简单的段基址加偏移。即根据符号表的st_name字段得知该符号的名称，根据st_shndx字段指定段+st_value指定段内偏移可以得到该符号对应的具体信息所在的地址。对于处在b.o中的符号，其相对于基址的偏移为a的text(以text段为例)段的size+st_value。</p>
+<h1 id="0x02__u7B26_u53F7_u89E3_u6790_u4E0E_u91CD_u5B9A_u4F4D"><a href="#0x02__u7B26_u53F7_u89E3_u6790_u4E0E_u91CD_u5B9A_u4F4D" class="headerlink" title="0x02 符号解析与重定位"></a>0x02 符号解析与重定位</h1><p>这里要跟上面所提到的符号地址的确定区别开，符号地址的确定只是把符号所在的具体地址给计算出来了，而符号解析与重定位侧重于讲解在未链接之前，引用外部符号的位置是什么样子的以及如何将这个在链接过程中确定的地址给回填到相应的引用中，侧重于回填的概念</p>
+<p>在未链接之前，我们将a.o目标文件进行反汇编：</p>
+<p><img src="/img/写着玩-强撸静态链接（续）/4.PNG" alt=""><br><img src="/img/写着玩-强撸静态链接（续）/5.PNG" alt=""><br><img src="/img/写着玩-强撸静态链接（续）/6.PNG" alt=""><br><img src="/img/写着玩-强撸静态链接（续）/7.PNG" alt=""><br><img src="/img/写着玩-强撸静态链接（续）/8.PNG" alt=""></p>
+<h2 id="1-__u600E_u4E48_u4FEE_u6B63_28_u56DE_u586B_29_u7684-_u91CD_u5B9A_u4F4D_u8868"><a href="#1-__u600E_u4E48_u4FEE_u6B63_28_u56DE_u586B_29_u7684-_u91CD_u5B9A_u4F4D_u8868" class="headerlink" title="1. 怎么修正(回填)的-重定位表"></a>1. 怎么修正(回填)的-重定位表</h2><p>重定位表专门用来保存这些与重定位相关的信息，告诉链接器哪些指令需要被调整，这些指令的哪些部分需要被调整以及怎么调整，在ELF文件中往往是一个段或多个段。</p>
+<p>不算是废话的废话：</p>
+<p><img src="/img/写着玩-强撸静态链接（续）/9.PNG" alt=""></p>
+<p><strong><em>重定位表的结构定义</em></strong><br><img src="/img/写着玩-强撸静态链接（续）/10.PNG" alt=""></p>
+<p><strong><em>ELF32_Rel各字段含义</em></strong><br><img src="/img/写着玩-强撸静态链接（续）/11.PNG" alt=""></p>
+<h2 id="2-__u7B26_u53F7_u89E3_u6790"><a href="#2-__u7B26_u53F7_u89E3_u6790" class="headerlink" title="2. 符号解析"></a>2. 符号解析</h2><p><img src="/img/写着玩-强撸静态链接（续）/12.PNG" alt=""></p>
+<p>重定位过程呢也伴随着符号的解析过程，每个目标文件都可能定义一些符号，也可能引用到定义在其他目标文件的符号。重定位时，为了确定该符号的目标地址，链接器会去查找由所有输入目标文件的符号表组成的全局符号表，找到相应的符号后进行重定位。</p>
+<hr>
+<h1 id="0xff__u5751"><a href="#0xff__u5751" class="headerlink" title="0xff 坑"></a>0xff 坑</h1><p>这里看到全局符号表我是进行了一番思考的。。。符号表如何组成全局符号表是一个值得思考的问题，结合强弱符号以及符号的修饰及相同符号的合并规则等等来考虑如何实现全局符号表的组成，这些细节由于自己检索能力太烂，所以找不到相关资料，这里就留个坑在这吧，日后希望能填上。。。</p>
+<hr>
+<p>接着说。。。</p>
+<h2 id="3-__u6307_u4EE4_u4FEE_u6B63_u65B9_u5F0F"><a href="#3-__u6307_u4EE4_u4FEE_u6B63_u65B9_u5F0F" class="headerlink" title="3. 指令修正方式"></a>3. 指令修正方式</h2><p><img src="/img/写着玩-强撸静态链接（续）/13.PNG" alt=""><br><img src="/img/写着玩-强撸静态链接（续）/14.PNG" alt=""></p>
+<p>具体的修正细节：<br><img src="/img/写着玩-强撸静态链接（续）/15.PNG" alt=""><br><img src="/img/写着玩-强撸静态链接（续）/16.PNG" alt=""><br><img src="/img/写着玩-强撸静态链接（续）/17.PNG" alt=""><br>修正后，在访问时就可以根据具体的访存指令(不同的访存指令对于要访问的地址的计算方式不同，所以为了迎合访存指令，编译器在编译到相关的访存指令时，会事先安排好重定位时采用何种修正方式使得修正后的结果能正好满足这个访存指令的需要)</p>
+<p>这里还是要口胡一下，就是比如说mov指令和call指令对于跟在他后面地址操作数的计算方式是不同的，拿call来说，它就认为后面的地址操作数就是要调用的位置与紧跟着call后面的那条语句地址差，这些指令的意思是预先定义的，所以编译器在看见call指令时，如果call后面的地址需要重定位，它就会知道，“哦，原来是call后面的地址需要重定位，根据call的意义，我编译器知道它的重定位修正方式为相对寻址修正”，所以，编译器会在重定位表中填入相对地址修正的信息，就是这样。</p>
+<h1 id="0x03_COMMOM_u5757"><a href="#0x03_COMMOM_u5757" class="headerlink" title="0x03 COMMOM块"></a>0x03 COMMOM块</h1><p>为什么会有COMMAOM块：<br>由于弱符号机制允许同一个符号的定义存在于多个文件中，所以可能会导致当一个弱符号定义在多个目标文件中，而他们的类型又不同，而我们知道链接器是不支持符号的类型的，即变量类型对于链接器来说是透明的，那么此时链接器该如何处理，这时就需要COMMON块。</p>
+<p>什么是COMMON块：<br>当不同的目标文件需要的COMMON块空间大小不一致时，以最大的那块为准</p>
+<p>现在的链接机制在处理弱符号时，采用的就是COMMON块的机制，编译器会将弱符号(典型的弱符号如未初始化的全局变量定义)的类型置为SHN_COMMON类型，对于相同名称不同类型的弱符号，就采用COMMON块机制-以空间最大的那个为准。</p>
+<p>在目标文件中，编译器为什么不直接把未初始化的全局变量也当做未初始化的局部静态变量一样处理，为它在BSS段分配空间，而是将其标记为一个COMMON类型的变量？<br><img src="/img/写着玩-强撸静态链接（续）/18.PNG" alt=""><br><img src="/img/写着玩-强撸静态链接（续）/19.PNG" alt=""></p>
+<h1 id="0x04_C++_u7A0B_u5E8F_u7684_u4E8C_u8FDB_u5236_u517C_u5BB9_u6027_u95EE_u9898"><a href="#0x04_C++_u7A0B_u5E8F_u7684_u4E8C_u8FDB_u5236_u517C_u5BB9_u6027_u95EE_u9898" class="headerlink" title="0x04 C++程序的二进制兼容性问题"></a>0x04 C++程序的二进制兼容性问题</h1><p>C++的一些语言特性使之必须由编译器和链接器共同支持才能完成工作。最主要的有两个方面，一个是C++的重复代码消除，还有一个就是全局构造和析构。</p>
+<h2 id="1-__u91CD_u590D_u4EE3_u7801_u6D88_u9664"><a href="#1-__u91CD_u590D_u4EE3_u7801_u6D88_u9664" class="headerlink" title="1. 重复代码消除"></a>1. 重复代码消除</h2><p>C++编译器在很多时候会产生重复的代码，比如模板、外部内联函数和虚函数表都有可能在不同的编译单元中生成相同的代码。</p>
+<p>比较有效的一个策略就是，拿模板来说，将每个模板的实例代码都单独的存放在一个段里，每个段只包含一个模板实例。用这种段的名字来区别不同的段和相同的段。</p>
+<p>这种做法的确被目前主流的编译器采用。GNU GCC编译器和Visual C++编译器都采用了类似的方法。GCC把这种类似的需要在最终链接时合并的段叫”Link Once”，它的做法就是将这种类型的段命名为”.gnu.linkonce.name”，其中”name”是该模板函数实例的修饰后名称。Visual C++编译器做法稍有不同，它吧这种类型的段叫”COMDAT”，这种”COMDAT”段的属性字段(PE文件的段表结构里面的IMAGE_SECTION_HEADER的Characteristic成员)都有IMAGE_SCN_LINK_COMDAT(0x00001000)这个标记，在链接器看到这个标记后，它就认为该段是COMDAT类型的，在链接时会将重复的段丢弃</p>
+<p>不仅模板是这样，对于会造成代码重复的机制，这种方法或与此类似的方法都是被采用的。像上面提到的外部内联函数、虚函数表。还有默认构造函数、默认拷贝构造函数和赋值操作符等。</p>
+<p><img src="/img/写着玩-强撸静态链接（续）/20.PNG" alt=""></p>
+<p><strong>又一问题：</strong><br><img src="/img/写着玩-强撸静态链接（续）/21.PNG" alt=""><br><strong>折中的解决方案-函数级别链接</strong><br><img src="/img/写着玩-强撸静态链接（续）/22.PNG" alt=""></p>
+<h2 id="2-__u5168_u5C40_u6784_u9020_u4E0E_u6790_u6784"><a href="#2-__u5168_u5C40_u6784_u9020_u4E0E_u6790_u6784" class="headerlink" title="2. 全局构造与析构"></a>2. 全局构造与析构</h2><p>C++的全局对象的构造函数在main之前被执行，C++全局对象的析构函数在main之后执行。linux系统下一般程序的入口是”_start”，这个函数是linux系统库(Glibc)的一部分。</p>
+<p><strong><em>黑姿势(以前在某CTF中被坑过)</em></strong><br>当我们的程序与Glibc库链接在一起形成最终可执行文件以后，这个函数(_start)就是程序的初始化部分的入口，程序初始化部分完成一系列初始化过程之后，会调用main函数来执行程序的主体。在main函数执行完以后，返回到初始化部分，它进行一些清理工作，然后结束进程。对于有些场合，程序的一些特定的操作必须在main函数之前被执行，还有一些操作必须在main函数之后被执行，其中很具有代表性的就是C++的全局对象的构造和析构函数。因此ELF文件还定义了两种特殊的段。</p>
+<ul>
+<li>.init 该段里面保存的是可执行指令，它构成了进程的初始化代码。因此，当一个程序开始运行时，在main函数被调用之前，Glibc的初始化部分安排执行这个段中的代码。</li>
+<li>.fini 该段保存着进程终止代码指令。因此，当一个程序的main函数正常退出时，Glibc会安排执行这个段中的代码。</li>
+</ul>
+<p>这两个段.init和.fini的存在有着特别的目的，如果一个函数放到.init段，在main函数执行前系统就会执行它。同理，假如一个函数放到.fini段，在main函数返回后该函数就会被执行。利用这两个特性，C++的全局构造和析构函数得以实现。</p>
+<h2 id="3-_C++_u4E0EABI"><a href="#3-_C++_u4E0EABI" class="headerlink" title="3. C++与ABI"></a>3. C++与ABI</h2><p><strong><em>ABI介绍</em></strong><br><img src="/img/写着玩-强撸静态链接（续）/23.PNG" alt=""><br>也就是说解决目标文件的跨编译平台问题<br><img src="/img/写着玩-强撸静态链接（续）/24.PNG" alt=""><br><img src="/img/写着玩-强撸静态链接（续）/25.PNG" alt=""><br><img src="/img/写着玩-强撸静态链接（续）/26.PNG" alt=""></p>
+<h2 id="4-__u9759_u6001_u5E93_u94FE_u63A5"><a href="#4-__u9759_u6001_u5E93_u94FE_u63A5" class="headerlink" title="4. 静态库链接"></a>4. 静态库链接</h2><p>我们前面说过，一个静态库可以简单的看成一组目标文件的集合，即很多目标文件经过压缩打包后形成的一个文件。</p>
+<p>通常人们使用”ar”压缩程序将这些目标文件压缩到一起，并且对其编号和索引，以便于查找和索引，就形成了libc.a这个静态库文件。也可以使用”ar”工具来查看静态库包含哪些文件：<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="variable">$ar</span> -t libc.a</span><br></pre></td></tr></table></figure></p>
+<p><img src="/img/写着玩-强撸静态链接（续）/27.PNG" alt=""></p>
+<p>VC++页提供了与linux下的ar类似的工具，叫lib.exe。这个程序可以用来创建、提取、列举.lib文件中的内容。使用”lib /LIST libcmt.lib”就可以列举出libcmt.lib中所包含的目标文件。</p>
+<p>我们从hello.c出发，来看静态库的链接过程。根据前面的姿势，我们可以知道”printf”函数被定义在”libc.a”中的”printf.o”这个目标文件中。那么，似乎，找到了一种看似可行的链接方法，那就是”hello.c”程序编译出来的目标文件只要和libc.a里面的printf.o连接在一起就可以形成一个可执行文件了。我们来验证一下，使用下面的bash语句编译：<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="variable">$gcc</span> -c -fno-builtin hello.c</span><br></pre></td></tr></table></figure></p>
+<p>这里说明一下，使用”-fno-builtin”参数是因为在默认情况下，GCC会自作聪明的将hello world程序中只使用了一个字符串参数的printf替换成puts(<strong>这也算是个坑点</strong>)。<br>然后，我们用ar工具解压libc.a<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="variable">$ar</span> -x libc.a</span><br></pre></td></tr></table></figure></p>
+<p>然后链接<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="variable">$ld</span> hello.o printf.o</span><br></pre></td></tr></table></figure></p>
+<p>结果意料中，那就是报错了，链接失败<br><img src="/img/写着玩-强撸静态链接（续）/28.PNG" alt=""></p>
+<p>给出编译链接的中间过程的打印结果：<br><img src="/img/写着玩-强撸静态链接（续）/29.PNG" alt=""><br><img src="/img/写着玩-强撸静态链接（续）/30.PNG" alt=""><br><img src="/img/写着玩-强撸静态链接（续）/31.PNG" alt=""></p>
+<p>为什么静态运行库里面一个目标文件只包含一个函数？比如libc.a里面printf.o只有printf()函数，为什么要这样组织？<br><img src="/img/写着玩-强撸静态链接（续）/32.PNG" alt=""></p>
+<hr>
+<h1 id="0x05__u5C0F_u7ED3"><a href="#0x05__u5C0F_u7ED3" class="headerlink" title="0x05 小结"></a>0x05 小结</h1><p>关于静态链接就到这了，重点是目标文件在被链接成最终可执行文件时，输入目标文件中的各个段是如何被合并到输出文件中的，链接器如何为它们分配在输出文件中的空间和地址。当然比较有意思的就是符号的解析与重定位了，一旦输入段的最终地址被确定，接下来就可以进行符号的解析与重定位了，链接器会把各个输入目标文件中对于外部符号的引用进行解析，把每个段中需要重定位的指令和数据进行修补，使他们都指向正确的位置。</p>
+<p>还口胡了一些问题，COMMON块啊等等，总之，静态链接很好理解，恩，就是这样。</p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<h1 id="0x00__u53E3_u80E1"><a href="#0x00__u53E3_u80E1" class="headerlink" title="0x00 口胡"></a>0x00 口胡</h1><p>没啥好说的，接着撸。。。</p>
+<h1 id="0x01_]]>
+    </summary>
+    
+      <category term="人丑就要多读书" scheme="http://yoursite.com/tags/%E4%BA%BA%E4%B8%91%E5%B0%B1%E8%A6%81%E5%A4%9A%E8%AF%BB%E4%B9%A6/"/>
+    
+      <category term="reverse related" scheme="http://yoursite.com/categories/reverse-related/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[写着玩-硬怼目标文件]]></title>
+    <link href="http://yoursite.com/2016/01/17/%E5%86%99%E7%9D%80%E7%8E%A9-%E7%A1%AC%E6%80%BC%E7%9B%AE%E6%A0%87%E6%96%87%E4%BB%B6/"/>
+    <id>http://yoursite.com/2016/01/17/写着玩-硬怼目标文件/</id>
+    <published>2016-01-17T12:50:32.000Z</published>
+    <updated>2016-01-18T10:59:47.041Z</updated>
+    <content type="html"><![CDATA[<h1 id="0x00__u53E3_u80E1"><a href="#0x00__u53E3_u80E1" class="headerlink" title="0x00 口胡"></a>0x00 口胡</h1><p>最近dota有点上头，就是怼，马上就能回家跟基友回家黑店了，我是屌屌的3号位，哈哈哈。。。<br>目标文件，怼起。。。</p>
+<h1 id="0x01__u76EE_u6807_u6587_u4EF6_u7684_u683C_u5F0F"><a href="#0x01__u76EE_u6807_u6587_u4EF6_u7684_u683C_u5F0F" class="headerlink" title="0x01 目标文件的格式"></a>0x01 目标文件的格式</h1><p>还记得我们前面所说的后缀是.o的文件，就是他了，他就是目标文件的一种，其实他已经很接近可执行文件了，不，它已经可以执行了，只要你给他创造相应的条件的话。所以，我们将目标文件与可执行文件看成是一种类型的文件也未尝不可。在windows下，我们统称为PE-COFF文件格式，在linux下，统称为ELF文件。</p>
+<p>还有动态链接库-（DLL &amp; .so），静态链接库-（windows下的.lib,linux的.a）也都是可执行文件的格式，但是静态链接库稍有不同，它是把很多目标文件捆绑在一起形成一个文件，再加上一些索引，可以简单的理解为一个包含有很多目标文件的文件包。</p>
+<p>ELF文件类型：<br><img src="/img/写着玩-硬怼目标文件/0.PNG" alt=""><br><img src="/img/写着玩-硬怼目标文件/1.PNG" alt=""></p>
+<h1 id="0x02_ELF_u6587_u4EF6_u7ED3_u6784"><a href="#0x02_ELF_u6587_u4EF6_u7ED3_u6784" class="headerlink" title="0x02 ELF文件结构"></a>0x02 ELF文件结构</h1><p>ELF文件基本结构图：<br><img src="/img/写着玩-硬怼目标文件/2.PNG" alt=""></p>
+<p>ELF目标文件格式的最前部是ELF文件头(ELF Header)，它包含了描述整个文件的基本属性。比如ELF文件版本、目标机器型号、程序入口地址等。紧接着是ELF文件各个段。其中ELF文件中与段有关的重要结构是段表(Section Header Table)，该表描述了ELF文件包含的所有段的信息。比如每个段的段名、段的长度、在文件中的偏移、读写权限及段的其他属性。</p>
+<h2 id="1-__u6587_u4EF6_u5934"><a href="#1-__u6587_u4EF6_u5934" class="headerlink" title="1. 文件头"></a>1. 文件头</h2><p>可以用readelf命令来详细查看ELF文件：</p>
+<p><img src="/img/写着玩-硬怼目标文件/3.PNG" alt=""><br><img src="/img/写着玩-硬怼目标文件/4.PNG" alt=""></p>
+<p><strong><em>ELF文件头(ELF_Ehdr)结构的具体定义：</em></strong><br><img src="/img/写着玩-硬怼目标文件/5.PNG" alt=""><br><img src="/img/写着玩-硬怼目标文件/6.PNG" alt=""><br><img src="/img/写着玩-硬怼目标文件/7.PNG" alt=""><br><img src="/img/写着玩-硬怼目标文件/8.PNG" alt=""></p>
+<p><strong><em>ELF文件头结构成员具体含义：</em></strong><br><img src="/img/写着玩-硬怼目标文件/9.PNG" alt=""><br><img src="/img/写着玩-硬怼目标文件/10.PNG" alt=""></p>
+<p><strong><em>ELF文件头中的魔数(前16字节e_ident含义)：</em></strong><br><img src="/img/写着玩-硬怼目标文件/11.PNG" alt=""><br><img src="/img/写着玩-硬怼目标文件/12.PNG" alt=""></p>
+<p><strong><em>文件类型</em></strong><br><img src="/img/写着玩-硬怼目标文件/13.PNG" alt=""><br><img src="/img/写着玩-硬怼目标文件/14.PNG" alt=""></p>
+<p><strong><em>机器类型</em></strong><br><img src="/img/写着玩-硬怼目标文件/15.PNG" alt=""></p>
+<h2 id="2-__u6BB5_u8868"><a href="#2-__u6BB5_u8868" class="headerlink" title="2. 段表"></a>2. 段表</h2><p><strong><em>段表总体描述</em></strong><br><img src="/img/写着玩-硬怼目标文件/16.PNG" alt=""><br><img src="/img/写着玩-硬怼目标文件/17.PNG" alt=""></p>
+<p>所以，段表就是一个数组。</p>
+<p><strong><em>数组成员(ELF32_Shdr结构定义)</em></strong><br><img src="/img/写着玩-硬怼目标文件/18.PNG" alt=""><br><img src="/img/写着玩-硬怼目标文件/19.PNG" alt=""><br><img src="/img/写着玩-硬怼目标文件/27.PNG" alt=""></p>
+<p><strong><em>由段表视角出发得到的ELF文件布局</em></strong><br><img src="/img/写着玩-硬怼目标文件/20.PNG" alt=""><br><img src="/img/写着玩-硬怼目标文件/21.PNG" alt=""></p>
+<p><strong><em>段描述符(ELF32-Shdr)各字段具体含义</em></strong></p>
+<p><strong>段的类型(sh_types)</strong><br><img src="/img/写着玩-硬怼目标文件/22.PNG" alt=""><br><img src="/img/写着玩-硬怼目标文件/23.PNG" alt=""></p>
+<p><strong>段的标志位(sh_flag)</strong><br><img src="/img/写着玩-硬怼目标文件/24.PNG" alt=""></p>
+<p>对于系统保留段，下表列出了他们的属性</p>
+<p><img src="/img/写着玩-硬怼目标文件/25.PNG" alt=""><br><img src="/img/写着玩-硬怼目标文件/26.PNG" alt=""></p>
+<p><strong>段的链接信息</strong><br><img src="/img/写着玩-硬怼目标文件/28.PNG" alt=""></p>
+<h2 id="3-__u91CD_u5B9A_u4F4D_u8868"><a href="#3-__u91CD_u5B9A_u4F4D_u8868" class="headerlink" title="3. 重定位表"></a>3. 重定位表</h2><p><img src="/img/写着玩-硬怼目标文件/29.PNG" alt=""><br><img src="/img/写着玩-硬怼目标文件/30.PNG" alt=""></p>
+<p>在介绍链接的过程的时候，会详细的介绍重定位表的作用</p>
+<h2 id="4-__u5B57_u7B26_u4E32_u8868"><a href="#4-__u5B57_u7B26_u4E32_u8868" class="headerlink" title="4. 字符串表"></a>4. 字符串表</h2><p>这是个很重要的表，对于我们把整个ELF文件结构框架搭建起来必不可少<br><img src="/img/写着玩-硬怼目标文件/31.PNG" alt=""><br><img src="/img/写着玩-硬怼目标文件/32.PNG" alt=""><br><img src="/img/写着玩-硬怼目标文件/33.PNG" alt=""></p>
+<p>即：ELF文件头(e_shstrndx)-&gt;段表中的段表字符串表信息-&gt;段表字符串表-&gt;解析各个段。具体的索引想一下就知道了，这里就口胡下，首先拿到文件头中的e_shstrndx字段的值，得知下标和段表的起始位置，则由段表的起始位置+段表数组的成员大小(40 byte)*下标，可以得到段表字符串表的一些列信息，什么起始偏移，大小啊什么的，那么就可以找到段表字符串表的具体位置了，这时可以把段表字符串表拿到内存，供以后解析各个段时使用，然后再返回段表去解析各个段。</p>
+<h2 id="5-__u94FE_u63A5_u7684_u63A5_u53E3-_u7B26_u53F7"><a href="#5-__u94FE_u63A5_u7684_u63A5_u53E3-_u7B26_u53F7" class="headerlink" title="5. 链接的接口-符号"></a>5. 链接的接口-符号</h2><p>每个函数或变量都有自己独特的名字，才能避免链接过程中不同变量和函数之间的混淆。在链接中，我们将函数和变量统称为符号，函数名或变量名就是符号名。</p>
+<p><strong><em>符号概述</em></strong><br><img src="/img/写着玩-硬怼目标文件/34.PNG" alt=""></p>
+<p>由于局部符号、段名、行号等对于其他目标文件来说是”不可见的”，在链接过程中无关紧要，我们只关心全局符号。我们可以使用很多命令来查看ELF文件的符号表，比如上面介绍的readelf、objdump，当然还有nm。</p>
+<p><img src="/img/写着玩-硬怼目标文件/35.PNG" alt=""></p>
+<p>ELF文件中的符号表往往是文件中的一个段，段名一般叫”.symtab”.符号表的结构很简单，它是一个ELF32_sym结构的数组，每个ELF32_sym结构对应一个符号。这个数组的第一个元素，也就是下标为0的元素为无效的”未定义”符号</p>
+<p><strong><em>ELF32_sym结构定义</em></strong><br><img src="/img/写着玩-硬怼目标文件/36.PNG" alt=""><br><strong><em>各字段含义</em></strong><br><img src="/img/写着玩-硬怼目标文件/37.PNG" alt=""></p>
+<p>对一些字段的详解：<br><strong>符号类型和绑定信息(st_info)</strong><br>该成员低4位表示符号的类型，高28位表示符号绑定信息，见下表：<br><img src="/img/写着玩-硬怼目标文件/38.PNG" alt=""></p>
+<p><strong>符号所在段(st_shndx)</strong><br>如果符号定义在本目标文件中，那么这个成员表示符号所在的段在段表中的下标；但是如果符号不是定义在本目标文件中，或者对于有些特殊符号，sh_shndx的值有些特殊，见下表：<br><img src="/img/写着玩-硬怼目标文件/39.PNG" alt=""></p>
+<p><strong>符号值(st_value)</strong><br><img src="/img/写着玩-硬怼目标文件/40.PNG" alt=""><br><img src="/img/写着玩-硬怼目标文件/41.PNG" alt=""></p>
+<p>通过上图中划红线的步骤可以找到该符号所对应的具体内容，比如，函数的话可以找到该函数所对应的具体代码处，而全局初始化变量的话，则可以找到全局初始化变量所对应的具体值。</p>
+<p>还是以SimpleSection.o为例：<br><img src="/img/写着玩-硬怼目标文件/42.PNG" alt=""><br><img src="/img/写着玩-硬怼目标文件/43.PNG" alt=""><br><img src="/img/写着玩-硬怼目标文件/44.PNG" alt=""></p>
+<p><strong><em>符号修饰和函数签名</em></strong><br>对于符号修饰和函数签名问题，它是为了解决符号名冲突问题。很久以前，UNIX下的C语言就规定，C语言源代码文件中的所有全局的变量和函数经过编译以后，相对应的符号名前加上下划线”<em>“。而Fortran语言的源代码经过编译后，所有的符号名前面加上”</em>“，后面也加上”<em>“。现在linux下的GCC编译器，默认去掉了在C语言符号前加”</em>“的这种方式；但是windows平台下的编译器还保持着。VC++编译器，GCC在windows下的版本(cygwin,mingw)都会加”_”。GCC编译器可以通过参数选项”-fleading-underscore”或”-fno-leading-underscore”来打开和关闭是否在C语言符号前加上下划线。</p>
+<p><strong>C++符号修饰</strong><br>C++都用过，强大而又复杂。他的很多机制都为符号的管理带来了很多麻烦。比如类、继承、虚机制、重载、名称空间等特性。为了支持这些特性，发明了符号修饰或符号改编的机制。</p>
+<p><em>对于函数重载</em><br>给例子：<br><figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">func</span><span class="params">(<span class="keyword">int</span>)</span></span>;</span><br><span class="line"><span class="function"><span class="keyword">float</span> <span class="title">func</span><span class="params">(<span class="keyword">float</span>)</span></span>;</span><br><span class="line"><span class="keyword">class</span> C &#123;</span><br><span class="line">	<span class="function"><span class="keyword">int</span> <span class="title">func</span><span class="params">(<span class="keyword">int</span>)</span></span>;</span><br><span class="line">	<span class="keyword">class</span> C2&#123;</span><br><span class="line">		<span class="function"><span class="keyword">int</span> <span class="title">func</span><span class="params">(<span class="keyword">int</span>)</span></span>;</span><br><span class="line">	&#125;;</span><br><span class="line">&#125;;</span><br><span class="line"></span><br><span class="line"><span class="keyword">namespace</span> N &#123;</span><br><span class="line">	<span class="function"><span class="keyword">int</span> <span class="title">func</span><span class="params">(<span class="keyword">int</span>)</span></span>;</span><br><span class="line">	<span class="keyword">class</span> C &#123;</span><br><span class="line">		<span class="function"><span class="keyword">int</span> <span class="title">func</span><span class="params">(<span class="keyword">int</span>)</span></span>;</span><br><span class="line">	&#125;;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></p>
+<p>这段代码中有6个同名函数叫func，但他们的返回类型和参数及所在的名称空间不同。我们引入函数签名以及修饰后名称的概念。一个函数签名对应一个修饰后名称。C++的源代码编译后的目标文件中所使用的符号名是相应的函数和变量的修饰后名称。上面的6个函数的函数签名以及修饰后名称是：</p>
+<p><img src="/img/写着玩-硬怼目标文件/45.PNG" alt=""></p>
+<p>下面解释下不同的函数签名是怎样修饰的。GCC的基本C++名称修饰方法如下：所有的符号都以”_Z”开头，对于嵌套的名字(在名称空间或在类里面的)，后面紧跟”N”，然后是各个名称空间和类的名字，每个名字前是名字字符串长度，在以”E”结尾。比如N::C::func经过名称修饰以后就是_ZN1N1C4funcE。对于一个函数来说，他的参数列表紧跟在”E”后面。对于int类型来说，就是字母”i”。所以整个N::C::func(int)函数签名经过修饰为_ZN1N1C4funcEi。更为具体的修饰方法在这不介绍，可以去查GCC名称修饰标准。有工具可以帮我们解析被修饰过的名称，比如：<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ c++filt _ZN1N1C4funcEi</span><br><span class="line">N::C::func(int)</span><br></pre></td></tr></table></figure></p>
+<p>这种修饰机制不光用到函数名上，他也被用到全局变量和静态变量上。但有一点需要注意，那就是变量的类型是没有被加入到修饰后名称中的，所以不论这个变量是整形还是浮点型甚至是一个全局对象，他们的名称都是一样的。</p>
+<p>不同的编译器厂商的名称修饰方法可能不同，在Visual C++下：</p>
+<p><img src="/img/写着玩-硬怼目标文件/46.PNG" alt=""></p>
+<p>以int N::C::func(int)这个函数签名来说明VC++修饰规则，其实我们都能猜出来→_→修饰名字由”?”开头，接着是函数名”@”符号结尾的函数名；后面跟着由”@”结尾的类名”C”和名称空间”N”，再一个”@”表示函数的名称空间结束，第一个”A”表示函数调用类型为”__cdecl”(函数调用类型会在以后说)，接着是函数的参数类型及返回值，由”@”结束，最后由”Z”结尾。</p>
+<p>其实，VC++的名称修饰规则并没有对外公开。MS提供了一个UNDecorateSymbolName()的API，可以将休市后名称转换成函数签名。</p>
+<p>由于不同的编译器采用不同的名字修饰方法，必然会导致由不用编译器编译产生的目标文件无法正常相互链接，这是导致不同编译器之间不能相互操作的主要原因之一(被坑过T_T)。。。</p>
+<p><strong><em>extern “C”</em></strong><br><img src="/img/写着玩-硬怼目标文件/47.PNG" alt=""><br><img src="/img/写着玩-硬怼目标文件/48.PNG" alt=""><br><img src="/img/写着玩-硬怼目标文件/49.PNG" alt=""></p>
+<p><strong><em>弱符号与强符号</em></strong><br><img src="/img/写着玩-硬怼目标文件/50.PNG" alt=""><br><img src="/img/写着玩-硬怼目标文件/51.PNG" alt=""><br><img src="/img/写着玩-硬怼目标文件/52.PNG" alt=""><br><img src="/img/写着玩-硬怼目标文件/53.PNG" alt=""><br><img src="/img/写着玩-硬怼目标文件/54.PNG" alt=""><br><img src="/img/写着玩-硬怼目标文件/55.PNG" alt=""></p>
+<h2 id="6-__u8C03_u8BD5_u4FE1_u606F"><a href="#6-__u8C03_u8BD5_u4FE1_u606F" class="headerlink" title="6. 调试信息"></a>6. 调试信息</h2><p>在GCC编译时加上”-g”参数编译器就会在产生的目标文件里面加上调试信息</p>
+<h1 id="0x03__u5C0F_u7ED3"><a href="#0x03__u5C0F_u7ED3" class="headerlink" title="0x03 小结"></a>0x03 小结</h1><p>主要分析了各种目标文件的格式，对于ELF文件的代码段、数据段和BSS段没有过多阐述。详细介绍了ELF文件的文件头、段表、重定位表、字符串表、符号表、调试表等相关结构。</p>
+<p>无路时可执行文件、目标文件还是库，他们实际上都是基于段的文件或是这种文件的集合，程序的源代码经过编译以后，按照代码和数据分别存放到相应的段中、编译器(汇编器)还会将一些辅助信息，比如符号、重定位信息等也按照表的方式存放到目标文件中，通常情况下，一个表就是一个段。</p>
+<p>有了这些目标文件后，接下来就是如何将他们合起来，形成一个可以使用的程序或更得模块，这就是静态链接的问题，下面会在静态链接的续集介绍</p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<h1 id="0x00__u53E3_u80E1"><a href="#0x00__u53E3_u80E1" class="headerlink" title="0x00 口胡"></a>0x00 口胡</h1><p>最近dota有点上头，就是怼，马上就能回家跟基友回家黑店了，]]>
+    </summary>
+    
+      <category term="人丑就要多读书" scheme="http://yoursite.com/tags/%E4%BA%BA%E4%B8%91%E5%B0%B1%E8%A6%81%E5%A4%9A%E8%AF%BB%E4%B9%A6/"/>
+    
+      <category term="reverse related" scheme="http://yoursite.com/categories/reverse-related/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[写着玩-强撸静态链接]]></title>
+    <link href="http://yoursite.com/2016/01/17/%E5%86%99%E7%9D%80%E7%8E%A9-%E5%BC%BA%E6%92%B8%E9%9D%99%E6%80%81%E9%93%BE%E6%8E%A5/"/>
+    <id>http://yoursite.com/2016/01/17/写着玩-强撸静态链接/</id>
+    <published>2016-01-17T11:48:38.000Z</published>
+    <updated>2016-01-17T12:49:12.748Z</updated>
+    <content type="html"><![CDATA[<h1 id="0x00__u53E3_u80E1"><a href="#0x00__u53E3_u80E1" class="headerlink" title="0x00 口胡"></a>0x00 口胡</h1><p>我写代码，以C的hello world为例，第一遍写时是用VC6，当时就傻逼的抄代码，然后F7，然后就F5，然后就输出了，当时就觉着自己好屌，也觉着VC6好屌。现在长大了，开始学着装逼了，用VS，用gcc，g++，但还是觉着VC6好用，没办法，自己太菜，而且也没写过太多代码，VC6够用了，而且也都习惯了。。。</p>
+<p>学了编译之后，才算大体上理解从代码文本到可执行的二进制程序是怎样的一个过程，但是也只是知道了个大概，毕竟现实中真正在用的编译器那都是有好多好多功能的，是很强大的，他的具体过程也远没我想的那么简单，既然学了编译，有了大体框架，那么，现在就来丰富细节吧。。。</p>
+<p>编程时，都是写完代码，然后一个按钮，或者一行命令，然后就生成了可执行程序，但这个按钮或命令是做了很多事的，大体分为四个步骤：预处理、编译、汇编、链接。</p>
+<p>给张图：</p>
+<p><img src="/img/写着玩-强撸静态链接/0.PNG" alt=""></p>
+<p>没啥好说的，直接撸。。。</p>
+<h1 id="0x01__u8FD9_u6761_u547D_u4EE4_u5E72_u4E86_u5565"><a href="#0x01__u8FD9_u6761_u547D_u4EE4_u5E72_u4E86_u5565" class="headerlink" title="0x01 这条命令干了啥"></a>0x01 这条命令干了啥</h1><p><strong><em>gcc hello.c</em></strong></p>
+<h2 id="1-__u9884_u7F16_u8BD1"><a href="#1-__u9884_u7F16_u8BD1" class="headerlink" title="1. 预编译"></a>1. 预编译</h2><p><img src="/img/写着玩-强撸静态链接/1.PNG" alt=""></p>
+<p>预编译过程主要处理那些源代码文件中的以”#”开始的预编译指令。比如”#include”、”#define”等，主要规则如下（这就不截图了，手打加深印象）：</p>
+<ol>
+<li>将所有的”#define”删除，并且展开所有的宏定义</li>
+<li>处理所有条件预编译指令，比如”#if”、”#ifdef”、”#elif”、”#else”、”#endif”。</li>
+<li>处理”#include”预编译指令，将被包含的文件插入到该预编译指令的位置。注意，这个过程是递归进行的，也就是说被包含的文件可能还包含其它文件</li>
+<li>删除所有的注释”//“和”/**/“。</li>
+<li>添加行号和文件名标识，比如#2”hello.c”2，以便于编译时编译器产生调试用的行号信息及用于编译时产生编译错误或警告时能够显示行号。</li>
+<li>保留所有的#pragma编译器指令，因为编译器要使用</li>
+</ol>
+<p>经过预编译后的.i文件不包含任何宏定义，因为所有的宏已经被展开，并且包含的文件也已经被插入到.i文件中。所以当我们无法判断宏定义是否正确或头文件包含是否正确时，可以查看预编译后的文件来确定问题(小技巧get)</p>
+<h2 id="2-__u7F16_u8BD1"><a href="#2-__u7F16_u8BD1" class="headerlink" title="2. 编译"></a>2. 编译</h2><p>编译过程就是把预处理完的文件进行一系列词法分析、语法分析、语义分析以及优化后生成相应的汇编代码文件。该过程相当于如下命令：<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">gcc -S hello.i -o hello.s</span><br></pre></td></tr></table></figure></p>
+<p>现在版本的GCC把预编译和编译两个步骤合并成一个步骤，使用一个叫做cc1的程序，位于/usr/lib/gcc/i486-linux-gnu/4.1/，所以<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">cc1 hello.c</span><br></pre></td></tr></table></figure></p>
+<p>可以达到相同的效果，或<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">gcc -S hello.c -o hello.s</span><br></pre></td></tr></table></figure></p>
+<p>这些都可以得到汇编文件hello.s。对于C语言，这个预编译和编译的程序是ccl，对于C++，是cclplus；Objective-C是cclobj；fortan是f771；java是jc1。所以实际上gcc这个命令只是这些后台程序的包装，它会根据不同的参数要求去调用预编译程序cc1、汇编器as、链接器ld。</p>
+<h2 id="3-__u6C47_u7F16"><a href="#3-__u6C47_u7F16" class="headerlink" title="3. 汇编"></a>3. 汇编</h2><p>汇编器是将汇编代码转变成机器可以执行的指令，每一个汇编语句几乎都对应一条机器指令。就是根据汇编指令和机器指令的对照表意义翻译就行。对应的指令：<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">as hello.s -o hello.o</span><br></pre></td></tr></table></figure></p>
+<p>或<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">gcc -c hello.s -o hello.o</span><br></pre></td></tr></table></figure></p>
+<p>或</p>
+<pre><code class="bash">gcc -c hello.c -o hello.o
+</code></pre>
+<h2 id="4-__u94FE_u63A5"><a href="#4-__u94FE_u63A5" class="headerlink" title="4. 链接"></a>4. 链接</h2><p>懒，直接上图：</p>
+<p><img src="/img/写着玩-强撸静态链接/2.PNG" alt=""></p>
+<p>下面就是一堆编译器到底干了什么的东西，具体的可以参考我以前写的blog，好像是第一篇吧。。。</p>
+<p>先到这。。。</p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<h1 id="0x00__u53E3_u80E1"><a href="#0x00__u53E3_u80E1" class="headerlink" title="0x00 口胡"></a>0x00 口胡</h1><p>我写代码，以C的hello world为例，第一遍写时是用V]]>
+    </summary>
+    
+      <category term="人丑就要多读书" scheme="http://yoursite.com/tags/%E4%BA%BA%E4%B8%91%E5%B0%B1%E8%A6%81%E5%A4%9A%E8%AF%BB%E4%B9%A6/"/>
+    
+      <category term="reverse related" scheme="http://yoursite.com/categories/reverse-related/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[程序员的自我修养]]></title>
+    <link href="http://yoursite.com/2016/01/17/%E7%A8%8B%E5%BA%8F%E5%91%98%E7%9A%84%E8%87%AA%E6%88%91%E4%BF%AE%E5%85%BB/"/>
+    <id>http://yoursite.com/2016/01/17/程序员的自我修养/</id>
+    <published>2016-01-17T07:48:16.000Z</published>
+    <updated>2016-01-17T11:45:28.860Z</updated>
+    <content type="html"><![CDATA[<h1 id="0x00__u53E3_u80E1"><a href="#0x00__u53E3_u80E1" class="headerlink" title="0x00 口胡"></a>0x00 口胡</h1><p>最近也算是闲下来了，把最近一直想总结的exp给总结完后，就想着找点事干。。。</p>
+<p>这两天就去看各个大大的blog，理解了哈希长度扩展攻击，看了一些PHP黑魔法，强势补了下分区的姿势，SSRF啥的。。。但也就是浏览浏览，根本沉不下来心，感觉自己太浮躁了，然后又去看一些自己错过的一些ctf的write up，想着自己去把一些想做的题去重新做一下，但根本找不到真正打比赛时的激情，感觉就像是在咀嚼剩菜，不行，提不起来劲。。。</p>
+<p>总不能浪费时间吧，安卓和硬件的话想放假回来搞，现在的心情真心不适合去马上开始一块新的领域，主要是自己真的不想搭环境，想赖着两个队友，他们把环境都搭好，自己直接用~</p>
+<p>问了下两个队友，他们也都是在各种总结，所以自己想着还是把近几个月一直在看的这本书给总结下，算是给临近放假的这段时间+寒假找点事干，也让自己静静，沉淀沉淀。。。</p>
+<p>这个blog就准备当做自己的一个总结用的东西吧，写的也都是给自己看的一些基础的东西，并不是那么注重质量，就是当做自己忘了某些东西时，有个可以查的地方吧，所以基本都是一些理论的东西，实战很少。</p>
+<p>等自己牛逼了，再重新开个blog，介绍各种奇淫技巧也不迟~</p>
+<h1 id="0x0-5__u5173_u4E8E_u672C_u7CFB_u5217_u7684_u53E3_u80E1"><a href="#0x0-5__u5173_u4E8E_u672C_u7CFB_u5217_u7684_u53E3_u80E1" class="headerlink" title="0x0.5 关于本系列的口胡"></a>0x0.5 关于本系列的口胡</h1><p>还是会写成一个系列吧。。。</p>
+<p>会按照本书的脉络，总结自己认为重要的东西，会尽量注重体系化和结构化，对于一些自己认为太干的货，我还是会加入自己的口水理解，方便自己消化。</p>
+<p>跟操作系统会有点联系吧，就是一些较底层的理论姿势，发现自己也是喜欢这些东西。。。</p>
+<p>口胡就到这吧，开始漫漫总结之旅。。。</p>
+<p>没找到电子版，pdf找的也都是扫描版，所以能手打的就手打了，纯当练习自己的打字速度+加深记忆了，但是自己真的懒，所以截图大法好。。。</p>
+<h1 id="0x01__u7EBF_u7A0B_u7684_u7B3C_u7EDF_u4ECB_u7ECD"><a href="#0x01__u7EBF_u7A0B_u7684_u7B3C_u7EDF_u4ECB_u7ECD" class="headerlink" title="0x01 线程的笼统介绍"></a>0x01 线程的笼统介绍</h1><p>线程，有时被称为轻量级进程。一个标准的线程由线程ID，当前指令指针（PC），寄存器集合和堆栈组成，各个线程之间共享程序的内存空间。这里说的寄存器集合并非指真正意义上的物理硬件，一个线程就给一套与它相匹配的寄存器，这。。。这里更偏向于软件，是一种数据结构的概念，还记得操系中的TSS吗，类似于那个概念吧，就是说当线程真正竞争到CPU资源时，他才对这些物理资源实现真正意义上的占有。</p>
+<p>相对于多进程应用，多线程在数据共享方面效率要高的多，因为进程间通信限制很多，这些限制是为了防止各种杂七杂八的情况出现。线程的访问很自由，他可以访问进程内存里的所有数据，甚至包括其他线程的堆栈（如果他知道其他线程的堆栈地址）。但线程也是有隐私的，局部变量，函数的参数，线程局部存储（TLS），这些数据是线程私有的。</p>
+<p>关于线程的调度问题，具体参考进程调度，差不多。如果想要提高一个线程的被调度率，可以采用提高线程优先级的方法。在windows中，使用BOOL WINAPI SetThreadPriority（HANDLE hThread，int nPriority）；来设置线程的优先级，而linux下与线程相关的操作可以通过pthread库来实现。一般的策略中，IO密集型总是比CPU密集型更容易得到优先级的提升。在优先级调度的环境下，线程的优先级改变一般有三种方式：</p>
+<ol>
+<li>用户指定优先级</li>
+<li>根据进入等待状态的频繁程度提升或降低优先级。频繁等待优先级高，意味着一旦就绪系统就会让他尽量在下个时间片运行</li>
+<li>长时间得不到执行而被提升优先级。</li>
+</ol>
+<p>关于fork，exec，clone以及写时复制、竞争与原子操作，同步与互斥啥的就不啰嗦了，操系里已经写得很清楚了</p>
+<p>线程安全是一块烫手的山芋，因为即使合理的使用了锁，也不一定能保证线程安全，这是源于落后的编译器技术已经无法满足日益增长的并发需求。很多看似无错的代码在优化和并发的面前又产生了麻烦。如下代码：<br><figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">x=<span class="number">0</span>;</span><br><span class="line"><span class="function">thread1		thread2</span><br><span class="line"><span class="title">lock</span><span class="params">()</span></span>;		lock();</span><br><span class="line">x++;		x++;</span><br><span class="line">unlock();	unlock();</span><br></pre></td></tr></table></figure></p>
+<p>由于有lock和unlock的保护，x++的行为不会被并发所破坏，那么x的值似乎必然是2了。然而，如果编译器为了提高x的访问速度，把x放到了某个寄存器里，那么我们知道不同线程的寄存器是各自独立的。假设thread1先获得锁，则可能会出现下面的情况：</p>
+<p><img src="/img/程序员的自我修养/0.PNG" alt=""></p>
+<p>可见在这样的情况下即使正确的加锁，也不能保证线程安全。下面是另一个例子：</p>
+<p><img src="/img/程序员的自我修养/1.PNG" alt=""><br><img src="/img/程序员的自我修养/2.PNG" alt=""></p>
+<p>此时，如果按照<br><figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">r1=y;</span><br><span class="line">切换</span><br><span class="line">y=<span class="number">1</span>;</span><br><span class="line">r2=x;</span><br><span class="line">切换</span><br><span class="line">x=<span class="number">1</span>;</span><br></pre></td></tr></table></figure></p>
+<p>这种顺序执行，那么此时r1=r2=0就完全有可能了。看到这，其实是有点崩溃的，这尼玛考虑的问题也太多了吧，老子本来写的对的程序硬生生跑错，但没办法，已经发展成这样子了。所以，我们来看下补救措施：我们可以使用volatile关键字试图阻止过渡优化。volatile可以做到：</p>
+<p><img src="/img/程序员的自我修养/3.PNG" alt=""></p>
+<p>可见volatile确实可以解决一些问题，但是即使volatile能够阻止编译器调整顺序，也无法阻止CPU动态调度换序，呵呵哒。。。</p>
+<p>另一个颇为著名的与换序有关的问题来自于singleton模式的double-check。<br><figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">volatile</span> T * pInst = <span class="number">0</span>;</span><br><span class="line"><span class="function">T * <span class="title">GetInstance</span><span class="params">()</span></span><br><span class="line"></span>&#123;</span><br><span class="line"><span class="keyword">if</span> (pInst == <span class="literal">NULL</span>)</span><br><span class="line">&#123;</span><br><span class="line">	lock();</span><br><span class="line">	<span class="keyword">if</span> (pInst == <span class="literal">NULL</span>)</span><br><span class="line">		pInst = <span class="keyword">new</span> T;</span><br><span class="line">	unlock();</span><br><span class="line">&#125;</span><br><span class="line"><span class="keyword">return</span> pInst;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></p>
+<p>抛开逻辑，这代码乍看没问题，使用了volatile关键字，而lock和unlock防止了多线程竞争导致的麻烦。双重的if在这里另有妙用（防止在lock前进行进程切换而使得代码流程不受我们控制），可以让lock的调用开销降低到最小。</p>
+<p>但是，呵呵，这是有问题的，没错，就是CPU的乱序执行。C++里的new其实包含了两个步骤：</p>
+<ol>
+<li>分配内存</li>
+<li>调用构造函数<br>所以pInst = new T包含了三个步骤：</li>
+<li>分配内存</li>
+<li>在内存的位置上调用构造函数</li>
+<li>将内存的地址赋值给pInst</li>
+</ol>
+<p><img src="/img/程序员的自我修养/4.PNG" alt=""></p>
+<figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line"><span class="preprocessor">#<span class="keyword">define</span> barrier() __asm()__ volatile (<span class="string">"lwsync"</span>)</span></span><br><span class="line"><span class="keyword">volatile</span> T * pInst = <span class="number">0</span>;</span><br><span class="line"><span class="function">T * <span class="title">GetInstance</span><span class="params">()</span></span><br><span class="line"></span>&#123;</span><br><span class="line"><span class="keyword">if</span> (pInst == <span class="literal">NULL</span>)</span><br><span class="line">&#123;</span><br><span class="line">	lock();</span><br><span class="line">	<span class="keyword">if</span> (pInst == <span class="literal">NULL</span>)</span><br><span class="line">		T * temp = <span class="keyword">new</span> T;</span><br><span class="line">		barrier();</span><br><span class="line">		pInst = temp;</span><br><span class="line">	unlock();</span><br><span class="line">&#125;</span><br><span class="line"><span class="keyword">return</span> pInst;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>由于barrier的存在，对象的构造一定在barrier执行之前完成，因此当pInst被赋值时，对象总是完好的。</p>
+<p>首篇就先到这了。。。</p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<h1 id="0x00__u53E3_u80E1"><a href="#0x00__u53E3_u80E1" class="headerlink" title="0x00 口胡"></a>0x00 口胡</h1><p>最近也算是闲下来了，把最近一直想总结的exp给总结完后，就想]]>
+    </summary>
+    
+      <category term="人丑就要多读书" scheme="http://yoursite.com/tags/%E4%BA%BA%E4%B8%91%E5%B0%B1%E8%A6%81%E5%A4%9A%E8%AF%BB%E4%B9%A6/"/>
+    
+      <category term="reverse related" scheme="http://yoursite.com/categories/reverse-related/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[密码系列12-消息认证机制]]></title>
+    <link href="http://yoursite.com/2016/01/08/%E5%AF%86%E7%A0%81%E7%B3%BB%E5%88%9712-%E6%B6%88%E6%81%AF%E8%AE%A4%E8%AF%81%E6%9C%BA%E5%88%B6/"/>
+    <id>http://yoursite.com/2016/01/08/密码系列12-消息认证机制/</id>
+    <published>2016-01-08T13:09:12.000Z</published>
+    <updated>2016-01-10T15:06:47.957Z</updated>
+    <content type="html"><![CDATA[<h1 id="0x00__u53E3_u80E1"><a href="#0x00__u53E3_u80E1" class="headerlink" title="0x00 口胡"></a>0x00 口胡</h1><p>截至目前为止，我们已经讨论了对称密码体制和公钥密码体制，对称密码体制主要用于保护数据的机密性，公钥密码体制分为公钥加密和数字签名，其中公钥加密主要用于保护数据的机密性，数字签名用于保护数据的不可否认性和真实性，但是这两大体制并不能提供对数据完整性的保护，这时就需要消息认证机制来承担起对数据完整性的保护。</p>
+<p><img src="/img/密码系列12-消息认证机制/0.PNG" alt=""></p>
+<h1 id="0x01__u6D88_u606F_u8BA4_u8BC1_u673A_u5236_u6982_u8FF0"><a href="#0x01__u6D88_u606F_u8BA4_u8BC1_u673A_u5236_u6982_u8FF0" class="headerlink" title="0x01 消息认证机制概述"></a>0x01 消息认证机制概述</h1><p>消息认证是一个过程，用以验证接收消息的完整性（未被篡改、插入、删除）。认证是一个过程，消息认证机制有消息认证码（MAC)和散列函数(hash)两大类。</p>
+<h2 id="u6D88_u606F_u8BA4_u8BC1_u7801"><a href="#u6D88_u606F_u8BA4_u8BC1_u7801" class="headerlink" title="消息认证码"></a>消息认证码</h2><p>消息认证码（MAC）是指消息被一密钥控制的公开函数作用后产生的、用作认证符的、固定长度的数值，也称为密码校验和。</p>
+<p>数据认证算法是最为广泛使用的消息认证码，已作为FIPS Publication（FIPS PUB 113）并被ANSI作为X9.17标准。</p>
+<p>数据认证算法基于CBC模式的DES算法，其初始向量取为零向量，其中最后一个分组不够64比特的话，可在其右边填充一些0，然后按以下过程计算消息认证码：</p>
+<p><img src="/img/密码系列12-消息认证机制/1.PNG" alt=""><br><img src="/img/密码系列12-消息认证机制/2.PNG" alt=""></p>
+<p><strong>消息认证码的使用流程</strong></p>
+<p><img src="/img/密码系列12-消息认证机制/3.PNG" alt=""></p>
+<p>消息认证码的安全性是基于仅通信双方知道密钥K这个前提的。如果仅收发双方知道K，且B计算得到的MAC与接收到的MAC一致，则这一系统就实现了以下功能：</p>
+<ol>
+<li>完整性：接收方相信发送方发来的消息未被篡改，这是因为攻击者不知道密钥，所以不能够在篡改消息后相应地篡改MAC，而如果仅篡改消息，则接收方计算的新MAC将与收到的MAC不同。</li>
+<li>真实性：接收方相信发送方不是冒充的，这是因为除收发双方外再无其他人知道密钥，因此其他人不可能对自己发送的消息计算出正确的MAC。</li>
+</ol>
+<h2 id="u6563_u5217_u51FD_u6570"><a href="#u6563_u5217_u51FD_u6570" class="headerlink" title="散列函数"></a>散列函数</h2><p>散列函数H是一公开函数，用于将任意长的消息M映射为较短的、固定长度的一个值H(M)，称函数值H(M)为杂凑值、杂凑码或消息摘要。杂凑值是消息中所有比特的函数，即改变消息中任何一个比特或几个比特都会使杂凑码发生改变，这是保证消息完整性的最基本的要求。</p>
+<p>散列函数的目的是为需认证的数据产生一个“指纹”。为了能够实现对数据的认证，散列函数应满足几个要求：</p>
+<ol>
+<li>函数的输入可以是任意长。</li>
+<li>函数的输出是固定长。</li>
+<li>已知x，求H(x)较为容易，可用硬件或软件实现。</li>
+<li>已知h，求使得H(x)=h的x在计算上是不可行的，这一性质称为函数的单向性，称H(x)为单向散列函数。</li>
+<li>已知x，找出y(y≠x)使得H(y)=H(x)在计算上是不可行的。</li>
+<li>找出任意两个不同的输入x、y，使得H(y)=H(x)在计算上是不可行的。</li>
+</ol>
+<p>以上6个条件中，前3个是散列函数能用于消息认证的基本要求。第4个条件（即单向性）则对使用秘密值的认证技术极为重要。</p>
+<p><strong>散列函数结构</strong></p>
+<p><img src="/img/密码系列12-消息认证机制/4.PNG" alt=""></p>
+<p>目前使用的大多数散列函数其结构都是迭代型的，如图所示。其中函数的输入M被分为L个分组Y0,Y1,…,YL-1，每一个分组的长度为b比特，最后一个分组的长度不够的话，需对其做填充。</p>
+<p>对上图的说明：IV = 初始值；CV = 链接值；Yi = 第i 个输入数据块；f = 压缩算法；n = 散列码的长度;b = 输入块的长度</p>
+<h1 id="0x02__u51E0_u79CD_u5E38_u7528_u7684_u6742_u51D1_u7B97_u6CD5"><a href="#0x02__u51E0_u79CD_u5E38_u7528_u7684_u6742_u51D1_u7B97_u6CD5" class="headerlink" title="0x02 几种常用的杂凑算法"></a>0x02 几种常用的杂凑算法</h1><h2 id="1-_MD5_u6742_u51D1_u7B97_u6CD5"><a href="#1-_MD5_u6742_u51D1_u7B97_u6CD5" class="headerlink" title="1. MD5杂凑算法"></a>1. MD5杂凑算法</h2><p>由Ron Rivest(没错，就是RSA的那个R)于1992年4月公布（RFC 1320，1321）称为MD5。<br>算法的输入为任意长的消息，分为512比特长的分组，输出为128比特的消息摘要。</p>
+<h2 id="MD5_u7B97_u6CD5_u6D41_u7A0B"><a href="#MD5_u7B97_u6CD5_u6D41_u7A0B" class="headerlink" title="MD5算法流程"></a>MD5算法流程</h2><p><strong>明文分组 </strong></p>
+<p><img src="/img/密码系列12-消息认证机制/5.PNG" alt=""></p>
+<p>对明文的处理分以下两步：</p>
+<ol>
+<li>对消息填充，使得其比特长在模512下为448，即填充后消息的长度为512的某一倍数减64，留出的64比特备第2步使用。<br>步骤1是必需的，即使消息长度已满足要求，仍需填充。例如，消息长为448比特，则需填充512比特，使其长度变为960，因此填充的比特数大于等于1而小于等于512。<br>填充方式是固定的，即第1位为1，其后各位皆为0。</li>
+<li>附加消息的长度用步骤1留出的64比特以little-endian方式来表示消息被填充前的长度。如果消息长度大于2^64，则以2^64为模数取模。<br>Little-endian方式是指按数据的最低有效字节（byte）（或最低有效位）优先的顺序存储数据，即将最低有效字节（或最低有效位）存于低地址字节（或位）。相反的存储方式称为big-endian方式。</li>
+</ol>
+<p>这两步执行完后，消息的长度为512的倍数（设为L倍）。<br>将消息表示为分组长为512的一系列分组Y0，Y1，…，YL-1，而每一分组又可表示为16个32比特长的字，这样消息中的总字数为N=L×16，因此消息又可按字表示为M[0,…,N-1]。</p>
+<p><strong>具体的对明文的处理流程(函数Hmd5)</strong></p>
+<p><img src="/img/密码系列12-消息认证机制/6.PNG" alt=""></p>
+<p>这里使用128比特长的缓冲区以存储中间结果和最终杂凑值，缓冲区可表示为4个32比特长的寄存器（A，B，C，D），每个寄存器都以little-endian方式存储数据，其初值取为（以存储方式）   A=01234567，B=89ABCDEF， C=FEDCBA98，D=76543210，实际上为67452301，EFCDAB89，98BADCFE，10325476。</p>
+<p>函数Hmd5的总体概述：</p>
+<p><img src="/img/密码系列12-消息认证机制/7.PNG" alt=""></p>
+<p><strong>每轮中压缩函数Hmd5的具体细节</strong></p>
+<p><img src="/img/密码系列12-消息认证机制/8.PNG" alt=""></p>
+<p>上述过程用图形表示为：</p>
+<p><img src="/img/密码系列12-消息认证机制/9.PNG" alt=""></p>
+<p>对上图的补充说明：</p>
+<ol>
+<li><p>T[i]为表T中的第i个字，+为模2^32加法。其中∧，∨，-，分别是逻辑与、逻辑或、逻辑非运算</p>
+</li>
+<li><p>对于每步中左循环移位的位数s，给出s表：</p>
+</li>
+</ol>
+<p><img src="/img/密码系列12-消息认证机制/10.PNG" alt=""></p>
+<ol>
+<li>对于图中的x[k]，给出如下说明：</li>
+</ol>
+<p><img src="/img/密码系列12-消息认证机制/11.PNG" alt=""></p>
+<p><strong>流程总结</strong>：</p>
+<ol>
+<li>总流程图：</li>
+</ol>
+<p><img src="/img/密码系列12-消息认证机制/6.PNG" alt=""></p>
+<p>总流程有4轮，除一些细节外每轮大致一样，每轮有16步</p>
+<ol>
+<li>每步的操作：</li>
+</ol>
+<p><img src="/img/密码系列12-消息认证机制/9.PNG" alt=""></p>
+<p><strong>对MD5的攻击</strong></p>
+<p>我们由生日悖论问题引入对MD5的攻击方法。</p>
+<p>生日悖论是考虑这样一个问题：在k个人中至少有两个人的生日相同的概率大于0.5时，k至少多大？</p>
+<p>这个问题很简单，学过排列组合的都能很容易计算出来。给出计算方法：</p>
+<p><img src="/img/密码系列12-消息认证机制/12.PNG" alt=""></p>
+<p>在散列函数中：</p>
+<p><img src="/img/密码系列12-消息认证机制/13.PNG" alt=""></p>
+<p>就是我们通常所说的散列函数的碰撞问题，上面的图中直接给出了碰撞结论，即若散列函数的输出有2^m个可能的话，那么对于2^(m/2)个随机输入，至少有两个输出相同的概率是大于0.5的，那么运用这个结论，我们就可以对md5实施生日攻击。</p>
+<p>对生日攻击的流程：</p>
+<p><img src="/img/密码系列12-消息认证机制/14.PNG" alt=""></p>
+<p>上图中提到了对消息的变形的概念。将一个消息变形为具有相同含义的另一消息的方法有很多，例如对文件，敌手可在文件的单词之间插入很多“space-space-backspace”字符对，然后将其中的某些字符对替换为“space-backspace-space ”就得到一个变形的消息。</p>
+<p>md5生日攻击的成本：上述攻击中如果杂凑值的长为64比特，则敌手攻击成功所需的时间复杂度为O(2^32)。对于MD5而言，MD5作为128比特长的杂凑值来说，找出具有相同杂凑值的两个消息需执行O(2^64)次运算。</p>
+<p>插一下：我国山东大学王小云教授（2004）提出的攻击对MD5最具威胁。对于MD5的初始值IV，王小云找到了许多512位的分组对，它们的MD5值相同。所以必须寻找新的杂凑算法，以使其产生的杂凑值更长，且抵抗已知密码分析攻击的能力更强。下面要介绍的SHA即为这样的一个算法。</p>
+<h2 id="2-_SHA1_u6742_u51D1_u7B97_u6CD5"><a href="#2-_SHA1_u6742_u51D1_u7B97_u6CD5" class="headerlink" title="2. SHA1杂凑算法"></a>2. SHA1杂凑算法</h2><p>安全杂凑算法(secure hash algorithm, SHA)由美国NIST设计，于1993年作为联邦信息处理标准（FIPS PUB 180）公布。SHA其结构与MD5算法非常类似。<br>算法的输入为小于2^64比特长的任意消息，分为512比特长的分组，输出为160比特长的消息摘要</p>
+<h2 id="SHA1_u6D41_u7A0B"><a href="#SHA1_u6D41_u7A0B" class="headerlink" title="SHA1流程"></a>SHA1流程</h2><p>毕竟上面介绍了MD5，我们就相较于MD5来看，看看SHA1有什么不同<br><strong>明文的分组</strong></p>
+<ol>
+<li>对消息填充与MD5的步骤1完全相同。 </li>
+<li>附加消息的长度与MD5的步骤2类似，不同之处在于以big-endian方式表示填充前消息的长度。</li>
+</ol>
+<p><strong>缓冲区的初始化</strong><br>相对于MD5而言，SHA1缓冲区初始化算法使用160比特长的缓冲区存储中间结果和最终杂凑值，缓冲区可表示为5个32比特长的寄存器(A, B, C, D, E)，每个寄存器都以big-endian方式存储数据，其初始值分别为A=67452301，B=EFCDAB89，C=98BADCFB，D=10325476，E=C3D2E1F0。</p>
+<p><strong>具体的对明文的处理流程(函数Hsha)</strong></p>
+<p><img src="/img/密码系列12-消息认证机制/15.PNG" alt=""></p>
+<p>对上图的说明：</p>
+<p>以分组为单位对消息进行处理每一分组Yq都经一压缩函数处理，压缩函数由4轮处理过程构成，每一轮又由20步迭代组成。4轮处理过程结构一样，但所用的基本逻辑函数不同，分别表示为f1,f2,f3,f4。</p>
+<p>每轮的输入为当前处理的消息分组Yq和缓冲区的当前值A,B,C,D,E，输出仍放在缓冲区以替代A,B,C,D,E的旧值，每轮处理过程还需加上一个加法常量Kt，其中0≤t≤79表示迭代的步数。80个常量中实际上只有4个不同取值，下面给出Kt的取值表：</p>
+<p><img src="/img/密码系列12-消息认证机制/16.PNG" alt=""></p>
+<p>其中 [x] 为x的整数部分。</p>
+<p>第4轮的输出（即第80步迭代的输出）再与第1轮的输入CVq相加，以产生CVq+1，其中加法是缓冲区5个字中的每一个字与CVq中相应的字模2^32相加。</p>
+<p>输出消息的L个分组都被处理完后，最后一个分组的输出即为160比特的消息摘要。</p>
+<p><strong>每轮中压缩函数的具体细节</strong></p>
+<p>给出每轮每步的流程框架图：</p>
+<p><img src="/img/密码系列12-消息认证机制/17.PNG" alt=""></p>
+<p>对流程的解释说明：</p>
+<p><img src="/img/密码系列12-消息认证机制/18.PNG" alt=""></p>
+<p>下面说明如何由输入分组（512比特长）导出Wt（32比特长):</p>
+<p><img src="/img/密码系列12-消息认证机制/19.PNG" alt=""></p>
+<p>即：</p>
+<p><img src="/img/密码系列12-消息认证机制/20.PNG" alt=""></p>
+<hr>
+<h2 id="3-_SHA1_VS_MD5"><a href="#3-_SHA1_VS_MD5" class="headerlink" title="3. SHA1 VS MD5"></a>3. SHA1 VS MD5</h2><p>看完了SHA1，就一句话，跟MD5真TM的像啊。。。</p>
+<p>那么，就让我们来对比一下：</p>
+<ol>
+<li>抗穷搜索攻击的强度：</li>
+</ol>
+<p>由于SHA和MD5的消息摘要长度分别为160和128，所以用穷搜索攻击寻找具有给定消息摘要的消息分别需做O(2^160)和O(2^128)次运算，而用穷搜索攻击找出具有相同消息摘要的两个不同消息分别需做O(2^80)和O(2^64)次运算。因此SHA抗击穷搜索攻击的强度高于MD5抗击穷搜索攻击的强度。</p>
+<ol>
+<li>抗击密码分析攻击的强度:</li>
+</ol>
+<p>由于SHA的设计准则未被公开，所以它抗击密码分析攻击的强度较难判断，似乎高于MD5的强度</p>
+<ol>
+<li>速度:</li>
+</ol>
+<p>由于两个算法的主要运算都是模232加法，因此都易于在32位结构上实现。但比较起来,SHA的迭代步数(80步)多于MD5的迭代步数（64步），所用的缓冲区（160比特）大于MD5使用的缓冲区（128比特），因此在相同硬件上实现时，SHA的速度要比MD5的速度慢。</p>
+<ol>
+<li>简洁与紧致性:</li>
+</ol>
+<p>两个算法描述起来都较为简单，实现起来也较为简单，都不需要大的程序和代换表。</p>
+<ol>
+<li>数据的存储方式:</li>
+</ol>
+<p>MD5使用little-endian方式，SHA使用big-endian方式。两种方式相比看不出哪个更具优势，之所以使用两种不同的存储方式是因为设计者最初实现各自的算法时，使用的机器的存储方式不同。</p>
+<h1 id="0x03__u8D85_u8FDB_u5316_uFF01Hash+MAC_3DHMAC"><a href="#0x03__u8D85_u8FDB_u5316_uFF01Hash+MAC_3DHMAC" class="headerlink" title="0x03 超进化！Hash+MAC=HMAC"></a>0x03 超进化！Hash+MAC=HMAC</h1><p>不知道有没有注意到一个问题，就是杂凑算法只是对明文进行了一个压缩，产生了一个数据摘要，没有引入密钥的概念，并没有体现认证性，只保证了数据的完整性。</p>
+<p>这是，HMAC应运而生。</p>
+<p>数据认证算法是传统上构造MAC最为普遍使用的方法，即基于分组密码的构造方法。但近年来研究构造MAC的兴趣已转移到基于密码散列函数的构造方法(HMAC)。这是因为：密码散列函数(如MD5、SHA)的软件实现快于分组密码(如DES)的软件实现；密码散列函数的库代码来源广泛； 密码散列函数没有出口限制，而分组密码有出口限制。</p>
+<p>散列函数并不是为用于MAC而设计的，由于散列函数不使用密钥，因此不能直接用于MAC。</p>
+<p>目前已提出了很多将散列函数用于构造MAC的方法，其中HMAC就是其中之一，已作为RFC2104被公布，并在IPSec和其他网络协议(如SSL)中得以应用。</p>
+<p>RFC2104列举了HMAC的设计目标：</p>
+<ol>
+<li>可不经修改而使用现有的散列函数，特别是那些易于软件实现的、源代码可方便获取且免费使用的散列函数。</li>
+<li>其中镶嵌的散列函数可易于替换为更快或更安全的散列函数。</li>
+<li>保持镶嵌的散列函数的最初性能，不因用于HMAC而使其性能降低。</li>
+<li>以简单方式使用和处理密钥。</li>
+<li>在对镶嵌的散列函数合理假设的基础上，易于分析HMAC用于认证时的密码强度。</li>
+</ol>
+<p>其中前两个目标是HMAC被公众普遍接受的主要原因，这两个目标是将散列函数当作一个黑盒使用，这种方式有两个优点: </p>
+<ol>
+<li>散列函数的实现可作为实现HMAC的一个模块，这样一来，HMAC代码中很大一块就可事先准备好，无需修改就可使用；</li>
+<li>如果HMAC要求使用更快或更安全的散列函数，则只需用新模块代替旧模块，例如用实现SHA的模块代替MD5的模块。</li>
+</ol>
+<h2 id="HMAC_u7B97_u6CD5_u5B9E_u73B0"><a href="#HMAC_u7B97_u6CD5_u5B9E_u73B0" class="headerlink" title="HMAC算法实现"></a>HMAC算法实现</h2><p>HMAC算法的运行总框图：</p>
+<p><img src="/img/密码系列12-消息认证机制/21.PNG" alt=""></p>
+<p>总体解释：上图是HMAC算法的运行框图，其中H为嵌入的散列函数(如MD5、SHA)，M为HMAC的输入消息(包括散列函数所要求的填充位)，Yi(0≤i≤L-1)是M的第i个分组，L是M的分组数，b是一个分组中的比特数，n为由嵌入的散列函数所产生的杂凑值的长度，K为密钥，如果密钥长度大于b，则将密钥输入到散列函数中产生一个n比特长的密钥，K+是左边经填充0后的K，K+的长度为b比特，ipad为b/8个00110110，opad为b/8个01011010。</p>
+<p><strong>HMAC算法流程</strong></p>
+<ol>
+<li>K的左边填充0以产生一个b比特长的K+ （例如K的长为160比特，b=512，则需填充44个零字节0x00）。</li>
+<li>K+与ipad 逐比特异或以产生b比特的分组Si。</li>
+<li>将M链接到Si后。</li>
+<li>将H作用于步骤3产生的数据流。</li>
+<li>K+与opad逐比特异或,以产生b比特长的分组S0。</li>
+<li>将步骤4得到的杂凑值链接在S0后。</li>
+<li>将H作用于步骤⑥产生的数据流并输出最终结果。</li>
+</ol>
+<p>注意，K+与ipad逐比特异或以及K+与opad逐比特异或的结果是将K中的一半比特取反，但两次取反的比特的位置不同。而Si和S0通过散列函数中压缩函数的处理，则相当于以伪随机方式从K产生两个密钥。</p>
+<p><strong>HMAC流程简化</strong></p>
+<p><img src="/img/密码系列12-消息认证机制/22.PNG" alt=""><br><img src="/img/密码系列12-消息认证机制/23.PNG" alt=""></p>
+<h2 id="HMAC_u7B97_u6CD5_u5B89_u5168_u6027"><a href="#HMAC_u7B97_u6CD5_u5B89_u5168_u6027" class="headerlink" title="HMAC算法安全性"></a>HMAC算法安全性</h2><p>基于散列函数构造的MAC的安全性取决于镶嵌的散列函数的安全性，而HMAC最吸引人的地方是它的设计者已经证明了算法的强度和嵌入的散列函数的强度之间的确切关系，证明了对HMAC的攻击等价于对内嵌散列函数的下述两种攻击之一：</p>
+<ol>
+<li>攻击者能够计算压缩函数的一个输出，即使IV是随机的和秘密的。</li>
+<li>攻击者能够找出散列函数的碰撞，即使IV是随机的和秘密的。</li>
+</ol>
+<p>在第一种攻击中，可将压缩函数视为与散列函数等价，而散列函数的n比特长IV可视为HMAC的密钥。对这一散列函数的攻击可通过对密钥的穷搜索来进行，也可通过第Ⅱ类生日攻击来实施，通过对密钥的穷搜索攻击的复杂度为O（2^n），通过第Ⅱ类生日攻击又可归结为上述第二种攻击。</p>
+<p>第二种攻击指攻击者寻找具有相同杂凑值的两个消息，因此就是第Ⅱ类生日攻击。对杂凑值长度为n的散列函数来说，攻击的复杂度为O(2^(n/2))。因此第二种攻击对MD5的攻击复杂度为O(2^64)，就现在的技术来说，这种攻击是可行的。但这是否意味着MD5不适合用于HMAC？</p>
+<p>回答是否定的，原因如下：攻击者在攻击MD5时，可选择任何消息集合后脱线寻找碰撞。由于攻击者知道杂凑算法和默认的IV，因此能为自己产生的每个消息求出杂凑值。然而，在攻击HMAC时，由于攻击者不知道密钥K，从而不能脱线产生消息和认证码对。所以攻击者必须得到HMAC在同一密钥下产生的一系列消息，并对得到的消息序列进行攻击。对长128比特的杂凑值来说，需要得到用同一密钥产生的2^64个分组（2^73比特）。在1Gbit/s的链路上，需250000年，因此MD5完全适合于HMAC，而且就速度而言，MD5要快于SHA作为内嵌散列函数的HMAC。</p>
+<p>消息认证机制就到这了。。。</p>
+<hr>
+<p>密码的话，写到这就算告一段落了，写的密码都是一些最基础的东西，但基础最重要嘛。。。感觉密码还是蛮好玩的，但自己还是没入门，所以以后也会加强自己在密码上的学习，有什么在密码上的新发现的话，也会及时更新blog的。。。</p>
+<hr>
+<p>接下来的话，就要转入总结编写各种exp的计划了，希望能够让自己的pwn更有体系，更加自动化，更上一层楼，就这样。。。。</p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<h1 id="0x00__u53E3_u80E1"><a href="#0x00__u53E3_u80E1" class="headerlink" title="0x00 口胡"></a>0x00 口胡</h1><p>截至目前为止，我们已经讨论了对称密码体制和公钥密码体制，对称]]>
+    </summary>
+    
+      <category term="密码学" scheme="http://yoursite.com/tags/%E5%AF%86%E7%A0%81%E5%AD%A6/"/>
+    
+      <category term="cryptography" scheme="http://yoursite.com/categories/cryptography/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[密码系列11-数论不白学之椭圆曲线公钥密码算法]]></title>
+    <link href="http://yoursite.com/2016/01/08/%E5%AF%86%E7%A0%81%E7%B3%BB%E5%88%9711-%E6%95%B0%E8%AE%BA%E4%B8%8D%E7%99%BD%E5%AD%A6%E4%B9%8B%E6%A4%AD%E5%9C%86%E6%9B%B2%E7%BA%BF%E5%85%AC%E9%92%A5%E5%AF%86%E7%A0%81%E7%AE%97%E6%B3%95/"/>
+    <id>http://yoursite.com/2016/01/08/密码系列11-数论不白学之椭圆曲线公钥密码算法/</id>
+    <published>2016-01-08T02:41:43.000Z</published>
+    <updated>2016-01-08T13:09:54.218Z</updated>
+    <content type="html"><![CDATA[<h1 id="0x00__u53E3_u80E1_u80CC_u666F"><a href="#0x00__u53E3_u80E1_u80CC_u666F" class="headerlink" title="0x00 口胡背景"></a>0x00 口胡背景</h1><p>Neal Koblitz和Victor Miller在1985年分别提出了椭圆曲线密码体制(ECC)，它是迄今为止被实践证明安全有效的三类公钥密码体制之一。<br>1998年被ISO/IEC定为数字签名标准，2000年2月定为IEEE标准<br>椭圆曲线公钥密码算法跟我们上篇介绍的ElGamal有点类似，安全性都是基于离散对数问题，不过椭圆曲线公钥密码算法的离散对数问题有些特殊</p>
+<h1 id="0x01__u692D_u5706_u66F2_u7EBF_u5BC6_u7801_u76F8_u5173_u6982_u5FF5"><a href="#0x01__u692D_u5706_u66F2_u7EBF_u5BC6_u7801_u76F8_u5173_u6982_u5FF5" class="headerlink" title="0x01 椭圆曲线密码相关概念"></a>0x01 椭圆曲线密码相关概念</h1><ol>
+<li>椭圆曲线的定义：</li>
+</ol>
+<p><img src="/img/密码系列11-数论不白学之椭圆曲线公钥密码算法/0.PNG" alt=""></p>
+<p>在二维坐标系中表示为：</p>
+<p><img src="/img/密码系列11-数论不白学之椭圆曲线公钥密码算法/1.PNG" alt=""></p>
+<ol>
+<li>椭圆曲线公钥密码算法所需运算：</li>
+</ol>
+<p><img src="/img/密码系列11-数论不白学之椭圆曲线公钥密码算法/2.PNG" alt=""></p>
+<p>点的加法运算并不是空穴来风，随便定义了一个运算法则，在图上它是有具体意义的，显得很直观：</p>
+<p><img src="/img/密码系列11-数论不白学之椭圆曲线公钥密码算法/4.PNG" alt=""></p>
+<p>p和q的加法描述为：过p，q两点做一条直线，这条直线与椭圆曲线的另一交点(除p，q外的交点)关于x轴的对称点定义为p+q得到的点s。</p>
+<p>但是，在椭圆曲线公钥密码算法中，该椭圆曲线上的点我们并不是全部用到，我们只用整数，椭圆曲线上的整数点定义的集合：</p>
+<p><img src="/img/密码系列11-数论不白学之椭圆曲线公钥密码算法/5.PNG" alt=""></p>
+<p>但并不是所有的整数点都满足我们的要求，我们还要对这些整数点进行筛选，下面给出Ep(a,b)集合的生成方法：</p>
+<p><img src="/img/密码系列11-数论不白学之椭圆曲线公钥密码算法/6.PNG" alt=""></p>
+<p>也就是说，在椭圆曲线密码算法中，我们只用到了上面所说的Ep(a,b)集合中的点，我们只对这些点进行相应的运算，比如我们上面介绍的加法运算。</p>
+<p>举个E23(1,1)的例子：</p>
+<p><img src="/img/密码系列11-数论不白学之椭圆曲线公钥密码算法/7.PNG" alt=""></p>
+<p>还记得我们上面在刚开始提到的椭圆曲线上的无穷远点O吗，我们来看加法运算加入无穷远点后会有什么变化：</p>
+<p><img src="/img/密码系列11-数论不白学之椭圆曲线公钥密码算法/8.PNG" alt=""></p>
+<p>举个最简单的计算例子：</p>
+<p><img src="/img/密码系列11-数论不白学之椭圆曲线公钥密码算法/9.PNG" alt=""><br><img src="/img/密码系列11-数论不白学之椭圆曲线公钥密码算法/10.PNG" alt=""></p>
+<p>既然我们上面详细介绍了椭圆曲线上的加法运算，那么下面密码算法中肯定是要用到的，为了下面的应用，我们再给两个定义：</p>
+<ol>
+<li>mP = P + P +…+ P (m个P)</li>
+<li>P是椭圆曲线E上的一个点，若存在最小的正整数n，使得nP = O，则称n是P的阶数。</li>
+</ol>
+<p>OK，有了这些前置姿势，我们已经有资格来揭开椭圆曲线公钥密码算法的真面目了。。。</p>
+<h1 id="0x02__u692D_u5706_u66F2_u7EBF_u5BC6_u7801_u6D41_u7A0B"><a href="#0x02__u692D_u5706_u66F2_u7EBF_u5BC6_u7801_u6D41_u7A0B" class="headerlink" title="0x02 椭圆曲线密码流程"></a>0x02 椭圆曲线密码流程</h1><h2 id="1-__u5BC6_u94A5_u751F_u6210"><a href="#1-__u5BC6_u94A5_u751F_u6210" class="headerlink" title="1. 密钥生成"></a>1. 密钥生成</h2><p><img src="/img/密码系列11-数论不白学之椭圆曲线公钥密码算法/11.PNG" alt=""></p>
+<h2 id="2-__u52A0_u5BC6_u8FD0_u7B97"><a href="#2-__u52A0_u5BC6_u8FD0_u7B97" class="headerlink" title="2. 加密运算"></a>2. 加密运算</h2><p><img src="/img/密码系列11-数论不白学之椭圆曲线公钥密码算法/12.PNG" alt=""></p>
+<h2 id="3-__u89E3_u5BC6_u8FD0_u7B97"><a href="#3-__u89E3_u5BC6_u8FD0_u7B97" class="headerlink" title="3. 解密运算"></a>3. 解密运算</h2><p><img src="/img/密码系列11-数论不白学之椭圆曲线公钥密码算法/13.PNG" alt=""></p>
+<p>又是例子。。。</p>
+<p><img src="/img/密码系列11-数论不白学之椭圆曲线公钥密码算法/14.PNG" alt=""></p>
+<p>看到例子是不是有点疑惑？欲发往A的消息嵌入到椭圆曲线上的点Pm=(562,201)是什么鬼？</p>
+<p>由于椭圆曲线密码算法是在集合Ep(a,b)上进行的运算，所以，我们想要用椭圆曲线对明文加密，我们首先要将明文转化为我们要使用的椭圆曲线上的点。</p>
+<p>还记得我们前面介绍的二次剩余吗？好像现在就它没用到了吧。什么叫不白学，学了就会用好吧。给出如下明文到椭圆曲线上的点的转化规则：</p>
+<p><img src="/img/密码系列11-数论不白学之椭圆曲线公钥密码算法/15.PNG" alt=""></p>
+<p>流程就是这么简单。</p>
+<h1 id="0x03__u692D_u5706_u66F2_u7EBF_u5BC6_u7801_u4F53_u5236_u4F18_u70B9"><a href="#0x03__u692D_u5706_u66F2_u7EBF_u5BC6_u7801_u4F53_u5236_u4F18_u70B9" class="headerlink" title="0x03 椭圆曲线密码体制优点"></a>0x03 椭圆曲线密码体制优点</h1><p>首先来谈谈椭圆曲线密码的安全性，前面也说过了安全性基于离散对数问题。具体描述为：在椭圆曲线群Ep(a,b)上考虑方程Q=kP，其中P，Q∈Ep(a,b)，k&lt;p，则由k和P易求Q，但由P、Q求k则是困难的。<br>这就是椭圆曲线上的离散对数问题，可应用于公钥密码体制.</p>
+<p>优点都是对比出来的，这里的对比对象是基于有限域上离散对数问题的公钥体制。与基于有限域上离散对数问题的公钥体制相比，椭圆曲线密码体制有如下优点:</p>
+<ol>
+<li>安全性高：<img src="/img/密码系列11-数论不白学之椭圆曲线公钥密码算法/16.PNG" alt=""></li>
+<li>密钥量小：<img src="/img/密码系列11-数论不白学之椭圆曲线公钥密码算法/17.PNG" alt=""></li>
+</ol>
+<p>计算量小、处理速度快，这里的处理速度快是指在私钥的处理速度上(解密和签名)，ECC远比RSA快得多，但是公钥加密速度椭圆曲线更慢。</p>
+<ol>
+<li>灵活性好：p一定的情况下，其上的集合是确定的. 而椭圆曲线Ep(a,b)可以通过改变曲线参数，得到不同的曲线，具有丰富的多选择性.</li>
+</ol>
+<h1 id="0x04__u516C_u94A5_u5BC6_u7801_u4E0E_u5BF9_u79F0_u5BC6_u7801_u6BD4_u8F83_u4E4B_u5404_u6709_u5343_u79CB"><a href="#0x04__u516C_u94A5_u5BC6_u7801_u4E0E_u5BF9_u79F0_u5BC6_u7801_u6BD4_u8F83_u4E4B_u5404_u6709_u5343_u79CB" class="headerlink" title="0x04 公钥密码与对称密码比较之各有千秋"></a>0x04 公钥密码与对称密码比较之各有千秋</h1><ol>
+<li>公钥密码体制产生密钥很麻烦，比如RSA受到素数产生技术的限制</li>
+<li>公钥密码体制速度慢，较对称密码算法慢几个数量级</li>
+<li>对称密码算法，密钥短，速度快</li>
+<li>公钥密码算法，密钥长，速度慢</li>
+<li>对称密码算法用于大量明文加密</li>
+<li>公钥密码算法用于少量数据加密，如DES密钥的加密</li>
+</ol>
+<p>两者各有用处，我们要发挥他们各自的优势来为我们服务：<br><img src="/img/密码系列11-数论不白学之椭圆曲线公钥密码算法/18.PNG" alt=""></p>
+<hr>
+<p>公钥密码体制到这就告一段落了，本来想再补充一下基于身份的密码体制的，但自己也没理解透，所以就不误导大家了，这里留两个链接日后看吧-<a href="https://www.zhihu.com/question/26533817/answer/33165735" target="_blank" rel="external">[1]</a>、<a href="http://wenku.baidu.com/link?url=xhCcnLatLhZSMGFLTUHlPUHvLTfYfME9gesW-7VA4CeW0izeCPW5e_qHi8LX9x2mPPX_t_PzlFbyMkGlQDYZyDEY3O6C1yeDpf3t-pocYKG" target="_blank" rel="external">[2]</a></p>
+<p>就这样，下面进入消息认证机制，主要是介绍一些杂凑函数。。。</p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<h1 id="0x00__u53E3_u80E1_u80CC_u666F"><a href="#0x00__u53E3_u80E1_u80CC_u666F" class="headerlink" title="0x00 口胡背景"></a>0x00 口胡背景</h1><p>Ne]]>
+    </summary>
+    
+      <category term="密码学" scheme="http://yoursite.com/tags/%E5%AF%86%E7%A0%81%E5%AD%A6/"/>
+    
+      <category term="cryptography" scheme="http://yoursite.com/categories/cryptography/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[密码系列10-数论不白学之ElGamal公钥密码算法]]></title>
+    <link href="http://yoursite.com/2016/01/07/%E5%AF%86%E7%A0%81%E7%B3%BB%E5%88%9710-%E6%95%B0%E8%AE%BA%E4%B8%8D%E7%99%BD%E5%AD%A6%E4%B9%8BElGamal%E5%85%AC%E9%92%A5%E5%AF%86%E7%A0%81%E7%AE%97%E6%B3%95/"/>
+    <id>http://yoursite.com/2016/01/07/密码系列10-数论不白学之ElGamal公钥密码算法/</id>
+    <published>2016-01-07T14:47:11.000Z</published>
+    <updated>2016-01-10T15:38:59.595Z</updated>
+    <content type="html"><![CDATA[<h1 id="0x00__u53E3_u80E1"><a href="#0x00__u53E3_u80E1" class="headerlink" title="0x00 口胡"></a>0x00 口胡</h1><p>前面我们对公钥密码体制进行了一个总体的介绍，然后对公钥密码的一个典型代表-RSA进行了详细介绍，知道了为什么好多从事密码事业的人并不是计算机相关专业科班出身，而是数学专业科班出身。反正你数学不好，你想在密码上有所造诣，不是说没可能，我只能说难，好吧(语气词)。</p>
+<p>RSA的安全性来自于求一对大素数的乘积很容易，但要对这个乘积进行因式分解则非常困难，也就是所谓的大整数分解问题。</p>
+<p>而我们今天的主角ElGamal公钥密码算法，它的安全性来源于另一个数学难题-离散对数难题，即已知g为Zp*(乘法群)的生成元(对于乘法群的生成元的概念，给两个链接-<a href="http://www.zhihu.com/question/23353412" target="_blank" rel="external">1</a>、<a href="http://zhidao.baidu.com/link?url=bGc3UiaExw2yYeMHPGjQxOAkk-O6G9BqevgOiStiw1WSWql5l9vVis1iZ_Hd_akv3K7f78L8VcAd9ZDxVc9BYfbsVAPcMhafIlabO_faosK" target="_blank" rel="external">2</a>)，y∈ Zp ，求x使得y=g^x mod p，这个x在现阶段是不可求的，这就是ElGamal公钥密码算法安全性的来源，如果求离散对数问题是容易的，则获得y能够解出x，则这类算法完全破译</p>
+<h1 id="0x01_ElGamal_u7B97_u6CD5_u6D41_u7A0B"><a href="#0x01_ElGamal_u7B97_u6CD5_u6D41_u7A0B" class="headerlink" title="0x01 ElGamal算法流程"></a>0x01 ElGamal算法流程</h1><h2 id="1-__u5BC6_u94A5_u4EA7_u751F_u8FC7_u7A0B"><a href="#1-__u5BC6_u94A5_u4EA7_u751F_u8FC7_u7A0B" class="headerlink" title="1. 密钥产生过程"></a>1. 密钥产生过程</h2><p>首先选择一大素数p, 原根g和小于p的随机数x，计算y≡g^x mod p，以(y, g, p)作为公开密钥，x作为秘密密钥.<br>这里说明一下，g是模p的原根，原根的概念，数论姿势那有讲，再补充一点，原根是乘法群的一个生成元，所以说ElGamal公钥密码算法中生成元一般取原根</p>
+<h2 id="2-__u52A0_u5BC6_u8FC7_u7A0B"><a href="#2-__u52A0_u5BC6_u8FC7_u7A0B" class="headerlink" title="2. 加密过程"></a>2. 加密过程</h2><p>设欲加密明文消息为M(如果M长度超过p则进行分组) . 随机选与p-1互素的整数k，1&lt; k&lt;p-1<br>计算密文对: C = {C1,C2}, 发送给接收者.C1≡g^k mod p,   C2≡(y^k) x M mod p.</p>
+<h2 id="3-__u89E3_u5BC6_u8FC7_u7A0B"><a href="#3-__u89E3_u5BC6_u8FC7_u7A0B" class="headerlink" title="3. 解密过程"></a>3. 解密过程</h2><p>直接po图：<br><img src="/img/密码系列10-数论不白学之ElGamal公钥密码算法/0.PNG" alt=""></p>
+<p>这里对图中说的k 需要永久保密，且不能重复使用进行说明：</p>
+<ol>
+<li>攻击者若已知k，可以计算y^k,然后用C2/y^k就得到明文；</li>
+<li>若是k重复使用，则C2/C2’=M/M’,知道其中的一个明文，另一个可求。</li>
+</ol>
+<p>下面我们举一个比较贴近现实(就是数字很大)的例子:<br><img src="/img/密码系列10-数论不白学之ElGamal公钥密码算法/1.PNG" alt=""><br><img src="/img/密码系列10-数论不白学之ElGamal公钥密码算法/2.PNG" alt=""><br><img src="/img/密码系列10-数论不白学之ElGamal公钥密码算法/3.PNG" alt=""></p>
+<p>这可以算是ElGamal公钥密码算法的具体应用了，下面我们再以一个数字较小的例子来直观的感受下，里面的运算涉及到幂运算，求逆元，这些都是前面介绍过的。</p>
+<p><img src="/img/密码系列10-数论不白学之ElGamal公钥密码算法/4.PNG" alt=""><br><img src="/img/密码系列10-数论不白学之ElGamal公钥密码算法/5.PNG" alt=""></p>
+<h1 id="0x02_ElGamal_u4E0ERSA_u7684_u5BF9_u6BD4"><a href="#0x02_ElGamal_u4E0ERSA_u7684_u5BF9_u6BD4" class="headerlink" title="0x02 ElGamal与RSA的对比"></a>0x02 ElGamal与RSA的对比</h1><p>到这，ElGamal公钥密码算法就算介绍完了，最后po张ElGamal与RSA的对比图：</p>
+<p><img src="/img/密码系列10-数论不白学之ElGamal公钥密码算法/6.PNG" alt=""></p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<h1 id="0x00__u53E3_u80E1"><a href="#0x00__u53E3_u80E1" class="headerlink" title="0x00 口胡"></a>0x00 口胡</h1><p>前面我们对公钥密码体制进行了一个总体的介绍，然后对公钥密码的]]>
+    </summary>
+    
+      <category term="密码学" scheme="http://yoursite.com/tags/%E5%AF%86%E7%A0%81%E5%AD%A6/"/>
+    
+      <category term="cryptography" scheme="http://yoursite.com/categories/cryptography/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[密码系列9-数论不白学之RSA]]></title>
+    <link href="http://yoursite.com/2016/01/07/%E5%AF%86%E7%A0%81%E7%B3%BB%E5%88%979-%E6%95%B0%E8%AE%BA%E4%B8%8D%E7%99%BD%E5%AD%A6%E4%B9%8BRSA/"/>
+    <id>http://yoursite.com/2016/01/07/密码系列9-数论不白学之RSA/</id>
+    <published>2016-01-07T08:12:31.000Z</published>
+    <updated>2016-01-07T14:14:46.447Z</updated>
+    <content type="html"><![CDATA[<h1 id="0x00_RSA_u7B97_u6CD5_u63CF_u8FF0"><a href="#0x00_RSA_u7B97_u6CD5_u63CF_u8FF0" class="headerlink" title="0x00 RSA算法描述"></a>0x00 RSA算法描述</h1><p>RSA算法是1978年由R.Rivest, A.Shamir和L.Adleman提出的一种用数论构造的、也是迄今为止理论上最为成熟完善的公钥密码体制，该体制已得到广泛的应用。</p>
+<h2 id="1-__u5BC6_u94A5_u7684_u4EA7_u751F"><a href="#1-__u5BC6_u94A5_u7684_u4EA7_u751F" class="headerlink" title="1. 密钥的产生"></a>1. 密钥的产生</h2><p><img src="/img/密码系列9-数论不白学之RSA/0.PNG" alt=""></p>
+<p>让我们结合前面介绍的数论姿势来解释下每一步具体应该如何实现。</p>
+<p><strong>1. 选两个保密的大素数p 和q</strong><br>这一步的实现需要用到我们前面讲的素性检测的姿势</p>
+<p><img src="/img/密码系列7-公钥密码之从RSA看数论/28.PNG" alt=""></p>
+<p>素性检测算法采用Miller-Rabin素性检测算法，这一步我们已经可以实现，看下一步</p>
+<p><strong>2. 计算n = p× q,φ( n) = ( p - 1 ) ( q - 1) , 其中φ( n) 是n 的欧拉函数值。</strong></p>
+<p>这一步没什么好说的，上一步p,q都产生了，n自然就生成了，欧拉函数值也就产生了。这里由于p和q是素数，所以n的欧拉函数值是(p-1)(q-1)，关于欧拉函数值的具体如何计算，前面也介绍过。看下一步</p>
+<p><strong>3. 选一整数e, 满足1 &lt; e&lt; φ( n) , 且gcd(φ( n) , e) = 1</strong></p>
+<p>对于整数e的选取，一般取较小的素数，比如3啊，5啊之类的，对于是否满足最大公约数为1的验证，我们前面也介绍了可以用辗转相除法求最大公约数，如果经验证当前选中的e与n的欧拉函数值不互素的话，再换一个e，知道选中合适的e即可，这一步也不难。看下一步</p>
+<p><strong>4.计算d, 满足d· e≡1 mod φ( n) , 即d 是e 在模φ( n)下的乘法逆元, 因e 与φ( n)互素, 由模运算可知, 它的乘法逆元一定存在。</strong></p>
+<p>对于d的计算，即乘法逆元的计算问题，前面提到过用逆推辗转相除法来实现求逆元。也不难，看下一步</p>
+<p><strong>5.以{ e, n} 为公开钥, { d , n}为秘密钥。</strong></p>
+<p>这一步更没什么说的了。。。</p>
+<hr>
+<p>到这，我们已经实现了生成RSA算法的公开钥和秘密钥，接下来就可以用这两个钥匙了。可以看出，有了前面的数论基础，RSA的每一步实现都是挺简单的，接下来，我们看一些RSA其他的东西。</p>
+<h2 id="2-__u52A0_u5BC6"><a href="#2-__u52A0_u5BC6" class="headerlink" title="2. 加密"></a>2. 加密</h2><p>加密时首先将明文比特串分组, 使得每个分组对应的十进制数小于n, 即分组长度小于log2 n，因为需要进行模n运算嘛，当然不能超过n了，要不然就会加密不完全，我也不知道该怎么描述，反正就是仔细一想的话，如果超过n的话，超过n的那一部分可以说在一开始就是多余的，模n的话跟直接舍去没什么两样。然后对每个明文分组m, 作加密运算:c≡m^e mod n</p>
+<h2 id="3-__u89E3_u5BC6"><a href="#3-__u89E3_u5BC6" class="headerlink" title="3. 解密"></a>3. 解密</h2><p>对密文分组的解密运算为： m≡c^d mod n</p>
+<p>我们举个例子来看下RSA的具体运用以及计算过程：</p>
+<p><img src="/img/密码系列9-数论不白学之RSA/2.PNG" alt=""></p>
+<h1 id="0x01_RSA__u7B97_u6CD5_u4E2D_u89E3_u5BC6_u8FC7_u7A0B_u7684_u6B63_u786E_u6027"><a href="#0x01_RSA__u7B97_u6CD5_u4E2D_u89E3_u5BC6_u8FC7_u7A0B_u7684_u6B63_u786E_u6027" class="headerlink" title="0x01 RSA 算法中解密过程的正确性"></a>0x01 RSA 算法中解密过程的正确性</h1><p>排版麻烦，直接截图了</p>
+<p><img src="/img/密码系列9-数论不白学之RSA/1.PNG" alt=""></p>
+<h1 id="0x02_RSA_u7B97_u6CD5_u4E2D_u7684_u8BA1_u7B97_u95EE_u9898"><a href="#0x02_RSA_u7B97_u6CD5_u4E2D_u7684_u8BA1_u7B97_u95EE_u9898" class="headerlink" title="0x02 RSA算法中的计算问题"></a>0x02 RSA算法中的计算问题</h1><p>通过上面的介绍，我们对于RSA的整体流程已经没有问题了，下面我们来讨论下在RSA中如何优化一些比较复杂的计算步骤。</p>
+<h2 id="1-_RSA_u7684_u52A0_u5BC6_u4E0E_u89E3_u5BC6_u8FC7_u7A0B"><a href="#1-_RSA_u7684_u52A0_u5BC6_u4E0E_u89E3_u5BC6_u8FC7_u7A0B" class="headerlink" title="1. RSA的加密与解密过程"></a>1. RSA的加密与解密过程</h2><p>RSA 的加密、解密过程都为求一个整数的整数次幂, 再取模。如果按其含义直接计算, 则中间结果非常大, 有可能超出计算机所允许的整数取值范围。如上例中解密运算6677 mod 119 , 先求6677 再取模, 则中间结果就已远远超出了计算机允许的整数取值范围。这时我们就要采取策略了。</p>
+<p><strong>策略1 提高指数运算的有效性 </strong><br>例如求x^16 , 直接计算的话需做15 次乘法。然而如果重复对每个部分结果做平方运算即求x, x^2 ,x^4 , x^8 , x^16 则只需4 次乘法。我们这里将指数用二进制形式表示可以提高指数运算的有效性。</p>
+<p><img src="/img/密码系列9-数论不白学之RSA/3.PNG" alt=""></p>
+<p>将指数运算化为这种形式后，此时并没有什么卵用，别急，要结合策略2</p>
+<p><strong> 策略2 模运算的性质 </strong><br>运用模运算性质：( a× b) mod n = [ ( a mod n) × ( b mod n) ] mod n来简化运算。我们运用策略1将指数运算化为上述形式后，结合策略2，那么我们最多只需计算2次幂就可以得到最终结果。举个例子：</p>
+<p><img src="/img/密码系列9-数论不白学之RSA/4.PNG" alt=""><br><img src="/img/密码系列9-数论不白学之RSA/5.PNG" alt=""></p>
+<p>简化指数运算对应的代码为：<br><figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">c= <span class="number">0</span> ; d = <span class="number">1</span>;</span><br><span class="line"><span class="keyword">for</span> i = k downto <span class="number">0</span> d0 &#123;</span><br><span class="line">c= <span class="number">2</span>× c;</span><br><span class="line">d= ( d× d) mod n;</span><br><span class="line"><span class="keyword">if</span> bi = <span class="number">1</span> then &#123;</span><br><span class="line">c= c+ <span class="number">1</span> ;</span><br><span class="line">d = ( d× a) mod n</span><br><span class="line">&#125;</span><br><span class="line">&#125;</span><br><span class="line"><span class="keyword">return</span> d</span><br></pre></td></tr></table></figure></p>
+<p>其中d 是中间结果, d 的终值即为所求结果。c 在这里的作用是表示指数的部分结果, 在这里起到便于理解的目的，其终值即为指数m, c 对计算结果无任何贡献, 算法中完全可将之去掉。</p>
+<h2 id="2-_RSA_u5BC6_u94A5_u7684_u4EA7_u751F"><a href="#2-_RSA_u5BC6_u94A5_u7684_u4EA7_u751F" class="headerlink" title="2. RSA密钥的产生"></a>2. RSA密钥的产生</h2><p>这个问题我们在上面讨论流程的时候已经说过了，下面说的详细点。<br>产生密钥时, 需要考虑两个大素数p、q 的选取, 以及e 的选取和d 的计算。因为n = pq 在体制中是公开的, 因此为了防止敌手通过穷搜索发现p、q, 这两个素数应是在一个足够大的整数集合中选取的大数。如果选取p 和q 为1010 0 左右的大素数, 那么n 的阶为1020 0 , 每个明文分组可以含有664 位( 1020 0 ≈2664 ) , 即83 个8 比特字节, 这比DES 的数据分组(8 个8 比特字节) 大得多, 这时就能看出RSA 算法的优越性了。因此如何有效地寻找大素数是第一个需要解决的问题。寻找大素数时一般是先随机选取一个大的奇数(例如用伪随机数产生器) , 然后用素性检验算法检验这一奇数是否为素数, 如果不是则选取另一大奇数, 重复这一过程, 直到找到素数为止。素性检验算法通常都是概率性的, 但如果算法被多次重复执行, 每次执行时输入不同的参数, 算法的检验结果都认为被检验的数是素数, 那么就可以比较有把握地认为被检验的数是素数。例如Miller-Rabin 算法。可见寻找大素数是一个比较繁琐的工作。然而在RSA 体制中, 只有在产生新密钥时才需执行这一工作。p 和q 决定出后, 下一个需要解决的问题是如何选取满足1 &lt; e&lt; φ( n) 和gcd (φ( n) ,e) = 1 的e, 并计算满足d· e≡1 mod φ( n)的d。这一问题可由推广Euclid 算法完成。</p>
+<h1 id="0x03_RSA_u7684_u5B89_u5168_u6027"><a href="#0x03_RSA_u7684_u5B89_u5168_u6027" class="headerlink" title="0x03 RSA的安全性"></a>0x03 RSA的安全性</h1><p>RSA 的安全性是基于分解大整数的困难性假定, 之所以为假定是因为至今还未能证明分解大整数就是NP问题(NP问题自行google), 也许有尚未发现的多项式时间分解算法。如果RSA 的模数n 被成功地分解为p×q, 则立即获得φ( n) = ( p - 1) ( q - 1 ) ,从而能够确定e 模φ( n) 的乘法逆元d, 即d≡ e^(-1) mod φ( n) , 因此攻击成功。</p>
+<p>随着人类计算能力的不断提高, 原来被认为是不可能分解的大数已被成功分解。例如RSA-129 (即n 为129 位十进制数, 大约428 个比特)已在网络上通过分布式计算历时8 个月于1994 年4 月被成功分解, RSA-130 已于1996 年4 月被成功分解。</p>
+<p>对于大整数的威胁除了人类的计算能力外, 还来自分解算法的进一步改进。分解算法过去都采用二次筛法, 如对RSA-129 的分解。而对RSA-130 的分解则采用了一个新算法, 称为推广的数域筛法, 该算法在分解RSA-130 时所做的计算仅比分解RSA-129 多10%。将来也可能还有更好的分解算法, 因此在使用RSA 算法时对其密钥的选取要特别注意其大小。估计在未来一段比较长的时期, 密钥长度介于1024 比特至2048 比特之间的RSA 是安全的。</p>
+<p>是否有不通过分解大整数的其他攻击途径? 下面证明由n 直接确定φ( n)等价于对n的分解。</p>
+<p><img src="/img/密码系列9-数论不白学之RSA/6.PNG" alt=""></p>
+<p>所以，n 直接确定φ( n)等价于对n的分解。但是，从上面的证明过程我们发现了新的问题。为保证算法的安全性, 对p 和q 提出以下要求:</p>
+<ol>
+<li>| p - q| 要大</li>
+</ol>
+<p><img src="/img/密码系列9-数论不白学之RSA/7.PNG" alt=""></p>
+<ol>
+<li>p - 1 和q - 1 都应有大素因子</li>
+</ol>
+<p><img src="/img/密码系列9-数论不白学之RSA/8.PNG" alt=""><br><img src="/img/密码系列9-数论不白学之RSA/9.PNG" alt=""></p>
+<p>上图已经说明了要避免这种重复加密攻击，须使t大，但这跟 p - 1 和q - 1 都应有大素因子有卵关系，别急，下面证明二者的等价性：</p>
+<p><img src="/img/密码系列9-数论不白学之RSA/10.PNG" alt=""></p>
+<h1 id="0x04__u4E00_u5B9A_u6761_u4EF6_u4E0B_u5BF9RSA_u7B97_u6CD5_u7684_u653B_u51FB"><a href="#0x04__u4E00_u5B9A_u6761_u4EF6_u4E0B_u5BF9RSA_u7B97_u6CD5_u7684_u653B_u51FB" class="headerlink" title="0x04 一定条件下对RSA算法的攻击"></a>0x04 一定条件下对RSA算法的攻击</h1><h2 id="1-__u5171_u6A21_u653B_u51FB"><a href="#1-__u5171_u6A21_u653B_u51FB" class="headerlink" title="1. 共模攻击"></a>1. 共模攻击</h2><p>在实现RSA时，为方便起见，可能给每一用户相同的模数n，虽然加解密密钥不同，然而这样做是不行的。<br>攻击手段：</p>
+<p><img src="/img/密码系列9-数论不白学之RSA/11.PNG" alt=""></p>
+<h2 id="2-__u4F4E_u6307_u6570_u653B_u51FB"><a href="#2-__u4F4E_u6307_u6570_u653B_u51FB" class="headerlink" title="2. 低指数攻击"></a>2. 低指数攻击</h2><p><img src="/img/密码系列9-数论不白学之RSA/12.PNG" alt=""></p>
+<h1 id="0x05_RSA_u7B97_u6CD5_u7684_u586B_u5145"><a href="#0x05_RSA_u7B97_u6CD5_u7684_u586B_u5145" class="headerlink" title="0x05 RSA算法的填充"></a>0x05 RSA算法的填充</h1><p>PKCS#1 v2.1或IEEE P1363都推荐使用e=3,因为这样加密速度很</p>
+<p>PKCS#1模式中，如果密钥长度为1024位，那么输出的密文块长度为128个字节，输入的明文块长度最大是117个字节，如果输入的明文块小于117位。EM = 0x00 || 0x02 || PS || 0x00 || M<br>PS为随机数保证了同一M不同次加密不一样, PS长度为128- 3 - Len(M)</p>
+<p>OS2IP 则是将一八位串转换为一非负整数,它的描述如下(RFC3447):<br>x = x<em>(xLen-1) 256^(xLen-1) + x</em>(xLen-2)256^(xLen-2) + …+ x_1 256 + x_0</p>
+<p>RSA就到这。。。</p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<h1 id="0x00_RSA_u7B97_u6CD5_u63CF_u8FF0"><a href="#0x00_RSA_u7B97_u6CD5_u63CF_u8FF0" class="headerlink" title="0x00 RSA算法描述"></a>0x00 RSA算法]]>
+    </summary>
+    
+      <category term="密码学" scheme="http://yoursite.com/tags/%E5%AF%86%E7%A0%81%E5%AD%A6/"/>
+    
+      <category term="cryptography" scheme="http://yoursite.com/categories/cryptography/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[密码系列8-简短过渡之口胡公钥密码体制]]></title>
+    <link href="http://yoursite.com/2016/01/06/%E5%AF%86%E7%A0%81%E7%B3%BB%E5%88%978-%E7%AE%80%E7%9F%AD%E8%BF%87%E6%B8%A1%E4%B9%8B%E5%8F%A3%E8%83%A1%E5%85%AC%E9%92%A5%E5%AF%86%E7%A0%81%E4%BD%93%E5%88%B6/"/>
+    <id>http://yoursite.com/2016/01/06/密码系列8-简短过渡之口胡公钥密码体制/</id>
+    <published>2016-01-06T13:35:08.000Z</published>
+    <updated>2016-01-07T08:11:18.046Z</updated>
+    <content type="html"><![CDATA[<h1 id="0x00__u516C_u94A5_u5BC6_u7801_u4F53_u5236_u6982_u5FF5"><a href="#0x00__u516C_u94A5_u5BC6_u7801_u4F53_u5236_u6982_u5FF5" class="headerlink" title="0x00 公钥密码体制概念"></a>0x00 公钥密码体制概念</h1><p>在公钥密码体制以前的整个密码学史中, 所有的密码算法, 包括原始手工计算的、由机械设备实现的以及由计算机实现的, 都是基于代换和置换这两个基本工具。而公钥密码体制则为密码学的发展提供了新的理论和技术基础, 一方面公钥密码算法的基本工具不再是代换和置换, 而是数学函数;另一方面公钥密码算法是以非对称的形式使用两个密钥, 两个密钥的使用对保密性、密钥分配、认证等都有着深刻的意义。可以说公钥密码体制的出现在密码学史上是迄今为止最大的而且是惟一真正的革命。公钥密码体制的概念是在解决单钥密码体制中最难解决的两个问题时提出的, 这两个问题是密钥分配和数字签字。单钥密码体制在进行密钥分配时, 要求通信双方或者已经有一个共享的密钥, 或者可借助于一个密钥分配中心。对第1 个要求, 常常可用人工方式传送双方最初共享的密钥, 这种方法成本很高, 而且还完全依赖于信使的可靠性。第2 个要求则完全依赖于密钥分配中心的可靠性。第2 个问题数字签字考虑的是如何为数字化的消息或文件提供一种类似于为书面文件手书签字的方法。1976 年W .Diffie 和M .Hellman 对解决上述两个问题有了突破, 从而提出了公钥密码体制。</p>
+<h1 id="0x01__u516C_u94A5_u5BC6_u7801_u4F53_u5236_u7684_u539F_u7406"><a href="#0x01__u516C_u94A5_u5BC6_u7801_u4F53_u5236_u7684_u539F_u7406" class="headerlink" title="0x01 公钥密码体制的原理"></a>0x01 公钥密码体制的原理</h1><p>公钥密码算法的最大特点是采用两个相关密钥将加密和解密能力分开, 其中一个密钥是公开的, 称为公开密钥, 简称公开钥, 用于加密; 另一个密钥是为用户专用, 因而是保密的, 称为秘密密钥, 简称秘密钥, 用于解密。因此公钥密码体制也称为双钥密码体制。算法有以下重要特性: 已知密码算法和加密密钥, 求解密密钥在计算上是不可行的。</p>
+<p>下图是公钥体制加密的框图</p>
+<p><img src="/img/密码系列8-简短过渡之口胡公钥密码体制/0.PNG" alt=""></p>
+<p>加密过程有以下几步:</p>
+<ol>
+<li>要求接收消息的端系统, 产生一对用来加密和解密的密钥, 如图中的接收者B, 产生一对密钥PKB , SKB , 其中PKB 是公开钥, SKB 是秘密钥。</li>
+<li>端系统B 将加密密钥( 如图中的PKB ) 予以公开。另一密钥则被保密( 图中的SKB )。</li>
+<li>A要想向B发送消息m，则使用B的公开钥加密m，表示为c=EPKB[m],其中c是密文，E是加密算法。<br>4.B收到密文c后，用自己的秘密钥SKB解密，表示为m=DSKB[c]，其中D是解密算法。<br>因为只有B 知道SKB , 所以其他人都无法对c 解密。</li>
+</ol>
+<p>公钥加密算法不仅能用于加、解密, 还能用于对发方A 发送的消息m 提供认证, 如下图：</p>
+<p><img src="/img/密码系列8-简短过渡之口胡公钥密码体制/1.PNG" alt=""></p>
+<ol>
+<li>用户A用自己的秘密钥SKA对m加密，表示为c=ESKA[m]，将c发往B。</li>
+<li>B用A的公开钥PKA对c解密m=DPKA[c]因为从m得到c是经过A的秘密钥SKA加密，只有A才能做到。因此c可当做A对m的数字签字。另一方面，任何人只要得不到A的秘密钥SKA就不能篡改m，所以获得了对消息来源和消息完整性的认证。</li>
+</ol>
+<p>在实际应用中, 特别是用户数目很多时, 以上认证方法需要很大的存储空间, 因为每个文件都必须以明文形式存储以方便实际使用, 同时还必须存储每个文件被加密后的密文形式即数字签字, 以便在有争议时用来认证文件的来源和内容。改进的方法是减小文件的数字签字的大小, 即先将文件经过一个函数压缩成长度较小的比特串, 得到的比特串称为认证符。认证符具有这样一个性质: 如果保持认证符的值不变而修改文件这在计算上是不可行的。用发送者的秘密钥对认证符加密, 加密后的结果为原文件的数字签字。</p>
+<p>就是现在说的数字签名技术，数字签名技术是将摘要信息用发送者的私钥加密，与原文一起传送给接收者。接收者只有用发送者的公钥才能解密被加密的摘要信息，然后用HASH函数对收到的原文产生一个摘要信息，与解密的摘要信息对比。如果相同，则说明收到的信息是完整的，在传输过程中没有被修改，否则说明信息被修改过，因此数字签名能够验证信息的完整性。数字签名是个加密的过程，数字签名验证是个解密的过程。这样说应该很清楚了</p>
+<p>口胡一下，就是比如A给B一份文件，这个文件B拿到的就是这个文件的明文，而非文件的加密，现在的问题是B并不知道这个文件是不是A给他的，也可能有人假传圣旨，这时B不必慌张，因为随着该文件一块到的还有该文件的数字签名，数字签名的产生是该文件经过一个hash函数产生一个能够代表该文件的文件摘要，然后A用它的私钥对该摘要进行加密后生成的，相当于A用自己的私钥在这份文件上盖了个戳，说这是我A发的，那么B如何验证呢？B会用A公布的公钥对这个数字签名进行解密，然后B会用同样的hash对该文件生成文件摘要，然后比对该文件摘要与解密的文件摘要是否一致，一致则说明该文件确实来源于A，这个过程其实也保证了文件数据的完整性，因为一旦有人篡改文件，那么该文件的文件摘要就会改变，那么在B处生成的文件摘要就无法与解密数字签名后的文件摘要进行匹配，这时B就会知道该文件出了问题，然后采取相应的措施。</p>
+<p>以上认证过程中, 由于消息是由用户自己的秘密钥加密的, 所以消息不能被他人篡改, 但却能被他人窃听。这是因为任何人都能用用户的公开钥对消息解密得到明文信息。为了同时提供认证功能和保密性, 可使用双重加、解密。如下图所示：</p>
+<p><img src="/img/密码系列8-简短过渡之口胡公钥密码体制/2.PNG" alt=""></p>
+<p>发方首先用自己的秘密钥SKA对消息m加密，用于提供数字签字。再用收方的公开钥PKB第2次加密，表示为c=EPKB[ESKA[m]]<br>解密过程为m=DPKA[DSKB[c]]，即收方先用自己的秘密钥,再用发方的公开钥对收到的密文两次解密。</p>
+<h1 id="0x02__u516C_u94A5_u5BC6_u7801_u7B97_u6CD5_u5E94_u6EE1_u8DB3_u7684_u8981_u6C42"><a href="#0x02__u516C_u94A5_u5BC6_u7801_u7B97_u6CD5_u5E94_u6EE1_u8DB3_u7684_u8981_u6C42" class="headerlink" title="0x02 公钥密码算法应满足的要求"></a>0x02 公钥密码算法应满足的要求</h1><ol>
+<li>接收方B产生密钥对（公开钥PKB和秘密钥SKB）在计算上是容易的。</li>
+<li>发方A用收方的公开钥对消息m加密以产生密文c，即c=EPKB[m]在计算上是容易的。</li>
+<li>收方B用自己的秘密钥对c解密，即m=DSKB[c]在计算上是容易的。</li>
+<li>敌手由B的公开钥PKB求秘密钥SKB在计算上是不可行的。</li>
+<li>敌手由密文c和B的公开钥PKB恢复明文m在计算上是不可行的。</li>
+<li>加、解密次序可换，即EPKB[DSKB(m)]=DSKB[EPKB(m)]<br>(其中最后一条虽然非常有用，但不是对所有的算法都作要求。)</li>
+</ol>
+<p>以上要求的本质之处在于要求一个陷门单向函数。单向函数是两个集合X、Y 之间的一个映射, 使得Y 中每一元素y 都有惟一的一个原像x∈ X, 且由x 易于计算它的像y ,由y 计算它的原像x 是不可行的。这里所说的易于计算是指函数值能在其输入长度的多项式时间内求出, 即如果输入长n 比特, 则求函数值的计算时间是na 的某个倍数, 其中a 是一固定的常数。这时称求函数值的算法属于多项式类P , 否则就是不可行的。例如,函数的输入是n 比特, 如果求函数值所用的时间是2n 的某个倍数, 则认为求函数值是不可行的。注意这里的易于计算和不可行两个概念与计算复杂性理论中复杂度的概念极为相似, 然而又存在着本质的区别。在复杂性理论中, 算法的复杂度是以算法在最坏情况或平均情况时的复杂度来度量的。而在此所说的两个概念是指算法在几乎所有情况下的情形。称一个函数是陷门单向函数, 是指该函数是易于计算的, 但求它的逆是不可行的, 除非再已知某些附加信息。当附加信息给定后, 求逆可在多项式时间完成。总结为: 陷门单向函数是一族可逆函数f k , 满足：</p>
+<ol>
+<li>k和X已知时，Y=fk(X)易于计算。</li>
+<li>k和Y已知时，X=f-1k(Y)易于计算。</li>
+<li>Y已知但k未知，X=f-1k(Y)计算上是不可行的。</li>
+</ol>
+<p>因此, 研究公钥密码算法就是要找出合适的陷门单向函数。</p>
+<h1 id="0x03__u5BF9_u516C_u94A5_u5BC6_u7801_u4F53_u5236_u7684_u653B_u51FB"><a href="#0x03__u5BF9_u516C_u94A5_u5BC6_u7801_u4F53_u5236_u7684_u653B_u51FB" class="headerlink" title="0x03 对公钥密码体制的攻击"></a>0x03 对公钥密码体制的攻击</h1><p>和单钥密码体制一样, 如果密钥太短, 公钥密码体制也易受到穷搜索攻击。因此密钥必须足够长才能抗击穷搜索攻击。然而又由于公钥密码体制所使用的可逆函数的计算复杂性与密钥长度常常不是呈线性关系, 而是增大得更快。所以密钥长度太大又会使得加解密运算太慢而不实用。因此公钥密码体制目前主要用于密钥管理和数字签字。</p>
+<p>对公钥密码算法的第2 种攻击法是寻找从公开钥计算秘密钥的方法。目前为止, 对常用公钥算法还都未能够证明这种攻击是不可行的。</p>
+<p>还有一种仅适用于对公钥密码算法的攻击法, 称为可能字攻击。例如对56 比特的DES 密钥用公钥密码算法加密后发送, 敌手用算法的公开钥对所有可能的密钥加密后与截获的密文相比较。如果一样, 则相应的明文即DES 密钥就被找出。因此不管公钥算法的密钥多长, 这种攻击的本质是对56 比特DES 密钥的穷搜索攻击。抵抗方法是在欲发送的明文消息后添加一些随机比特。</p>
+<p>由于是简短的过渡blog，所以就口胡到这。。。</p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<h1 id="0x00__u516C_u94A5_u5BC6_u7801_u4F53_u5236_u6982_u5FF5"><a href="#0x00__u516C_u94A5_u5BC6_u7801_u4F53_u5236_u6982_u5FF5" class="heade]]>
+    </summary>
+    
+      <category term="密码学" scheme="http://yoursite.com/tags/%E5%AF%86%E7%A0%81%E5%AD%A6/"/>
+    
+      <category term="cryptography" scheme="http://yoursite.com/categories/cryptography/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[密码系列7-公钥密码之从RSA看数论]]></title>
+    <link href="http://yoursite.com/2016/01/04/%E5%AF%86%E7%A0%81%E7%B3%BB%E5%88%977-%E5%85%AC%E9%92%A5%E5%AF%86%E7%A0%81%E4%B9%8B%E4%BB%8ERSA%E7%9C%8B%E6%95%B0%E8%AE%BA/"/>
+    <id>http://yoursite.com/2016/01/04/密码系列7-公钥密码之从RSA看数论/</id>
+    <published>2016-01-04T08:53:45.000Z</published>
+    <updated>2016-01-10T15:18:31.221Z</updated>
+    <content type="html"><![CDATA[<h1 id="0x00__u80CC_u666F_u4ECB_u7ECD"><a href="#0x00__u80CC_u666F_u4ECB_u7ECD" class="headerlink" title="0x00 背景介绍"></a>0x00 背景介绍</h1><p>本篇主要是由RSA算法的流程引入公钥密码体制所需的数论姿势，也就是说，没错，会让你脑袋疼的东西，反正我是脑袋疼。。。</p>
+<h1 id="0x01_RSA_u6D41_u7A0B"><a href="#0x01_RSA_u6D41_u7A0B" class="headerlink" title="0x01 RSA流程"></a>0x01 RSA流程</h1><p><img src="/img/密码系列7-公钥密码之从RSA看数论/0.PNG" alt=""></p>
+<p>没错，非常简洁的一个算法，流程什么的很容易懂，但是如果细究其中的每一步的细节，那么结果就是-脑子疼。但是，作为共产主义接班人，我们要迎难而上，下面就让我们由简到难来看下其中所涉及到的数论姿势</p>
+<h1 id="0x02__u5404_u79CD_u8111_u74DC_u75BC_u7684_u6570_u8BBA_u59FF_u52BF"><a href="#0x02__u5404_u79CD_u8111_u74DC_u75BC_u7684_u6570_u8BBA_u59FF_u52BF" class="headerlink" title="0x02 各种脑瓜疼的数论姿势"></a>0x02 各种脑瓜疼的数论姿势</h1><h2 id="u6570_u8BBA_u59FF_u52BF1-_u5982_u4F55_u6C42_u6700_u5927_u516C_u7EA6_u6570_28_u516C_u56E0_u5B50_29"><a href="#u6570_u8BBA_u59FF_u52BF1-_u5982_u4F55_u6C42_u6700_u5927_u516C_u7EA6_u6570_28_u516C_u56E0_u5B50_29" class="headerlink" title="数论姿势1-如何求最大公约数(公因子)"></a>数论姿势1-如何求最大公约数(公因子)</h2><ol>
+<li>整除：设a, b为整数,  b ≠ 0,如果存在整数c, 使得a=bc,  则称b整除a(记为b | a), 否则称b不整除a</li>
+<li>最大公约数：若d | a1，d | a2，则称d是a1，a2的一个公因数，其中最大的称为最大公因数，记为(a1，a2)。若(a1，a2)=1，则称a1，a2互质(素)，其他公因子一定是最大公因子的因子(可以用反证法证得，若不是，则二者互质，则二者相乘可以得到更大的公因子，矛盾)</li>
+<li>最大公约数的概念不仅仅局限于两个数，最大公约数概念扩展：</li>
+</ol>
+<p><img src="/img/密码系列7-公钥密码之从RSA看数论/1.PNG" alt=""></p>
+<ol>
+<li>两个数的最大公约数求法：最大公约数必为正整数，且a=bq+r，b≠0=&gt;（a，b)=(b，r)，没错，就是辗转相除法了，通过辗转相除，我们可以很容易快速的求出两个数的最大公约数</li>
+<li>三个及三个以上数的最大公约数：需要的定理：</li>
+</ol>
+<p><img src="/img/密码系列7-公钥密码之从RSA看数论/2.PNG" alt=""></p>
+<p>下面强行用大白话解释该定理的证明，首先，一方面，因为d|a1，d|a2···d|an-1，还有由(a1，a2···an-1)=dn-1可知前n-1个数的最大公约数是dn-1，同时前n-1个数又可以同时整除d，则由最大公约数的定义(公约数中最大的那个)可知，d&lt;=dn-1，且d|dn-1，而(dn-1，an)=dn，说明dn-1，an的最大公约数是dn，而别忘了d|dn-1且d|an，说明d是dn-1和an的一个公因子，则由其他公因子一定是最大公因子的因子的性质可知，d&lt;=dn这样，对于证明中的一方面，我们就说清了。<br>再来说另一方面，对于(dn-1，an)=dn=&gt;dn|an，dn|dn-1，这没什么好说的，下面的一个推出可以这样理解，dn-1是前n-1个数的最大公约数，说明dn-1是可以被前n-1个数整除的，而dn又是dn-1的一个因子，所以前n-1个数当然也可以整除dn了，这样就推出了前n个数都可以整除dn了，而前n个数的最大公约数是d，所以dn&lt;=d，这样把另一方面的证明也解释通了，一方面结合另一方面，该定理就得到了证明。</p>
+<p>这个定理直接为我们求三个及三个以上数的最大公约数提供了依据，通过计算机，我们可以使用一个递归来达到实现求三个及三个以上数的最大公约数的目的。</p>
+<ol>
+<li>关于最大公约数的一些性质：</li>
+</ol>
+<p><img src="/img/密码系列7-公钥密码之从RSA看数论/3.PNG" alt=""></p>
+<h2 id="u6570_u8BBA_u59FF_u52BF2-_u6700_u5C0F_u516C_u500D_u6570"><a href="#u6570_u8BBA_u59FF_u52BF2-_u6700_u5C0F_u516C_u500D_u6570" class="headerlink" title="数论姿势2-最小公倍数"></a>数论姿势2-最小公倍数</h2><p>整数a1, a2, ···, ak的公共倍数称为a1, a2, ···, ak的公倍数。a1, a2, ····, ak的正公倍数中的最小的一个叫做a1, a2, ···, ak的最小公倍数，记为[a1, a2, ···, ak]。<br>一些最小公倍数的基本性质：</p>
+<ol>
+<li>[a, 1] = |a|，[a, a] = |a|；</li>
+<li>[a, b] = [b, a]；</li>
+<li>[a1, a2, ···, ak] = [|a1|, |a2| ···, |ak|]；</li>
+<li>若a | b，则[a, b] = |b|。</li>
+<li><img src="/img/密码系列7-公钥密码之从RSA看数论/4.PNG" alt=""></li>
+</ol>
+<h2 id="u6570_u8BBA_u59FF_u52BF3-_u6574_u6570_u6A21_u8FD0_u7B97_u548C_u540C_u4F59_u6982_u5FF5"><a href="#u6570_u8BBA_u59FF_u52BF3-_u6574_u6570_u6A21_u8FD0_u7B97_u548C_u540C_u4F59_u6982_u5FF5" class="headerlink" title="数论姿势3-整数模运算和同余概念"></a>数论姿势3-整数模运算和同余概念</h2><p><img src="/img/密码系列7-公钥密码之从RSA看数论/5.PNG" alt=""></p>
+<p>注意同余的符号，同余的概念非常重要，下面来看关于同余的性质：</p>
+<p><img src="/img/密码系列7-公钥密码之从RSA看数论/6.PNG" alt=""></p>
+<ol>
+<li>模同余逆元：</li>
+</ol>
+<p><img src="/img/密码系列7-公钥密码之从RSA看数论/7.PNG" alt=""></p>
+<p>那么如何求模同余逆元呢？需要以下理论技巧：1.我们前面提到的辗转相除法：<img src="/img/密码系列7-公钥密码之从RSA看数论/8.PNG" alt=""><br>2.最大公约数的线性表示：<br><img src="/img/密码系列7-公钥密码之从RSA看数论/9.PNG" alt=""></p>
+<p>解锁了这两个姿势，我们就可以求出模同余逆元了：<br><img src="/img/密码系列7-公钥密码之从RSA看数论/10.PNG" alt=""></p>
+<h2 id="u6570_u8BBA_u59FF_u52BF4-_u6B27_u62C9_u7684_u6545_u4E8B"><a href="#u6570_u8BBA_u59FF_u52BF4-_u6B27_u62C9_u7684_u6545_u4E8B" class="headerlink" title="数论姿势4-欧拉的故事"></a>数论姿势4-欧拉的故事</h2><p>不得不说，有点佩服这个数学家，虽然他使得我们的学生生活过的并不轻松，但不得不承认他是天才，称之为艺术家不为过。失明过后各种心算，没谁了，我只想说我服。。。<br><strong>欧拉定理</strong><br><img src="/img/密码系列7-公钥密码之从RSA看数论/11.PNG" alt=""><br>利用欧拉定理解题：<br>今天星期三， 313^159天后是星期几?<br>好久没做数学题，所以当时做这个题时是拒绝的，这个题会用到上面的很多同余运算的性质，所以还是有必要做下的。解题过程为：</p>
+<p><img src="/img/密码系列7-公钥密码之从RSA看数论/12.PNG" alt=""></p>
+<p>让我来解释一下，要想求星期几，由于这个数太大，所以我们要尽量缩小它，当然mod7是很好的选择，因为减去7的倍数会在数字缩小的前提下不影响我们判断是星期几。(7k+5)的159次方展开之后，除了5的159次方外，其余项都是带7的，所以可以不用顾忌的直接弃掉，也就是说原来的数与5的159次方是模7同余的，接着使用欧拉定理对5的159次方进行缩小，由于5和7是互质的，所以5的6次方是与1模7同余的，还记得同余运算的性质吗？a与c模m同余，b与d模m同余，则ab与cd模m同余，运用这条性质，可得5的26 x 6次方与1模7也是同余的，而5的3次方是与5的3次方模7同余的，再次运用性质，可得5的159次方是与5的3次方模7同余的，而5的3次方就很容易计算了，他与6模7同余，这样就算出了最后答案。</p>
+<p>对于m的欧拉函数的求法：<br><img src="/img/密码系列7-公钥密码之从RSA看数论/13.PNG" alt=""></p>
+<p>再介绍一条重要的相似的定理，可以说是欧拉定理的推论：<br><img src="/img/密码系列7-公钥密码之从RSA看数论/14.PNG" alt=""></p>
+<h2 id="u6570_u8BBA_u59FF_u52BF5-_u540C_u4F59_u65B9_u7A0B_u7EC4"><a href="#u6570_u8BBA_u59FF_u52BF5-_u540C_u4F59_u65B9_u7A0B_u7EC4" class="headerlink" title="数论姿势5-同余方程组"></a>数论姿势5-同余方程组</h2><p><img src="/img/密码系列7-公钥密码之从RSA看数论/15.PNG" alt=""><br><strong>解一次同余方程组之孙子定理</strong><br><img src="/img/密码系列7-公钥密码之从RSA看数论/16.PNG" alt=""></p>
+<p>举个例子：<br><img src="/img/密码系列7-公钥密码之从RSA看数论/17.PNG" alt=""></p>
+<h2 id="u6570_u8BBA_u59FF_u52BF6-_u4E8C_u6B21_u5269_u4F59"><a href="#u6570_u8BBA_u59FF_u52BF6-_u4E8C_u6B21_u5269_u4F59" class="headerlink" title="数论姿势6-二次剩余"></a>数论姿势6-二次剩余</h2><p><img src="/img/密码系列7-公钥密码之从RSA看数论/18.PNG" alt=""></p>
+<p>我们先来讨论下二次剩余，大部分内容参考了blog-<a href="http://blog.sina.com.cn/s/blog_a661ecd50101ayas.html" target="_blank" rel="external">数论学习笔记（5）：二次剩余</a>，我这里会对这篇blog里面的内容写一些我自己的理解。</p>
+<p>对于二次剩余方程，其中 a 为整数， p 为奇素数， x 为未知整数。当然，我们不妨限定 a,x 均在 0,1,2,3,…,p-1 内。不过，为了叙述方便我们又经常把 0 去掉（当 a=0 时显然有唯一解 x=0 ）。这里将a，x限定在0,1,2,3,…,p-1 内，按我的理解，因为是模p运算，所以说大于p的所有数经过模p运算后得到的都是小于p的数字，所以因为模p运算，所以我们只需要讨论小于p的数字就ok了，就是说任何大于p的数字都可以在小于p的这个集合中找到等价的数字。</p>
+<p>因为我们的最终目的是在小于p的这个数字集合中找到所有的二次剩余嘛，那么，现在我们就很自然的想到了一个问题，对于哪些 a 方程有解？如果有的话有几个解？</p>
+<p>我们先给出结论：使方程有解的 a 的取值恰好是 (p-1)/2 个，恰好是全部取值个数的一半。若方程有解，则恰好有两个解，且这两个解的和为p 。</p>
+<p>下面证明他。我们考虑 1,2,3,…,p-1 这些数的平方。我们关心的是这些平方有没有重复（模 p 同余）的。这里重复可以这样理解，还是刚才说到的模p运算的等价问题，对于x而言，如果两个不同的x，x的平方模p得到相同的余数，说明二者只需要保留一个即可，因为对于这两个不同的x，他们所对应的二次剩余a(这里a其实就是x平方模p的余数)其实是相同的(还想不懂的话，考虑同余运算的定义，即p整除x平方减a)。假设这里面有两个不相同的平方 u^2,v^2 模 p 同余(先假设存在重复)，则有：p | (u^2-v^2)，即p | ((u+v)(u-v))，这里的意思就是素数p整除两个整数乘积，那么p必然整除其中一个数，这是毋庸置疑的。我们考虑u-v，由于 u-v 不可能是 p 的倍数（因为u，v都小于p嘛，否则有 u=v ），则有 u+v 是 p 的倍数，也就是说 u+v=p 。到这里，我们就已经可以看出来了，对于满足条件u+v=p的u和v，他们的平方是重复的，即模p同余的。</p>
+<p>我们回过来看，因为我们考虑的集合是[1,p-1]，那么1,2,3,…,p-1 这些数的平方必然可以两两配对(配对的条件是两者之和为p)，每对都模 p 同余，除此之外不在同一对的两个数模 p 不同余。这样，实质不同的平方数只有 (p-1)/2 个，正好可以从中间将他们劈开，[1，(p-1)/2]已经可以代表[(p-1)/2，p-1]这个集合了，因为他们所对应的二次剩余a是一样的，也就是说，[1，(p-1)/2]这个集合中的每一个数对于我们研究二次剩余才是有效的，我们将[1，(p-1)/2]这个集合称为二次剩余问题中p的一个简化系，它们对应着使方程有解的 a 的 (p-1)/2 个取值，而且每个使方程有解的 a 的取值都对应着两个平方数。这就证完了。我们把这 (p-1)/2 个取值称作模 p 的二次剩余，另外 (p-1)/2 个使方程无解的 a 称作模 p 的二次非剩余。另外规定如果 a 是模 p 的二次剩余/二次非剩余，那么与 a 模 p 同余的数也是模 p 的二次剩余/二次非剩余(可以看出，模p的二次剩余其实是有无穷无尽的，这里我们为了讨论问题的方便，将a限定在[1，p-1]这个集合范围内，根据前面的讨论，我们知道这样限定并不会丢失一般性，[1，p-1]这个集合足以涵盖所有的情况)。对于 p 的倍数，规定它既不是模 p 的二次剩余，也不是模 p 的二次非剩余。</p>
+<p>这里还要强调一点，就是a是与x^2相对应的，a在[1,p-1]中的分布是不均匀的。所以x的取值范围是[1，(p-1)/2]，而a的取值范围是[1，p]，我们并不能将这个集合像x一样做等分。</p>
+<p>有了上面的姿势，我们对于一个奇素数(素数除2外都是奇数)p的二次剩余就有了一套体系的求法。首先求出x的取值范围[1,(p-1)/2]，我们知道这里面的每一个数都对应着一个不同的二次剩余数a，然后对每一个x做平方运算后再模p后就得到了该x对应的二次剩余数a(因为经过了模p运算，所以a定&lt;p)，求完每一个x对应的二次剩余a后，共(p-1)/2个a，但a在[1,p-1]中的分布是不均匀的，剩下的就是二次非剩余了。给出结论：</p>
+<p><img src="/img/密码系列7-公钥密码之从RSA看数论/19.PNG" alt=""></p>
+<p>对于这个结论，需要补充一点，根据上面的结论求出每个的二次剩余可能会大于p，这时别忘了通过模p运算找到这个二次剩余在[1,p-1]这个集合中等价的那个二次剩余。</p>
+<p>说到这，我们已经可以求任意一个奇素数的二次剩余了，而且编程也是易于实现的。但是对于奇素数p，当我们随意给定一个a∈[1,p-1]时，我们如何判断这个a是不是该p的二次剩余呢？难道要把所有的二次剩余都求出来后，然后看给定的a是否属于这个集合吗？虽然可以实现，但这样未免效率太低了。艺术家欧拉给出了他的判别条件：</p>
+<p><img src="/img/密码系列7-公钥密码之从RSA看数论/20.PNG" alt=""></p>
+<p>对于这个定理，我不做证明，因为我不会证明，但是它很好用就是了。这个定理也给出了我们求二次剩余和非二次剩余的另一种方法，即对于[1,p-1]，从1开始考虑，逐个判断[1,p-1]中的数是否满足二次剩余判断条件，这样也可以把所有的二次剩余找出来。</p>
+<h2 id="u6570_u8BBA_u59FF_u52BF7-_u7D20_u6027_u6D4B_u8BD5"><a href="#u6570_u8BBA_u59FF_u52BF7-_u7D20_u6027_u6D4B_u8BD5" class="headerlink" title="数论姿势7-素性测试"></a>数论姿势7-素性测试</h2><p>RSA算法中有生成大素数的需要，那么如何产生一个大素数还得保证该大素数的随机性？我们的思路是随机产生一个大正整数，判断其是不是素数，如果是即为需要的大素数，否则重新产生素数。那么这个随机产生的大正整数是素数的概率是多大呢？如果太小的话，那么这种思路就是不值得的，好在这个概率还可以。数论中有著名的素数定理: 不超过x的素数的个数大约为x/lnx。举个例子：任选一个512位的随机正整数p, 它是素数的概率大约为1/lnp ≈ 1/177, 即平均177个具有适当规模的随机正整数p中将有一个素数。从概率学加计算机的角度来看，这个思路是可取的。那么问题就变成了如何判定这个大正整数是不是素数了，我们称之为素性检测。素性检测可以分为两大类：</p>
+<p><img src="/img/密码系列7-公钥密码之从RSA看数论/21.PNG" alt=""></p>
+<p>确定性算法：</p>
+<p><img src="/img/密码系列7-公钥密码之从RSA看数论/22.PNG" alt=""></p>
+<p>然而没什么鸟用，n较小时还可以用用，但当n为大素数时(几百位)，这两个确定性检测算法就显得尤为笨重且对于计算机来说，计算量有点接受不了，所以抛弃这两个确定性算法，还有个AKS算法，也是确定性算法，是印度人想出来的算法，由于不成熟，所以也没什卵用。让我们来看看有什么好用的概率性算法：首先是费马<br><img src="/img/密码系列7-公钥密码之从RSA看数论/23.PNG" alt=""><br>根据上图的理论，费马提出了他的素性测试法：<br><img src="/img/密码系列7-公钥密码之从RSA看数论/24.PNG" alt=""></p>
+<p>然后是Lehmann，不知道这哥们名字怎么读。。。他在费马素性检测算法的基础上做了改进，二者的核心思想都是一样的：<br><img src="/img/密码系列7-公钥密码之从RSA看数论/25.PNG" alt=""></p>
+<p>然而，存在一类极其罕见的合数，称为Carmichael，针对所有与N互素的a，N将通过费马测试和Lehmann测试，所以这两种概率性算法我们也不用。</p>
+<p>现阶段常用的素性检测算法是Miller-Rabin概率型素性测试算法，对这个定理我也不会证明，并不想证明，会用就行：Miller-Rabin素性检测的理论依据：<br><img src="/img/密码系列7-公钥密码之从RSA看数论/26.PNG" alt=""></p>
+<p>对于给定要测试的数n，可以求出该n对应的s和m的值，由此可得Miller-Rabin素性检测算法：<br><img src="/img/密码系列7-公钥密码之从RSA看数论/27.PNG" alt=""></p>
+<p>有了较为可靠的素性检测算法后，我们上面的思路就易于实现了，产生素数的步骤可为：<br><img src="/img/密码系列7-公钥密码之从RSA看数论/28.PNG" alt=""></p>
+<h2 id="u6570_u8BBA_u59FF_u52BF8-_u6574_u6570_u7684_u9636"><a href="#u6570_u8BBA_u59FF_u52BF8-_u6574_u6570_u7684_u9636" class="headerlink" title="数论姿势8-整数的阶"></a>数论姿势8-整数的阶</h2><p><img src="/img/密码系列7-公钥密码之从RSA看数论/29.PNG" alt=""></p>
+<p>这里说明为什么整数的阶一定存在，由条件可知(a，m)=1，想到了什么？没错，就是欧拉定理，描述为a的m的欧拉数次方与1是模m同余的，也就是说，l是一定存在的，至于l是不是m的欧拉数，这个就不知道了，反正一定存在，意思就是l是在不行还可以取m的欧拉数嘛。</p>
+<p>关于整数的阶的性质：</p>
+<p><img src="/img/密码系列7-公钥密码之从RSA看数论/30.PNG" alt=""></p>
+<p>第一条性质可以为我们计算整数的阶的运算带来简化，第一条性质说明整数的阶必然是欧拉数的一个公因子，所以我们只需要对欧拉数的公因子进行验证即可，举个例子：<br><img src="/img/密码系列7-公钥密码之从RSA看数论/31.PNG" alt=""></p>
+<p>第二第三条性质同样可以简化运算，例子说话：</p>
+<p><img src="/img/密码系列7-公钥密码之从RSA看数论/32.PNG" alt=""></p>
+<p>整数的阶的另外两个重要性质：</p>
+<p><img src="/img/密码系列7-公钥密码之从RSA看数论/45.PNG" alt=""></p>
+<p>这个性质其实是对上面的第三条性质的扩充，我们暂且称它为第四条性质，是一个扩展，意思就是，当我们计算a相对于一个较大的模数m的整数阶时，我们可以对m进行质因数分解，然后分别求较小的因数的阶，最后求这些阶的最小公倍数即可得到原来的那个较大的数的整数阶，这个性质运用的前提是对m进行标准分解，什么是标准分解呢，就是分解成由最简单的质因数连乘的形式，大家小学时应该都学过，反正我小学学过。举个例子：</p>
+<p><img src="/img/密码系列7-公钥密码之从RSA看数论/33.PNG" alt=""></p>
+<p>可以看出运用以上性质简化了运算。在运用这个性质时，还有一点需要注意，那就是对于这个式子：</p>
+<p><img src="/img/密码系列7-公钥密码之从RSA看数论/37.PNG" alt=""></p>
+<p>这个性质不可以被重用，什么意思呢，假设m被分解成有一个因式是2^3(即pi=2，ji=3)，则对于<img src="/img/密码系列7-公钥密码之从RSA看数论/37.PNG" alt="">这个式子的计算，不能把2^3拆成2x2x2，然后分别计算a模2的整数阶，最后再求这3个整数阶的最小公倍数，这样得到的结果并不是a模2^3的整数阶，这样做是不对的，至于如何处理这种形式，就需要下面即将讲到的性质。还有个性质，我们暂且称为第5条性质：</p>
+<p><img src="/img/密码系列7-公钥密码之从RSA看数论/34.PNG" alt=""><br><img src="/img/密码系列7-公钥密码之从RSA看数论/35.PNG" alt=""></p>
+<p>这个性质其实是对上面性质的一个补充，上面也说到了，就是当我们面临标准分解中有次幂这种因子时，应该怎么求，就是用上面的性质求。</p>
+<p>对于上面性质的白话解释，先以5^3(p=5,j=3)的情况来说明，这里p=5≠2，那么先计算f2，f2就是a模5^2的整数阶，然后根据性质中说的a的f2次方-1可以整除p^i，而不能整除p^i+1，找到这个临界的i，即可使用这个性质，看j值所属的范围即可得到fj，再啰嗦一下2^3(p=2,j=3)的情况，此时看a的值，然后得到相应的r值，再根据r和j值得到fj。</p>
+<p>这样我们在面临要求a模一个较大的m的整数阶时，我们就有了相应的化简方法，实际上就是把m进行标准分解，然后看有没有标准分解中有没有带幂的因子，对于带幂的因子，采用第5条性质先转化为不带幂的，然后根据前面说的前三条性质简化求出不带幂的，然后根据第5条性质就可以得到该带幂因子的整数阶，不带幂的因子用刚开始说的前三条性质简化求出整数阶，这样每一个因子的整数阶就都求出来了，最后再根据第四条性质得出最后的整数阶是标准分解的各因子整数阶的最小公倍数，就是这样。举个例子：</p>
+<p><img src="/img/密码系列7-公钥密码之从RSA看数论/38.PNG" alt=""></p>
+<h2 id="u6570_u8BBA_u59FF_u52BF9-_u539F_u6839"><a href="#u6570_u8BBA_u59FF_u52BF9-_u539F_u6839" class="headerlink" title="数论姿势9-原根"></a>数论姿势9-原根</h2><p>原根的定义：<img src="/img/密码系列7-公钥密码之从RSA看数论/39.PNG" alt=""><br>另一个等价的定义：假设一个数g对于P来说是原根，那么g^i mod P的结果两两不同,且有 1&lt;g&lt;P, 1&lt;i&lt;P,那么g可以称为是P的一个原根。简单来说，g^i mod p ≠ g^j mod p （p为素数）其中i≠j且i, j介於1至(p-1)之间则g为p的原根。简单的来说，如果g是P的原根，那么g的（1…P-1）次幂mod P的结果一定互不相同。</p>
+<p>这样对于原根的定义就有两个了，一是g模p的整数阶等于p的欧拉函数时，g称为p的一个原根；另一个是g的（1…P-1）次幂mod P的结果一定互不相同时，g称为p的一个原根。为什么说这两个是等价定义呢，让我来解释一下，两者是可以等价互导的，也就是说g模p的整数阶等于p的欧拉函数时，g的（1…P-1）次幂mod P的结果一定互不相同，反过来亦成立。这里只说明由第二个定义导出第一个定义，至于反过来导，看我导完这个应该不是问题，留给大家自己导着玩。g的（1…P-1）次幂mod P的结果互不相同时，g模p的整数阶一定等于p的欧拉函数。为什么这句话是对的呢？用反证法来证，假设存在两个数a∈[1,p-1],b∈[1,p-1]，且不妨设a&gt;b满足(g^a)modP=(g^b)modP,即g^≡(g^b)modp。这说明什么呢？因为没有同余等式两边同除以一个数同余等式依然成立的性质，事实上是我不知道存不存在，只有乘法，没关系，我们回归同余运算最基本的定义，由g^a≡(g^b)modp这个式子可以得到g^a-g^b=p x k(k为整数)，设g^a=p x m+t,g^b=p x n+t,显然t&lt;p,则这个式子可以变形为g^b(g^(a-b)-1)=p x (m-n),进一步变形为(p x n+t)(g^(a-b)-1)=p x (m-n)，再变p x (n x g^(a-b)-n)+t x (g^(a-b)-1)=p x (m-n),再来t x (g^(a-b)-1)=p x (m-n-n x g^(a-b)+n)=p x (m-n x g^(a-b)),即t x (g^(a-b)-1)=p x (m-n x g^(a-b))，到这就差不多了，由于t&lt;p,g^(a-b)-1必存在因子p，所以g^(a-b)-1=p x l(l为整数),即g^(a-b)与1模p同余，这与原根的定义矛盾，即如果存在两个数a∈[1,p-1],b∈[1,p-1]，g的a，b次幂mod P的结果相同时，通过上面的证明可以知道由于a-b&lt;p的欧拉函数，所以此时g模p的整数的阶就变成了a-b，而非原根定义要求的必须是p的欧拉函数值，所以从原根的定义出发，g的（1…P-1）次幂mod P的结果一定互不相同时，g模p的整数阶才等于p的欧拉函数，这样的g才能被称为原根，就是说如果g的（1…P-1）次幂mod P的结果存在两个相同的值的时候，g是不能被称为原根的。好像说了半天，越说越糊涂，总之就是想证明一下，为什么g模p的整数阶等于p的欧拉函数时一定会满足g的（1…P-1）次幂mod P的结果一定互不相同，查了好多资料都没说，只能自己硬生生证明了，就这样。</p>
+<p>现在我们已经对原根的概念有了个大体的认识，知道了要想成为原根应该具备什么资格。</p>
+<p>原根的性质：<br><img src="/img/密码系列7-公钥密码之从RSA看数论/40.PNG" alt=""></p>
+<p>举个例子：<br><img src="/img/密码系列7-公钥密码之从RSA看数论/41.PNG" alt=""></p>
+<p>这是直接对一个奇素数求原根，当我们知道一个奇素数的原根时，如果要求这个奇素数的幂的原根，这时需要用到下面一条性质：<br><img src="/img/密码系列7-公钥密码之从RSA看数论/42.PNG" alt=""></p>
+<p>举个例子：<br><img src="/img/密码系列7-公钥密码之从RSA看数论/43.PNG" alt=""></p>
+<p>在密码应用中，通常需要产生一个很大的素数的原根，根据上面的第一个性质我们可以知道，当p的欧拉数只能分解成两个素数乘积的时候找原根的速度会很快，所以当我们可以故意产生一个p，使得他的欧拉数只能分解成两个素数乘积的形式，一般采用的形式是p=q x 2+1<br>下面给出具体的算法：<br><img src="/img/密码系列7-公钥密码之从RSA看数论/44.PNG" alt=""></p>
+<hr>
+<p>数论的姿势就先科普到这里，下面进入真正的公钥密码算法。。。</p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<h1 id="0x00__u80CC_u666F_u4ECB_u7ECD"><a href="#0x00__u80CC_u666F_u4ECB_u7ECD" class="headerlink" title="0x00 背景介绍"></a>0x00 背景介绍</h1><p>本篇]]>
+    </summary>
+    
+      <category term="密码学" scheme="http://yoursite.com/tags/%E5%AF%86%E7%A0%81%E5%AD%A6/"/>
+    
+      <category term="cryptography" scheme="http://yoursite.com/categories/cryptography/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[密码系列6-分组密码的尾声之IDEA和AES]]></title>
+    <link href="http://yoursite.com/2016/01/01/%E5%AF%86%E7%A0%81%E7%B3%BB%E5%88%976-%E5%88%86%E7%BB%84%E5%AF%86%E7%A0%81%E7%9A%84%E5%B0%BE%E5%A3%B0%E4%B9%8BIDEA%E5%92%8CAES/"/>
+    <id>http://yoursite.com/2016/01/01/密码系列6-分组密码的尾声之IDEA和AES/</id>
+    <published>2016-01-01T13:33:58.000Z</published>
+    <updated>2016-01-10T15:37:27.919Z</updated>
+    <content type="html"><![CDATA[<h1 id="0x00__u53E3_u80E1"><a href="#0x00__u53E3_u80E1" class="headerlink" title="0x00 口胡"></a>0x00 口胡</h1><p>对于IDEA的介绍只是简单带过，重点介绍AES</p>
+<h1 id="0x01_IDEA"><a href="#0x01_IDEA" class="headerlink" title="0x01 IDEA"></a>0x01 IDEA</h1><ol>
+<li>IDEA分组长度64比特。</li>
+<li>密钥是128比特。</li>
+<li>加密过程是8轮。<br>具体加密过程如下图：</li>
+</ol>
+<p><img src="/img/密码系列6-分组密码的尾声之IDEA和AES/0.PNG" alt=""><br><img src="/img/密码系列6-分组密码的尾声之IDEA和AES/1.PNG" alt=""><br><img src="/img/密码系列6-分组密码的尾声之IDEA和AES/2.PNG" alt=""></p>
+<h1 id="0x02_AES"><a href="#0x02_AES" class="headerlink" title="0x02 AES"></a>0x02 AES</h1><p>1997年4月15日，美国ANSI发起征集AES（advanced encryption standard）的活动。此次活动的目的是确定一个非保密的、可以公开技术细节的、全球免费使用的分组密码算法，以作为新的数据加密标准。1997年9月12日，美国联邦登记处公布了正式征集AES候选算法的通告。对AES的基本要求是：  比三重DES快、至少与三重DES一样安全。1998年8月12日，在首届AES候选会议上公布了AES的15个候选算法，任由全世界各机构和个人攻击和评论，这15个候选算法是CAST256、CRYPTON、E2、DEAL、FROG、SAFER+、RC6、MAGENTA、LOKI97、SERPENT、MARS、Rijndael、DFC、Twofish、HPC。2000年10月2日，NIST宣布Rijndael作为新的AES。至此，经过3年多的讨论，Rijndael终于脱颖而出。</p>
+<h2 id="AES_u6D41_u7A0B"><a href="#AES_u6D41_u7A0B" class="headerlink" title="AES流程"></a>AES流程</h2><p>关于AES的数学基础和设计思想，我们在讲流程的时候具体用到时再来讨论，先来谈论具体的流程，看看AES加密算法到底是什么样子的。</p>
+<p><img src="/img/密码系列6-分组密码的尾声之IDEA和AES/5.PNG" alt=""></p>
+<p>Rijndael 是一个迭代型分组密码, 其分组长度和密钥长度都可变, 各自可以独立地指定为128 比特、192 比特、256 比特。</p>
+<p><strong>1.状态、种子密钥和轮数</strong><br>类似于明文分组和密文分组, 算法的中间结果也须分组, 称算法中间结果的分组为状态, 所有的操作都在状态上进行。状态可以用以字节为元素的矩阵阵列表示, 该阵列有4行, 列数记为Nb , Nb 等于分组长度除以32。</p>
+<p>种子密钥类似地用一个以字节为元素的矩阵阵列表示, 该阵列有4 行, 列数记为Nk , Nk等于分组长度除以32。表3-8 是Nb = 6 的状态和Nk = 4 的种子密钥的矩阵阵列表示。</p>
+<p><img src="/img/密码系列6-分组密码的尾声之IDEA和AES/3.PNG" alt=""></p>
+<p>有时可将这些分组当作一维数组, 其每一元素是上述阵列表示中的4 字节元素构成的列向量, 数组长度可为4、6、8 , 数组元素下标的范围分别是0～3、0～5 和0～7。4 字节元素构成的列向量有时也称为字。</p>
+<p>算法的输入和输出被看成是由8 比特字节构成的一维数组, 其元素下标的范围是0～(4 Nb - 1 ) , 因此输入和输出以字节为单位的分组长度分别是16、24 和32 , 其元素下标的范围分别是0～15、0～23 和0～31。输入的种子密钥也看成是由8 比特字节构成的一维数组, 其元素下标的范围是0～( 4 Nk - 1) , 因此种子密钥以字节为单位的分组长度也分别是16、24 和32 , 其元素下标的范围分别是0～15、0～23 和0～31。算法的输入( 包括最初的明文输入和中间过程的轮输入) 以字节为单位按a00 a10 a20 a30 a01 a11 a21 a31 ⋯ 的顺序放置到状态阵列中。同理, 种子密钥以字节为单位按k00 k1 0 k20 k30 k01 k1 1 k21 k31 ⋯ 的顺序放置到种子密钥阵列中。而输出( 包括中间过程的轮输出和最后的密文输出) 也是以字节为单位按相同的顺序从状态阵列中取出。若输入(或输出) 分组中第n 个元素对应于状态阵列的第( i, j ) 位置上的元素, 则n 和( i, j ) 有以下关系:i = n mod 4; j = n/ 4的结果下取整 ; n = i + 4 j迭代的轮数记为Nr , Nr与Nb 和Nk 有关, 表3 -9 给出了Nr 与Nb和Nk 的关系。</p>
+<p><img src="/img/密码系列6-分组密码的尾声之IDEA和AES/4.PNG" alt=""></p>
+<p><strong>2. 轮函数</strong><br>Rijndael 的轮函数由4 个不同的计算部件组成, 分别是: 字节代换(ByteSub )、行移位( ShiftRow) 、列混合(MixColumn) 、密钥加( AddRoundKey )。伪C代码：<br><figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">Round (State, RoundKey)</span><br><span class="line">&#123;</span><br><span class="line">    ByteSub (State);</span><br><span class="line">    ShiftRow (State);</span><br><span class="line">    MixColumn (State);</span><br><span class="line">    AddRoundKey (State, RoundKey)</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></p>
+<p><em>字节代换（ByteSub）</em><br>字节代换是非线形变换，独立地对状态的每个字节进行。代换表（即S-盒）是可逆的，由以下两个变换的合成得到：  </p>
+<ol>
+<li>首先，将字节看作多项式，映射到自己的乘法逆元，‘00’映射到自己。</li>
+<li>其次，对字节做如下的仿射变换：</li>
+</ol>
+<p><img src="/img/密码系列6-分组密码的尾声之IDEA和AES/6.PNG" alt=""></p>
+<p>达到的效果：</p>
+<p><img src="/img/密码系列6-分组密码的尾声之IDEA和AES/7.PNG" alt=""></p>
+<p>上面提到了将字节看做多项式以及乘法逆元的概念，下面介绍什么是字节多项式及乘法逆元，以及如何求乘法逆元</p>
+<p>有限域GF(2^8 )以及多项式的加法、减法、乘法运算:<br>前面好像提到过有限域的概念。因排版较麻烦，所以直接截图了。。。</p>
+<p><img src="/img/密码系列6-分组密码的尾声之IDEA和AES/8.PNG" alt=""><br><img src="/img/密码系列6-分组密码的尾声之IDEA和AES/9.PNG" alt=""></p>
+<p>对于多项式的乘法，有必要补充一下，就拿‘57’·‘83’=‘C1’这个例子来看，给出如下图来说明计算过程：</p>
+<p><img src="/img/密码系列6-分组密码的尾声之IDEA和AES/10.PNG" alt=""></p>
+<p>这张图已经很清晰的写出了多项式模乘的运算过程</p>
+<p>我们在来看乘法逆元：<br>对任何次数小于8 的多项式b( x ) , 可用推广的欧几里得算法得b( x) a( x ) + m( x) c( x) = 1即a( x) ·b( x ) = 1 mod m( x) , 因此a( x )是b( x) 的乘法逆元。<br>对于乘法逆元的求法，就是用大名鼎鼎的扩展欧几里得算法(又称辗转相除法)了，自行google。这里要用到欧几里得算法的逆推过程，给出求逆元的伪代码：</p>
+<figure class="highlight livecodeserver"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">Extended Euclid (d，f)<span class="comment"> //算法求d关于模f的乘法逆元d-1 ，即 d* d-1 mod f = 1</span></span><br><span class="line"><span class="number">1</span> 。(X1，X2，X3) := (<span class="number">1</span>，<span class="number">0</span>，f)； (Y1，Y2，Y3) := (<span class="number">0</span>，<span class="number">1</span>，d)</span><br><span class="line"><span class="number">2</span>。 <span class="keyword">if</span> (Y3=<span class="number">0</span>) <span class="keyword">then</span> <span class="constant">return</span> d-<span class="number">1</span> = <span class="constant">null</span><span class="comment"> //无逆元</span></span><br><span class="line"><span class="number">3</span>。 <span class="keyword">if</span> (Y3=<span class="number">1</span>) <span class="keyword">then</span> <span class="constant">return</span> d-<span class="number">1</span> = Y2<span class="comment"> //Y2为逆元</span></span><br><span class="line"><span class="number">4</span>。 Q := X3 <span class="operator">div</span> Y3<span class="comment"> //整除</span></span><br><span class="line"><span class="number">5</span>。 (T1，T2，T3) := (X1 - Q*Y1，X2 - Q*Y2，X3 - Q*Y3)</span><br><span class="line"><span class="number">6</span> 。(X1，X2，X3) := (Y1，Y2，Y3)</span><br><span class="line"><span class="number">7</span>。 (Y1，Y2，Y3) := (T1，T2，T3)</span><br><span class="line"><span class="number">8</span>。 goto <span class="number">2</span></span><br></pre></td></tr></table></figure>
+<p>C++代码：<br><figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">inline</span> <span class="keyword">long</span> <span class="keyword">long</span> <span class="title">extend_gcd</span><span class="params">(<span class="keyword">long</span> <span class="keyword">long</span> a,<span class="keyword">long</span> <span class="keyword">long</span> b,<span class="keyword">long</span> <span class="keyword">long</span> &amp;x,<span class="keyword">long</span> <span class="keyword">long</span> &amp;y)</span></span><br><span class="line"></span>&#123;</span><br><span class="line"><span class="keyword">if</span>(a==<span class="number">0</span>&amp;&amp;b==<span class="number">0</span>)</span><br><span class="line"><span class="keyword">return</span> -<span class="number">1l</span>l;</span><br><span class="line"><span class="keyword">if</span>(b==<span class="number">0</span>)</span><br><span class="line">&#123;</span><br><span class="line">x=<span class="number">1l</span>l;</span><br><span class="line">y=<span class="number">0l</span>l;</span><br><span class="line"><span class="keyword">return</span> a;</span><br><span class="line">&#125;</span><br><span class="line"><span class="keyword">long</span> <span class="keyword">long</span> d=extend_gcd(b,a%b,y,x);</span><br><span class="line">y-=a/b*x;</span><br><span class="line"><span class="keyword">return</span> d;</span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="keyword">inline</span> <span class="keyword">long</span> <span class="keyword">long</span> <span class="title">mod_reverse</span><span class="params">(<span class="keyword">long</span> <span class="keyword">long</span> a,<span class="keyword">long</span> <span class="keyword">long</span> n)</span></span><br><span class="line"></span>&#123;</span><br><span class="line"><span class="keyword">long</span> <span class="keyword">long</span> x,y,d=extend_gcd(a,n,x,y);</span><br><span class="line"><span class="keyword">if</span>(d==<span class="number">1</span>)</span><br><span class="line"><span class="keyword">return</span> (x%n+n)%n;</span><br><span class="line"><span class="keyword">else</span></span><br><span class="line"><span class="keyword">return</span> -<span class="number">1l</span>l;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></p>
+<p>补充说明：<br>若ax≡1 mod f, 则称a关于模f的乘法逆元为x。也可表示为ax≡1(mod f)。当a与f互素时，a关于模f的乘法逆元有唯一解。如果不互素，则无解。如果f为素数，则从1到f-1的任意数都与f互素，即在1到f-1之间都恰好有一个关于模f的乘法逆元。<br>对于上面的C++代码，当d==1时，说明二者是互素的，即二者的最大公约数是1，扩展的欧几里得算法实际上是通过辗转相除法来求得两个数的最大公约数，只不过上面不论是伪代码还是C++代码，都是在将这个辗转相相除的中间过程记录下来，以便后面反向迭代求逆元时用。给出一个具体的例子，比如我们要求5关于模14的乘法逆元。首先我们通过辗转相除法来做，14/5=2余4，5/4=1余1，4/1=4余0，到这里，我们可以确定gcd(14,5)=gcd(4,1)=1，即14和5互素，则5关于模14的乘法逆元有唯一解，那么如何求乘法逆元呢，答案就是将辗转相除的过程反向迭代回去，上面代码也是通过递归体现一个反向迭代的过程。有一个定理忘了叫什么了，就是说两个数的最大公约数可以写成两个数的线性表示，比如a，b的最大公约数是c，则c=ma+nb，其中m，n是整数。那么上面14和5的最大公约数是1，所以1=m x 14+n x 5，由乘法逆元的定义可知，n就是5的乘法逆元，n由反向迭代求出。1=5-4 x 1=5-(14-5 x 2) x 1=5 x 3-14；(就这样一直向上迭代，直到迭代到最上层的式子时停止，此时所得到的较小数的系数就是要求的小数关于大数的模逆元)。其实，你仔细总结还会发现，最后得到的两个数的系数是有一定规律的，下面是我根据规律写的python代码，没有递归来的那么直观和便于理解，仅供参考：<br><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">re_gcd</span><span class="params">(a,b)</span>:</span></span><br><span class="line">    temp_a=a</span><br><span class="line">    temp_b=b</span><br><span class="line">    result=list()</span><br><span class="line">    <span class="keyword">if</span>(a%b==<span class="number">0</span>):</span><br><span class="line">        result.append(<span class="number">1</span>)</span><br><span class="line">        result.append(-(int(a/b)-<span class="number">1</span>))</span><br><span class="line">        <span class="keyword">return</span> result</span><br><span class="line">    <span class="keyword">else</span>:</span><br><span class="line">        count=<span class="number">0</span></span><br><span class="line">        c=list()</span><br><span class="line">        <span class="keyword">while</span>(a%b!=<span class="number">0</span>):</span><br><span class="line">            c.append(int(a/b))</span><br><span class="line">            temp=b</span><br><span class="line">            b=a%b</span><br><span class="line">            a=temp</span><br><span class="line">            count+=<span class="number">1</span></span><br><span class="line"><span class="comment">##        print(count)</span></span><br><span class="line"><span class="comment">##        print(c)</span></span><br><span class="line">        <span class="keyword">if</span>(count==<span class="number">1</span>):</span><br><span class="line">            result.append(<span class="number">1</span>)</span><br><span class="line">            result.append(-int(temp_a/temp_b))</span><br><span class="line">            <span class="keyword">return</span> result</span><br><span class="line">        <span class="keyword">elif</span>(count%<span class="number">2</span>!=<span class="number">0</span>):</span><br><span class="line">            t=c[count-<span class="number">1</span>]</span><br><span class="line">            <span class="keyword">while</span>(count-<span class="number">1</span>!=<span class="number">0</span>):</span><br><span class="line">                s=t</span><br><span class="line">                t=t*c[count-<span class="number">2</span>]+<span class="number">1</span></span><br><span class="line">                count-=<span class="number">1</span></span><br><span class="line">            result.append(s)</span><br><span class="line">            result.append(-t)</span><br><span class="line">            <span class="keyword">return</span> result</span><br><span class="line">        <span class="keyword">else</span>:</span><br><span class="line">            t=c[count-<span class="number">1</span>]</span><br><span class="line">            <span class="keyword">while</span>(count-<span class="number">1</span>!=<span class="number">0</span>):</span><br><span class="line">                s=t</span><br><span class="line">                t=t*c[count-<span class="number">2</span>]+<span class="number">1</span></span><br><span class="line">                count-=<span class="number">1</span></span><br><span class="line">            result.append(-s)</span><br><span class="line">            result.append(t)</span><br><span class="line">            <span class="keyword">return</span> result</span><br><span class="line"></span><br><span class="line">a=<span class="number">18</span></span><br><span class="line">b=<span class="number">12</span></span><br><span class="line"><span class="keyword">if</span>(a&gt;=b):</span><br><span class="line">    re=re_gcd(a,b)</span><br><span class="line"><span class="keyword">else</span>:</span><br><span class="line">    re=re_gcd(b,a)</span><br><span class="line">print(<span class="string">"s=%d\nt=%d\n"</span>%(re[<span class="number">0</span>],re[<span class="number">1</span>]))</span><br></pre></td></tr></table></figure></p>
+<hr>
+<p>强势介绍了一波数学姿势，我们有必要来条分割线压压惊。。。</p>
+<hr>
+<p>通过上面的数学姿势，我们已经懂得如何将字节看做多项式，并明白两者是可以相互转化的，并且会求字节的乘法逆元了，那么字节代换对于我们来说已经没有问题了，下面继续来讲流程，为了防止脱节，再将字节代换的流程po一遍<br><em>字节代换（ByteSub）</em><br>字节代换是非线形变换，独立地对状态的每个字节进行。代换表（即S-盒）是可逆的，由以下两个变换的合成得到：  </p>
+<ol>
+<li>首先，将字节看作多项式，映射到自己的乘法逆元，‘00’映射到自己。</li>
+<li>其次，对字节做如下的仿射变换：</li>
+</ol>
+<p><img src="/img/密码系列6-分组密码的尾声之IDEA和AES/6.PNG" alt=""></p>
+<p><em>行移位(Shift Row)</em><br>行移位是将状态阵列的各行进行循环移位, 不同状态行的位移量不同。第0 行不移动, 第1 行循环左移C1 个字节, 第2 行循环左移C2 个字节, 第3 行循环左移C3 个字节。位移量C1 、C2 、C3 的取值与Nb 有关, 由下表给出。</p>
+<p><img src="/img/密码系列6-分组密码的尾声之IDEA和AES/11.PNG" alt=""></p>
+<p>按指定的位移量对状态的行进行的行移位运算记为ShiftRow ( State )，行移位示意图：</p>
+<p><img src="/img/密码系列6-分组密码的尾声之IDEA和AES/12.PNG" alt=""></p>
+<p>Shift Row 的逆变换是对状态阵列的后3 列分别以位移量Nb - C1 、Nb - C2 、Nb - C3进行循环移位, 使得第i 行第j 列的字节移位到( j + Nb - Ci ) mod Nb 。这里注意一下，逆变换是对状态阵列的后3 列进行的变换的，这样做的确可以变换为原来的状态。可能有同学会问，为甚不能直接对行进行逆变换，个人觉着没什么不妥，可能是我哪考虑不周全，但是这样做是经过很多砖家鉴定的，所以说对状态阵列的后3 列进行循环变换是不会错的。<br><em>列混合(MixColumn)</em><br>在列混合变换中, 将状态阵列的每个列视为GF(2^8 ) 上的多项式, 再与一个固定的多项式c( x )进行模x^4 + 1 乘法。当然要求c( x) 是模x^4 + 1 可逆的多项式, 否则列混合变换就是不可逆的, 因而会使不同的输入分组对应的输出分组可能相同。</p>
+<p>这里有必要说明下，如何将每个列视为GF(2^8 )上的多项式。还记得我们上面说的对于单个字节，可以将单个字节视为多项式，这里，我们知道，每个列是4字节，这里引入系数在GF(2^8 )上的多项式的概念：</p>
+<p><img src="/img/密码系列6-分组密码的尾声之IDEA和AES/13.PNG" alt=""><br><img src="/img/密码系列6-分组密码的尾声之IDEA和AES/14.PNG" alt=""></p>
+<p>这里对于系数多项式，对于系数多项式的模乘运算，要说这本书真是写的烂，这些具体的计算细节啊原则啊什么的从来都不写出来，搞得我云里雾里的。。。从网上无意间发现了下面东西-<a href="http://www.mamicode.com/info-detail-514466.html" target="_blank" rel="external">密码算法详解——AES</a>其中有讲解系数多项式模乘运算的细节，直接截图：</p>
+<p><img src="/img/密码系列6-分组密码的尾声之IDEA和AES/20.PNG" alt=""><br><img src="/img/密码系列6-分组密码的尾声之IDEA和AES/21.PNG" alt=""><br><img src="/img/密码系列6-分组密码的尾声之IDEA和AES/22.PNG" alt=""></p>
+<p>这样，对于系数多项式的模乘我们就知道具体是如何计算了</p>
+<hr>
+<h1 id="u4FEE_u6539_u4E8E_0x10-0x01-0x08"><a href="#u4FEE_u6539_u4E8E_0x10-0x01-0x08" class="headerlink" title="修改于 0x10.0x01.0x08"></a>修改于 0x10.0x01.0x08</h1><p>今天朋友看我blog，估计也就我这俩朋友看了，呵呵。。。<br>经朋友指点，我这里写的是不完整的，我忽略了书的一个重要内容，导致我的理解错了，不过书的排版真是有问题。</p>
+<p>这里和朋友讨论后，将多项式的乘法在这里从头到尾的捋一遍。</p>
+<p>怎么说呢，首先是对于单个字节，比如十进制数87，表示为二进制形式为1010111，它对应的多项式为x^6 + x^4 + x^2 + x + 1，相应的，再来个十进制数131，它对应的多项式为x^7 + x + 1，好了，对于单个字节对应的多项式的模乘应该怎么做呢，这里模是事先规定的，如x^8 + x^4 + x^3 + x + 1，下面直接给出计算方法，就是表示为二进制后再进行乘，然后用二进制结果去除模的二进制表示，得到的余数就是最后结果，上图：</p>
+<p><img src="/img/密码系列6-分组密码的尾声之IDEA和AES/10.PNG" alt=""></p>
+<p>上面是单个字节对应的多项式的模乘运算，那么系数多项式呢？</p>
+<p>由于系数多项式是由4个字节构成的，形式为a3x^3+a2x^2+a1^x+a0，这里每个项的系数(a3,a2,a1,a0)各自对应一个字节，一个字节有8位，也就是说系数的取值范围是[0,255]，介绍完了系数多项式的格式，我们来看系数多项式是如何进行模乘运算的。</p>
+<p>给定两个系数多项式：a(x)= a3x^3+a2x^2+a1x+a0，b(x)= b3x^3+b2x^2+b1x+b0，我们定义系数多项式的模乘运算为c(x)= a(x)b(x)=c3x^3+c2x^2+c1^x+c0 (mod x^4+1)，这里模x^4+1是为了使得次数小于4 的多项式的乘积仍然是一个次数小于4 的多项式,这时<img src="/img/密码系列6-分组密码的尾声之IDEA和AES/28.PNG" alt="">，所以我们将上面的运算表示为</p>
+<p><img src="/img/密码系列6-分组密码的尾声之IDEA和AES/14.PNG" alt=""></p>
+<p>这就是模乘运算，根据这个定义我们可以得到c0=a0 x b0+a3 x b1+a2 x b2+a1 x b3(注意这里的+都是模2加)，但这里必须要强调的一点就是，一定要注意的一点就是对于系数相乘时采取时所采取的运算规则，即a0 x b0怎么算？</p>
+<p>由于a0和b0的取值范围都是[0,255]，但他们两的乘法运算并不采用字节多项式采用的模乘运算法则，他们采用另一种运算法则，我们称之为x乘法，给出x乘法的运算法则：</p>
+<p><img src="/img/密码系列6-分组密码的尾声之IDEA和AES/29.PNG" alt=""></p>
+<p>比如当a0=02，b0=c9时，x乘法对应的运算为：</p>
+<p><img src="/img/密码系列6-分组密码的尾声之IDEA和AES/30.PNG" alt=""></p>
+<p>再来看个稍微复杂点的情况，a0=03,b0=6e时，x乘法对应的运算为：</p>
+<p><img src="/img/密码系列6-分组密码的尾声之IDEA和AES/31.PNG" alt=""></p>
+<p>也就是说把03拆成了01 + 02(注意这里的加为异或运算，即模2加运算),然后分别用01乘6e，02乘6e(这里的乘都是x乘法),对于01和02的x乘法我们已经会了，最后结果就是将这两个的结果加起来(注意这里的加为异或运算，即模2加运算)，就是这样。</p>
+<p>再来看个一般的情况,比如a0=57(16进制)，b0=13(16进制)，这里我们可以这样算，首先我们选取两数中较小的数(0x13)，将他像上面的0x3一样，拆成几个2的指数倍的数异或的形式，因为0x13=0x1 xor 0x2 xor 0x10(0x10=0x2^4)，然后将拆开的数分别于另一个数(0x57)进行x乘法运算，在此例中，0x1和0x2与0x57的x乘法我们已经会了，那么0x10与0x57的x乘法怎么算呢？</p>
+<p>这样算：由于0x10是0x2^4，即0x10 x 0x57(这里的乘法是x乘法)=(0x2 x (0x2 x (0x2 x (0x2 x 0x57))))，也就是说相当于向左移4位，根据x乘法的运算规则，在每一次和0x2相乘时都采用x乘法运算法则，描述为0x57 x 0x2进行x乘法，结果再与2进行x乘法，结果再与2进行x乘法，结果再与2进行x乘法，然后就得到了最终结果了，恩，就是这样。对于0x57和0x13的x乘法，给出下图：</p>
+<p><img src="/img/密码系列6-分组密码的尾声之IDEA和AES/32.PNG" alt=""></p>
+<p>这样，对于字节多项式的模乘运算以及系数多项式的模乘多项式我们就都搞清楚了，还是跟朋友讨论能得到姿势啊。。。</p>
+<hr>
+<p>对于上面提到的c(x)：</p>
+<p><img src="/img/密码系列6-分组密码的尾声之IDEA和AES/15.PNG" alt=""><br><img src="/img/密码系列6-分组密码的尾声之IDEA和AES/16.PNG" alt=""></p>
+<p>对状态State 的所有列所做的列混合运算记为MixColumn( State )，列混合整体效果图：</p>
+<p><img src="/img/密码系列6-分组密码的尾声之IDEA和AES/17.PNG" alt=""></p>
+<p>对于逆运算：</p>
+<p><img src="/img/密码系列6-分组密码的尾声之IDEA和AES/18.PNG" alt=""></p>
+<p><em>密钥加( AddRoundKey)</em><br>密钥加是将轮密钥简单地与状态进行逐比特异或。轮密钥由种子密钥通过密钥编排算法得到, 轮密钥长度等于分组长度Nb。状态State 与轮密钥RoundKey 的密钥加运算表示为AddRoundKey ( State, RoundKey)，密钥加的整体效果图：</p>
+<p><img src="/img/密码系列6-分组密码的尾声之IDEA和AES/19.PNG" alt=""></p>
+<p>对于逆运算，密钥加运算的逆运算是其自身。</p>
+<hr>
+<p>综上所述, 组成Rijndael 轮函数的计算部件简捷快速, 功能互补。轮函数的伪C 代码如下:<br><figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">Round (State , RoundKey)</span><br><span class="line">&#123;</span><br><span class="line">ByteSub (State ) ;</span><br><span class="line">ShiftRow (State ) ;</span><br><span class="line">MixColumn (Sta te) ;</span><br><span class="line">AddRoundKey (State , RoundKey)</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></p>
+<p>结尾轮的轮函数与前面各轮不同, 将MixColumn 这一步去掉, 其伪C 代码如下:<br><figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">FinalRound ( State , RoundKey)</span><br><span class="line">&#123;</span><br><span class="line">ByteSub (State ) ;</span><br><span class="line">ShiftRow (State ) ;</span><br><span class="line">AddRoundKey (State , RoundKey)</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></p>
+<p>在以上伪C 代码记法中, State、RoundKey 可用指针类型, 函数Round、FinalRound、ByteSub、Shift Row、MixColumn、AddRoundKey 都在指针Sta te、RoundKey 所指向的阵列上进行运算。</p>
+<p><strong>3. 密钥编排</strong><br>密钥编排指从种子密钥得到轮密钥的过程, 它由密钥扩展和轮密钥选取两部分组成。其基本原则如下:</p>
+<ol>
+<li>轮密钥的比特数等于分组长度乘以轮数加1;</li>
+<li>种子密钥被扩展成为扩展密钥;</li>
+<li>轮密钥从扩展密钥中取, 其中第1 轮轮密钥取扩展密钥的前Nb 个字, 第2 轮轮密钥取接下来的Nb 个字, 如此下去。</li>
+</ol>
+<p>排版问题(md用的不熟)，直接截图：</p>
+<p><img src="/img/密码系列6-分组密码的尾声之IDEA和AES/23.PNG" alt=""><br><img src="/img/密码系列6-分组密码的尾声之IDEA和AES/24.PNG" alt=""><br><img src="/img/密码系列6-分组密码的尾声之IDEA和AES/25.PNG" alt=""><br><img src="/img/密码系列6-分组密码的尾声之IDEA和AES/26.PNG" alt=""><br><img src="/img/密码系列6-分组密码的尾声之IDEA和AES/27.PNG" alt=""></p>
+<p><strong>4. 加密算法</strong><br>加密算法为顺序完成以下操作: 初始的密钥加; ( Nr - 1) 轮迭代;一个结尾轮。即<br><figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">Rijndael (State , Ciphe rKey)</span><br><span class="line">&#123;</span><br><span class="line">KeyExpansion (Ciphe rKey , ExpandedKey) ;</span><br><span class="line">AddRoundKey (State , ExpandedKey) ;</span><br><span class="line"><span class="keyword">for</span> ( i = <span class="number">1</span>; i &lt; Nr ; i + + ) Round (State , ExpandedKey + Nb * i) ;</span><br><span class="line">FinalRound (State, ExpandedKey + Nb * Nr )</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></p>
+<p>其中CipherKey 是种子密钥, ExpandedKey 是扩展密钥。密钥扩展可以事先进行( 预计算) , 且Rijndael 密码的加密算法可以用这一扩展密钥来描述, 即<br><figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">Rijndael (State , ExpandedKey)</span><br><span class="line">&#123;</span><br><span class="line">AddRoundKey (State , ExpandedKey) ;</span><br><span class="line"><span class="keyword">for</span> ( i = <span class="number">1</span>; i &lt; Nr ; i + + ) Round (State , ExpandedKey + Nb * i) ;</span><br><span class="line">FinalRound (State, ExpandedKey + Nb * Nr )</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></p>
+<p><strong>5. 加解密的相近程度及解密算法</strong><br>首先给出几个引理。<br>引理1 设字节代换(ByteSu b) 、行移位( Shif tRow ) 的逆变换分别为InvByteSub、InvShift Row。则组合部件“ ByteSub → Shif tRow ”的逆变换为“ InvByteSub →InvShift Row”。<br>证明: 组合部件“ ByteSu b → Shift Row”的逆变换原本为“ InvShif tRow →InvByteSub”。由于字节代换(ByteSub) 是对每个字节进行相同的变换, 故“InvShiftRow”与“InvByteSub”两个计算部件可以交换顺序。( 证毕)<br>引理2 设列混合(MixColumn ) 的逆变换为InvMixColumn。则列混合部件与密钥加部件( AddRoundKey )的组合部件“MixColumn→AddRoundKey (· , Key )”的逆变换为“InvMixColumn→AddRoundKey (· , InvKey)”。其中密钥InvKey 与Key 的关系为: InvKey = InvMixColumn ( Key) 。证明: 组合部件“MixColumn → AddRoundKey ( · , Key )” 的逆变换原本为“AddRoundKey (· , Key ) →InvMixColumn”, 由于列混合(MixColumn) 实际上是线性空间GF(28 )4 上的可逆线性变换, 因此“AddRoundKey (·, Key) → InvMixColumn”=“InvMixColumn → AddRoundKey (·, InvMixColumn ( Key) )” ( 证毕)<br>引理3 将某一轮的后两个计算部件和下一轮的前两个计算部件组成组合部件,<br>该组合部件的程序为<br><figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">MixColumn (State ) ;</span><br><span class="line">AddRoundKey (Sta te, Key( i) ) ;</span><br><span class="line">ByteSub (State) ;</span><br><span class="line"><span class="function">Shif <span class="title">tRow</span> <span class="params">(State)</span></span></span><br></pre></td></tr></table></figure></p>
+<p>则该组合部件的逆变换程序为<br><figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">InvByteSub (State ) ;</span><br><span class="line">InvShiftRow (State ) ;</span><br><span class="line">InvMixColumn (State) ;</span><br><span class="line">AddRoundKey (Sta te, InvMixColumn (Key( i) ) )</span><br></pre></td></tr></table></figure></p>
+<p>证明: 这是引理3 -1 和引理3 -2 的直接推论。<br>Rijndael 密码的解密算法为顺序完成以下操作: 初始的密钥加; ( Nr - 1 )<br>轮迭代; 一个结尾轮。其中解密算法的轮函数为<br><figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">InvRound (Sta te, RoundKey)</span><br><span class="line">&#123;</span><br><span class="line">InvByteSub ( State ) ;</span><br><span class="line"><span class="function">InvShif <span class="title">tRow</span> <span class="params">( State )</span> </span>;</span><br><span class="line">InvMixColumn (State ) ;</span><br><span class="line">AddRoundKey (State , RoundKey)</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></p>
+<p>解密算法的结尾轮为<br><figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">InvFinalRound (State, RoundKey)</span><br><span class="line">&#123;</span><br><span class="line">InvByteSub ( State ) ;</span><br><span class="line"><span class="function">InvShif <span class="title">tRow</span> <span class="params">( State )</span> </span>;</span><br><span class="line">AddRoundKey (State , RoundKey)</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></p>
+<p>设加密算法的初始密钥加、第1 轮、第2 轮、⋯、第Nr 轮的子密钥依次为<br>k(0 ) , k( 1) , k(2 ) , ⋯ , k( Nr - 1) , k( Nr )<br>则解密算法的初始密钥加、第1 轮、第2 轮、⋯、第Nr 轮的子密钥依次为<br>k( Nr ) , InvMixColumn ( k( Nr - 1) ) , InvMixColumn ( k( Nr - 2 ) ) , ⋯ ,<br>InvMixColumn ( k(1 ) ) , k(0 )。<br>证明: 这是上述3 个引理的直接推论。<br>综上所述, Rijndael 密码的解密算法与加密算法的计算网络相同, 只是将各计算部件换为对应的逆部件。这样，在具体的工业实现中就不用重新做一块板子了，节约成本。</p>
+<hr>
+<p>终于写完了分组密码，本来信心满满的开始写这个系列，写到这里突然有点恶心，感觉写着写着就变味了，写成了傻逼教科书式的blog，但没办法，我对于密码的理解一点也不深，抓不住重点，觉着都挺重要的，就都写上了。下面就到了公钥密码体制了，希望能写的有趣一点，自己也能写的开心一点。</p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<h1 id="0x00__u53E3_u80E1"><a href="#0x00__u53E3_u80E1" class="headerlink" title="0x00 口胡"></a>0x00 口胡</h1><p>对于IDEA的介绍只是简单带过，重点介绍AES</p>
+<h]]>
+    </summary>
+    
+      <category term="密码学" scheme="http://yoursite.com/tags/%E5%AF%86%E7%A0%81%E5%AD%A6/"/>
+    
+      <category term="cryptography" scheme="http://yoursite.com/categories/cryptography/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[密码系列5-分组密码的运行模式]]></title>
+    <link href="http://yoursite.com/2015/12/30/%E5%AF%86%E7%A0%81%E7%B3%BB%E5%88%975-%E5%88%86%E7%BB%84%E5%AF%86%E7%A0%81%E7%9A%84%E8%BF%90%E8%A1%8C%E6%A8%A1%E5%BC%8F/"/>
+    <id>http://yoursite.com/2015/12/30/密码系列5-分组密码的运行模式/</id>
+    <published>2015-12-30T08:04:59.000Z</published>
+    <updated>2016-01-01T13:31:47.951Z</updated>
+    <content type="html"><![CDATA[<h1 id="0x00__u586B_u5145_u6A21_u5F0F"><a href="#0x00__u586B_u5145_u6A21_u5F0F" class="headerlink" title="0x00 填充模式"></a>0x00 填充模式</h1><p>在讲解分组密码的运行模式之前，先科普下分组密码的填充模式。填充模式是当我们在使用分组密码时，对于输入的明文不是分组长度的倍数的情况提出的一种解决方案，以DES为例。<br>DES输入明文不是64比特倍数怎么办？，这是就需要填充，下面介绍几种常用(大家都在用)的填充模式，当然你也可以自定义你自己的填充模式(但关键是别人不用啊)</p>
+<h2 id="Zeros_u586B_u5145_u7B97_u6CD5"><a href="#Zeros_u586B_u5145_u7B97_u6CD5" class="headerlink" title="Zeros填充算法"></a>Zeros填充算法</h2><p>需要填充的7个字节全部填充为0，例子(其中斜体加粗为填充的数据)：<br>第一个消息分组：<br>F1 F2 F3 F4 F5 F6 F7 F8<br>第二个消息分组：<br>F9 <strong><em>00 00 00 00 00 00 00</em></strong><br>注意：即使消息长度恰好是8的整数倍，仍需填充8字节的全0</p>
+<h2 id="X923_u586B_u5145_u7B97_u6CD5"><a href="#X923_u586B_u5145_u7B97_u6CD5" class="headerlink" title="X923填充算法"></a>X923填充算法</h2><p>需要填充的7个字节中前6个字节填充0，最后一个字节记录填充的总字节数,例子(其中斜体加粗为填充的数据)：<br>第一个消息分组：<br>F1 F2 F3 F4 F5 F6 F7 F8<br>第二个消息分组：<br>F9 <strong><em>00 00 00 00 00 00 07</em></strong><br>注意：即使消息长度恰好是8的整数倍，仍需填充8字节的全0。因为，若不如此，对于 前7字节全0，最后1字节为01 的消息 00 00 00 00 00 00 00 01与7字节的全0消息，由于需要填充一个字节，但又是最后一个字节只能记录填充的字节数 所以填 01。 从而与上面的8字节消息相同。因此出现 00 00 00 00 00 00 00 01时，你分辨不出它应该是哪种情况。</p>
+<h2 id="PKCS7_u586B_u5145_u7B97_u6CD5"><a href="#PKCS7_u586B_u5145_u7B97_u6CD5" class="headerlink" title="PKCS7填充算法"></a>PKCS7填充算法</h2><p>需要填充的7个字节中的每一个字节填充需要填充的总字节数，分组结果为：<br>第一个消息分组：<br>F1 F2 F3 F4 F5 F6 F7 F8<br>第二个消息分组：<br>F9 <strong><em>07 07 07 07 07 07 07</em></strong></p>
+<h2 id="ISO10126_u586B_u5145_u7B97_u6CD5"><a href="#ISO10126_u586B_u5145_u7B97_u6CD5" class="headerlink" title="ISO10126填充算法"></a>ISO10126填充算法</h2><p>需要填充的7个字节中前6个字节填充随机字节序列，最后一个字节记录填充的总字节数，分组结果为：<br>第一个消息分组：<br>F1 F2 F3 F4 F5 F6 F7 F8<br>第二个消息分组：<br>F9 <strong><em>7D 2A 75 EF F8 EF 07</em></strong></p>
+<h1 id="0x01__u5206_u7EC4_u5BC6_u7801_u7684_u8FD0_u884C_u6A21_u5F0F"><a href="#0x01__u5206_u7EC4_u5BC6_u7801_u7684_u8FD0_u884C_u6A21_u5F0F" class="headerlink" title="0x01 分组密码的运行模式"></a>0x01 分组密码的运行模式</h1><p>分组密码在加密时, 明文分组的长度是固定的, 而实际应用中待加密消息的数据量是不定的, 数据格式可能是多种多样的。为了能在各种应用场合使用DES, 美国在FIPSPUS 74 和81 中定义了DES 的4 种运行模式, 如下表 所示。这些模式也可用于其他分组密码, 下面以DES 为例来介绍这4 种模式。</p>
+<p><img src="/img/密码系列5-分组密码的运行模式/0.PNG" alt=""></p>
+<h2 id="u7535_u7801_u672C_28ECB-Electronic_Code_Book_29_u6A21_u5F0F"><a href="#u7535_u7801_u672C_28ECB-Electronic_Code_Book_29_u6A21_u5F0F" class="headerlink" title="电码本(ECB-Electronic Code Book)模式"></a>电码本(ECB-Electronic Code Book)模式</h2><p>ECB模式是将明文的各个分组独立地使用同一密钥k加密。由于这种工作模式类似于电报密码本中指定码字的过程，所以被形象地称为电码本模式</p>
+<p><img src="/img/密码系列5-分组密码的运行模式/1.PNG" alt=""></p>
+<p>优点：</p>
+<ol>
+<li>实现简单；</li>
+<li>不同明文分组的加密可并行实施,尤其是硬件实现时速度很快.</li>
+</ol>
+<p>缺点：<br>不同的明文分组之间的加密独立进行,故保留了单表代替缺点,造成相同明文分组对应相同密文分组,因而不能隐蔽明文分组的统计规律和结构规律,不能抵抗替换攻击.</p>
+<p>ECB 在用于短数据(如加密密钥)时非常理想。比如，用于随机数的加密保护、用于单分组明文的加密。</p>
+<h2 id="u5BC6_u7801_u5206_u7EC4_u94FE_u63A5_28CBC_29_u6A21_u5F0F"><a href="#u5BC6_u7801_u5206_u7EC4_u94FE_u63A5_28CBC_29_u6A21_u5F0F" class="headerlink" title="密码分组链接(CBC)模式"></a>密码分组链接(CBC)模式</h2><p>可以看出，ECB是有安全缺陷的，为了解决ECB 的安全缺陷, 可以让重复的明文分组产生不同的密文分组, CBC( cipher block chaining)模式就可满足这一要求。</p>
+<p><img src="/img/密码系列5-分组密码的运行模式/2.PNG" alt=""></p>
+<p>它一次对一个明文分组加密, 每次加密使用同一密钥, 加密算法的输入是当前明文分组和前一次密文分组的异或, 因此加密算法的输入不会显示出与这次的明文分组之间的固定关系, 所以重复的明文分组不会在密文中暴露出这种重复关系。加密与解密的过程如上图所示，核心就是异或的可逆性。</p>
+<p>在产生第1 个密文分组时, 需要有一个初始向量IV 与第1 个明文分组异或。解密时, I V 和解密算法对第1 个密文分组的输出进行异或以恢复第1 个明文分组。I V 对于收发双方都应是已知的, 为使安全性最高, I V 应像密钥一样被保护, 可使用ECB 加密模式来发送I V。保护IV 的原因如下: 如果敌手能欺骗接收方使用不同的I V值, 敌手就能够在明文的第1 个分组中插入自己选择的比特值, 这是因为:<br>C1 = EK [ IV xor P1 ]P1 = IV xor DK [ C1 ]用X( i)表示64 比特分组X 的第i 个比特, 那么P1 ( i) = I V( i)xor DK [ C1 ] ( i) , 由异或的性质得P1 ( i)′= IV( i)′xor DK [ C1 ] ( i)其中撇号表示比特补。上式意味着如果敌手篡改IV 中的某些比特, 则接收方收到的P1中相应的比特也发生了变化。由于CBC 模式的链接机制, CBC 模式对加密长于64 比特的消息非常合适。CBC 模式除能够获得保密性外, 还能用于认证。</p>
+<p>总结下CBC模式的特点：</p>
+<ol>
+<li>明文块的统计特性得到了隐蔽。这是由于在密文CBC模式中，各密文块不仅与当前明文块有关，而且还与以前的明文块及初始化向量有关，从而使明文的统计规律在密文中得到了较好的隐蔽。</li>
+<li>具有有限的(两步)错误传播特性。一个密文块的错误将导致两个密文块不能正确脱密.</li>
+</ol>
+<h2 id="u5BC6_u7801_u53CD_u9988_28CFB__29_u6A21_u5F0F"><a href="#u5BC6_u7801_u53CD_u9988_28CFB__29_u6A21_u5F0F" class="headerlink" title="密码反馈(CFB )模式"></a>密码反馈(CFB )模式</h2><p>若待加密消息需按字符、字节或比特处理时，可采用CFB模式。并称待加密消息按 j 比特处理的CFB模式为 j 比特CFB模式。适用于每次处理 j比特明文块的特定需求的加密情形,能灵活适应数据各格式的需要.例如,数据库加密要求加密时不能改变明文的字节长度,这时就要以明文字节为单位进行加密.</p>
+<p><img src="/img/密码系列5-分组密码的运行模式/3.PNG" alt=""></p>
+<p>加密时, 加密算法的输入是64 比特移位寄存器, 其初值为某个初始向量I V。加密算法输出的最左( 最高有效位) j 比特与明文的第一个单元P1 进行异或, 产生出密文的第1个单元C1 , 并传送该单元。然后将移位寄存器的内容左移j 位并将C1 送入移位寄存器最右边( 最低有效位) j 位。这一过程继续到明文的所有单元都被加密为止。</p>
+<p>解密时, 将收到的密文单元与加密函数的输出进行异或。注意这时仍然使用加密算法而不是解密算法, 原因如下:设Sj ( X)是X 的j 个最高有效位, 那么C1 = P1 xor Sj ( E( I V) ) , 因此P1 = C1 xor Sj ( E( IV) )可证明以后各步也有类似的这种关系。CFB 模式除能获得保密性外, 还能用于认证。</p>
+<p>优点：</p>
+<ol>
+<li>适用于每次处理 j比特明文块的特定需求的加密情形;</li>
+<li>具有有限步的错误传播，可用于认证;</li>
+<li>可实现自同步功能:该工作模式本质上是将分组密码当作序列密码使用的一种方式,但乱数与明文和密文有关！该模式适应于数据库加密、无线通信加密等对数据格式有特殊要求或密文信号容易丢失或出错的应用环境。</li>
+</ol>
+<p>缺点：加密效率低</p>
+<h2 id="u8F93_u51FA_u53CD_u9988_28OFB_29_u6A21_u5F0F"><a href="#u8F93_u51FA_u53CD_u9988_28OFB_29_u6A21_u5F0F" class="headerlink" title="输出反馈(OFB)模式"></a>输出反馈(OFB)模式</h2><p>OFB(output feedback)模式的结构类似于CFB, 如下图。</p>
+<p><img src="/img/密码系列5-分组密码的运行模式/4.PNG" alt=""></p>
+<p>不同之处如下: OFB 模式是将加密算法的输出反馈到移位寄存器, 而CFB 模式中是将密文单元反馈到移位寄存器。</p>
+<p>优点：</p>
+<ol>
+<li>这是将分组密码当作序列密码使用的一种方式，但乱数与明文和密文无关！</li>
+<li>不具有错误传播特性！只要密文在传输过程中不丢信号，即使信道不好，也能将明文的大部分信号正常恢复。例如C1 中出现1 比特错误, 在解密结果中只有P1 受到影响, 以后各明文单元则不受影响。而在CFB 中, C1 也作为移位寄存器的输入, 因此它的1 比特错误会影响解密结果中各明文单元的值。</li>
+</ol>
+<p>缺点：</p>
+<ol>
+<li>不能实现报文的完整性认证。</li>
+<li>乱数序列的周期可能有短周期现象。</li>
+<li>比CFB 模式更易受到对消息流的篡改攻击, 比如在密文中取1 比特的补, 那么在恢复的明文中相应位置的比特也为原比特的补。因此使得敌手有可能通过对消息校验部分的篡改和对数据部分的篡改, 而以纠错码不能检测的方式篡改密文。</li>
+</ol>
+<p>适用范围：<br>明文的冗余度特别大，信道不好但不易丢信号，明文错些信号也不影响效果的情形。如图象加密，语音加密等。</p>
+<h1 id="0x02__u603B_u7ED3"><a href="#0x02__u603B_u7ED3" class="headerlink" title="0x02 总结"></a>0x02 总结</h1><p>4种工作模式比较</p>
+<p><img src="/img/密码系列5-分组密码的运行模式/0.PNG" alt=""></p>
+<p>下篇介绍其他较为著名的分组密码。。。</p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<h1 id="0x00__u586B_u5145_u6A21_u5F0F"><a href="#0x00__u586B_u5145_u6A21_u5F0F" class="headerlink" title="0x00 填充模式"></a>0x00 填充模式</h1><p>在讲]]>
+    </summary>
+    
+      <category term="密码学" scheme="http://yoursite.com/tags/%E5%AF%86%E7%A0%81%E5%AD%A6/"/>
+    
+      <category term="cryptography" scheme="http://yoursite.com/categories/cryptography/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[密码系列4-分组密码之大名鼎鼎的DES]]></title>
+    <link href="http://yoursite.com/2015/12/28/%E5%AF%86%E7%A0%81%E7%B3%BB%E5%88%974-%E5%88%86%E7%BB%84%E5%AF%86%E7%A0%81%E4%B9%8B%E5%A4%A7%E5%90%8D%E9%BC%8E%E9%BC%8E%E7%9A%84DES/"/>
+    <id>http://yoursite.com/2015/12/28/密码系列4-分组密码之大名鼎鼎的DES/</id>
+    <published>2015-12-28T07:48:18.000Z</published>
+    <updated>2016-01-10T15:32:06.572Z</updated>
+    <content type="html"><![CDATA[<h1 id="0x00__u5206_u7EC4_u5BC6_u7801_u7684_u6982_u8FF0"><a href="#0x00__u5206_u7EC4_u5BC6_u7801_u7684_u6982_u8FF0" class="headerlink" title="0x00 分组密码的概述"></a>0x00 分组密码的概述</h1><p>除流密码外，分组密码是对称密码体系的又一大分支。</p>
+<h2 id="u4EC0_u4E48_u662F_u5206_u7EC4_u5BC6_u7801"><a href="#u4EC0_u4E48_u662F_u5206_u7EC4_u5BC6_u7801" class="headerlink" title="什么是分组密码"></a>什么是分组密码</h2><p>分组密码（block cipher）：将明文消息序列划分成等长的消息组,在密钥 的控制下按固定的加密算法一组一组进行加密，输出一组一组密文。</p>
+<p><img src="/img/密码系列4-分组密码之大名鼎鼎的DES/0.PNG" alt=""></p>
+<p>对于分组的长度，通常取m=l。若m&gt;l，则为有数据扩展的分组密码；若m&lt;l，则为有数据压缩的分组密码。</p>
+<h2 id="u5206_u7EC4_u5BC6_u7801_u7684_u8BBE_u8BA1_u51C6_u5219"><a href="#u5206_u7EC4_u5BC6_u7801_u7684_u8BBE_u8BA1_u51C6_u5219" class="headerlink" title="分组密码的设计准则"></a>分组密码的设计准则</h2><p>准则是扩散和混淆，扩散和混淆是由Shannon提出的设计密码系统的两个基本方法。</p>
+<p>扩散的目的是使明文和密文之间的统计关系变得尽可能复杂；</p>
+<p>混淆是使密文和密钥之间的统计关系变得尽可能复杂，以使敌手无法得到密钥。</p>
+<p>如果敌手知道明文的某些统计特性，如消息中不同字母出现的频率、可能出现的特定单词或短语，而且这些统计特性以某种方式在密文中反映出来，那么敌手就有可能得出加密密钥或其一部分，或者得出包含加密密钥的一个可能的密钥集合。在Shannon称之为理想密码的密码系统中，密文的所有统计特性都与所使用的密钥独立。</p>
+<p>下面说几个具体的设计准则：</p>
+<ol>
+<li>分组长度n要足够大，使分组代换字母表中的元素个数2^n足够大，防止明文穷举攻击法奏效。DES、IDEA、FEAL和LOKI等分组密码都采用n=64。</li>
+<li>密钥量要足够大，以防止密钥穷举攻击奏效。但密钥又不能过长，以便于密钥的管理。DES采用56比特密钥，看来太短了，IDEA采用128比特密钥，据估计，在今后30～40年内采用80 比特密钥是足够安全的。</li>
+<li>由密钥确定置换的算法要足够复杂，充分实现明文与密钥的扩散和混淆，没有简单的关系可循，能抗击各种已知的攻击，如差分攻击和线性攻击；有高的非线性阶数，实现复杂的密码变换；使对手破译时,除穷举无捷径。(这句我也有好多不太懂的。。。)</li>
+<li>加密和解密运算简单，易于软件和硬件高速实现。<br>应选用简单的运算，如加、乘、移位等实现<br>加密和解密就可用同一器件实现<br>设计的算法采用规则的模块结构，如多轮迭代等，以便于软件和VLSI快速实现.</li>
+<li>数据尽量无扩展、差错传播尽可能地小。</li>
+</ol>
+<h1 id="0x01_DES"><a href="#0x01_DES" class="headerlink" title="0x01 DES"></a>0x01 DES</h1><h2 id="u53E3_u80E1"><a href="#u53E3_u80E1" class="headerlink" title="口胡"></a>口胡</h2><p>数据加密标准( data encryption standard , DES)是迄今为止世界上最为广泛使用和流行的一种分组密码算法, 它的分组长度为64 比特, 密钥长度为56 比特, 它是由美国IBM 公司研制的, 是早期的称作Lucifer 密码的一种发展和修改。DES 在1975 年3 月17日首次被公布在联邦记录中, 经过大量的公开讨论后,DES 于1977 年1 月15 日被正式批准并作为美国联邦信息处理标准, 即FIPS-46 , 同年7 月15 日开始生效。规定每隔5 年由美国国家保密局( national security agency , NSA)作出评估, 并重新批准它是否继续作为联邦加密标准。最近的一次评估是在1994 年1 月, 美国已决定1998 年12 月以后将不再使用DES。1997 年DESCHALL 小组经过近4 个月的努力, 通过Inter net 搜索了3×1016 个密钥, 找出了DES 的密钥, 恢复出了明文。1998 年5 月美国EFF ( elect ronicsfrontier foundation )宣布, 他们以一台价值20 万美元的计算机改装成的专用解密机, 用56 小时破译了56 比特密钥的DES。美国国家标准和技术协会已征集并进行了几轮评估、筛选, 产生了称之为AES( advanced encryption standard ) 的新加密标准。尽管如此,DES 对于推动密码理论的发展和应用毕竟起了重大作用, 对于掌握分组密码的基本理论、设计思想和实际应用仍然有着重要的参考价值。</p>
+<p>不啰嗦，直接上流程图，以下内容均来自《现代密码学——杨波》，感觉此书对于DES流程的讲解还是比较详细的。</p>
+<p><img src="/img/密码系列4-分组密码之大名鼎鼎的DES/1.PNG" alt=""></p>
+<p>上图是DES 加密算法的框图, 其中明文分组长为64 比特, 密钥长为56 比特。图的左边是明文的处理过程, 有3 个阶段, 首先是一个初始置换IP, 用于重排明文分组的64比特数据。然后是具有相同功能的16 轮变换, 每轮中都有置换和代换运算, 第16 轮变换的输出分为左右两半, 并被交换次序。最后再经过一个逆初始置换IP- 1 ( 为IP 的逆) 从而产生64 比特的密文。除初始置换和逆初始置换外, DES 的结构和Feistel密码结构完全相同。</p>
+<h2 id="u63D2_u4E00_u4E0B_u53C8_u4E0D_u4F1A_u6000_u5B55-Feistel_u5BC6_u7801_u7ED3_u6784"><a href="#u63D2_u4E00_u4E0B_u53C8_u4E0D_u4F1A_u6000_u5B55-Feistel_u5BC6_u7801_u7ED3_u6784" class="headerlink" title="插一下又不会怀孕-Feistel密码结构"></a>插一下又不会怀孕-Feistel密码结构</h2><p>强势插入Feistel密码结构</p>
+<p>很多分组密码的结构从本质上说都是基于一个称为Feistel 网络的结构。Feistel 提出利用乘积密码可获得简单的代换密码, 乘积密码指顺序地执行两个或多个基本密码系统, 使得最后结果的密码强度高于每个基本密码系统产生的结果, Feistel 还提出了实现代换和置换的方法。其思想实际上是Shannon 提出的利用乘积密码实现混淆和扩散思想的具体应用。</p>
+<p><img src="/img/密码系列4-分组密码之大名鼎鼎的DES/2.PNG" alt=""></p>
+<p>是Feistel 网络示意图, 加密算法的输入是分组长为2 w 的明文和一个密钥K。将每组明文分成左右两半L0 和R0 , 在进行完n 轮迭代后, 左右两半再合并到一起以产生密文分组。其第i 轮迭代的输入为前一轮输出的函数:Li = Ri - 1Ri = Li - 1 xor F( Ri - 1 , Ki )其中Ki 是第i 轮用的子密钥, 由加密密钥K 得到。一般地, 各轮子密钥彼此不同而且与K 也不同。Feistel 网络中每轮结构都相同, 每轮中右半数据被作用于轮函数F 后, 再与左半数据进行异或运算, 这一过程就是上面介绍的代换。每轮的轮函数的结构都相同, 但以不同的子密钥Ki 作为参数。代换过程完成后, 再交换左、右两半数据, 这一过程称为置换。这种结构是Shannon 提出的代换———置换网络( s ubstitution-permutation network ,SPN )的特有形式。</p>
+<p>Feistel 网络的实现与以下参数和特性有关:</p>
+<ol>
+<li>分组大小 分组越大则安全性越高, 但加密速度就越慢。分组密码设计中最为普遍使用的分组大小是64 比特。</li>
+<li>密钥大小 密钥越长则安全性越高, 但加密速度就越慢。现在普遍认为64 比特或更短的密钥长度是不安全的, 通常使用128 比特的密钥长度。</li>
+<li>轮数 单轮结构远不足以保证安全性, 但多轮结构可提供足够的安全性。典型地, 轮数取为16。</li>
+<li>子密钥产生算法 该算法的复杂性越大, 则密码分析的困难性就越大。</li>
+<li>轮函数 轮函数的复杂性越大, 密码分析的困难性也越大。</li>
+</ol>
+<p>在设计F eistel 网络时, 还有以下两个方面需要考虑:</p>
+<ol>
+<li>快速的软件实现 在很多情况中, 算法是被镶嵌在应用程序中, 因而无法用硬件实现。此时算法的执行速度是考虑的关键。</li>
+<li>算法容易分析 如果算法能被无疑义地解释清楚, 就可容易地分析算法抵抗攻击的能力, 有助于设计高强度的算法。</li>
+</ol>
+<p><strong>Feistel解密结构</strong>：<br>Feistel 解密过程本质上和加密过程是一样的, 算法使用密文作为输入, 但使用子密钥Ki 的次序与加密过程相反, 即第1 轮使用Kn , 第2 轮使用Kn - 1 , ⋯⋯ , 最后一轮使用K1 。这一特性保证了解密和加密可采用同一算法。</p>
+<p><img src="/img/密码系列4-分组密码之大名鼎鼎的DES/3.PNG" alt=""></p>
+<p>上图的左边表示16 轮Feistel 网络的加密过程, 右边表示解密过程, 加密过程由上而下, 解密过程由下而上。为清楚起见, 加密算法每轮的左右两半用LEi 和REi 表示, 解密算法每轮的左右两半用LDi 和RDi 表示。图中右边标出了解密过程中每一轮的中间值与左边加密过程中间值的对应关系, 即加密过程第i 轮的输出是LEi ‖ REi ( ‖表示链接) , 解密过程第16 - i 轮相应的输入是RDi ‖ LDi 。加密过程的最后一轮执行完后, 两半输出再经交换, 因此密文是RE16 ‖ LE16 。解密<br>过程取以上密文作为同一算法的输入, 即第1 轮输入是RE16 ‖ LE16 , 等于加密过程第16轮两半输出交换后的结果。下面证明解密过程第1 轮的输出等于加密过程第16 轮输入<br>左右两半的交换值。<br>在加密过程中:<br>LE16 = RE1 5<br>RE16 = LE1 5 xor F( RE15 , K16 )<br>在解密过程中:<br>LD1 = RD0 = LE16 = RE15<br>RD1 = LD0 xor F( RD0 , K16 ) = RE16 xor F( RE1 5 , K1 6 )= [ LE1 5 xor F( RE15 , K16 ) ] xor F( RE1 5 , K16 )<br>= LE15<br>所以解密过程第1 轮的输出为LE15 ‖ RE15 , 等于加密过程第16 轮输入左右两半交换后<br>的结果。容易证明这种对应关系在16 轮中每轮都成立。一般地, 加密过程的第i 轮有<br>LEi = REi - 1<br>REi = LEi - 1 xor F( REi - 1 , Ki )<br>因此<br>REi - 1 = LEi<br>LEi - 1 = REi xor F( REi - 1 , Ki ) = REi xor F( LEi , Ki )<br>以上两式描述了加密过程中第i 轮的输入与第i 轮输出的函数关系, 由此关系可得图3 -4右边显示的LDi 和RDi 的取值关系。最后可以看到, 解密过程第16 轮的输出是RE0 ‖ LE0 , 左右两半再经一次交换后即得最初的明文。</p>
+<p>这里有必要对上面的两个图进行一个说明，两个图所表达的意思是一样的，第一个图偏向于说明理论的流程，把每一次左右两边的交换过程给体现在了图中；而第二个图更偏向于真正现实中的应用，是硬件的具体实现，在具体的实现过程中，我们可以把每一次的左右交换调整为异或原件的左右交换，第二个图也是这么做的，这样和每一次交换一下左右两边达到的效果是一样的，而这样的硬件电路板实现后，每一轮就不需要交换，而是数据直接作为下一轮的输入。</p>
+<p>还有一点需要注意，就是不论是加密还是解密的最后一次交换都是非常必要的，因为硬件实现后，是需要能够重用的，加密与解密用的是同一块硬件电路板，但我们可以很清楚的注意到，在电路板中，第一轮与第十六轮的异或原件所处的左右位置是不一样的，所以为了使加密与解密的正常逻辑的实现，为了重用同一块电路板，为了避免第一轮与最后一轮异或原件所处左右位置不一样而是解密操作逻辑上的失败，这加密过程的最后一步是必不可少的，而在解密过程中的最后一步交换也能够使得解密能够得到正确的明文。</p>
+<hr>
+<p>看完了Feistel解密结构，我们接着来谈DES</p>
+<p><img src="/img/密码系列4-分组密码之大名鼎鼎的DES/1.PNG" alt=""></p>
+<p>接着看这个图，该图的右边是使用56 比特密钥的方法。密钥首先通过一个置换函数, 然后, 对加密过程的每一轮, 通过一个左循环移位和一个置换产生一个子密钥。其中每轮的置换都相同, 但由于密钥被重复迭代, 所以产生的每轮子密钥不相同。</p>
+<p>下面解析DES的流程：</p>
+<h2 id="1-_u521D_u59CB_u7F6E_u6362"><a href="#1-_u521D_u59CB_u7F6E_u6362" class="headerlink" title="1.初始置换"></a>1.初始置换</h2><p>DES 的置换表：</p>
+<p><img src="/img/密码系列4-分组密码之大名鼎鼎的DES/4.PNG" alt=""></p>
+<p>表3 -2 ( a )和表3 -2 ( b) 分别给出了初始置换和逆初始置换的定义, 为了显示这两个置<br>换的确是彼此互逆的, 考虑下面64 比特的输入M :</p>
+<p><img src="/img/密码系列4-分组密码之大名鼎鼎的DES/5.PNG" alt=""></p>
+<p>其中Mi 是二元数字。由表3 -2( a )得X = IP( M) 为:</p>
+<p><img src="/img/密码系列4-分组密码之大名鼎鼎的DES/6.PNG" alt=""><br><img src="/img/密码系列4-分组密码之大名鼎鼎的DES/7.PNG" alt=""></p>
+<p>如果再取逆初始置换Y = IP- 1 ( X ) = IP - 1 ( IP ( M) ) , 可以看出, M 各位的初始顺序将被<br>恢复。</p>
+<h2 id="2-_u8F6E_u7ED3_u6784"><a href="#2-_u8F6E_u7ED3_u6784" class="headerlink" title="2.轮结构"></a>2.轮结构</h2><p>DES 加密算法的轮结构：</p>
+<p><img src="/img/密码系列4-分组密码之大名鼎鼎的DES/8.PNG" alt=""></p>
+<p>首先看图的左半部分。将64 比特的轮输入分成各为32 比特的左、右两半, 分别记为L 和R。和Feistel 网络一样, 每轮变换可由以下公式表示:<br>Li = Ri - 1<br>Ri = Li - 1 xor F( Ri - 1 , Ki )<br>其中轮密钥Ki 为48 比特, 函数F( R, K) (虚线框中的所有过程)的计算过程如图3 -7 所示。</p>
+<p><img src="/img/密码系列4-分组密码之大名鼎鼎的DES/9.PNG" alt=""></p>
+<p>轮输入的右半部分R 为32 比特, R 首先被扩展成48 比特, 扩展过程由表( c )定义：</p>
+<p><img src="/img/密码系列4-分组密码之大名鼎鼎的DES/10.PNG" alt=""></p>
+<p>其中将R 的16 个比特各重复一次。扩展后的48 比特再与子密钥Ki 异或, 然后再通过一个S 盒, 产生32 比特的输出。该输出再经过一个由表( d ) 定义的置换</p>
+<p><img src="/img/密码系列4-分组密码之大名鼎鼎的DES/11.PNG" alt=""></p>
+<p>产生的结果即为函数F( R, K) 的输出。</p>
+<p>F 中的代换由8 个S 盒组成, 每个S 盒的输入长为6 比特、输出长为4 比特, 其变换关系由表3 -3 定义, 每个S 盒给出了4 个代换(由一个表的4 行给出) 。</p>
+<p><img src="/img/密码系列4-分组密码之大名鼎鼎的DES/12.PNG" alt=""><br><img src="/img/密码系列4-分组密码之大名鼎鼎的DES/13.PNG" alt=""></p>
+<p>对每个盒Si , 其6 比特输入中, 第1 个和第6 个比特形成一个2 位二进制数, 用来选择Si 的4 个代换中的一个。6 比特输入中, 中间4 位用来选择列。行和列选定后, 得到其交叉位置的十进制数, 将这个数表示为4 位二进制数即得这一S 盒的输出。例如, S1 的输入为011001 , 行选为01( 即第1 行) , 列选为1100 (即第12 列) , 行列交叉位置的数为9 , 其4 位二进制表示为1001 , 所以S1 的输出为1001。</p>
+<p>对于S盒的每一行，S 盒的每一行定义了一个可逆代换, 举个例子：下图表示S1 第0 行所定义的代换。</p>
+<p><img src="/img/密码系列4-分组密码之大名鼎鼎的DES/14.PNG" alt=""></p>
+<h2 id="3-_u5BC6_u94A5_u7684_u4EA7_u751F"><a href="#3-_u5BC6_u94A5_u7684_u4EA7_u751F" class="headerlink" title="3.密钥的产生"></a>3.密钥的产生</h2><p><img src="/img/密码系列4-分组密码之大名鼎鼎的DES/15.PNG" alt=""></p>
+<p>输入算法的56 比特密钥首先经过一个置换运算, 该置换由表3 -4( a) 给出, 然后将置换后的56 比特分为各为28 比特的左、右两半, 分别记为C0 和D0 。在第i 轮分别对Ci - 1 和Di - 1 进行左循环移位, 所移位数由表3 -4( c )给出。移位后的结果作为求下一轮子密钥的输入, 同时也作为置换选择2 的输入。通过置换选择2 产生的48比特的Ki , 即为本轮的子密钥, 作为函数F( Ri - 1 , Ki )的输入。其中置换选择2 由表3 -4( b)定义。</p>
+<h2 id="4-_u89E3_u5BC6"><a href="#4-_u89E3_u5BC6" class="headerlink" title="4.解密"></a>4.解密</h2><p>和F eistel 密码一样,DES 的解密和加密使用同一算法, 但子密钥使用的顺序相反。</p>
+<hr>
+<h1 id="0x02_DES_u7684_u6269_u5C55"><a href="#0x02_DES_u7684_u6269_u5C55" class="headerlink" title="0x02 DES的扩展"></a>0x02 DES的扩展</h1><p>普通的DES的安全性已经不能满足要求，但是由于DES曾经的辉煌，导致很多软硬件是按照DES去实现的。所以提出了一种较为折中的方法，为了提高DES 的安全性, 并利用实现DES 的现有软硬件, 可将DES 算法在多密钥下多重使用。</p>
+<h2 id="u4E8C_u91CDDES"><a href="#u4E8C_u91CDDES" class="headerlink" title="二重DES"></a>二重DES</h2><p>二重DES 是多重使用DES 时最简单的形式, 如图:</p>
+<p><img src="/img/密码系列4-分组密码之大名鼎鼎的DES/16.PNG" alt=""></p>
+<p>其中明文为P, 两个加密密钥为K1 和K2 , 密文为:<br>C = EK2 [ EK1 [ P] ]<br>解密时, 以相反顺序使用两个密钥:<br>P = DK1 [ DK2 [ C] ]<br>因此, 二重DES 所用密钥长度为112 比特, 强度极大地增加。</p>
+<p><strong>针对二重DES的攻击</strong><br>假设对任意两个密钥K1 和K2 , 能够找出另一密钥K3 , 使得EK2 [ EK1 [ P] ] = EK3 [ P]那么, 二重DES 以及多重DES 都没有意义, 因为它们与56 比特密钥的单重DES 等价, 好在这种假设对DES 并不成立。原因：将DES 加密过程64 比特分组到64 比特分组的映射看作一个置换, 如果考虑2的64次方个所有可能的输入分组, 则密钥给定后, DES 的加密将把每个输入分组映射到一个惟一的输出分组。否则, 如果有两个输入分组被映射到同一分组, 则解密过程就无法实施。另一方面, 对每个不同的密钥,DES 也都定义了一个映射。因此, 可假定用两个不同的密钥两次使用DES, 可得一个新映射, 而且这一新映射不出现在单重DES 定义的映射中。这一假定已于1992 年被证明。所以使用二重DES 产生的映射不会等价于单重DES 加密。那二重DES这么一说不就挺好的了，112bit长度的密钥我们可以接受，是不是可以放心使用了？其实并不，对二重DES 有以下一种称为中途相遇攻击的攻击方案, 这种攻击不依赖于DES 的任何特性, 因而可用于攻击任何分组密码。</p>
+<p><strong>中途相遇攻击</strong> </p>
+<p><img src="/img/密码系列4-分组密码之大名鼎鼎的DES/17.PNG" alt=""></p>
+<p>基本思想如下:如果有C = EK2 [ EK1 [ P] ]那么( 见图3 -8)X = EK1 [ P] = DK2 [ C]如果已知一个明文密文对( P, C) , 攻击的实施可如下进行: 首先, 用2^56 个所有可能的K1对P 加密, 将加密结果存入一表并对表按X 排序, 然后用2^56 个所有可能的K2 对C 解密, 在上述表中查找与C 解密结果相匹配的项, 如果找到, 则记下相应的K1 和K2 。最后再用一新的明文密文对( P′, C′)检验上面找到的K1 和K2 , 用K1 和K2 对P′两次加密,若结果等于C′, 就可确定K1 和K2 是所要找的密钥。对已知的明文P, 二重DES 能产生2的64次方个可能的密文, 而可能的密钥个数为2的112次方 , 所以平均来说, 对一个已知的明文, 有2的112次方 / 2的64次方 = 2的48次方个密钥可产生已知的密文。而再经过另外一对明文密文的检验, 误报率将下降到2的(48 - 64)次方= 2的(-16)次方 。所以在实施中途相遇攻击时, 如果已知两个明文密文对, 则找到正确密钥的概率为1 - 2(-16)次方 。</p>
+<p>可见，由于二重DES的对称性，加上2的64次方数量级的计算对于现代计算机来说可以实现，并不是什么难事，所以导致他不能避免中途相遇攻击，那么三重DES应运而生</p>
+<h2 id="u4E09_u91CDDES"><a href="#u4E09_u91CDDES" class="headerlink" title="三重DES"></a>三重DES</h2><p>三重DES可以抵抗中途相遇攻击。三重DES使用3 个不同的密钥做3 次加密, 从而可使已知明文攻击的代价增加到2的112次方 。但这样又会使密钥长度增加到56×3 = 168 比特, 因而过于笨重。一种实用的方法是仅使用两个密钥做3 次加密, 实现方式为加密-解密-加密, 简记为EDE( enc rypt-decrypt-encrypt )如图：</p>
+<p><img src="/img/密码系列4-分组密码之大名鼎鼎的DES/18.PNG" alt=""></p>
+<p>即:C = EK1 [ DK2 [ EK1 [ P] ] ]，第2 步解密的目的仅在于使得用户可对一重DES 加密的数据解密。此方案已在密钥管理标准ANS X .917 和ISO 8732 中被采用。</p>
+<p>但是三个密钥的三重DES并不是我们所不能容忍的。三重DES的密钥长度为168 比特, 加密方式为C = EK3 [ DK2 [ EK1 [ P] ] ]，三个密钥的三重DES 已在因特网的许多应用(如PGP 和S/ MIME) 中被采用。</p>
+<hr>
+<p>DES就介绍到这，但分组密码还远没有结束。。。</p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<h1 id="0x00__u5206_u7EC4_u5BC6_u7801_u7684_u6982_u8FF0"><a href="#0x00__u5206_u7EC4_u5BC6_u7801_u7684_u6982_u8FF0" class="headerlink" title]]>
+    </summary>
+    
+      <category term="密码学" scheme="http://yoursite.com/tags/%E5%AF%86%E7%A0%81%E5%AD%A6/"/>
+    
+      <category term="cryptography" scheme="http://yoursite.com/categories/cryptography/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[密码系列3-流密码实战之RC4算法]]></title>
+    <link href="http://yoursite.com/2015/12/26/%E5%AF%86%E7%A0%81%E7%B3%BB%E5%88%973-%E6%B5%81%E5%AF%86%E7%A0%81%E5%AE%9E%E6%88%98%E4%B9%8BRC4%E7%AE%97%E6%B3%95/"/>
+    <id>http://yoursite.com/2015/12/26/密码系列3-流密码实战之RC4算法/</id>
+    <published>2015-12-26T09:01:09.000Z</published>
+    <updated>2015-12-28T07:30:53.837Z</updated>
+    <content type="html"><![CDATA[<h1 id="0x01__u53E3_u80E1"><a href="#0x01__u53E3_u80E1" class="headerlink" title="0x01 口胡"></a>0x01 口胡</h1><p>RC4加密算法是大名鼎鼎的RSA三人组中的头号人物Ronald Rivest在1987年设计的密钥长度可变的流加密算法簇。之所以称其为簇，是由于其核心部分的S-box长度可为任意，但一般为256字节。该算法的速度可以达到DES加密的10倍左右，且具有很高级别的非线性。RC4起初是用于保护商业机密的。但是在1994年9月，它的算法被发布在互联网上，也就不再有什么商业机密了。RC4也被叫做ARC4（Alleged RC4——所谓的RC4），因为RSA从来就没有正式发布过这个算法。</p>
+<p>一切的口胡都是苍白无力的，话不多说，都在代码里，直接进正片看代码。</p>
+<h1 id="0x02__u6B63_u7247"><a href="#0x02__u6B63_u7247" class="headerlink" title="0x02 正片"></a>0x02 正片</h1><p>由于RC4算法的代码很少，所以下面会直接贴代码来说明RC4加密流程：</p>
+<h2 id="main_u51FD_u6570"><a href="#main_u51FD_u6570" class="headerlink" title="main函数"></a>main函数</h2><figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">main</span><span class="params">()</span></span><br><span class="line"></span>&#123;</span><br><span class="line"><span class="keyword">unsigned</span> <span class="keyword">char</span> s[<span class="number">256</span>] = &#123;<span class="number">0</span>&#125;,s2[<span class="number">256</span>] = &#123;<span class="number">0</span>&#125;;    <span class="comment">//S-box</span></span><br><span class="line"> </span><br><span class="line"><span class="keyword">char</span> key[<span class="number">256</span>] = &#123;<span class="string">"just for test"</span>&#125;;</span><br><span class="line"> </span><br><span class="line"><span class="keyword">char</span> pData[<span class="number">512</span>] = <span class="string">"Data"</span>;</span><br><span class="line"><span class="keyword">int</span> i=<span class="number">0</span>;</span><br><span class="line"> </span><br><span class="line">ULONG len = <span class="built_in">strlen</span>(pData);</span><br><span class="line"> </span><br><span class="line"><span class="built_in">printf</span>(<span class="string">"pData = %s\n"</span>,pData);</span><br><span class="line"> </span><br><span class="line"><span class="built_in">printf</span>(<span class="string">"key = %s, length = %d\n\n"</span>,key,<span class="built_in">strlen</span>(key));</span><br><span class="line"> </span><br><span class="line">rc4_init(s,(<span class="keyword">unsigned</span> <span class="keyword">char</span> *)key,<span class="built_in">strlen</span>(key));   <span class="comment">//已经完成了初始化</span></span><br><span class="line"> </span><br><span class="line"><span class="built_in">printf</span>(<span class="string">"完成对S[i]的初始化，如下：\n\n"</span>);</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"> </span><br><span class="line"><span class="keyword">for</span>(i=<span class="number">0</span>; i&lt;<span class="number">256</span>; i++)</span><br><span class="line"> </span><br><span class="line">&#123;</span><br><span class="line"> </span><br><span class="line"><span class="built_in">printf</span>(<span class="string">"%-3d "</span>,s[i]);</span><br><span class="line"> </span><br><span class="line">&#125;</span><br><span class="line"> </span><br><span class="line"><span class="built_in">printf</span>(<span class="string">"\n\n"</span>);</span><br><span class="line"></span><br><span class="line"><span class="keyword">for</span>(i=<span class="number">0</span>;i&lt;<span class="number">256</span>;i++)<span class="comment">//用s2[i]暂时保留经过初始化的s[i]，很重要的！！！</span></span><br><span class="line"><span class="comment">//这里之所以做保留是因为s在经过初始化后需要做一个备份，以保证在加解密的时候经过crypt函数生成的密钥流一样，只要使用相同的密钥流才能够保证数据在加密之后能够被正常解密，这也是流密码的一大特性</span></span><br><span class="line">&#123;</span><br><span class="line"> </span><br><span class="line">s2[i]=s[i];</span><br><span class="line"> </span><br><span class="line">&#125;</span><br><span class="line"> </span><br><span class="line"><span class="built_in">printf</span>(<span class="string">"已经初始化，现在加密:\n\n"</span>);</span><br><span class="line"> </span><br><span class="line">rc4_crypt(s,(<span class="keyword">unsigned</span> <span class="keyword">char</span> *)pData,len);<span class="comment">//加密</span></span><br><span class="line"> </span><br><span class="line"><span class="built_in">printf</span>(<span class="string">"pData = %s\n\n"</span>,pData);</span><br><span class="line"> </span><br><span class="line"><span class="built_in">printf</span>(<span class="string">"已经加密，现在解密:\n\n"</span>);</span><br><span class="line"> </span><br><span class="line">rc4_init(s,(<span class="keyword">unsigned</span> <span class="keyword">char</span> *)key, <span class="built_in">strlen</span>(key));   <span class="comment">//初始化密钥</span></span><br><span class="line"> </span><br><span class="line">rc4_crypt(s2,(<span class="keyword">unsigned</span> <span class="keyword">char</span> *)pData,len);<span class="comment">//解密</span></span><br><span class="line"> </span><br><span class="line"><span class="built_in">printf</span>(<span class="string">"pData = %s\n\n"</span>,pData);</span><br><span class="line"> </span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>main的流程：</p>
+<ol>
+<li>声明两个S盒，两个S盒的大小都是256字节，并都被定义为0；</li>
+<li>声明并定义密钥(key)；</li>
+<li>声明并定义要加密的数据，即明文，这里的长度是随意的，长度范围为[0,255]；</li>
+<li>进入初始化函数rc4_init，我们来看下初始化函数的代码：</li>
+</ol>
+<h2 id="rc4_init_u51FD_u6570"><a href="#rc4_init_u51FD_u6570" class="headerlink" title="rc4_init函数"></a>rc4_init函数</h2><figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">rc4_init</span><span class="params">(<span class="keyword">unsigned</span> <span class="keyword">char</span> *s, <span class="keyword">unsigned</span> <span class="keyword">char</span> *key, <span class="keyword">unsigned</span> <span class="keyword">long</span> Len)</span> <span class="comment">//初始化函数</span></span><br><span class="line"><span class="comment">//初始化过程只是根据秘钥打乱了s这个0-255数组的顺序，具体怎么打乱的不需要知道</span></span><br><span class="line"></span>&#123;</span><br><span class="line"> </span><br><span class="line"><span class="keyword">int</span> i =<span class="number">0</span>, j = <span class="number">0</span>;</span><br><span class="line"> </span><br><span class="line"><span class="keyword">char</span> k[<span class="number">256</span>] = &#123;<span class="number">0</span>&#125;;</span><br><span class="line"> </span><br><span class="line"><span class="keyword">unsigned</span> <span class="keyword">char</span> tmp = <span class="number">0</span>;</span><br><span class="line"> </span><br><span class="line"><span class="keyword">for</span>(i=<span class="number">0</span>;i&lt;<span class="number">256</span>;i++)</span><br><span class="line"> </span><br><span class="line">&#123;</span><br><span class="line"> </span><br><span class="line">s[i]=i; <span class="comment">//s是0-255的数组</span></span><br><span class="line"> </span><br><span class="line">k[i]=key[i%Len]; <span class="comment">//k是根据秘钥生成的一个秘钥循环数组</span></span><br><span class="line"> </span><br><span class="line">&#125;</span><br><span class="line"> </span><br><span class="line"><span class="keyword">for</span> (i=<span class="number">0</span>; i&lt;<span class="number">256</span>; i++)</span><br><span class="line"> </span><br><span class="line">&#123;</span><br><span class="line"> </span><br><span class="line">j=(j+s[i]+k[i])%<span class="number">256</span>; <span class="comment">//根据秘钥去初始化(打乱)s数组的顺序</span></span><br><span class="line"> </span><br><span class="line">tmp = s[i];</span><br><span class="line"> </span><br><span class="line">s[i] = s[j]; <span class="comment">//交换s[i]和s[j]</span></span><br><span class="line"> </span><br><span class="line">s[j] = tmp;</span><br><span class="line"> </span><br><span class="line">&#125;</span><br><span class="line"> </span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>rc4_init的流程：</p>
+<ol>
+<li>非常简单的一个函数。首先要明确参数，main传进来的参数是S盒，密钥以及密钥的长度；</li>
+<li>第一个循环是对S盒进行初始赋值，将S盒赋值为0-255，然后根据密钥循环生成一个大小为256字节的密钥循环数组；</li>
+<li>第二个循环是根据密钥去打乱S盒的顺序，具体的打乱规则如代码所示，针对每一个s[i]，s[i]与k[i]混淆后产生一个要交换的索引j，然后s[i]与s[j]交换</li>
+</ol>
+<p>其实具体的交换规则我们不需要知道，没什么意思，我们只需要知道S盒经过rc4_init之后，生成了一个很乱的S盒，且这个S盒的生成与循环密钥数组有关，可以这样理解，将这个函数看做一个黑盒，全0的S盒和密钥循环数组k(由给定的密钥生成)被放进这个黑盒中，按下黑盒的搅拌开关，搅拌成功后黑盒吐出来一个面目全非的S盒，这个S盒会用于接下来的加密与解密操作。</p>
+<p>书接上文，接着来看main的流程：</p>
+<ol>
+<li>S盒经过rc4_init之后，得到一个全新的S盒，然后这个S盒会被copy一份存储在S2中，S2是新S盒的一个副本，S用于加密操作，S2用于解密操作，以保证在加解密的时候经过crypt函数生成的密钥流一样。</li>
+<li>进入rc4_crypt进行加密；</li>
+</ol>
+<h2 id="rc4_crypt_u51FD_u6570"><a href="#rc4_crypt_u51FD_u6570" class="headerlink" title="rc4_crypt函数"></a>rc4_crypt函数</h2><figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">rc4_crypt</span><span class="params">(<span class="keyword">unsigned</span> <span class="keyword">char</span> *s, <span class="keyword">unsigned</span> <span class="keyword">char</span> *Data, <span class="keyword">unsigned</span> <span class="keyword">long</span> Len)</span> <span class="comment">//加解密</span></span><br><span class="line"><span class="comment">//打乱之后，在对s进行一系列的变换后当做密钥流</span></span><br><span class="line"></span>&#123;</span><br><span class="line"> </span><br><span class="line"><span class="keyword">int</span> i = <span class="number">0</span>, j = <span class="number">0</span>, t = <span class="number">0</span>;</span><br><span class="line"> </span><br><span class="line"><span class="keyword">unsigned</span> <span class="keyword">long</span> k = <span class="number">0</span>;</span><br><span class="line"> </span><br><span class="line"><span class="keyword">unsigned</span> <span class="keyword">char</span> tmp;</span><br><span class="line"> </span><br><span class="line"><span class="keyword">for</span>(k=<span class="number">0</span>;k&lt;Len;k++)</span><br><span class="line"> </span><br><span class="line">&#123;</span><br><span class="line"> </span><br><span class="line">i=(i+<span class="number">1</span>)%<span class="number">256</span>;</span><br><span class="line"> </span><br><span class="line">j=(j+s[i])%<span class="number">256</span>;</span><br><span class="line"> </span><br><span class="line">tmp = s[i];</span><br><span class="line"> </span><br><span class="line">s[i] = s[j]; <span class="comment">//交换s[x]和s[y]</span></span><br><span class="line"> </span><br><span class="line">s[j] = tmp;</span><br><span class="line"> </span><br><span class="line">t=(s[i]+s[j])%<span class="number">256</span>;</span><br><span class="line"> </span><br><span class="line">Data[k] ^= s[t];</span><br><span class="line"> </span><br><span class="line">&#125;</span><br><span class="line"> </span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>rc4_crypt的流程：</p>
+<p>函数就一个循环，该循环完成加密操作，这个循环对S盒又进行了一系列变换操作，然后才作为加密明文的密钥流，这里需要注意的是，对于每一次循环，明文只在最后一步跟S盒进行了异或操作，体现出流密码的特性.</p>
+<p>到这里rc4算法的加密过程就结束了，我们可以这样理解，不管是rc4_init还是rc4_crypt，这两个函数所做的很多工作都是根据给定的密钥经过一系列杂七杂八的操作去生成较为安全的密钥流，然后明文只需要跟密钥流异或一下就生成了明文</p>
+<p>书接上文，接着看main的流程：</p>
+<ol>
+<li>加密之后，解密操作就顺其自然了。还记得前面保存的S盒的副本S2吗，解密的过程就是通过S2产生相同的密钥流，然后与密文进行异或，由于异或的可逆性，所以相同的密钥流在与密文异或后会得到相应的明文。</li>
+</ol>
+<p>这就是rc4算法的整体流程</p>
+<hr>
+<h1 id="0x03_rc4_u5728_u73B0_u5B9E_u4E2D_u7684_u5177_u4F53_u5E94_u7528"><a href="#0x03_rc4_u5728_u73B0_u5B9E_u4E2D_u7684_u5177_u4F53_u5E94_u7528" class="headerlink" title="0x03 rc4在现实中的具体应用"></a>0x03 rc4在现实中的具体应用</h1><p>是使用最广泛的软件流密码之一,并且广泛应用在SSL和WEP层协议中。</p>
+<p>让我们来看一下RC4算法在手机和AP的通信中应用：</p>
+<ol>
+<li>客户发出验证请求</li>
+<li>AP接到请求后AP产生一个随机数，该随机数会以明文方式发送给客户端</li>
+<li>客户端使用WEP密钥(该密钥是用户连入AP时需要输入的，是连入AP的凭证)用RC4算法(此时RC4算法的密钥就是用的前面的WEP密钥，该密钥为用户和AP共享的)加密数据包(携带着经过加密的随机数)并且将它发回</li>
+<li>AP 解密数据包(用共享密钥+rc4算法解密)并且同原始随机数比较</li>
+<li>AP 向客户端发出成功信息</li>
+</ol>
+<p>在SSL中的应用已经被废弃掉了，在今年9月份，三大浏览器厂商明确明年将放弃RC4加密支持，所以SSL中的应用就不说了</p>
+<h1 id="0x04__u5C3E_u58F0"><a href="#0x04__u5C3E_u58F0" class="headerlink" title="0x04 尾声"></a>0x04 尾声</h1><p>对于rc4的破解，看到过一篇还不错的帖子，没来得及细看，先放着，留着以后看——<a href="http://bbs.pediy.com/showthread.php?t=174969" target="_blank" rel="external">RC4算法暴力破解的尝试</a></p>
+<hr>
+<p>关于流密码，就打算写到这了，下面开始转战分组密码。。。</p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<h1 id="0x01__u53E3_u80E1"><a href="#0x01__u53E3_u80E1" class="headerlink" title="0x01 口胡"></a>0x01 口胡</h1><p>RC4加密算法是大名鼎鼎的RSA三人组中的头号人物Ronal]]>
+    </summary>
+    
+      <category term="密码学" scheme="http://yoursite.com/tags/%E5%AF%86%E7%A0%81%E5%AD%A6/"/>
+    
+      <category term="cryptography" scheme="http://yoursite.com/categories/cryptography/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[密码系列2-流密码实战之A5算法]]></title>
+    <link href="http://yoursite.com/2015/12/26/%E5%AF%86%E7%A0%81%E7%B3%BB%E5%88%972-%E6%B5%81%E5%AF%86%E7%A0%81%E5%AE%9E%E6%88%98%E4%B9%8BA5%E7%AE%97%E6%B3%95/"/>
+    <id>http://yoursite.com/2015/12/26/密码系列2-流密码实战之A5算法/</id>
+    <published>2015-12-26T00:32:10.000Z</published>
+    <updated>2015-12-28T07:32:06.294Z</updated>
+    <content type="html"><![CDATA[<h1 id="0x01__u53E3_u80E1"><a href="#0x01__u53E3_u80E1" class="headerlink" title="0x01 口胡"></a>0x01 口胡</h1><p>流密码由于其适合在硬件上的高效实现，所以在发明初期也是应用广泛，其中流密码在现实中最广为人知的应用要数A5算法了。A5在1989年由法国人开发，用于GSM系统的序列密码算法，它用于对从电话到基站连接的加密，先后开发了三个版本记作A5/1、A5/2、A5/3，如果没有特别说明，通常所说的A5是指A5/1，关于GSM加密问题，一些人认为会因为密码的问题阻碍手机的推广，另一些人则认为A5太弱，不能抵抗一些情报机构的窃听，A5的特点是效率高，适合硬件上高效实现，它能通过已知的统计检验，起初该算法的实际没有公开，但最终不慎泄漏。</p>
+<h1 id="0x02__u6B63_u7247"><a href="#0x02__u6B63_u7247" class="headerlink" title="0x02 正片"></a>0x02 正片</h1><p>A5算法总的流程图：</p>
+<p><img src="/img/密码系列2-流密码实战之A5算法/1.PNG" alt=""></p>
+<p>A5/1算法使用3个线性反馈移位寄存器，简称为LFSR，我们分别将其标识为X、Y和Z。寄存器X有19位，可以表示为(x0, x1, … ,x18)；寄存器Y有22位，可以表示为(y0, y1, … ,y21)；而寄存器Z有23位，可以表示为(z0, z1,… ,z22)。这里要使用三个共包含64位二进制的线性反馈移位寄存器，这个设计绝非偶然。绝非巧合的是，A5/1算法的密钥K也是64位。该密钥用于三个线性反馈移位寄存器的初始填充，也就是说，该密钥用于充当三个寄存器的初始值。这三个寄存器用密钥填充之后，就可以开始生成密钥流了。</p>
+<p>那么，它是如何生成密钥流的呢，现在我们给定初始密钥后，三个LFSR中已经有了初始状态，这三个LFSR是通过何种方式生孩子的呢？像上篇中我们讲的那样，对于每一个寄存器，它会通过向最高位的移动(产下处于最高位的孩子)来产生密钥，3个寄存器都通过这种操作来产生密钥，然后3个最高位经过异或操作得到最终的密钥。此时需要考虑的一个问题就是当最高位产下后，最低位的补充问题。对于最低位的补充，不同的寄存器采取不同的策略：对于X，即19位的LFSR，采取的策略是取当前状态的(从第0位开始算)第18、17、16、13位的异或值作为当前状态转换为下一状态时，下一状态的最低位的补充，代码体现为：</p>
+<p><img src="/img/密码系列2-流密码实战之A5算法/2.PNG" alt=""></p>
+<p>相似的，Y取21、20、16、12位，代码体现为：</p>
+<p><img src="/img/密码系列2-流密码实战之A5算法/3.PNG" alt=""></p>
+<p>Z取22、21、18、17，代码体现为：</p>
+<p><img src="/img/密码系列2-流密码实战之A5算法/4.PNG" alt=""></p>
+<p>这里之所以要po上代码图，是为了让大家感受如何通过位操作来实现我们的策略，体会位操作的精准与强大。</p>
+<p>是不是每一次都会像上面所说的，每次3个LFSR移位，然后结果异或作为最终输出结果，而对于最低位的补充，不同的LFSR采取不同的策略。其实不然，并不是每一次3个寄存器都移动产生密钥流的，什么意思呢？就是说在一次密钥的产生过程中，并不是每个LFSR都会移动，但是对于最终密钥的产生，仍然会取三个LFSR中的最高位的异或值作为输出，只不过对于不移动的LFSR而言，它前后两次提供的密钥是相同的，应为它没有移动。而对于移不移动的问题，A5中采用的是一种叫做钟控的方式。描述为：给定三个二进制位x、y和z，定义多数投票函数maj(x, y, z)。也就是说，如果x、y和z的多数为0，那么函数返回0；否则，函数返回1。因为二进制位的个数为奇数，所以不会存在无法判决的情况，因此该函数的定义不会存在问题 。</p>
+<p>在A5/1加密算法中，对于生成的每一个密钥流的位，都将执行如下操作。首先，我们计算：m=maj(x8, y10, z10)然后，执行寄存器X、Y和Z的各自步骤(或者不执行，根据计算执行结果的情况而定)如下：如果x8=m，那么执行X步骤(这里的X步骤即指我们上面所说的移动，然后最低位补充的意思，Y步骤和Z步骤也是这个意思)。如果y10=m，那么执行Y步骤。如果z10=m，那么执行Z步骤。最终，单独密钥流的位s通过如下计算生成：S=x18+y21+z22。即：</p>
+<p><img src="/img/密码系列2-流密码实战之A5算法/5.PNG" alt=""></p>
+<p>到这里，对于A5算法中3个LFSR的工作，即如何移动，是否移动，我们已经清楚了，也就是说，如果给定三个这样的LFSR，我们只需要给定一个64位的初始状态(初始密钥)，那么这3个LFSR就可以按照我们所想的那样去不停的产生密钥流了。</p>
+<p>这只是A5算法理论上产生密钥流的过程，在具体的应用过程中，它还有很多不同之处。</p>
+<h2 id="A5_u7B97_u6CD5_u7684_u5177_u4F53_u5B9E_u6218_u6D41_u7A0B"><a href="#A5_u7B97_u6CD5_u7684_u5177_u4F53_u5B9E_u6218_u6D41_u7A0B" class="headerlink" title="A5算法的具体实战流程"></a>A5算法的具体实战流程</h2><ol>
+<li>利用会话密钥k设定三个移存器的起点，即初始状态。</li>
+<li>(帧序号参与) 三个LFSR都规则动作22次，每次动作1步。在第i步动作时，三个LFSR的反馈内容都首先与帧序号的第i比特模2加，并将模2加的结果作为LFSR反馈的内容；帧序号比特的序号是从最低位编到最高位。</li>
+<li>三个LFSR以钟控方式连续动作100次，但不输出乱数</li>
+<li>三个LFSR以钟控方式连续动作114次，在每次动作后，三个LFSR都将最高级寄存器中的值输出，这三个比特的模2和就是当前时刻输出的1比特乱数。 </li>
+<li>连续动作114步，共输出114比特乱数，用于对用户手机到基站传送的114比特数据的加密。</li>
+</ol>
+<p>对于上面的补充：</p>
+<p>帧序号参与方式：与密钥参与方式相同，不同的明文数据帧按顺序编号，每个编号为22比特。帧密钥参与的目的：对不同的帧设置不同的帧会话密钥，保证对每帧以不同的起点生成乱数，尽可能避免密钥重用。</p>
+<p>A5算法用于GSM系统中，也就是说，传输的数据以帧为单位，每帧的大小是114bit，科普下为什么是114bit：</p>
+<blockquote>
+<p>gsm系统中，是将每20ms的模拟话音进行一次处理，将20ms的话音通过信源编码（rpe-ltp）处理成260bit的数字信号；再经过信道编码变换为456bit的数字信号，然后经过交织分成8个部分，每部分57bit；空中的时隙中，每个时隙承载2部分即114个bit的内容，于是20ms的话音完全通过4个时隙的资源承载。</p>
+</blockquote>
+<p>知道了A5算法具体的加密流程，我们来看下A5在现实中具体的应用模型：</p>
+<p>A5-1算法用于用户的手机到基站之间的通信加密，通信内容到基站后先脱密变成明文，然后再进行基站到基站之间、以及基站到用户手机之间的信息加密，完成通信内容在通信过程的加密保护。  </p>
+<p><img src="/img/密码系列2-流密码实战之A5算法/6.PNG" alt=""></p>
+<p>这里，我们只需考察用户A到基站1之间通信内容的加脱密，中间消息的传送由基站到基站之间的加密完成，而接收方用户B对消息的加脱密与用户A到基站1之间的通信完全类似，只不过是用户B先脱密消息。</p>
+<p>对于密钥：</p>
+<p>基本密钥KA1：预置在SIM卡中，与基站1共享。<br>生存期：一旦植入SIM卡将不再改变。<br>用途：用来分配用户和基站之间的会话密钥。<br>注意：这里的基本密钥并非用来加密数据，而是用来加密在每一次的会话过程中的密钥，会话过程中数据的加密采用A5，而对于A5加密算法中的初始密钥，在用户和基站之间，一般是通过非对称密码体制产生的基本密钥(或密钥对)KA1来实现对每次通信过程所需的密钥进行加密，将密钥加密后进行传输，来达到让用户和基站之间在一次通信过程中共享同一个密钥的目的。</p>
+<p>这里，我们对每次会话的密钥k做补充说明：</p>
+<p><img src="/img/密码系列2-流密码实战之A5算法/7.PNG" alt=""></p>
+<p>对于通信过程中数据(明文)的处理：</p>
+<p><img src="/img/密码系列2-流密码实战之A5算法/8.PNG" alt=""></p>
+<p>由于发送和接收是同时发生的，所以每帧的数据可以看成两个114bit，即228bit，这两个114bit所使用的密钥流是相同的。一次通话使用一个会话密钥，对每帧使用不同的帧密钥。所以一次通话量：至多222帧数据，约0.89×230比特 。</p>
+<p>这里总结下具体的通信流程(以手机通信为例，只说明A与基站的通信):</p>
+<ol>
+<li>用户A与基站建立联系；</li>
+<li>基站得知用户A的身份，并知道用户A要与它通信，此时基站就会找到与用户A共享的密钥KA1(存在基站的数据库中)，当然这个密钥也会在用户A的SIM中存储着一份，然后基站随机产生64bit的密钥，作为此次通信中A5算法的初始密钥，对该密钥用KA1加密后，传递给用户A；</li>
+<li>用户A用存储在SIM中的与KA1相对应的密钥KA1对加密的密钥进行解密，得到此次通信过程中所需的密钥；</li>
+<li>用户A用得到的此次通信过程中的密钥对通信数据进行加密后传递给基站，加密的算法使用A5算法，由于SIM中内置A5算法的硬件实现，所以可以轻易实现该加密过程；</li>
+<li>基站在接收到用户A发送过来的数据后，由于基站中也有相应的A5算法的实现过程，且A和基站的A5算法的初始密钥相同，所以说，此时基站会产生与A相同的密钥流，然后对数据进行依顺序解密，从而得到用户A发送过来的明文数据；</li>
+<li>基站对用户A的响应过程类似；</li>
+<li>这样，用户A和基站之间就可以正常通信了</li>
+</ol>
+<p>对于A5在通信过程中的应用模型大致就是这样，下面我们来看一下，如何对此种模型下数据的机密性造成破坏。</p>
+<h1 id="0x03__u7834_u574F_u5373_u827A_u672F"><a href="#0x03__u7834_u574F_u5373_u827A_u672F" class="headerlink" title="0x03 破坏即艺术"></a>0x03 破坏即艺术</h1><p>这里首先说明下，虽然A5属于流密码体系，但对于A5的破解，跟我们上一篇blog中提到的对流密码的破解是两个完全不同的概念，上篇blog中谈到的破解指得到了一串明密文对，我们想知道它是怎么加密的，根据破解的加密方式，我们可以由当前的密文得到接下来的密钥流，这样的话，我们在继续截获密文的情况下就可以根据前面破解的加密方式来得到的密钥流来对密文进行解密，从而得到相应的明文；但A5算法是完全不同的，A5是知道了加密方式的，它是对外公开的，而A5破解的关键是得到初始密钥，所以二者意义完全不同，破解的思路也就大不一样。</p>
+<p>首先是针对A5算法本身，A5算法的加密强度弱，由于A5使用的加密密钥长度是64 bit的算法，现在超级计算机已经能在较短的时间内破解这些算法，所以对于A5算法的爆破我们不讨论，我们这里以一种类似于极客的眼光去看下如何对A5算法应用的这种通信模型造成破坏。</p>
+<h2 id="SIM_u5361_u7684_u590D_u5236"><a href="#SIM_u5361_u7684_u590D_u5236" class="headerlink" title="SIM卡的复制"></a>SIM卡的复制</h2><p>在看完我写的该通信模型的流程之后，大家已经可以隐约意识到了这个通信模型的脆弱性，发挥你的想象力，去思考如何从其中的一环去破坏。对于该通信模型的破坏，首先就是SIM卡的复制了。</p>
+<p>对于SIM卡，SIM卡存储有持卡者的用户数据、保密数据和鉴权加密算法等；<br>SIM卡和设备间有一个开放的公共接口，移动设备通过该接口读取SIM卡中的用户数据，并将数据发送给GSM网络，请求接入网络。由于这张卡上存储着你的用户信息，也就是说基站只认识你这张卡，所以说只要你能复制这张卡，你就是用户A的一个copy，那么数据的机密性也就无从谈起了。对于SIM卡的复制，已经有前人做过实验：</p>
+<p><img src="/img/密码系列2-流密码实战之A5算法/9.PNG" alt=""></p>
+<h2 id="u4F2A_u57FA_u7AD9"><a href="#u4F2A_u57FA_u7AD9" class="headerlink" title="伪基站"></a>伪基站</h2><p>既然用户A可以copy，那么基站自然也不是问题，伪基站模拟成一个真实的基站，与手机交互，实施鉴权过程，并且获得了手机用户的IMSI，对于其具体的原理，由于我也不是很懂，而且也没有找到相关资料，所以就不误导了。。。</p>
+<hr>
+<p>A5/1加密算法是一个非常富有代表性的例子，该方案代表了一大类基于移位寄存器并以硬件实现的流加密算法。此类系统曾经在对称密钥加密领域大行其道，但是近年来，分组密码加密已经明显地占了上风，取代了流密码加密的昔日辉煌地位。</p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<h1 id="0x01__u53E3_u80E1"><a href="#0x01__u53E3_u80E1" class="headerlink" title="0x01 口胡"></a>0x01 口胡</h1><p>流密码由于其适合在硬件上的高效实现，所以在发明初期也是应用广]]>
+    </summary>
+    
+      <category term="密码学" scheme="http://yoursite.com/tags/%E5%AF%86%E7%A0%81%E5%AD%A6/"/>
+    
+      <category term="cryptography" scheme="http://yoursite.com/categories/cryptography/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[密码初探-玩bin的人怎么能不懂密码呢]]></title>
+    <link href="http://yoursite.com/2015/12/22/%E5%AF%86%E7%A0%81%E5%88%9D%E6%8E%A2-%E7%8E%A9bin%E7%9A%84%E4%BA%BA%E6%80%8E%E4%B9%88%E8%83%BD%E4%B8%8D%E6%87%82%E5%AF%86%E7%A0%81%E5%91%A2/"/>
+    <id>http://yoursite.com/2015/12/22/密码初探-玩bin的人怎么能不懂密码呢/</id>
+    <published>2015-12-21T16:24:03.000Z</published>
+    <updated>2016-01-09T15:41:32.220Z</updated>
+    <content type="html"><![CDATA[<h1 id="0x01__u524D_u60C5_u63D0_u8981"><a href="#0x01__u524D_u60C5_u63D0_u8981" class="headerlink" title="0x01 前情提要"></a>0x01 前情提要</h1><p>本文不像前几篇一样，不会这么注重框架性和体系性。本文以及相关的后续blog的目的在于介绍各种你所耳熟能详的几种密码的具体姿势。鉴于朋友说前几篇blog太长，所以这里打算把密码写成一个系列，并且在排版上也会上点心。。。</p>
+<h1 id="0x02__u6B63_u7247"><a href="#0x02__u6B63_u7247" class="headerlink" title="0x02 正片"></a>0x02 正片</h1><p>说到密码，每个人都有每个人的第一印象。其实在很久以前，人们就有了对信息加密的意识，这里，古典密码不得不提。</p>
+<h2 id="u53E4_u5178_u5BC6_u7801"><a href="#u53E4_u5178_u5BC6_u7801" class="headerlink" title="古典密码"></a>古典密码</h2><p>古典密码的加密体现的是一种代换的思想。包括单表代换密码和多表代换密码，单表代换如经典的恺撒密码，移位变换，仿射变换等。这里简单说一下，恺撒密码，加密时每个字母后移3位，然后mod26，解密时，每个字母前移3位，然后mod26，其中3就是加解密所用的密钥。移位变换是移k位，仿射变换（该图来自百度百科）:</p>
+<p><img src="/img/密码初探-玩bin的人怎么能不懂密码呢/1.PNG" alt=""></p>
+<p>上图中的k3是k1的逆元，关于逆元的概念，下面会谈到</p>
+<p>对于多表代换密码，自己懒得写，直接把书上的东西po出来(渣像素，见谅):</p>
+<p><img src="/img/密码初探-玩bin的人怎么能不懂密码呢/2.PNG" alt=""></p>
+<p>关于古典密码的介绍就到这，古典密码的代换思想在现代密码中有很多体现。现在我们来看现代密码</p>
+<h2 id="u73B0_u4EE3_u5BC6_u7801"><a href="#u73B0_u4EE3_u5BC6_u7801" class="headerlink" title="现代密码"></a>现代密码</h2><p>现代密码系统可以用一个看一眼就懂的五元组表示：</p>
+<p><img src="/img/密码初探-玩bin的人怎么能不懂密码呢/0.PNG" alt=""></p>
+<p>这里主要从密码的体制上来展开对密码的讨论</p>
+<p>密码体制从原理上可以分为两大类，即单钥体制和双钥体制</p>
+<p>单钥体制又称对称密码体制，就是加密密钥和解密密钥相同。对称密码体制按照对明文加密方式的不同，分为序列密码和分组密码。序列密码（stream cipher):又称流密码。序列密码每次通过输出密钥流序列加密(通常是模2加，即异或运算)一位或一字节的明文。如A5、RC4等。分组密码（block cipher):将明文分成固定长度的组，用同一密钥和算法对每一块加密，输出也是固定长度的密文。如DES、IDEA、AES等</p>
+<p>双钥体制又称非对称密码体制，就是加密密钥和解密密钥不相同，从一个很难推出另一个，又称公开密钥体制。</p>
+<p>说了要写一个系列的，所以这篇就主要讲流密码(序列密码)了</p>
+<h1 id="0x03__u672C_u7BC7_u91CD_u70B9_u2014_u2014_u5E8F_u5217_u5BC6_u7801"><a href="#0x03__u672C_u7BC7_u91CD_u70B9_u2014_u2014_u5E8F_u5217_u5BC6_u7801" class="headerlink" title="0x03 本篇重点——序列密码"></a>0x03 本篇重点——序列密码</h1><p>序列密码的基本思想是采用一个短的密钥来控制某种算法产生出长的密钥序列，供加、解密使用，利用密钥k产生一个伪随机序列密钥流z=z0z1…，并使用如下规则对明文串x=x0x1x2…加密：y=y0y1y2…= (x0+z0) (x1+z1) …</p>
+<p>过程如图所示：</p>
+<p><img src="/img/密码初探-玩bin的人怎么能不懂密码呢/3.PNG" alt=""></p>
+<p>根据加密器中记忆元件的存储状态σi 是否依赖于输入的明文字符, 流密码可进一步分成同步和自同步两种。σi 独立于明文字符的叫做同步流密码, 否则叫做自同步流密码。由于自同步流密码的密钥流的产生与明文有关, 因而较难从理论上进行分析，目前大多数研究成果都是关于同步流密码的，因此同步流密码也是我们讨论的重点。</p>
+<p>可见同步流密码的关键是密钥流产生器。目前最为流行和实用的密钥流产生器是通过线性反馈移位寄存器来实现密钥的产生。移位寄存器是流密码产生密钥流的一个主要组成部分。GF(2 )上一个n 级反馈移位<br>寄存器由n 个二元存储器与一个反馈函数f ( a1 , a2 , ⋯ , an )组成，如图：</p>
+<p><img src="/img/密码初探-玩bin的人怎么能不懂密码呢/4.PNG" alt=""></p>
+<p>每一存储器称为移位寄存器的一级, 在任一时刻, 这些级的内容构成该反馈移位寄存器的状态, 每一状态对应于GF( 2)上的一个n 维向量, 共有2^n 种可能的状态。每一时刻的状态可用n 长序列a1 , a2 , ⋯ , an或n 维向量( a1 , a2 , ⋯ , an )表示, 其中ai 是第i 级存储器的内容。初始状态由用户确定, 当第i 个移位时钟脉冲到来时, 每一级存储器ai 都将其内容向下一级ai - 1 传递, 并根据寄存器此时的状态a1 , a2 , ⋯ ,an 计算f ( a1 , a2 , ⋯ , an ) , 作为下一时刻的an 。反馈函数f ( a1 , a2 , ⋯ , an )是n 元布尔函数, 即n 个变元a1 , a2 , ⋯ , an 可以独立地取0 和1 这两个可能的值, 函数中的运算有逻辑与、逻辑或、逻辑补等运算, 最后的函数值也为0 或1。</p>
+<p>其实上面的过程可以形象的想象成鸡下蛋的过程，鸡肚子中存储的蛋的数量是有限的。首先，用户，没错，就是你，你让鸡怀上了鸡所能承受的最多的蛋，然后鸡开始下蛋，并且鸡每下一个蛋(认为产生了一个密钥位)，你或者其他什么东西又会立马使它怀上一个蛋，且这个蛋的产生与这只鸡还没生蛋前的所有肚子里的蛋有关系，至于是什么关系，这是用户，没错，还是你，可以去定义的，这样，鸡就会一直下蛋，相当于一个密钥流产生器。</p>
+<p>如果移位寄存器的反馈函数f ( a1 , a2 , ⋯ , an ) 是a1 , a2 , ⋯ , an 的线性函数, 则称之为线性反馈移位寄存器LFSR( linear feedback shiftregister ) 。这里我们需要注意的是，由于线性反馈寄存器都是按位来计算的，所以这里的线性函数中各个项之间的运算基本上都是模2加，即异或操作。此时f 可写为f ( a1 , a2 , ⋯ , an ) = cn a1 + cn - 1 a2 + ⋯ + c1 an其中常数ci = 0 或1 ,+是模2 加法。ci = 0 或1 可用实际电路的开关的断开和闭合来实现,如图：</p>
+<p><img src="/img/密码初探-玩bin的人怎么能不懂密码呢/5.PNG" alt=""></p>
+<p>则，输出序列{ at }满足：an + t = cn at + cn - 1 at+ 1 + ⋯ + c1 an + t - 1，线性反馈移位寄存器因其实现简单、速度快、有较为成熟的理论等优点而成为构造密钥流生成器的最重要的部件之一。在线性反馈移位寄存器中总是假定c1 , c2 , ⋯ , cn 中至少有一个不为0 , 否则f ( a1 ,a2 , ⋯ , an )≡0 , 这样的话, 在n 个脉冲后状态必然是00⋯0 , 且这个状态必将一直持续下去。若只有一个系数不为0 , 设仅有cj 不为0 , 实际上是一种延迟装置。一般对于n 级线性反馈移位寄存器, 总是假定cn = 1。线性反馈移位寄存器输出序列的性质完全由其反馈函数决定。n 级线性反馈移位寄存器最多有2^n 个不同的状态。若其初始状态为0 , 则其状态恒为0。若其初始状态非0 ,则其后继状态不会为0。因此n 级线性反馈移位寄存器的状态周期小于等于2^n - 1。其输出序列的周期与状态周期相等, 也小于等于2^n - 1。只要选择合适的反馈函数便可使序列的周期达到最大值2^n - 1 , 周期达到最大值的序列称为m 序列。</p>
+<p>流密码的安全性取决于密钥流的安全性, 要求密钥流序列有好的随机性, 以使密码分析者对它无法预测。也就是说, 即使截获其中一段, 也无法推测后面是什么。如果密钥流是周期的, 要完全做到随机性是困难的。严格地说, 这样的序列不可能做随机, 只能要求截获比周期短的一段密钥流时不会泄露更多信息, 这样的序列称为伪随序列。为讨论m 序列的随机性, 先要讨论随机序列的一般特性。</p>
+<p>前方数学高能，先来个分割线压压惊。</p>
+<hr>
+<p>游程：设{ ai } = ( a1 a2 a3 ⋯) 为0、1 序列, 例如00110111 , 其前两个数字是00 , 称为0 的2 游程; 接着是11 , 是1 的2 游程;再下来是0 的1 游程和1 的3 游程。</p>
+<p>自相关函数：</p>
+<p><img src="/img/密码初探-玩bin的人怎么能不懂密码呢/6.PNG" alt=""></p>
+<p>定义中的和式表示序列{ ai } 与{ ai + τ} ( 序列{ ai }向后平移τ位得到)在一个周期内对应位相同的位数与对应位不同的位数之差。当τ= 0时, R(τ) = 1; 当τ≠0 时, 称R(τ) 为异相自相关函数。这个自相关函数是为了比较序列在经过移位操作后与原序列的相似程度，因为从这个式子的意义出发，ai在移动τ位后，会处在ai+τ的位置上，此时ai+τ位置上的值是ai，而原来ai+τ的位置上是ai+τ，所以这个式子的每一项算的就是移位后，相同位置上的数字是否相同，如果相同，则这一项为1，不同为-1，然后逐项的结果相加。这个自相关函数可以衡量出移位操作前后，序列的相似程度，这样是为了防止通过移位找到序列的一些规律而造成序列的随机性遭到破坏。</p>
+<p>对于序列的随机性，Golomb(我也不知道咋读)这个人提出了他的看法，他认为，一个良好的伪随机序列应当满足如下三个随机性公设(将用到我们上面介绍的游程以及自相关函数的概念)：</p>
+<p><img src="/img/密码初探-玩bin的人怎么能不懂密码呢/7.PNG" alt=""></p>
+<p>公设①说明{ ai }中0 与1 出现的概率基本上相同, ②说明0 与1 在序列中每一位置上出现的概率相同; ③意味着通过对序列与其平移后的序列做比较, 不能给出其他任何信息。从密码系统的角度看, 一个伪随机序列还应满足下面的条件:</p>
+<blockquote>
+<p>① { ai }的周期相当大。</p>
+<p>② { ai }的确定在计算上是容易的。</p>
+<p>③ 由密文及相应的明文的部分信息, 不能确定整个{ ai }。</p>
+</blockquote>
+<p>而我们研究的m序列就满足上面的3个随机性公设，因为，定理告诉我们，它是满足的：</p>
+<p>定理：GF(2 )上的n 长m 序列{ ai }具有如下性质:</p>
+<p><img src="/img/密码初探-玩bin的人怎么能不懂密码呢/8.PNG" alt=""></p>
+<p>我们来看定理的证明：</p>
+<p><img src="/img/密码初探-玩bin的人怎么能不懂密码呢/9.PNG" alt=""><br><img src="/img/密码初探-玩bin的人怎么能不懂密码呢/10.PNG" alt=""><br><img src="/img/密码初探-玩bin的人怎么能不懂密码呢/11.PNG" alt=""><br><img src="/img/密码初探-玩bin的人怎么能不懂密码呢/12.PNG" alt=""><br><img src="/img/密码初探-玩bin的人怎么能不懂密码呢/13.PNG" alt=""></p>
+<p>可以看出，m序列很好的满足了3个随机性公设，也就是说它具有良好的伪随机性，也就是说这个序列可以用来做密钥流，所以当我们设计密钥流产生器时，我们可以使密钥的生成去尽量接近m序列。针对密钥流的构造，我们给定初始状态，以及状态转换函数应使接下来的状态尽量具有良好的伪随机性，这是流密码密钥设计的一个原则。</p>
+<h2 id="u6D41_u5BC6_u7801_u7684_u7834_u89E3"><a href="#u6D41_u5BC6_u7801_u7684_u7834_u89E3" class="headerlink" title="流密码的破解"></a>流密码的破解</h2><p>有限域GF( 2)上的二元加法流密码是目前最为常用的流密码体制, 设滚动密钥生成器是线性反馈移位寄存器, 产生的密钥是m 序列，它具有良好的伪随机性，那么这时的流密码是不是就不能破解了？并不，我们来看看怎么破，又设Sh 和S h + 1是序列中两个连续的n 长向量，直接上图：</p>
+<p><img src="/img/密码初探-玩bin的人怎么能不懂密码呢/14.PNG" alt=""><br><img src="/img/密码初探-玩bin的人怎么能不懂密码呢/15.PNG" alt=""><br><img src="/img/密码初探-玩bin的人怎么能不懂密码呢/16.PNG" alt=""><br><img src="/img/密码初探-玩bin的人怎么能不懂密码呢/17.PNG" alt=""><br><img src="/img/密码初探-玩bin的人怎么能不懂密码呢/18.PNG" alt=""></p>
+<p>对于流密码的理论部分，就暂时讲到这。。。下篇将流密码在现实中对应的具体算法</p>
+<p>下片预告：流密码在现实中的具体应用—A5算法和RC4算法</p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<h1 id="0x01__u524D_u60C5_u63D0_u8981"><a href="#0x01__u524D_u60C5_u63D0_u8981" class="headerlink" title="0x01 前情提要"></a>0x01 前情提要</h1><p>本文]]>
+    </summary>
+    
+      <category term="密码学" scheme="http://yoursite.com/tags/%E5%AF%86%E7%A0%81%E5%AD%A6/"/>
+    
+      <category term="cryptography" scheme="http://yoursite.com/categories/cryptography/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[if-I-were-a-OS(续)-操作系统相关策略的实现]]></title>
+    <link href="http://yoursite.com/2015/12/14/if-I-were-a-OS-%E7%BB%AD-%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F%E7%9B%B8%E5%85%B3%E7%AD%96%E7%95%A5%E7%9A%84%E5%AE%9E%E7%8E%B0/"/>
+    <id>http://yoursite.com/2015/12/14/if-I-were-a-OS-续-操作系统相关策略的实现/</id>
+    <published>2015-12-14T07:24:48.000Z</published>
+    <updated>2015-12-19T05:12:20.780Z</updated>
+    <content type="html"><![CDATA[<h1 id="0x01__u80CC_u666F_u4ECB_u7ECD"><a href="#0x01__u80CC_u666F_u4ECB_u7ECD" class="headerlink" title="0x01 背景介绍"></a>0x01 背景介绍</h1><p>上篇blog简单的分析了linux0.11的启动以及初始化过程，这篇如标题所示，主要讨论OS相关策略的实现，偏理论。。。由于太懒，就不注意排版了，凑和看吧。。。</p>
+<h1 id="0x02__u6B63_u7247"><a href="#0x02__u6B63_u7247" class="headerlink" title="0x02 正片"></a>0x02 正片</h1><p>不墨迹，直接进入正片。。。</p>
+<h2 id="u4E2D_u65AD"><a href="#u4E2D_u65AD" class="headerlink" title="中断"></a>中断</h2><ol>
+<li>中断(狭义)与异常（陷入）的区别:中断: 与正执行指令无关，可以屏蔽；    异常或陷入: 与正执行指令有关，不可屏蔽</li>
+<li>中断寄存器:寄存中断事件的全部触发器。</li>
+<li>中断位:每个触发器称为一个中断位，当发生某个中断事件时相应位被置上。</li>
+<li>中断序号:给中断的一个顺序编号.</li>
+<li>中断响应:由硬件在执行每一条指令的最后时刻判断是否有中断,有则转入操作系统的中断处理程序.</li>
+<li>中断优先级设计原则：从提高资源利用率的角度考虑：高速设备的中断优先级高，慢速设备的中断优先级低。在交互式系统中也可以考虑用户响应满意优先原则。实时系统中，实时设备优先。</li>
+<li>中断屏蔽:指禁止处理机响应中断或禁止中断出现.</li>
+<li>中断屏蔽的软件实现方法:由软件按中断优先级约定，在响应某级中断时置屏蔽寄存器，屏蔽那些同等级和低级的中断</li>
+<li>中断响应：CPU能够在每条机器指令执行周期内的最后时刻扫描中断寄存器，查看是否有中断信号。若无中断信号，CPU继续执行程序的后续指令，否则CPU停止执行当前程序的后续指令，转入操作系统内的中断处理程序。这一过程称为中断响应。</li>
+<li>异常响应：异常（陷入）是在执行指令的时候，由指令本身的原因发生的，CPU中指令的执行逻辑发现了异常（陷入）转入操作系统内的异常（陷入）处理程序。 </li>
+</ol>
+<h2 id="u64CD_u4F5C_u7CFB_u7EDF_u8FD0_u884C_u6A21_u578B"><a href="#u64CD_u4F5C_u7CFB_u7EDF_u8FD0_u884C_u6A21_u578B" class="headerlink" title="操作系统运行模型"></a>操作系统运行模型</h2><ol>
+<li><p>操作系统三种运行模型:</p>
+<ul>
+<li><p>独立运行的内核:用户程序与核心程序在分离的运行环境中运行,核心程序作为一个独立的特殊执行单位运行，有自己独立的运行栈，用户进程通过中断/陷入机制启动核心程序运行（以请求包方式传递用户请求）。</p>
+</li>
+<li><p>嵌入用户进程执行模式（类函数调用）:操作系统核心程序通过中断/陷入机制启动运行，但运行于被打断进程的核心栈上,内核程序执行并发性好。本课程对操作系统的描述都是基于这种模式，是实用OS所用模式。</p>
+</li>
+<li><p>微内核模式:核心程序只包含中断处理,系统调用总控,进程调度等功能,其他功能由用户态运行的系统进程实现,这种结构开销很大.</p>
+</li>
+</ul>
+</li>
+</ol>
+<h2 id="u8FDB_u7A0B"><a href="#u8FDB_u7A0B" class="headerlink" title="进程"></a>进程</h2><ol>
+<li><p>PCB(进程控制块，等价于上篇blog所说的任务状态块)含有以下三大类信息：</p>
+<ul>
+<li><p>进程标识信息。如本进程的标识；本进程的产生者标识(父进程标识)；进程所属用户标识。</p>
+</li>
+<li><p>处理机状态信息保存区(栈式结构)。实质就是核心栈。保存进程进入操作系统内核的运行现场信息：通用寄存器：数据、地址寄存器。控制和状态寄存器：如程序计数器(PC)；处理机状态字(PS)*</p>
+</li>
+<li><p>进程控制信息：调度和进程状态信息，用于操作系统调度进程占用处理机的信息。 进程间通讯信息，为支持进程间的通讯相关的消息队列，消息等，这些信息存在接收方的进程控制块中。存储管理信息。包含有描述进程映像存储空间的数据结构。进程所用资源。说明由进程打开，使用的系统资源，如打开的文件等。链接信息，如就绪进程链等</p>
+</li>
+</ul>
+</li>
+<li><p>进程调度方式(进程调度在核心态运行)</p>
+<ul>
+<li><p>非剥夺:只有当处理机上的进程主动放弃处理机（阻塞或结束）时才重新调度。</p>
+</li>
+<li><p>剥夺调度:当进程运行时可以被操作系统系统以某种原则剥夺其处理机。</p>
+</li>
+</ul>
+</li>
+<li><p>引起进程调度因素：</p>
+<ul>
+<li>进程主动放弃处理机时：正在执行的进程执行完毕。操作系统在处理“进程结束”系统调用后应请求重新调度。正在执行的进程发出I/O请求。当操作系统内核驱动启动外设I/O后，在I/O请求没有完成前要将进程变成阻塞状态，应该请求重新调度。正在执行的进程要等待其它进程或系统发出的事件时。如等待另一个进程通讯数据，这时操作系统应将现运行进程挂到等待队列，并且请求重新调度。正在执行的进程暂时得不到所要的系统资源。如要求独占资源，但其被其它进程占用，这时等待的进程应阻塞到等待队列上，并且请求重新调度。</li>
+<li>为支持可剥夺的进程调度方式，有新进程就绪时（这时申请进行进程调度，新进程才可能剥夺老进程）：当中断处理程序处理完中断，如I/O中断引起某个阻塞进程变成就绪状态时，应该申请重新调度。当进程释放独占资源，引起其他等待该资源进程从阻塞状态进入就绪状态时，应该申请重新调度。当某进程发“发送消息”系统调用，导致等待该消息的进程就绪时。其它任何原因引起有进程从其它状态变成就绪状态，如进程被中调选中时。</li>
+<li>为支持可剥夺调度，即使没有新就绪进程,为了让所有就绪进程轮流占用处理机，可在下述情况下申请进行进程调度：当时钟中断发生,时钟中断处理程序调用有关时间片的处理程序，发现正运行进程时间片到，应请求重新调度。以便让其他进程占用处理机。在按进程优先级进行调度的操作系统中，任何原因引起进程的优先级发生变化时，应请求重新调度。如进程通过系统调用自愿改变优先级时或者系统处理时钟中断时，根据各进程等待处理机的时间长短而调整进程的优先级。</li>
+</ul>
+</li>
+<li><p>调度与切换时机:</p>
+<ul>
+<li>当发生引起调度条件，且当前进程无法继续运行下去时（如发生各种进程放弃处理机的条件）可以马上进行调度与切换。</li>
+<li>当中断处理结束或系统调用处理结束返回被中断进程的用户态程序执行前，若申请调度标志置上，即可马上进行进程调度与切换。如果操作系统支持这种情况下运行调度程序，即实现了剥夺方式的调度。</li>
+<li>实时系统还有其他调度与切换时机。如中断处理结束返回系统调用处理时。</li>
+</ul>
+</li>
+<li><p>进程调度算法：</p>
+<ul>
+<li>FCFS:谁先到就绪队列,将处理机分给谁.</li>
+<li>短进程优先:取一个下次所需运行时间最短的进程.(该算法能使平均等待时间最短)</li>
+<li>最高响应比优先法：响应比R定义如下： R =(W+T)/T = 1+W/T （W为等待时间，T为下次所需运行时间）</li>
+<li>优先级调度:选优先级最高的进程占用处理机,（优先级也可动态改变）.</li>
+<li>轮转调度法:以先来后到的次序+时间片轮转.*</li>
+<li>多级反馈队列调度法:设置多条就绪队列,进程被调度执行后,在被剥夺或放弃处理机后而再就绪时可以改变其就绪队列。设计的方法为：以优先级设置多队列.队列中调度采用FCFS+时间片.进程优先级升降原则是:等待CPU过久升,输入输出完成插入就绪队列时升,运行完一个完时间片降…进程最初进入就绪队列以用户初置优先级为参数.*</li>
+</ul>
+</li>
+<li><p>线程：</p>
+<ul>
+<li>轻权进程（Light-Weight Process）的引入：同一作业的不同进程之间会有许多的协作，需要进行数据交换，但进程有自己独立的存储空间，互相不干扰。如果要进行进程间数据交换，则需要通过操作系统相关系统调用进行交换，为了方便进程间交换数据，一种共享存储空间的进程概念应运而生，我们叫它为轻权进程（Light-Weight Process）。</li>
+<li>线程的引入：随着共享内存多CPU计算机的发展，迫切需要加速进程的运行速度，事实上进程中运行的程序也是有可并行执行的语句。因为进程内程序执行的顺序性，不可能实现进程内可并行成分的并行执行。为此，线程的概念呼之欲出。在一个进程中可以包含多个可以并发（并行）执行的线程。系统按进程分配所有除CPU以外的系统资源（如内存，外设，文件等），而程序则依赖于线程运行，系统按线程分配CPU资源。引入线程后，进程概念内涵改变了，进程只作为除CPU以外系统资源的分配单位，不再以进程为单位占用CPU 。</li>
+</ul>
+</li>
+</ol>
+<h2 id="u540C_u6B65_u4E0E_u4E92_u65A5"><a href="#u540C_u6B65_u4E0E_u4E92_u65A5" class="headerlink" title="同步与互斥"></a>同步与互斥</h2><ol>
+<li><p>同步关系（亦称直接制约关系）</p>
+<ul>
+<li>指完成同一任务的伙伴进程间，因需要在某位置上协调它们的工作而等待、传递信息所产生的制约关系。按我的理解同步就是咱俩得一块完成才能执行接下来的动作，誰先完成都不行，你先完成你得等我，我完成我也等你，就这么和谐</li>
+</ul>
+</li>
+<li><p>互斥关系（亦称间接制约关系）</p>
+<ul>
+<li>即进程间因相互竞争使用独占型资源（互斥资源）所产生的制约关系。就是这个茅坑我在拉，等我拉完你在拉，憋不住也得憋，因为我不出来你就进不去。你总不能骑我头上拉吧。。。</li>
+</ul>
+</li>
+<li><p>临界段和临界资源问题：</p>
+<ul>
+<li>临界资源（critical resource）：一次仅允许一个进程使用的资源</li>
+<li>临界段（critical section) ：相关进程必须互斥执行的程序段，该程序段实施对临界资源的操作。</li>
+<li>原因：进程间若共享必须独占使用的资源，则往往存在互斥问题，即存在临界段问题</li>
+<li>多说几句：之所以存在这种临界问题，是因为在访问临界资源时，有可能发生进程的调度和切换，因为时钟中断随时可能发生，你没办法确定到底在执行哪条语句的时候发生，这时候，如果被调度的进程接下来执行的语句有对临界资源的操作，那么在切换回原来的进程后，就不能保证该临界资源的独占性了，因为该临界资源很有可能已经被修改，那么在接下来对临界资源的操作很有可能就会发生意想不到的错误，这就是很简单的竞争漏洞，即使用同一个共享资源的进程之间存在一种竞争关系，在可能执行调度的时候，你并不知道谁会取得竞争的胜利(在竞争漏洞中，我们可以通过某些手段让某个对我们有利的进程执行顺序或某些有利的代码段多执行，从而达到某些我们想要达到的目的)，所以说代码的执行顺序就并不确定，导致各种问题的出现。这里，理解临界问题，也要从汇编的层面上去理解，因为一条c对应着一条至多条的汇编。<br>解决办法：在一个多道程序的单处理机系统中，中断会引发多进程并发执行，因为中断处理结束会引起调度程序运行。如果某进程在临界段中发生中断，随着上下文切换，会保存被中断进程寄存器状态，然后调度另外的进程运行，另一个进程如果再进入相关临界段，会修改他们的额共享数据，如果再次执行进程切换，原先进程重新执行时，使用了原来保存的寄存器中的不一致的数据，导致错误，如果程序员意识到中断引起的并发能够导致错误的结果，可考虑在程序执行临界段部分的处理是，屏蔽中断。假设有中断开放指令和中断屏蔽指令，这样，我们可以在一个进程进入他的临界段时，屏蔽中断，然后当该进程结束它的临界段执行时，再开放中断，注意在使用屏蔽中断实现临界段互斥执行应该保证临界段要尽可能短，以确保尽快走出临界段，保证中断相应。</li>
+</ul>
+</li>
+</ol>
+<p>中断屏蔽只能用于单处理机系统，在多处理机共享主存的系统中，需要硬件提供某些特殊指令。例如，在一个存储周期内同时完成对某一主存单元的内容测试和修改；或者一条硬件指令能完成对寄存器和主存单元的内容互换等。利用这些特殊指令可以实现临界段的互斥执行，他们是硬件指令，硬件指令是不会被中断打断执行的。比如：</p>
+<pre><code>- “Test_and_Set”指令（多CPU）该指令功能描述为：
+`boolean Test_and_Set（boolean &amp;target）{Boolean  rv=target;
+target = true；
+return rv;
+      }`
+</code></pre><p>注意：从target=true这条语句可以看出，它会不停的进行加锁操作，就算target是false，也会在解锁的瞬间的把target置tru(因为传的是引用)，这样做可以防止在刚执行完这条硬件指令后进行切换时操作的错误。你想，如果OS执行完这条硬件指令后，如果没在硬件指令内部实现解锁瞬间加锁的话，那么这时如果切换，且以target为判断标志的话，切换回来的进行是有权执行临界段操作的，但是如果在硬件指令内部实现解锁瞬间加锁的话，那么就算刚执行完硬件指令就切换也不怕，因为target此时已是true，即意味着加锁，所以如果切换的话，切换的进程是无法进行临界段的操作的，而原来的进程由于执行完硬件指令后判断解锁成功，则可以进行临界段操作，这样就实现了互斥机制，即保证了只有那个拿到解锁授权的进程才能执行临界段操作。再次强调，硬件指令实质上是一条指令，那么，问题可以这样解决：</p>
+<p>利用Test&amp;Set指令实现对互斥资源的加锁与解锁：设Lock为全局布尔变量（初值为false）</p>
+<p><code>do {
+    while(Test_and_Set (lock)) ;//注意这个分号 
+    critical section;
+    lock = false;
+    non-critical section
+}while(1);</code><br>那么，在lock变量原值不为false时，即意味着对临界段加锁了，while(Test_and_Set (lock))；语句会一直循环空操作，直到原值为false(意味着解锁)，才进入临界段，对临界段进行操作。一定要注意，就是硬件指令完成相应功能时不会被中断的，是一部到位的。</p>
+<p>有了上面的基础，我们来看另一种硬件指令的解决方法，即swap指令。该指令功能描述为：</p>
+<p><code>void Swap（boolean  &amp;a, boolean  &amp;b）    {
+    boolean temp=a；
+    a = b；
+    b = temp；
+     }</code><br>利用Swap指令实现对临界区的加锁与解锁：设Lock为全局布尔变量（初值为false），每个进程设一个局部布尔变量Key。</p>
+<p>`do {<br>    key = true;<br>    while(key==ture)<br>       Swap (lock, key);</p>
+<pre><code>critical section;
+lock = false;
+non-critical section
+</code></pre><p>}while(1);`</p>
+<p>就不在此分析了，分析思想与上面类似，提醒两点：一是swap指令的参数是传引用的；二是一定要注意key变量的局部性以及lock变量的全局性。这里说一下为什么要注意key的局部性问题。试想，假设lock为false(意味着现在临界资源已解锁，可以来个进程访问我了),那么我来了一个进程来访问了，好，由于我先前没有获得许可，所以我必须执行一次swap操作，经过swap操作后，lock和key的值交换，此时的swap有两个意思，一是我这个进程获得了对临界资源的访问许可，二是在我获得许可的同时，我立即上锁，不能让别人访问。好，此时执行完swap操作后，我可以跳出这个循环去尽情的享受临界资源了。注意，重点来了。如果此时OS对该进程说，球都麻袋，我来中断了，我要切换到另一个进程了，当前进程并没有办法，保存现场吧，然后，切换到另一个进程，这时，key的局部性的重要性就体现出来了，如果key是一个局部变量，那么这个被切换回来的进程就可以享受临界资源了(因为while判断的是key)，这就导致了冒名顶替现象的出现，导致原来刚获得权限的那个进程被带了绿帽子，但试想，如果key是局部变量，那就不一样了，key在这个新切换回来的进程这仍然是true，所以它仍跳不出这个while循环，保证了临界资源的互斥性。好吧，又啰嗦了一大堆。</p>
+<p>更好用的来了：信号量。信号量机制可以用来解决互斥与同步问题。抽象描述：信号量机制由“信号量”及“P、V操作”两部分组成，信号量S为一整型变量，只能被两个标准的原语所访问，即P操作和V操作，定义为：</p>
+<p>` P(S): while S≤0<br>                ；空操作<br>          S = S-1 ；</p>
+<p> V(S):S = S＋1；<br>`<br>这里，先强行引入原语的概念。原语是指完成某种功能且不被分割、不被中断执行的操作序列。有时也称原子操作，通常可由硬件来实现完成某种功能的不被分割执行的特性，像前面所述的两条硬件指令，其指令就是由硬件实现的原子操作。原语功能的不被中断执行特性在单处理机时可由软件通过关中断方法实现。原语之所以不能被中断执行，是因为它对变量的操作过程如果被打断，可能会去运行另一个对同一变量的操作过程，从而出现临界段问题。</p>
+<p>P、V操作是两条原语，即保证P、V操作对变量S的访问是互斥操作。</p>
+<p>用屏蔽中断方法实现P（s）和V（s）的原子性：</p>
+<p><code>P（s）{
+        disableInterrupt();    
+        while （s≤0）{ 
+        enableInterrupt();
+        disableInterrupt();    
+        }；
+        s = s - 1；
+        enableInterrupt();
+    }</code></p>
+<p><code>V（s）{
+        disableInterrupt();    
+         s = s +1；
+        enableInterrupt();
+    }</code></p>
+<p>这里还是要在口胡一下，为什么要在while中有开关中断的操作。在P操作中的while循环中开中断的目的是，为了在循环忙等待时能够响应中断，同时也可以有机会运行进程调度程序，以便另一个进入临界段的进程被调度运行以走出相关临界段。而在while中开了之后立即执行关中断的原因是，从汇编层面讲，是为了防止在跳出的瞬间，就是判断语句为false，然后把状态寄存器相关位置位并将要执行jmp，jmp到下面的语句执行s-1操作时，假设刚好这时调度，那么这时s还是1，那么被调度的进程仍能够得到对临界资源的访问权，而在返回原来的进程时，由于跳转判定已经成功，所以原来的进程也拥有临界资源的访问权，这就不能保证临界资源的互斥性了。</p>
+<p>P操作可以理解成不给我钥匙，程序就不能越过我往下执行，V操作可以理解成我发了一个钥匙。</p>
+<p>信号量的应用：</p>
+<p>解决互斥问题：用于n个进程的临界段互斥，n进程共享一个信号量mutex,初值为1，任一进程Pi的结构为：</p>
+<p><code>do{
+ P(mutex)
+  临界段
+V(mutex)
+非临界段
+}while（1）</code></p>
+<p>解决同步问题：有P1、P2 两进程，必须在P1执行完S1语句后，P2才能执行S2。需同步的两进程共享信号量synch，初值为0。则：</p>
+<p><code>P1: 
+    ……
+    S1;
+    V(synch);
+    ……</code></p>
+<p><code>P2: 
+    ……
+    P(synch);
+    S2;
+    ……</code></p>
+<p>看一个复杂点的同步的例子：</p>
+<p><img src="/img/if-I-were-a-OS-续-操作系统相关策略的实现/1.PNG" alt=""></p>
+<p>解决：</p>
+<p><img src="/img/if-I-were-a-OS-续-操作系统相关策略的实现/2.PNG" alt=""></p>
+<p>解决临界段问题的有关硬件方法及信号量机制所描述的P，V操作，都存在“忙等待”现象。即如果某一个进程正在执行其临界段，其他欲进入临界段的进程均需在它们的entry code中连续的循环等待(如执行while(condition)；语句等)。这种循环等待方式实现的互斥工具又称为自旋锁。该处理方式下，如果能够很快走出循环，进入临界段(如相关临界段很短，其他进程很快走出临界段)则是可取的；但是如果相关临界段很长，势必使进入临界段的进程可能要长时间循环等待其他进程走出相关临界段，这样会浪费宝贵的处理机时间，其他已经在临界段的进程也不能及时得到处理机运行。</p>
+<p>为克服忙等待，可重新定义P，V操作。在某个进程执行P操作过程中，若发现信号量的状态不允许其立即进入临界段，则P操作应使该进程放弃CPU而进入约定的等待队列(调用系统函数block)，当某个进程执行V操作时，如果在该信号量上有被阻塞的等待进程，则V操作负责将其唤醒(调用系统函数wakeup)。</p>
+<p>对于信号量定义：<br><code>typedef  struct{
+        int  value；
+        struct  process  *L;
+        }semaphore；</code><br>每个信号量定义成一个结构，其中包括一个整形变量value和与该信号量相关的等待状态进程队列L。</p>
+<p>对于P操作的定义：</p>
+<p><code>void P(semaphore S){
+    S.value=S.value –1;
+    If S.value&lt;0 then 
+    {add this process to s.L;
+    block();}
+}</code></p>
+<p>对于V操作的定义：</p>
+<p><code>void V(semaphore S){
+    S.value=S.value +1;
+    If S.value&lt;=0 then 
+    {
+        remove a process P from s.L;
+        wakeup(P);
+    }
+}</code></p>
+<p>进程同步与互斥的例子：</p>
+<p>一、有限缓冲区问题</p>
+<p>问题描述：设有N个缓冲区，一组生产者进程往缓冲区写数据，一组消费者进程从缓冲区取数据，写取以一个缓冲区为单位。</p>
+<p>说明：<br> 将整个缓冲池看作是一个共享数据，对缓冲区的操作必须是互斥操作。<br> 如果N个缓冲区全满，生产者进程必须等待。<br> 如果缓冲区全空，消费者进程必须等待。</p>
+<p>解决方案为：</p>
+<p>设置以下信号量<br>mutex,初值为1，控制互斥访问缓冲池。<br>full，初值为0，表示当前缓冲池中满缓冲区数。<br>empty,初值为N，表示当前缓冲池中空缓冲区数。</p>
+<p>有限缓冲区生产者/消费者进程描述如下：<br>semaphor full,empty,mutex;<br>item nextp,nextc;#item表示消息数据类型<br>full=0; empty=N; mutex=1;#置初值</p>
+<p>生产者代码框架：</p>
+<p><img src="/img/if-I-were-a-OS-续-操作系统相关策略的实现/3.PNG" alt=""></p>
+<p>消费者代码框架：<br><img src="/img/if-I-were-a-OS-续-操作系统相关策略的实现/4.PNG" alt=""></p>
+<p>需要注意的是：无论是在生产者还是在消费者进程中，V操作的次序无关紧要，但两个P操作的次序不能颠倒，否则可能导致死锁。我们来想一下为什么？因为当次序颠倒时，意味着一个进程在为获得临界资源的访问权限的情况下，就将临界资源给锁了起来，假设此时它并不能去访问临界资源，则它会一直在这里等待，就算使用优化的P操作，他也会一直阻塞，而且同时也会导致其他进程没办法去使用该资源，也就使得其他进程没法去执行V操作，这样就形成了一个死循环，即一个进程锁住了资源，它要等待别人释放信号量去使用资源，而其他进程都因为资源被锁而无法使用资源，故无法执行V操作，导致大家都在等。</p>
+<p>还有很多例子，就不一一列举了。。。</p>
+<h2 id="u8FDB_u7A0B_u7684_u6B7B_u9501"><a href="#u8FDB_u7A0B_u7684_u6B7B_u9501" class="headerlink" title="进程的死锁"></a>进程的死锁</h2><ol>
+<li><p>死锁定义：<br> 在一个进程集合中，若每个进程都在等待某些事件（指：释放资源）的发生，而这些事件又必须由这个进程集合中的进程来产生，就称该进程集合处于死锁状态。 </p>
+</li>
+<li><p>死锁性质:<br>出现死锁的系统必须同时满足下列四个必要条件<br>互斥：必须存在需要互斥使用的资源<br>占有等待：一定有占有资源而又等待其它资源的进程<br>非剥夺：系统中进程占有的资源未主动释放时不可以剥夺<br>循环等待：存在进程集合{P0, P1, ……, Pn}，Pi等待Pi+1，Pn等待P0 </p>
+</li>
+<li><p>死锁防止：<br>破坏互斥占用条件<br>让资源共享使用（如显示器。但有些资源必须互斥）<br>破坏占有等待条件<br>将进程所要资源一次性分给进程，要么没分到一个资源，要么全部满足（适合廉价资源的分配）<br>进程在下一轮申请资源时，释放所占的所有资源 (用完一个再用下一个)<br>破坏非剥夺条件(用于内存管理、CPU管理等)<br>当进程Pi申请ri类资源时，若有则分配，若没有则剥夺（让出）Pi占有的所有资源；<br>当进程Pi申请ri类资源时，若有则分配，若无则剥夺别的进程所占的ri类资源分配给Pi；或看占用ri类资源的Pk处于什么状态，若处于等资源状态，则剥夺其资源，否则让Pi等待–等于Pi的资源会被剥夺。<br>破坏循环等待条件<br> 采用资源顺序分配方法：给每类资源编号，进程只能按序号由小到大的顺序申请资源，若不满足则拒绝分配。<br>反证：若出现循环等待，则必会有小序号资源序号&gt;大序号资源序号。 </p>
+</li>
+<li><p>死锁避免：银行家算法(自行google)</p>
+</li>
+<li>死锁检测：采用与银行家算法相似的思想，只是将Need换成了Request</li>
+<li>死锁恢复：检测出死锁后的处理：破坏循环等待（杀掉有关进程或删除文件，实质上就是释放资源）</li>
+<li>死锁的综合处理：把系统中的资源分成几大类，整体上采用资源顺序分配法，再对每类资源根据其特点选择最适合的方法。<br>例如：<pre><code>（1）主存、处理机 --  剥夺法
+（2）辅存        --   预分配法
+（3）其他        --   人工检测后处理
+</code></pre></li>
+</ol>
+<p>实用预防死锁方法：设立资源阈值，当资源少于阀值时限制进程申请（如只能用紧急申请方式申请；或不让新进程申请，只让老进程申请），减少申请不到资源的概率。</p>
+<h2 id="u865A_u5B58"><a href="#u865A_u5B58" class="headerlink" title="虚存"></a>虚存</h2><p>虚存的基本思想：系统为进程提供一个比物理内存大得多的虚拟存储空间。<br>虚拟空间的容量由系统的有效地址长度决定。如地址长度为32，按字节寻址，则虚拟存储空间大小为2^32个字节。</p>
+<p>实现页式虚空间的基本方法是：<br>在页式管理的基础上，仅将进程的一部分页放于主存。<br>程序执行时，如果访问的页不存主存，根据页表项的指示，将其从外存调入主存，如果此时无可用的内存空间，则先淘汰若干页帧。</p>
+<p>为了实现虚存，采用的方法是在外存(磁盘)上开辟一块外存交换区(swap)作为内存的一个暂时的场地，相当于用外存交换区去扩充内存。</p>
+<p>在程序装入时，不必将其全部读入到内存，而只需将当前需要执行的部分页或段读入到内存，就可让程序开始执行。<br>在程序执行过程中，如果需执行的指令或访问的数据尚未在内存（称为缺页或缺段），则由处理器通知操作系统将相应的页或段调入到内存，然后继续执行程序。<br>另一方面，操作系统将内存中暂时不使用的页或段调出保存在外存上，从而腾出空间存放将要装入的程序以及将要调入的页或段――具有请求调入和置换功能，只需程序的一部分在内存就可执行，对于动态链接库也可以请求调入.</p>
+<p>采用虚存时页表项的结构：</p>
+<p><img src="/img/if-I-were-a-OS-续-操作系统相关策略的实现/5.PNG" alt=""></p>
+<p>对于合法位，当置1时，则可以在内存中根据页帧号直接找到东西，而合法位未置位，即为0时，会引发页故障，然后由页故障中断处理程序根据外存号将所需页面调入内存，并将页帧号回填，并将合法位置1，下面页表的建立会详细谈到。</p>
+<p>采用虚存时页表的建立：</p>
+<p><img src="/img/if-I-were-a-OS-续-操作系统相关策略的实现/6.PNG" alt=""><br><img src="/img/if-I-were-a-OS-续-操作系统相关策略的实现/7.PNG" alt=""><br><img src="/img/if-I-were-a-OS-续-操作系统相关策略的实现/8.PNG" alt=""></p>
+<p>页表是在进程创建时建立的，初始化页表的主要方法是利用父进程页表生成子进程页表，如fork()，这里不多谈，另一种方法是用一个可执行程序文件来初始化页表，我们就来谈谈这第二种。首先我们得知道什么叫swap区。</p>
+<p>外存块号表示页面在外存存放的位置。当一个进程刚被创建用来运行一个程序时，该进程的页面所在的外存即是程序文件所在的外存程序文件所在的外存位置。一般来说，程序文件中包含了程序的二进制目标代码，以及程序所要处理数据的初始值和初值为0的工作区说明，程序在进程的运行过程中，数据的初始值页面被调入主存使用，而且存放初始值的主存单元可能被修改。这时，系统不能将修改过的页面回写到可执行程序文件中，因为执行程序文件中的初始值不能被改变，为此引入了专用的交换区(swap，在外存专门开辟了一块空间当做swap区)用于存放那些可读写的进程页面。只读的进程页面所在的外存的块号，在进程生存周期内是不改变的，都指向执行程序文件所在的外存空间，但上述的可读写的进程页面，其初始值从执行程序文件中获得，一旦修改，回写时则写到外存的交换空间，当再度使用时，则从外存交换空间中取出，这种页面我们叫他“回写swap文件页”。好了，结合swap文件页的姿势，上图所说的用可执行文件初始化页表的流程就容易理解了。</p>
+<h2 id="FAT16_u6587_u4EF6_u7CFB_u7EDF"><a href="#FAT16_u6587_u4EF6_u7CFB_u7EDF" class="headerlink" title="FAT16文件系统"></a>FAT16文件系统</h2><p>文件系统以FAT16为例，来看下，文件系统是如何将磁盘划分，然后将磁盘布局为一个文件系统的。记得曾经看到过这么一句话，说未格式化的磁盘是一整块，而将磁盘格式化为相应的文件系统后，其实是将磁的一大块，划分成了一个一个的坑，有的坑用来记录其他坑的位置等信息，有的坑专门用来存放东西。有东西要存进磁盘时，按照预先划定好的坑，对坑入座，然后将信息更新到相应的信息坑中，这就是文件系统的作用。这样才使得数据有结构和组织意义。</p>
+<p>当把一部分磁盘空间给格式化为FAT文件系统时，磁盘分区如图：</p>
+<p><img src="/img/if-I-were-a-OS-续-操作系统相关策略的实现/9.PNG" alt=""></p>
+<p>相关结构的含义：</p>
+<ol>
+<li>引导扇区：主要包含描述分区的各种信息，包括簇的大小，文件分配表FAT的位置等。此外，用于加载操作系统内核的引导程序也存储在引导块中。</li>
+<li>FAT1：FAT是file allocation table的简称。每个簇都有一个FAT表记录项与其对应，记录了簇的分配情况，如果簇已经被分配给文件，则记录文件的后续数据所存簇号。FAT表有一份副本，就是我们看到的FAT2，FAT2与FAT1的 内容通常是即时通步的，也就是说，如果通过正常的系统读/写对FAT1做了修改，则FAT2也同样被更新。FAT文件系统将文件数据存放区分成同等大小的簇，典型的簇的大小介于2KB-32KB之间，在FAT16中，一个簇的大小是32扇区。每个文件根据他的大小可能占有一个或多个簇，这样一个文件就可以由簇链表示。文件并不一定在一个连续的磁盘空间上存储，他们经常是在整个数据区零散分布。文件分配表(FAT)是簇的记录项列表。每个记录项记录了簇的5中信息中的一种。如图：</li>
+</ol>
+<p><img src="/img/if-I-were-a-OS-续-操作系统相关策略的实现/10.PNG" alt=""></p>
+<ol>
+<li>FAT文件系统根据根目录来寻址其他文件(包括文件夹)，故根目录的位置必须在之前得以确定。FAT文件系统就是根据引导区中存放的分区的相关参数(存放着FAT的首地址)与已经计算好的FAT表(2份)的大小来确定的。格式化以后，根目录的大小和位置其实都已经确定下来了。位置紧随FAT2之后，大小通常为32个扇区。根目录之后便是数据区第2簇。</li>
+<li>FAT文件系统的一个重要思想是把目录(文件夹)当做一个特殊的文件来处理，在FAT16中，虽然根目录地位并不等同于普通的文件或目录，但其组织形式和普通的目录并没有不同。FAT分区中所有的目录/文件的FCB占用32字节，格式为：</li>
+</ol>
+<p><img src="/img/if-I-were-a-OS-续-操作系统相关策略的实现/11.PNG" alt=""></p>
+<ol>
+<li>在FAT文件系统的文件FCB中，记录了文件名和属于该文件的起始簇编号。该编号用于索引文件分配表记录项，FAT表与FCB的关系如图：</li>
+</ol>
+<p><img src="/img/if-I-were-a-OS-续-操作系统相关策略的实现/12.PNG" alt=""></p>
+<p>这种结构也是一种链式结构，但是与前述的链式结构不同的是，文件数据块的链接是通过FAT记录项链间接链接的，如果FAT表可以缓存于主存，文件数据块搜索可以很快，由于每个簇都要有一个FAT记录项，当分区很大时，FAT表也会很大，FAT表不可能全部放在主存中，这样就会影响文件数据块的搜索速度。</p>
+<ol>
+<li>根文件夹下每一个目录项就是一个FCB</li>
+<li>每一个簇是32扇区，大小是16KB。</li>
+</ol>
+<p>由以上的信息，我们来总结下FAT16文件结构，首先根据引导扇区可以找到FAT的首地址，然后根据事先计算好的FAT表的大小，可以知道根文件夹(根目录)的首地址，根目录占据32个扇区，16KB的空间，每个根目录项就是一个FCB，占32B，这32B存储着该文件/文件夹的信息，且根文件下的FCB存储着指向该文件FAT链的首地址，根据该首地址以及FAT中存储的链式结构，可以找到该文件/文件夹的信息，从而一级级的往下索引，就可以得到整个文件系统了。。。</p>
+<p>if I were a OS就到这了，如果以后遇到有关OS的姿势，会及时补充的。。。</p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<h1 id="0x01__u80CC_u666F_u4ECB_u7ECD"><a href="#0x01__u80CC_u666F_u4ECB_u7ECD" class="headerlink" title="0x01 背景介绍"></a>0x01 背景介绍</h1><p>上篇]]>
+    </summary>
+    
+      <category term="操作系统" scheme="http://yoursite.com/tags/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/"/>
+    
+      <category term="reverse related" scheme="http://yoursite.com/categories/reverse-related/"/>
     
   </entry>
   

@@ -1,0 +1,537 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    
+    <title>程序员的自我修养 | Hexo</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    
+        <meta name="keywords" content="人丑就要多读书" />
+    
+    <meta name="description" content="0x00 口胡最近也算是闲下来了，把最近一直想总结的exp给总结完后，就想着找点事干。。。
+这两天就去看各个大大的blog，理解了哈希长度扩展攻击，看了一些PHP黑魔法，强势补了下分区的姿势，SSRF啥的。。。但也就是浏览浏览，根本沉不下来心，感觉自己太浮躁了，然后又去看一些自己错过的一些ctf的write up，想着自己去把一些想做的题去重新做一下，但根本找不到真正打比赛时的激情，感觉就像是在咀">
+<meta property="og:type" content="article">
+<meta property="og:title" content="程序员的自我修养">
+<meta property="og:url" content="http://yoursite.com/2016/01/17/程序员的自我修养/index.html">
+<meta property="og:site_name" content="Hexo">
+<meta property="og:description" content="0x00 口胡最近也算是闲下来了，把最近一直想总结的exp给总结完后，就想着找点事干。。。
+这两天就去看各个大大的blog，理解了哈希长度扩展攻击，看了一些PHP黑魔法，强势补了下分区的姿势，SSRF啥的。。。但也就是浏览浏览，根本沉不下来心，感觉自己太浮躁了，然后又去看一些自己错过的一些ctf的write up，想着自己去把一些想做的题去重新做一下，但根本找不到真正打比赛时的激情，感觉就像是在咀">
+<meta property="og:image" content="http://yoursite.com/img/程序员的自我修养/0.PNG">
+<meta property="og:updated_time" content="2016-01-17T11:45:28.860Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="程序员的自我修养">
+<meta name="twitter:description" content="0x00 口胡最近也算是闲下来了，把最近一直想总结的exp给总结完后，就想着找点事干。。。
+这两天就去看各个大大的blog，理解了哈希长度扩展攻击，看了一些PHP黑魔法，强势补了下分区的姿势，SSRF啥的。。。但也就是浏览浏览，根本沉不下来心，感觉自己太浮躁了，然后又去看一些自己错过的一些ctf的write up，想着自己去把一些想做的题去重新做一下，但根本找不到真正打比赛时的激情，感觉就像是在咀">
+
+    
+
+    
+
+    <link rel="stylesheet" href="/vendor/font-awesome/css/font-awesome.min.css" type="text/css">
+    <link rel="stylesheet" href="/vendor/titillium-web/styles.css" type="text/css">
+    <link rel="stylesheet" href="/vendor/source-code-pro/styles.css" type="text/css">
+
+    <link rel="stylesheet" href="/css/style.css" type="text/css">
+
+    <script src="/vendor/jquery/2.0.3/jquery.min.js" type="text/javascript"></script>
+    
+    
+        <link rel="stylesheet" href="/vendor/fancybox/jquery.fancybox.css" type="text/css">
+    
+    
+        <link rel="stylesheet" href="/vendor/scrollLoading/style.css" type="text/css">
+    
+    
+    
+
+</head>
+
+<body>
+    <div id="wrap">
+        <header id="header">
+    <div id="header-outer" class="outer">
+        <div class="container">
+            <div class="container-inner">
+                <div id="header-title">
+                    <h1 class="logo-wrap">
+                        <a href="/" class="logo"></a>
+                    </h1>
+                    
+                </div>
+                <div id="header-inner" class="nav-container">
+                    <a id="main-nav-toggle" class="nav-icon fa fa-bars"></a>
+                    <div class="nav-container-inner">
+                        <ul id="main-nav">
+                            
+                                <li class="main-nav-list-item" >
+                                    <a class="main-nav-list-link" href="/hexo-theme-hueman/">主页</a>
+                                </li>
+                            
+                                        <ul class="main-nav-list"><li class="main-nav-list-item"><a class="main-nav-list-link" href="/categories/cryptography/">cryptography</a></li><li class="main-nav-list-item"><a class="main-nav-list-link" href="/categories/reverse-related/">reverse related</a></li><li class="main-nav-list-item"><a class="main-nav-list-link" href="/categories/think-for-fun/">think for fun</a></li></ul>
+                                    
+                                <li class="main-nav-list-item" >
+                                    <a class="main-nav-list-link" href="/hexo-theme-hueman/about/index.html">关于</a>
+                                </li>
+                            
+                        </ul>
+                        <nav id="sub-nav">
+                            <div id="search-form-wrap">
+
+    <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" results="0" class="search-form-input" placeholder="搜索"><input type="hidden" name="sitesearch" value="http://yoursite.com"></form>
+
+</div>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+        <div class="container">
+            <div class="main-body container-inner">
+                <div class="main-body-inner">
+                    <section id="main">
+                        <div class="main-body-header">
+    <h1 class="header">
+    
+    <a class="page-title-link" href="/categories/reverse-related/">reverse related</a>
+    </h1>
+</div>
+                        <div class="main-body-content">
+                            <article id="post-程序员的自我修养" class="article article-single article-type-post" itemscope itemprop="blogPost">
+    <div class="article-inner">
+        
+            <header class="article-header">
+                
+    
+        <h1 class="article-title" itemprop="name">
+        程序员的自我修养
+        </h1>
+    
+
+            </header>
+        
+        <div class="article-subtitle">
+            <a href="/2016/01/17/程序员的自我修养/" class="article-date">
+    <time datetime="2016-01-17T07:48:16.000Z" itemprop="datePublished">2016-01-17</time>
+</a>
+            
+    <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/人丑就要多读书/">人丑就要多读书</a></li></ul>
+
+        </div>
+        <div class="article-entry" itemprop="articleBody">
+            <h1 id="0x00__u53E3_u80E1"><a href="#0x00__u53E3_u80E1" class="headerlink" title="0x00 口胡"></a>0x00 口胡</h1><p>最近也算是闲下来了，把最近一直想总结的exp给总结完后，就想着找点事干。。。</p>
+<p>这两天就去看各个大大的blog，理解了哈希长度扩展攻击，看了一些PHP黑魔法，强势补了下分区的姿势，SSRF啥的。。。但也就是浏览浏览，根本沉不下来心，感觉自己太浮躁了，然后又去看一些自己错过的一些ctf的write up，想着自己去把一些想做的题去重新做一下，但根本找不到真正打比赛时的激情，感觉就像是在咀嚼剩菜，不行，提不起来劲。。。</p>
+<p>总不能浪费时间吧，安卓和硬件的话想放假回来搞，现在的心情真心不适合去马上开始一块新的领域，主要是自己真的不想搭环境，想赖着两个队友，他们把环境都搭好，自己直接用~</p>
+<p>问了下两个队友，他们也都是在各种总结，所以自己想着还是把近几个月一直在看的这本书给总结下，算是给临近放假的这段时间+寒假找点事干，也让自己静静，沉淀沉淀。。。</p>
+<p>这个blog就准备当做自己的一个总结用的东西吧，写的也都是给自己看的一些基础的东西，并不是那么注重质量，就是当做自己忘了某些东西时，有个可以查的地方吧，所以基本都是一些理论的东西，实战很少。</p>
+<p>等自己牛逼了，再重新开个blog，介绍各种奇淫技巧也不迟~</p>
+<h1 id="0x0-5__u5173_u4E8E_u672C_u7CFB_u5217_u7684_u53E3_u80E1"><a href="#0x0-5__u5173_u4E8E_u672C_u7CFB_u5217_u7684_u53E3_u80E1" class="headerlink" title="0x0.5 关于本系列的口胡"></a>0x0.5 关于本系列的口胡</h1><p>还是会写成一个系列吧。。。</p>
+<p>会按照本书的脉络，总结自己认为重要的东西，会尽量注重体系化和结构化，对于一些自己认为太干的货，我还是会加入自己的口水理解，方便自己消化。</p>
+<p>跟操作系统会有点联系吧，就是一些较底层的理论姿势，发现自己也是喜欢这些东西。。。</p>
+<p>口胡就到这吧，开始漫漫总结之旅。。。</p>
+<p>没找到电子版，pdf找的也都是扫描版，所以能手打的就手打了，纯当练习自己的打字速度+加深记忆了，但是自己真的懒，所以截图大法好。。。</p>
+<h1 id="0x01__u7EBF_u7A0B_u7684_u7B3C_u7EDF_u4ECB_u7ECD"><a href="#0x01__u7EBF_u7A0B_u7684_u7B3C_u7EDF_u4ECB_u7ECD" class="headerlink" title="0x01 线程的笼统介绍"></a>0x01 线程的笼统介绍</h1><p>线程，有时被称为轻量级进程。一个标准的线程由线程ID，当前指令指针（PC），寄存器集合和堆栈组成，各个线程之间共享程序的内存空间。这里说的寄存器集合并非指真正意义上的物理硬件，一个线程就给一套与它相匹配的寄存器，这。。。这里更偏向于软件，是一种数据结构的概念，还记得操系中的TSS吗，类似于那个概念吧，就是说当线程真正竞争到CPU资源时，他才对这些物理资源实现真正意义上的占有。</p>
+<p>相对于多进程应用，多线程在数据共享方面效率要高的多，因为进程间通信限制很多，这些限制是为了防止各种杂七杂八的情况出现。线程的访问很自由，他可以访问进程内存里的所有数据，甚至包括其他线程的堆栈（如果他知道其他线程的堆栈地址）。但线程也是有隐私的，局部变量，函数的参数，线程局部存储（TLS），这些数据是线程私有的。</p>
+<p>关于线程的调度问题，具体参考进程调度，差不多。如果想要提高一个线程的被调度率，可以采用提高线程优先级的方法。在windows中，使用BOOL WINAPI SetThreadPriority（HANDLE hThread，int nPriority）；来设置线程的优先级，而linux下与线程相关的操作可以通过pthread库来实现。一般的策略中，IO密集型总是比CPU密集型更容易得到优先级的提升。在优先级调度的环境下，线程的优先级改变一般有三种方式：</p>
+<ol>
+<li>用户指定优先级</li>
+<li>根据进入等待状态的频繁程度提升或降低优先级。频繁等待优先级高，意味着一旦就绪系统就会让他尽量在下个时间片运行</li>
+<li>长时间得不到执行而被提升优先级。</li>
+</ol>
+<p>关于fork，exec，clone以及写时复制、竞争与原子操作，同步与互斥啥的就不啰嗦了，操系里已经写得很清楚了</p>
+<p>线程安全是一块烫手的山芋，因为即使合理的使用了锁，也不一定能保证线程安全，这是源于落后的编译器技术已经无法满足日益增长的并发需求。很多看似无错的代码在优化和并发的面前又产生了麻烦。如下代码：<br><figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">x=<span class="number">0</span>;</span><br><span class="line"><span class="function">thread1		thread2</span><br><span class="line"><span class="title">lock</span><span class="params">()</span></span>;		lock();</span><br><span class="line">x++;		x++;</span><br><span class="line">unlock();	unlock();</span><br></pre></td></tr></table></figure></p>
+<p>由于有lock和unlock的保护，x++的行为不会被并发所破坏，那么x的值似乎必然是2了。然而，如果编译器为了提高x的访问速度，把x放到了某个寄存器里，那么我们知道不同线程的寄存器是各自独立的。假设thread1先获得锁，则可能会出现下面的情况：</p>
+<p><img src="/img/程序员的自我修养/0.PNG" alt=""></p>
+<p>可见在这样的情况下即使正确的加锁，也不能保证线程安全。下面是另一个例子：</p>
+<p><img src="/img/程序员的自我修养/1.PNG" alt=""><br><img src="/img/程序员的自我修养/2.PNG" alt=""></p>
+<p>此时，如果按照<br><figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">r1=y;</span><br><span class="line">切换</span><br><span class="line">y=<span class="number">1</span>;</span><br><span class="line">r2=x;</span><br><span class="line">切换</span><br><span class="line">x=<span class="number">1</span>;</span><br></pre></td></tr></table></figure></p>
+<p>这种顺序执行，那么此时r1=r2=0就完全有可能了。看到这，其实是有点崩溃的，这尼玛考虑的问题也太多了吧，老子本来写的对的程序硬生生跑错，但没办法，已经发展成这样子了。所以，我们来看下补救措施：我们可以使用volatile关键字试图阻止过渡优化。volatile可以做到：</p>
+<p><img src="/img/程序员的自我修养/3.PNG" alt=""></p>
+<p>可见volatile确实可以解决一些问题，但是即使volatile能够阻止编译器调整顺序，也无法阻止CPU动态调度换序，呵呵哒。。。</p>
+<p>另一个颇为著名的与换序有关的问题来自于singleton模式的double-check。<br><figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">volatile</span> T * pInst = <span class="number">0</span>;</span><br><span class="line"><span class="function">T * <span class="title">GetInstance</span><span class="params">()</span></span><br><span class="line"></span>&#123;</span><br><span class="line"><span class="keyword">if</span> (pInst == <span class="literal">NULL</span>)</span><br><span class="line">&#123;</span><br><span class="line">	lock();</span><br><span class="line">	<span class="keyword">if</span> (pInst == <span class="literal">NULL</span>)</span><br><span class="line">		pInst = <span class="keyword">new</span> T;</span><br><span class="line">	unlock();</span><br><span class="line">&#125;</span><br><span class="line"><span class="keyword">return</span> pInst;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></p>
+<p>抛开逻辑，这代码乍看没问题，使用了volatile关键字，而lock和unlock防止了多线程竞争导致的麻烦。双重的if在这里另有妙用（防止在lock前进行进程切换而使得代码流程不受我们控制），可以让lock的调用开销降低到最小。</p>
+<p>但是，呵呵，这是有问题的，没错，就是CPU的乱序执行。C++里的new其实包含了两个步骤：</p>
+<ol>
+<li>分配内存</li>
+<li>调用构造函数<br>所以pInst = new T包含了三个步骤：</li>
+<li>分配内存</li>
+<li>在内存的位置上调用构造函数</li>
+<li>将内存的地址赋值给pInst</li>
+</ol>
+<p><img src="/img/程序员的自我修养/4.PNG" alt=""></p>
+<figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line"><span class="preprocessor">#<span class="keyword">define</span> barrier() __asm()__ volatile (<span class="string">"lwsync"</span>)</span></span><br><span class="line"><span class="keyword">volatile</span> T * pInst = <span class="number">0</span>;</span><br><span class="line"><span class="function">T * <span class="title">GetInstance</span><span class="params">()</span></span><br><span class="line"></span>&#123;</span><br><span class="line"><span class="keyword">if</span> (pInst == <span class="literal">NULL</span>)</span><br><span class="line">&#123;</span><br><span class="line">	lock();</span><br><span class="line">	<span class="keyword">if</span> (pInst == <span class="literal">NULL</span>)</span><br><span class="line">		T * temp = <span class="keyword">new</span> T;</span><br><span class="line">		barrier();</span><br><span class="line">		pInst = temp;</span><br><span class="line">	unlock();</span><br><span class="line">&#125;</span><br><span class="line"><span class="keyword">return</span> pInst;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>由于barrier的存在，对象的构造一定在barrier执行之前完成，因此当pInst被赋值时，对象总是完好的。</p>
+<p>首篇就先到这了。。。</p>
+
+        </div>
+        <footer class="article-footer">
+            
+
+
+
+    <a data-url="http://yoursite.com/2016/01/17/程序员的自我修养/" data-id="cikb9uusb000assqna7yo3nes" class="article-share-link"><i class="fa fa-share"></i>分享到</a>
+<script>
+    (function ($) {
+        $('body').on('click', function() {
+            $('.article-share-box.on').removeClass('on');
+        }).on('click', '.article-share-link', function(e) {
+            e.stopPropagation();
+
+            var $this = $(this),
+                url = $this.attr('data-url'),
+                encodedUrl = encodeURIComponent(url),
+                id = 'article-share-box-' + $this.attr('data-id'),
+                offset = $this.offset(),
+                box;
+
+            if ($('#' + id).length) {
+                box = $('#' + id);
+
+                if (box.hasClass('on')){
+                    box.removeClass('on');
+                    return;
+                }
+            } else {
+                var html = [
+                    '<div id="' + id + '" class="article-share-box">',
+                        '<input class="article-share-input" value="' + url + '">',
+                        '<div class="article-share-links">',
+                            '<a href="https://twitter.com/intent/tweet?url=' + encodedUrl + '" class="article-share-twitter" target="_blank" title="Twitter"></a>',
+                            '<a href="https://www.facebook.com/sharer.php?u=' + encodedUrl + '" class="article-share-facebook" target="_blank" title="Facebook"></a>',
+                            '<a href="http://pinterest.com/pin/create/button/?url=' + encodedUrl + '" class="article-share-pinterest" target="_blank" title="Pinterest"></a>',
+                            '<a href="https://plus.google.com/share?url=' + encodedUrl + '" class="article-share-google" target="_blank" title="Google+"></a>',
+                        '</div>',
+                    '</div>'
+                ].join('');
+
+              box = $(html);
+
+              $('body').append(box);
+            }
+
+            $('.article-share-box.on').hide();
+
+            box.css({
+                top: offset.top + 25,
+                left: offset.left
+            }).addClass('on');
+
+        }).on('click', '.article-share-box', function (e) {
+            e.stopPropagation();
+        }).on('click', '.article-share-box-input', function () {
+            $(this).select();
+        }).on('click', '.article-share-box-link', function (e) {
+            e.preventDefault();
+            e.stopPropagation();
+
+            window.open(this.href, 'article-share-box-window-' + Date.now(), 'width=500,height=450');
+        });
+    })(jQuery);
+</script>
+
+        </footer>
+    </div>
+</article>
+
+<section id="comments">
+
+    <div id="disqus_thread">
+    <noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+<script>
+var disqus_shortname = 'hexo-theme-hueman';
+
+
+var disqus_url = 'http://yoursite.com/2016/01/17/程序员的自我修养/';
+
+(function() {
+var dsq = document.createElement('script');
+dsq.type = 'text/javascript';
+dsq.async = true;
+dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+})();
+</script>
+
+</section>
+
+                        </div>
+                    </section>
+                    <aside id="sidebar">
+    <a class="sidebar-toggle" title="Expand Sidebar"><i class="toggle icon"></i></a>
+    <div class="sidebar-top">
+        <p>关注我 :</p>
+        <ul class="social-links">
+            
+                
+                <li>
+                    <a class="social-tooltip" title="twitter" href="/" target="_blank">
+                        <i class="icon fa fa-twitter"></i>
+                    </a>
+                </li>
+                
+            
+                
+                <li>
+                    <a class="social-tooltip" title="facebook" href="/" target="_blank">
+                        <i class="icon fa fa-facebook"></i>
+                    </a>
+                </li>
+                
+            
+                
+                <li>
+                    <a class="social-tooltip" title="google-plus" href="/" target="_blank">
+                        <i class="icon fa fa-google-plus"></i>
+                    </a>
+                </li>
+                
+            
+                
+                <li>
+                    <a class="social-tooltip" title="github" href="https://github.com/ppoffice/hexo-theme-hueman" target="_blank">
+                        <i class="icon fa fa-github"></i>
+                    </a>
+                </li>
+                
+            
+                
+                <li>
+                    <a class="social-tooltip" title="weibo" href="/" target="_blank">
+                        <i class="icon fa fa-weibo"></i>
+                    </a>
+                </li>
+                
+            
+                
+                <li>
+                    <a class="social-tooltip" title="rss" href="/" target="_blank">
+                        <i class="icon fa fa-rss"></i>
+                    </a>
+                </li>
+                
+            
+        </ul>
+    </div>
+    
+        
+<nav id="article-nav">
+    
+        <a href="/2016/01/17/写着玩-强撸静态链接/" id="article-nav-newer" class="article-nav-link-wrap">
+        <strong class="article-nav-caption">下一篇</strong>
+        <p class="article-nav-title">
+        
+            写着玩-强撸静态链接
+        
+        </p>
+        <i class="icon fa fa-chevron-right" id="icon-chevron-right"></i>
+    </a>
+    
+    
+        <a href="/2016/01/08/密码系列12-消息认证机制/" id="article-nav-older" class="article-nav-link-wrap">
+        <strong class="article-nav-caption">上一篇</strong>
+        <p class="article-nav-title">密码系列12-消息认证机制</p>
+        <i class="icon fa fa-chevron-left" id="icon-chevron-left"></i>
+        </a>
+    
+</nav>
+
+    
+    <div class="widgets-container">
+        
+            
+                
+    <div class="widget-wrap">
+        <h3 class="widget-title">最新文章</h3>
+        <div class="widget">
+            <ul id="recent-post" class="">
+                
+                    <li>
+                        
+                        <div class="item-thumbnail">
+                            <a href="/2016/02/06/hello-world/" class="thumbnail">
+    
+    
+        <span class="thumbnail-image thumbnail-none"></span>
+    
+</a>
+                        </div>
+                        
+                        <div class="item-inner">
+                            <p class="item-category"></p>
+                            <p class="item-title"><a href="/2016/02/06/hello-world/" class="title">想起来啥写啥</a></p>
+                            <p class="item-date"><time datetime="2016-02-06T15:23:57.681Z" itemprop="datePublished">2016-02-06</time></p>
+                        </div>
+                    </li>
+                
+                    <li>
+                        
+                        <div class="item-thumbnail">
+                            <a href="/2016/01/19/写着玩-狂艹装载/" class="thumbnail">
+    
+    
+        <span style="background-image:url(/img/写着玩-狂艹装载/0.PNG)" alt="写着玩-狂艹装载" class="thumbnail-image"></span>
+    
+</a>
+                        </div>
+                        
+                        <div class="item-inner">
+                            <p class="item-category"><a class="article-category-link" href="/categories/reverse-related/">reverse related</a></p>
+                            <p class="item-title"><a href="/2016/01/19/写着玩-狂艹装载/" class="title">写着玩-狂艹装载</a></p>
+                            <p class="item-date"><time datetime="2016-01-19T11:37:30.000Z" itemprop="datePublished">2016-01-19</time></p>
+                        </div>
+                    </li>
+                
+                    <li>
+                        
+                        <div class="item-thumbnail">
+                            <a href="/2016/01/19/写着玩-回顾以前的PE岁月/" class="thumbnail">
+    
+    
+        <span style="background-image:url(/img/写着玩-回顾以前的PE岁月/0.PNG)" alt="写着玩-回顾以前的PE岁月" class="thumbnail-image"></span>
+    
+</a>
+                        </div>
+                        
+                        <div class="item-inner">
+                            <p class="item-category"><a class="article-category-link" href="/categories/reverse-related/">reverse related</a></p>
+                            <p class="item-title"><a href="/2016/01/19/写着玩-回顾以前的PE岁月/" class="title">写着玩-回顾以前的PE岁月</a></p>
+                            <p class="item-date"><time datetime="2016-01-19T07:24:33.000Z" itemprop="datePublished">2016-01-19</time></p>
+                        </div>
+                    </li>
+                
+                    <li>
+                        
+                        <div class="item-thumbnail">
+                            <a href="/2016/01/18/写着玩-强撸静态链接（续）/" class="thumbnail">
+    
+    
+        <span style="background-image:url(/img/写着玩-强撸静态链接（续）/0.PNG)" alt="写着玩-强撸静态链接（续）" class="thumbnail-image"></span>
+    
+</a>
+                        </div>
+                        
+                        <div class="item-inner">
+                            <p class="item-category"><a class="article-category-link" href="/categories/reverse-related/">reverse related</a></p>
+                            <p class="item-title"><a href="/2016/01/18/写着玩-强撸静态链接（续）/" class="title">写着玩-强撸静态链接（续）</a></p>
+                            <p class="item-date"><time datetime="2016-01-18T11:03:01.000Z" itemprop="datePublished">2016-01-18</time></p>
+                        </div>
+                    </li>
+                
+                    <li>
+                        
+                        <div class="item-thumbnail">
+                            <a href="/2016/01/17/写着玩-硬怼目标文件/" class="thumbnail">
+    
+    
+        <span style="background-image:url(/img/写着玩-硬怼目标文件/0.PNG)" alt="写着玩-硬怼目标文件" class="thumbnail-image"></span>
+    
+</a>
+                        </div>
+                        
+                        <div class="item-inner">
+                            <p class="item-category"><a class="article-category-link" href="/categories/reverse-related/">reverse related</a></p>
+                            <p class="item-title"><a href="/2016/01/17/写着玩-硬怼目标文件/" class="title">写着玩-硬怼目标文件</a></p>
+                            <p class="item-date"><time datetime="2016-01-17T12:50:32.000Z" itemprop="datePublished">2016-01-17</time></p>
+                        </div>
+                    </li>
+                
+            </ul>
+        </div>
+    </div>
+
+            
+                
+    <div class="widget-wrap widget-list">
+        <h3 class="widget-title">分类</h3>
+        <div class="widget">
+            <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/cryptography/">cryptography</a><span class="category-list-count">12</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/reverse-related/">reverse related</a><span class="category-list-count">10</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/think-for-fun/">think for fun</a><span class="category-list-count">1</span></li></ul>
+        </div>
+    </div>
+
+
+            
+                
+    <div class="widget-wrap widget-list">
+        <h3 class="widget-title">归档</h3>
+        <div class="widget">
+            <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/02/">February 2016</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/01/">January 2016</a><span class="archive-list-count">13</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2015/12/">December 2015</a><span class="archive-list-count">9</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2015/11/">November 2015</a><span class="archive-list-count">1</span></li></ul>
+        </div>
+    </div>
+
+
+            
+                
+    <div class="widget-wrap widget-list">
+        <h3 class="widget-title">标签</h3>
+        <div class="widget">
+            <ul class="tag-list"><li class="tag-list-item"><a class="tag-list-link" href="/tags/人丑就要多读书/">人丑就要多读书</a><span class="tag-list-count">6</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/密码学/">密码学</a><span class="tag-list-count">12</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/操作系统/">操作系统</a><span class="tag-list-count">3</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/编译原理/">编译原理</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/随想/">随想</a><span class="tag-list-count">1</span></li></ul>
+        </div>
+    </div>
+
+
+            
+                
+    <div class="widget-wrap widget-float">
+        <h3 class="widget-title">标签云</h3>
+        <div class="widget tagcloud">
+            <a href="/tags/人丑就要多读书/" style="font-size: 16.67px;">人丑就要多读书</a> <a href="/tags/密码学/" style="font-size: 20px;">密码学</a> <a href="/tags/操作系统/" style="font-size: 13.33px;">操作系统</a> <a href="/tags/编译原理/" style="font-size: 10px;">编译原理</a> <a href="/tags/随想/" style="font-size: 10px;">随想</a>
+        </div>
+    </div>
+
+
+            
+                
+    <div class="widget-wrap widget-list">
+        <h3 class="widget-title">链接</h3>
+        <div class="widget">
+            <ul>
+                
+                    <li>
+                        <a href="http://hexo.io">Hexo</a>
+                    </li>
+                
+            </ul>
+        </div>
+    </div>
+
+
+            
+        
+    </div>
+</aside>
+                </div>
+            </div>
+        </div>
+        <footer id="footer">
+    <div class="container">
+        <div class="container-inner">
+            <a id="back-to-top" href="javascript:;"><i class="icon fa fa-angle-up"></i></a>
+            <div class="credit">
+                <h1 class="logo-wrap">
+                    <a href="/" class="logo"></a>
+                </h1>
+                <p>&copy; 2016 John Doe</p>
+                <p>Powered by <a href="//hexo.io/" target="_blank">Hexo</a>. Theme by <a href="//github.com/ppoffice" target="_blank">PPOffice</a></p>
+            </div>
+        </div>
+    </div>
+</footer>
+        
+    
+        <script src="/vendor/fancybox/jquery.fancybox.pack.js" type="text/javascript"></script>
+    
+
+    
+        <script src="/vendor/scrollLoading/jquery.scrollLoading.js" type="text/javascript"></script>
+        <script src="/vendor/scrollLoading/main.js" type="text/javascript"></script>
+    
+
+
+<!-- Custom Scripts -->
+<script src="/js/main.js" type="text/javascript"></script>
+
+    </div>
+</body>
+</html>

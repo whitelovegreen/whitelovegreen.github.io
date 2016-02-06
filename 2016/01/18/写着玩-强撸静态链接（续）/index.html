@@ -1,0 +1,577 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    
+    <title>写着玩-强撸静态链接（续） | Hexo</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    
+        <meta name="keywords" content="人丑就要多读书" />
+    
+    <meta name="description" content="0x00 口胡没啥好说的，接着撸。。。
+0x01 静态链接中的空间与地址分配采用相似段合并的策略，即将相同性质的段合并到一起，给张图：
+要明确虚拟地址空间以及文件空间的概念
+
+在linux下，ELF可执行文件默认从地址0x08048000开始分配。
+使用这种将相同性质的段合并策略的链接器一般都采用两步链接的方法：
+
+给定一个例子，方便下面用它来说明一些问题：
+
+采用合并相同性质段时，对于符号地址的">
+<meta property="og:type" content="article">
+<meta property="og:title" content="写着玩-强撸静态链接（续）">
+<meta property="og:url" content="http://yoursite.com/2016/01/18/写着玩-强撸静态链接（续）/index.html">
+<meta property="og:site_name" content="Hexo">
+<meta property="og:description" content="0x00 口胡没啥好说的，接着撸。。。
+0x01 静态链接中的空间与地址分配采用相似段合并的策略，即将相同性质的段合并到一起，给张图：
+要明确虚拟地址空间以及文件空间的概念
+
+在linux下，ELF可执行文件默认从地址0x08048000开始分配。
+使用这种将相同性质的段合并策略的链接器一般都采用两步链接的方法：
+
+给定一个例子，方便下面用它来说明一些问题：
+
+采用合并相同性质段时，对于符号地址的">
+<meta property="og:image" content="http://yoursite.com/img/写着玩-强撸静态链接（续）/0.PNG">
+<meta property="og:updated_time" content="2016-01-19T07:22:41.141Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="写着玩-强撸静态链接（续）">
+<meta name="twitter:description" content="0x00 口胡没啥好说的，接着撸。。。
+0x01 静态链接中的空间与地址分配采用相似段合并的策略，即将相同性质的段合并到一起，给张图：
+要明确虚拟地址空间以及文件空间的概念
+
+在linux下，ELF可执行文件默认从地址0x08048000开始分配。
+使用这种将相同性质的段合并策略的链接器一般都采用两步链接的方法：
+
+给定一个例子，方便下面用它来说明一些问题：
+
+采用合并相同性质段时，对于符号地址的">
+
+    
+
+    
+
+    <link rel="stylesheet" href="/vendor/font-awesome/css/font-awesome.min.css" type="text/css">
+    <link rel="stylesheet" href="/vendor/titillium-web/styles.css" type="text/css">
+    <link rel="stylesheet" href="/vendor/source-code-pro/styles.css" type="text/css">
+
+    <link rel="stylesheet" href="/css/style.css" type="text/css">
+
+    <script src="/vendor/jquery/2.0.3/jquery.min.js" type="text/javascript"></script>
+    
+    
+        <link rel="stylesheet" href="/vendor/fancybox/jquery.fancybox.css" type="text/css">
+    
+    
+        <link rel="stylesheet" href="/vendor/scrollLoading/style.css" type="text/css">
+    
+    
+    
+
+</head>
+
+<body>
+    <div id="wrap">
+        <header id="header">
+    <div id="header-outer" class="outer">
+        <div class="container">
+            <div class="container-inner">
+                <div id="header-title">
+                    <h1 class="logo-wrap">
+                        <a href="/" class="logo"></a>
+                    </h1>
+                    
+                </div>
+                <div id="header-inner" class="nav-container">
+                    <a id="main-nav-toggle" class="nav-icon fa fa-bars"></a>
+                    <div class="nav-container-inner">
+                        <ul id="main-nav">
+                            
+                                <li class="main-nav-list-item" >
+                                    <a class="main-nav-list-link" href="/hexo-theme-hueman/">主页</a>
+                                </li>
+                            
+                                        <ul class="main-nav-list"><li class="main-nav-list-item"><a class="main-nav-list-link" href="/categories/cryptography/">cryptography</a></li><li class="main-nav-list-item"><a class="main-nav-list-link" href="/categories/reverse-related/">reverse related</a></li><li class="main-nav-list-item"><a class="main-nav-list-link" href="/categories/think-for-fun/">think for fun</a></li></ul>
+                                    
+                                <li class="main-nav-list-item" >
+                                    <a class="main-nav-list-link" href="/hexo-theme-hueman/about/index.html">关于</a>
+                                </li>
+                            
+                        </ul>
+                        <nav id="sub-nav">
+                            <div id="search-form-wrap">
+
+    <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" results="0" class="search-form-input" placeholder="搜索"><input type="hidden" name="sitesearch" value="http://yoursite.com"></form>
+
+</div>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+        <div class="container">
+            <div class="main-body container-inner">
+                <div class="main-body-inner">
+                    <section id="main">
+                        <div class="main-body-header">
+    <h1 class="header">
+    
+    <a class="page-title-link" href="/categories/reverse-related/">reverse related</a>
+    </h1>
+</div>
+                        <div class="main-body-content">
+                            <article id="post-写着玩-强撸静态链接（续）" class="article article-single article-type-post" itemscope itemprop="blogPost">
+    <div class="article-inner">
+        
+            <header class="article-header">
+                
+    
+        <h1 class="article-title" itemprop="name">
+        写着玩-强撸静态链接（续）
+        </h1>
+    
+
+            </header>
+        
+        <div class="article-subtitle">
+            <a href="/2016/01/18/写着玩-强撸静态链接（续）/" class="article-date">
+    <time datetime="2016-01-18T11:03:01.000Z" itemprop="datePublished">2016-01-18</time>
+</a>
+            
+    <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/人丑就要多读书/">人丑就要多读书</a></li></ul>
+
+        </div>
+        <div class="article-entry" itemprop="articleBody">
+            <h1 id="0x00__u53E3_u80E1"><a href="#0x00__u53E3_u80E1" class="headerlink" title="0x00 口胡"></a>0x00 口胡</h1><p>没啥好说的，接着撸。。。</p>
+<h1 id="0x01__u9759_u6001_u94FE_u63A5_u4E2D_u7684_u7A7A_u95F4_u4E0E_u5730_u5740_u5206_u914D"><a href="#0x01__u9759_u6001_u94FE_u63A5_u4E2D_u7684_u7A7A_u95F4_u4E0E_u5730_u5740_u5206_u914D" class="headerlink" title="0x01 静态链接中的空间与地址分配"></a>0x01 静态链接中的空间与地址分配</h1><p>采用相似段合并的策略，即将相同性质的段合并到一起，给张图：<br><img src="/img/写着玩-强撸静态链接（续）/0.PNG" alt=""></p>
+<p>要明确虚拟地址空间以及文件空间的概念</p>
+<p><img src="/img/写着玩-强撸静态链接（续）/1.PNG" alt=""></p>
+<p>在linux下，ELF可执行文件默认从地址0x08048000开始分配。</p>
+<p>使用这种将相同性质的段合并策略的链接器一般都采用两步链接的方法：</p>
+<p><img src="/img/写着玩-强撸静态链接（续）/2.PNG" alt=""></p>
+<p>给定一个例子，方便下面用它来说明一些问题：</p>
+<p><img src="/img/写着玩-强撸静态链接（续）/3.PNG" alt=""></p>
+<p>采用合并相同性质段时，对于符号地址的确定就显得很简单，就是简单的段基址加偏移。即根据符号表的st_name字段得知该符号的名称，根据st_shndx字段指定段+st_value指定段内偏移可以得到该符号对应的具体信息所在的地址。对于处在b.o中的符号，其相对于基址的偏移为a的text(以text段为例)段的size+st_value。</p>
+<h1 id="0x02__u7B26_u53F7_u89E3_u6790_u4E0E_u91CD_u5B9A_u4F4D"><a href="#0x02__u7B26_u53F7_u89E3_u6790_u4E0E_u91CD_u5B9A_u4F4D" class="headerlink" title="0x02 符号解析与重定位"></a>0x02 符号解析与重定位</h1><p>这里要跟上面所提到的符号地址的确定区别开，符号地址的确定只是把符号所在的具体地址给计算出来了，而符号解析与重定位侧重于讲解在未链接之前，引用外部符号的位置是什么样子的以及如何将这个在链接过程中确定的地址给回填到相应的引用中，侧重于回填的概念</p>
+<p>在未链接之前，我们将a.o目标文件进行反汇编：</p>
+<p><img src="/img/写着玩-强撸静态链接（续）/4.PNG" alt=""><br><img src="/img/写着玩-强撸静态链接（续）/5.PNG" alt=""><br><img src="/img/写着玩-强撸静态链接（续）/6.PNG" alt=""><br><img src="/img/写着玩-强撸静态链接（续）/7.PNG" alt=""><br><img src="/img/写着玩-强撸静态链接（续）/8.PNG" alt=""></p>
+<h2 id="1-__u600E_u4E48_u4FEE_u6B63_28_u56DE_u586B_29_u7684-_u91CD_u5B9A_u4F4D_u8868"><a href="#1-__u600E_u4E48_u4FEE_u6B63_28_u56DE_u586B_29_u7684-_u91CD_u5B9A_u4F4D_u8868" class="headerlink" title="1. 怎么修正(回填)的-重定位表"></a>1. 怎么修正(回填)的-重定位表</h2><p>重定位表专门用来保存这些与重定位相关的信息，告诉链接器哪些指令需要被调整，这些指令的哪些部分需要被调整以及怎么调整，在ELF文件中往往是一个段或多个段。</p>
+<p>不算是废话的废话：</p>
+<p><img src="/img/写着玩-强撸静态链接（续）/9.PNG" alt=""></p>
+<p><strong><em>重定位表的结构定义</em></strong><br><img src="/img/写着玩-强撸静态链接（续）/10.PNG" alt=""></p>
+<p><strong><em>ELF32_Rel各字段含义</em></strong><br><img src="/img/写着玩-强撸静态链接（续）/11.PNG" alt=""></p>
+<h2 id="2-__u7B26_u53F7_u89E3_u6790"><a href="#2-__u7B26_u53F7_u89E3_u6790" class="headerlink" title="2. 符号解析"></a>2. 符号解析</h2><p><img src="/img/写着玩-强撸静态链接（续）/12.PNG" alt=""></p>
+<p>重定位过程呢也伴随着符号的解析过程，每个目标文件都可能定义一些符号，也可能引用到定义在其他目标文件的符号。重定位时，为了确定该符号的目标地址，链接器会去查找由所有输入目标文件的符号表组成的全局符号表，找到相应的符号后进行重定位。</p>
+<hr>
+<h1 id="0xff__u5751"><a href="#0xff__u5751" class="headerlink" title="0xff 坑"></a>0xff 坑</h1><p>这里看到全局符号表我是进行了一番思考的。。。符号表如何组成全局符号表是一个值得思考的问题，结合强弱符号以及符号的修饰及相同符号的合并规则等等来考虑如何实现全局符号表的组成，这些细节由于自己检索能力太烂，所以找不到相关资料，这里就留个坑在这吧，日后希望能填上。。。</p>
+<hr>
+<p>接着说。。。</p>
+<h2 id="3-__u6307_u4EE4_u4FEE_u6B63_u65B9_u5F0F"><a href="#3-__u6307_u4EE4_u4FEE_u6B63_u65B9_u5F0F" class="headerlink" title="3. 指令修正方式"></a>3. 指令修正方式</h2><p><img src="/img/写着玩-强撸静态链接（续）/13.PNG" alt=""><br><img src="/img/写着玩-强撸静态链接（续）/14.PNG" alt=""></p>
+<p>具体的修正细节：<br><img src="/img/写着玩-强撸静态链接（续）/15.PNG" alt=""><br><img src="/img/写着玩-强撸静态链接（续）/16.PNG" alt=""><br><img src="/img/写着玩-强撸静态链接（续）/17.PNG" alt=""><br>修正后，在访问时就可以根据具体的访存指令(不同的访存指令对于要访问的地址的计算方式不同，所以为了迎合访存指令，编译器在编译到相关的访存指令时，会事先安排好重定位时采用何种修正方式使得修正后的结果能正好满足这个访存指令的需要)</p>
+<p>这里还是要口胡一下，就是比如说mov指令和call指令对于跟在他后面地址操作数的计算方式是不同的，拿call来说，它就认为后面的地址操作数就是要调用的位置与紧跟着call后面的那条语句地址差，这些指令的意思是预先定义的，所以编译器在看见call指令时，如果call后面的地址需要重定位，它就会知道，“哦，原来是call后面的地址需要重定位，根据call的意义，我编译器知道它的重定位修正方式为相对寻址修正”，所以，编译器会在重定位表中填入相对地址修正的信息，就是这样。</p>
+<h1 id="0x03_COMMOM_u5757"><a href="#0x03_COMMOM_u5757" class="headerlink" title="0x03 COMMOM块"></a>0x03 COMMOM块</h1><p>为什么会有COMMAOM块：<br>由于弱符号机制允许同一个符号的定义存在于多个文件中，所以可能会导致当一个弱符号定义在多个目标文件中，而他们的类型又不同，而我们知道链接器是不支持符号的类型的，即变量类型对于链接器来说是透明的，那么此时链接器该如何处理，这时就需要COMMON块。</p>
+<p>什么是COMMON块：<br>当不同的目标文件需要的COMMON块空间大小不一致时，以最大的那块为准</p>
+<p>现在的链接机制在处理弱符号时，采用的就是COMMON块的机制，编译器会将弱符号(典型的弱符号如未初始化的全局变量定义)的类型置为SHN_COMMON类型，对于相同名称不同类型的弱符号，就采用COMMON块机制-以空间最大的那个为准。</p>
+<p>在目标文件中，编译器为什么不直接把未初始化的全局变量也当做未初始化的局部静态变量一样处理，为它在BSS段分配空间，而是将其标记为一个COMMON类型的变量？<br><img src="/img/写着玩-强撸静态链接（续）/18.PNG" alt=""><br><img src="/img/写着玩-强撸静态链接（续）/19.PNG" alt=""></p>
+<h1 id="0x04_C++_u7A0B_u5E8F_u7684_u4E8C_u8FDB_u5236_u517C_u5BB9_u6027_u95EE_u9898"><a href="#0x04_C++_u7A0B_u5E8F_u7684_u4E8C_u8FDB_u5236_u517C_u5BB9_u6027_u95EE_u9898" class="headerlink" title="0x04 C++程序的二进制兼容性问题"></a>0x04 C++程序的二进制兼容性问题</h1><p>C++的一些语言特性使之必须由编译器和链接器共同支持才能完成工作。最主要的有两个方面，一个是C++的重复代码消除，还有一个就是全局构造和析构。</p>
+<h2 id="1-__u91CD_u590D_u4EE3_u7801_u6D88_u9664"><a href="#1-__u91CD_u590D_u4EE3_u7801_u6D88_u9664" class="headerlink" title="1. 重复代码消除"></a>1. 重复代码消除</h2><p>C++编译器在很多时候会产生重复的代码，比如模板、外部内联函数和虚函数表都有可能在不同的编译单元中生成相同的代码。</p>
+<p>比较有效的一个策略就是，拿模板来说，将每个模板的实例代码都单独的存放在一个段里，每个段只包含一个模板实例。用这种段的名字来区别不同的段和相同的段。</p>
+<p>这种做法的确被目前主流的编译器采用。GNU GCC编译器和Visual C++编译器都采用了类似的方法。GCC把这种类似的需要在最终链接时合并的段叫”Link Once”，它的做法就是将这种类型的段命名为”.gnu.linkonce.name”，其中”name”是该模板函数实例的修饰后名称。Visual C++编译器做法稍有不同，它吧这种类型的段叫”COMDAT”，这种”COMDAT”段的属性字段(PE文件的段表结构里面的IMAGE_SECTION_HEADER的Characteristic成员)都有IMAGE_SCN_LINK_COMDAT(0x00001000)这个标记，在链接器看到这个标记后，它就认为该段是COMDAT类型的，在链接时会将重复的段丢弃</p>
+<p>不仅模板是这样，对于会造成代码重复的机制，这种方法或与此类似的方法都是被采用的。像上面提到的外部内联函数、虚函数表。还有默认构造函数、默认拷贝构造函数和赋值操作符等。</p>
+<p><img src="/img/写着玩-强撸静态链接（续）/20.PNG" alt=""></p>
+<p><strong>又一问题：</strong><br><img src="/img/写着玩-强撸静态链接（续）/21.PNG" alt=""><br><strong>折中的解决方案-函数级别链接</strong><br><img src="/img/写着玩-强撸静态链接（续）/22.PNG" alt=""></p>
+<h2 id="2-__u5168_u5C40_u6784_u9020_u4E0E_u6790_u6784"><a href="#2-__u5168_u5C40_u6784_u9020_u4E0E_u6790_u6784" class="headerlink" title="2. 全局构造与析构"></a>2. 全局构造与析构</h2><p>C++的全局对象的构造函数在main之前被执行，C++全局对象的析构函数在main之后执行。linux系统下一般程序的入口是”_start”，这个函数是linux系统库(Glibc)的一部分。</p>
+<p><strong><em>黑姿势(以前在某CTF中被坑过)</em></strong><br>当我们的程序与Glibc库链接在一起形成最终可执行文件以后，这个函数(_start)就是程序的初始化部分的入口，程序初始化部分完成一系列初始化过程之后，会调用main函数来执行程序的主体。在main函数执行完以后，返回到初始化部分，它进行一些清理工作，然后结束进程。对于有些场合，程序的一些特定的操作必须在main函数之前被执行，还有一些操作必须在main函数之后被执行，其中很具有代表性的就是C++的全局对象的构造和析构函数。因此ELF文件还定义了两种特殊的段。</p>
+<ul>
+<li>.init 该段里面保存的是可执行指令，它构成了进程的初始化代码。因此，当一个程序开始运行时，在main函数被调用之前，Glibc的初始化部分安排执行这个段中的代码。</li>
+<li>.fini 该段保存着进程终止代码指令。因此，当一个程序的main函数正常退出时，Glibc会安排执行这个段中的代码。</li>
+</ul>
+<p>这两个段.init和.fini的存在有着特别的目的，如果一个函数放到.init段，在main函数执行前系统就会执行它。同理，假如一个函数放到.fini段，在main函数返回后该函数就会被执行。利用这两个特性，C++的全局构造和析构函数得以实现。</p>
+<h2 id="3-_C++_u4E0EABI"><a href="#3-_C++_u4E0EABI" class="headerlink" title="3. C++与ABI"></a>3. C++与ABI</h2><p><strong><em>ABI介绍</em></strong><br><img src="/img/写着玩-强撸静态链接（续）/23.PNG" alt=""><br>也就是说解决目标文件的跨编译平台问题<br><img src="/img/写着玩-强撸静态链接（续）/24.PNG" alt=""><br><img src="/img/写着玩-强撸静态链接（续）/25.PNG" alt=""><br><img src="/img/写着玩-强撸静态链接（续）/26.PNG" alt=""></p>
+<h2 id="4-__u9759_u6001_u5E93_u94FE_u63A5"><a href="#4-__u9759_u6001_u5E93_u94FE_u63A5" class="headerlink" title="4. 静态库链接"></a>4. 静态库链接</h2><p>我们前面说过，一个静态库可以简单的看成一组目标文件的集合，即很多目标文件经过压缩打包后形成的一个文件。</p>
+<p>通常人们使用”ar”压缩程序将这些目标文件压缩到一起，并且对其编号和索引，以便于查找和索引，就形成了libc.a这个静态库文件。也可以使用”ar”工具来查看静态库包含哪些文件：<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="variable">$ar</span> -t libc.a</span><br></pre></td></tr></table></figure></p>
+<p><img src="/img/写着玩-强撸静态链接（续）/27.PNG" alt=""></p>
+<p>VC++页提供了与linux下的ar类似的工具，叫lib.exe。这个程序可以用来创建、提取、列举.lib文件中的内容。使用”lib /LIST libcmt.lib”就可以列举出libcmt.lib中所包含的目标文件。</p>
+<p>我们从hello.c出发，来看静态库的链接过程。根据前面的姿势，我们可以知道”printf”函数被定义在”libc.a”中的”printf.o”这个目标文件中。那么，似乎，找到了一种看似可行的链接方法，那就是”hello.c”程序编译出来的目标文件只要和libc.a里面的printf.o连接在一起就可以形成一个可执行文件了。我们来验证一下，使用下面的bash语句编译：<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="variable">$gcc</span> -c -fno-builtin hello.c</span><br></pre></td></tr></table></figure></p>
+<p>这里说明一下，使用”-fno-builtin”参数是因为在默认情况下，GCC会自作聪明的将hello world程序中只使用了一个字符串参数的printf替换成puts(<strong>这也算是个坑点</strong>)。<br>然后，我们用ar工具解压libc.a<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="variable">$ar</span> -x libc.a</span><br></pre></td></tr></table></figure></p>
+<p>然后链接<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="variable">$ld</span> hello.o printf.o</span><br></pre></td></tr></table></figure></p>
+<p>结果意料中，那就是报错了，链接失败<br><img src="/img/写着玩-强撸静态链接（续）/28.PNG" alt=""></p>
+<p>给出编译链接的中间过程的打印结果：<br><img src="/img/写着玩-强撸静态链接（续）/29.PNG" alt=""><br><img src="/img/写着玩-强撸静态链接（续）/30.PNG" alt=""><br><img src="/img/写着玩-强撸静态链接（续）/31.PNG" alt=""></p>
+<p>为什么静态运行库里面一个目标文件只包含一个函数？比如libc.a里面printf.o只有printf()函数，为什么要这样组织？<br><img src="/img/写着玩-强撸静态链接（续）/32.PNG" alt=""></p>
+<hr>
+<h1 id="0x05__u5C0F_u7ED3"><a href="#0x05__u5C0F_u7ED3" class="headerlink" title="0x05 小结"></a>0x05 小结</h1><p>关于静态链接就到这了，重点是目标文件在被链接成最终可执行文件时，输入目标文件中的各个段是如何被合并到输出文件中的，链接器如何为它们分配在输出文件中的空间和地址。当然比较有意思的就是符号的解析与重定位了，一旦输入段的最终地址被确定，接下来就可以进行符号的解析与重定位了，链接器会把各个输入目标文件中对于外部符号的引用进行解析，把每个段中需要重定位的指令和数据进行修补，使他们都指向正确的位置。</p>
+<p>还口胡了一些问题，COMMON块啊等等，总之，静态链接很好理解，恩，就是这样。</p>
+
+        </div>
+        <footer class="article-footer">
+            
+
+
+
+    <a data-url="http://yoursite.com/2016/01/18/写着玩-强撸静态链接（续）/" data-id="cikb9uuun001tssqnv68ahpqb" class="article-share-link"><i class="fa fa-share"></i>分享到</a>
+<script>
+    (function ($) {
+        $('body').on('click', function() {
+            $('.article-share-box.on').removeClass('on');
+        }).on('click', '.article-share-link', function(e) {
+            e.stopPropagation();
+
+            var $this = $(this),
+                url = $this.attr('data-url'),
+                encodedUrl = encodeURIComponent(url),
+                id = 'article-share-box-' + $this.attr('data-id'),
+                offset = $this.offset(),
+                box;
+
+            if ($('#' + id).length) {
+                box = $('#' + id);
+
+                if (box.hasClass('on')){
+                    box.removeClass('on');
+                    return;
+                }
+            } else {
+                var html = [
+                    '<div id="' + id + '" class="article-share-box">',
+                        '<input class="article-share-input" value="' + url + '">',
+                        '<div class="article-share-links">',
+                            '<a href="https://twitter.com/intent/tweet?url=' + encodedUrl + '" class="article-share-twitter" target="_blank" title="Twitter"></a>',
+                            '<a href="https://www.facebook.com/sharer.php?u=' + encodedUrl + '" class="article-share-facebook" target="_blank" title="Facebook"></a>',
+                            '<a href="http://pinterest.com/pin/create/button/?url=' + encodedUrl + '" class="article-share-pinterest" target="_blank" title="Pinterest"></a>',
+                            '<a href="https://plus.google.com/share?url=' + encodedUrl + '" class="article-share-google" target="_blank" title="Google+"></a>',
+                        '</div>',
+                    '</div>'
+                ].join('');
+
+              box = $(html);
+
+              $('body').append(box);
+            }
+
+            $('.article-share-box.on').hide();
+
+            box.css({
+                top: offset.top + 25,
+                left: offset.left
+            }).addClass('on');
+
+        }).on('click', '.article-share-box', function (e) {
+            e.stopPropagation();
+        }).on('click', '.article-share-box-input', function () {
+            $(this).select();
+        }).on('click', '.article-share-box-link', function (e) {
+            e.preventDefault();
+            e.stopPropagation();
+
+            window.open(this.href, 'article-share-box-window-' + Date.now(), 'width=500,height=450');
+        });
+    })(jQuery);
+</script>
+
+        </footer>
+    </div>
+</article>
+
+<section id="comments">
+
+    <div id="disqus_thread">
+    <noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+<script>
+var disqus_shortname = 'hexo-theme-hueman';
+
+
+var disqus_url = 'http://yoursite.com/2016/01/18/写着玩-强撸静态链接（续）/';
+
+(function() {
+var dsq = document.createElement('script');
+dsq.type = 'text/javascript';
+dsq.async = true;
+dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+})();
+</script>
+
+</section>
+
+                        </div>
+                    </section>
+                    <aside id="sidebar">
+    <a class="sidebar-toggle" title="Expand Sidebar"><i class="toggle icon"></i></a>
+    <div class="sidebar-top">
+        <p>关注我 :</p>
+        <ul class="social-links">
+            
+                
+                <li>
+                    <a class="social-tooltip" title="twitter" href="/" target="_blank">
+                        <i class="icon fa fa-twitter"></i>
+                    </a>
+                </li>
+                
+            
+                
+                <li>
+                    <a class="social-tooltip" title="facebook" href="/" target="_blank">
+                        <i class="icon fa fa-facebook"></i>
+                    </a>
+                </li>
+                
+            
+                
+                <li>
+                    <a class="social-tooltip" title="google-plus" href="/" target="_blank">
+                        <i class="icon fa fa-google-plus"></i>
+                    </a>
+                </li>
+                
+            
+                
+                <li>
+                    <a class="social-tooltip" title="github" href="https://github.com/ppoffice/hexo-theme-hueman" target="_blank">
+                        <i class="icon fa fa-github"></i>
+                    </a>
+                </li>
+                
+            
+                
+                <li>
+                    <a class="social-tooltip" title="weibo" href="/" target="_blank">
+                        <i class="icon fa fa-weibo"></i>
+                    </a>
+                </li>
+                
+            
+                
+                <li>
+                    <a class="social-tooltip" title="rss" href="/" target="_blank">
+                        <i class="icon fa fa-rss"></i>
+                    </a>
+                </li>
+                
+            
+        </ul>
+    </div>
+    
+        
+<nav id="article-nav">
+    
+        <a href="/2016/01/19/写着玩-回顾以前的PE岁月/" id="article-nav-newer" class="article-nav-link-wrap">
+        <strong class="article-nav-caption">下一篇</strong>
+        <p class="article-nav-title">
+        
+            写着玩-回顾以前的PE岁月
+        
+        </p>
+        <i class="icon fa fa-chevron-right" id="icon-chevron-right"></i>
+    </a>
+    
+    
+        <a href="/2016/01/17/写着玩-硬怼目标文件/" id="article-nav-older" class="article-nav-link-wrap">
+        <strong class="article-nav-caption">上一篇</strong>
+        <p class="article-nav-title">写着玩-硬怼目标文件</p>
+        <i class="icon fa fa-chevron-left" id="icon-chevron-left"></i>
+        </a>
+    
+</nav>
+
+    
+    <div class="widgets-container">
+        
+            
+                
+    <div class="widget-wrap">
+        <h3 class="widget-title">最新文章</h3>
+        <div class="widget">
+            <ul id="recent-post" class="">
+                
+                    <li>
+                        
+                        <div class="item-thumbnail">
+                            <a href="/2016/02/06/hello-world/" class="thumbnail">
+    
+    
+        <span class="thumbnail-image thumbnail-none"></span>
+    
+</a>
+                        </div>
+                        
+                        <div class="item-inner">
+                            <p class="item-category"></p>
+                            <p class="item-title"><a href="/2016/02/06/hello-world/" class="title">想起来啥写啥</a></p>
+                            <p class="item-date"><time datetime="2016-02-06T15:23:57.681Z" itemprop="datePublished">2016-02-06</time></p>
+                        </div>
+                    </li>
+                
+                    <li>
+                        
+                        <div class="item-thumbnail">
+                            <a href="/2016/01/19/写着玩-狂艹装载/" class="thumbnail">
+    
+    
+        <span style="background-image:url(/img/写着玩-狂艹装载/0.PNG)" alt="写着玩-狂艹装载" class="thumbnail-image"></span>
+    
+</a>
+                        </div>
+                        
+                        <div class="item-inner">
+                            <p class="item-category"><a class="article-category-link" href="/categories/reverse-related/">reverse related</a></p>
+                            <p class="item-title"><a href="/2016/01/19/写着玩-狂艹装载/" class="title">写着玩-狂艹装载</a></p>
+                            <p class="item-date"><time datetime="2016-01-19T11:37:30.000Z" itemprop="datePublished">2016-01-19</time></p>
+                        </div>
+                    </li>
+                
+                    <li>
+                        
+                        <div class="item-thumbnail">
+                            <a href="/2016/01/19/写着玩-回顾以前的PE岁月/" class="thumbnail">
+    
+    
+        <span style="background-image:url(/img/写着玩-回顾以前的PE岁月/0.PNG)" alt="写着玩-回顾以前的PE岁月" class="thumbnail-image"></span>
+    
+</a>
+                        </div>
+                        
+                        <div class="item-inner">
+                            <p class="item-category"><a class="article-category-link" href="/categories/reverse-related/">reverse related</a></p>
+                            <p class="item-title"><a href="/2016/01/19/写着玩-回顾以前的PE岁月/" class="title">写着玩-回顾以前的PE岁月</a></p>
+                            <p class="item-date"><time datetime="2016-01-19T07:24:33.000Z" itemprop="datePublished">2016-01-19</time></p>
+                        </div>
+                    </li>
+                
+                    <li>
+                        
+                        <div class="item-thumbnail">
+                            <a href="/2016/01/18/写着玩-强撸静态链接（续）/" class="thumbnail">
+    
+    
+        <span style="background-image:url(/img/写着玩-强撸静态链接（续）/0.PNG)" alt="写着玩-强撸静态链接（续）" class="thumbnail-image"></span>
+    
+</a>
+                        </div>
+                        
+                        <div class="item-inner">
+                            <p class="item-category"><a class="article-category-link" href="/categories/reverse-related/">reverse related</a></p>
+                            <p class="item-title"><a href="/2016/01/18/写着玩-强撸静态链接（续）/" class="title">写着玩-强撸静态链接（续）</a></p>
+                            <p class="item-date"><time datetime="2016-01-18T11:03:01.000Z" itemprop="datePublished">2016-01-18</time></p>
+                        </div>
+                    </li>
+                
+                    <li>
+                        
+                        <div class="item-thumbnail">
+                            <a href="/2016/01/17/写着玩-硬怼目标文件/" class="thumbnail">
+    
+    
+        <span style="background-image:url(/img/写着玩-硬怼目标文件/0.PNG)" alt="写着玩-硬怼目标文件" class="thumbnail-image"></span>
+    
+</a>
+                        </div>
+                        
+                        <div class="item-inner">
+                            <p class="item-category"><a class="article-category-link" href="/categories/reverse-related/">reverse related</a></p>
+                            <p class="item-title"><a href="/2016/01/17/写着玩-硬怼目标文件/" class="title">写着玩-硬怼目标文件</a></p>
+                            <p class="item-date"><time datetime="2016-01-17T12:50:32.000Z" itemprop="datePublished">2016-01-17</time></p>
+                        </div>
+                    </li>
+                
+            </ul>
+        </div>
+    </div>
+
+            
+                
+    <div class="widget-wrap widget-list">
+        <h3 class="widget-title">分类</h3>
+        <div class="widget">
+            <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/cryptography/">cryptography</a><span class="category-list-count">12</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/reverse-related/">reverse related</a><span class="category-list-count">10</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/think-for-fun/">think for fun</a><span class="category-list-count">1</span></li></ul>
+        </div>
+    </div>
+
+
+            
+                
+    <div class="widget-wrap widget-list">
+        <h3 class="widget-title">归档</h3>
+        <div class="widget">
+            <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/02/">February 2016</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/01/">January 2016</a><span class="archive-list-count">13</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2015/12/">December 2015</a><span class="archive-list-count">9</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2015/11/">November 2015</a><span class="archive-list-count">1</span></li></ul>
+        </div>
+    </div>
+
+
+            
+                
+    <div class="widget-wrap widget-list">
+        <h3 class="widget-title">标签</h3>
+        <div class="widget">
+            <ul class="tag-list"><li class="tag-list-item"><a class="tag-list-link" href="/tags/人丑就要多读书/">人丑就要多读书</a><span class="tag-list-count">6</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/密码学/">密码学</a><span class="tag-list-count">12</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/操作系统/">操作系统</a><span class="tag-list-count">3</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/编译原理/">编译原理</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/随想/">随想</a><span class="tag-list-count">1</span></li></ul>
+        </div>
+    </div>
+
+
+            
+                
+    <div class="widget-wrap widget-float">
+        <h3 class="widget-title">标签云</h3>
+        <div class="widget tagcloud">
+            <a href="/tags/人丑就要多读书/" style="font-size: 16.67px;">人丑就要多读书</a> <a href="/tags/密码学/" style="font-size: 20px;">密码学</a> <a href="/tags/操作系统/" style="font-size: 13.33px;">操作系统</a> <a href="/tags/编译原理/" style="font-size: 10px;">编译原理</a> <a href="/tags/随想/" style="font-size: 10px;">随想</a>
+        </div>
+    </div>
+
+
+            
+                
+    <div class="widget-wrap widget-list">
+        <h3 class="widget-title">链接</h3>
+        <div class="widget">
+            <ul>
+                
+                    <li>
+                        <a href="http://hexo.io">Hexo</a>
+                    </li>
+                
+            </ul>
+        </div>
+    </div>
+
+
+            
+        
+    </div>
+</aside>
+                </div>
+            </div>
+        </div>
+        <footer id="footer">
+    <div class="container">
+        <div class="container-inner">
+            <a id="back-to-top" href="javascript:;"><i class="icon fa fa-angle-up"></i></a>
+            <div class="credit">
+                <h1 class="logo-wrap">
+                    <a href="/" class="logo"></a>
+                </h1>
+                <p>&copy; 2016 John Doe</p>
+                <p>Powered by <a href="//hexo.io/" target="_blank">Hexo</a>. Theme by <a href="//github.com/ppoffice" target="_blank">PPOffice</a></p>
+            </div>
+        </div>
+    </div>
+</footer>
+        
+    
+        <script src="/vendor/fancybox/jquery.fancybox.pack.js" type="text/javascript"></script>
+    
+
+    
+        <script src="/vendor/scrollLoading/jquery.scrollLoading.js" type="text/javascript"></script>
+        <script src="/vendor/scrollLoading/main.js" type="text/javascript"></script>
+    
+
+
+<!-- Custom Scripts -->
+<script src="/js/main.js" type="text/javascript"></script>
+
+    </div>
+</body>
+</html>

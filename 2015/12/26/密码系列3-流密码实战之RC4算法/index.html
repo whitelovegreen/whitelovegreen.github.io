@@ -1,0 +1,537 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    
+    <title>密码系列3-流密码实战之RC4算法 | Hexo</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    
+        <meta name="keywords" content="密码学" />
+    
+    <meta name="description" content="0x01 口胡RC4加密算法是大名鼎鼎的RSA三人组中的头号人物Ronald Rivest在1987年设计的密钥长度可变的流加密算法簇。之所以称其为簇，是由于其核心部分的S-box长度可为任意，但一般为256字节。该算法的速度可以达到DES加密的10倍左右，且具有很高级别的非线性。RC4起初是用于保护商业机密的。但是在1994年9月，它的算法被发布在互联网上，也就不再有什么商业机密了。RC4也被叫">
+<meta property="og:type" content="article">
+<meta property="og:title" content="密码系列3-流密码实战之RC4算法">
+<meta property="og:url" content="http://yoursite.com/2015/12/26/密码系列3-流密码实战之RC4算法/index.html">
+<meta property="og:site_name" content="Hexo">
+<meta property="og:description" content="0x01 口胡RC4加密算法是大名鼎鼎的RSA三人组中的头号人物Ronald Rivest在1987年设计的密钥长度可变的流加密算法簇。之所以称其为簇，是由于其核心部分的S-box长度可为任意，但一般为256字节。该算法的速度可以达到DES加密的10倍左右，且具有很高级别的非线性。RC4起初是用于保护商业机密的。但是在1994年9月，它的算法被发布在互联网上，也就不再有什么商业机密了。RC4也被叫">
+<meta property="og:updated_time" content="2015-12-28T07:30:53.837Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="密码系列3-流密码实战之RC4算法">
+<meta name="twitter:description" content="0x01 口胡RC4加密算法是大名鼎鼎的RSA三人组中的头号人物Ronald Rivest在1987年设计的密钥长度可变的流加密算法簇。之所以称其为簇，是由于其核心部分的S-box长度可为任意，但一般为256字节。该算法的速度可以达到DES加密的10倍左右，且具有很高级别的非线性。RC4起初是用于保护商业机密的。但是在1994年9月，它的算法被发布在互联网上，也就不再有什么商业机密了。RC4也被叫">
+
+    
+
+    
+
+    <link rel="stylesheet" href="/vendor/font-awesome/css/font-awesome.min.css" type="text/css">
+    <link rel="stylesheet" href="/vendor/titillium-web/styles.css" type="text/css">
+    <link rel="stylesheet" href="/vendor/source-code-pro/styles.css" type="text/css">
+
+    <link rel="stylesheet" href="/css/style.css" type="text/css">
+
+    <script src="/vendor/jquery/2.0.3/jquery.min.js" type="text/javascript"></script>
+    
+    
+        <link rel="stylesheet" href="/vendor/fancybox/jquery.fancybox.css" type="text/css">
+    
+    
+        <link rel="stylesheet" href="/vendor/scrollLoading/style.css" type="text/css">
+    
+    
+    
+
+</head>
+
+<body>
+    <div id="wrap">
+        <header id="header">
+    <div id="header-outer" class="outer">
+        <div class="container">
+            <div class="container-inner">
+                <div id="header-title">
+                    <h1 class="logo-wrap">
+                        <a href="/" class="logo"></a>
+                    </h1>
+                    
+                </div>
+                <div id="header-inner" class="nav-container">
+                    <a id="main-nav-toggle" class="nav-icon fa fa-bars"></a>
+                    <div class="nav-container-inner">
+                        <ul id="main-nav">
+                            
+                                <li class="main-nav-list-item" >
+                                    <a class="main-nav-list-link" href="/hexo-theme-hueman/">主页</a>
+                                </li>
+                            
+                                        <ul class="main-nav-list"><li class="main-nav-list-item"><a class="main-nav-list-link" href="/categories/cryptography/">cryptography</a></li><li class="main-nav-list-item"><a class="main-nav-list-link" href="/categories/reverse-related/">reverse related</a></li><li class="main-nav-list-item"><a class="main-nav-list-link" href="/categories/think-for-fun/">think for fun</a></li></ul>
+                                    
+                                <li class="main-nav-list-item" >
+                                    <a class="main-nav-list-link" href="/hexo-theme-hueman/about/index.html">关于</a>
+                                </li>
+                            
+                        </ul>
+                        <nav id="sub-nav">
+                            <div id="search-form-wrap">
+
+    <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" results="0" class="search-form-input" placeholder="搜索"><input type="hidden" name="sitesearch" value="http://yoursite.com"></form>
+
+</div>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+        <div class="container">
+            <div class="main-body container-inner">
+                <div class="main-body-inner">
+                    <section id="main">
+                        <div class="main-body-header">
+    <h1 class="header">
+    
+    <a class="page-title-link" href="/categories/cryptography/">cryptography</a>
+    </h1>
+</div>
+                        <div class="main-body-content">
+                            <article id="post-密码系列3-流密码实战之RC4算法" class="article article-single article-type-post" itemscope itemprop="blogPost">
+    <div class="article-inner">
+        
+            <header class="article-header">
+                
+    
+        <h1 class="article-title" itemprop="name">
+        密码系列3-流密码实战之RC4算法
+        </h1>
+    
+
+            </header>
+        
+        <div class="article-subtitle">
+            <a href="/2015/12/26/密码系列3-流密码实战之RC4算法/" class="article-date">
+    <time datetime="2015-12-26T09:01:09.000Z" itemprop="datePublished">2015-12-26</time>
+</a>
+            
+    <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/密码学/">密码学</a></li></ul>
+
+        </div>
+        <div class="article-entry" itemprop="articleBody">
+            <h1 id="0x01__u53E3_u80E1"><a href="#0x01__u53E3_u80E1" class="headerlink" title="0x01 口胡"></a>0x01 口胡</h1><p>RC4加密算法是大名鼎鼎的RSA三人组中的头号人物Ronald Rivest在1987年设计的密钥长度可变的流加密算法簇。之所以称其为簇，是由于其核心部分的S-box长度可为任意，但一般为256字节。该算法的速度可以达到DES加密的10倍左右，且具有很高级别的非线性。RC4起初是用于保护商业机密的。但是在1994年9月，它的算法被发布在互联网上，也就不再有什么商业机密了。RC4也被叫做ARC4（Alleged RC4——所谓的RC4），因为RSA从来就没有正式发布过这个算法。</p>
+<p>一切的口胡都是苍白无力的，话不多说，都在代码里，直接进正片看代码。</p>
+<h1 id="0x02__u6B63_u7247"><a href="#0x02__u6B63_u7247" class="headerlink" title="0x02 正片"></a>0x02 正片</h1><p>由于RC4算法的代码很少，所以下面会直接贴代码来说明RC4加密流程：</p>
+<h2 id="main_u51FD_u6570"><a href="#main_u51FD_u6570" class="headerlink" title="main函数"></a>main函数</h2><figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">main</span><span class="params">()</span></span><br><span class="line"></span>&#123;</span><br><span class="line"><span class="keyword">unsigned</span> <span class="keyword">char</span> s[<span class="number">256</span>] = &#123;<span class="number">0</span>&#125;,s2[<span class="number">256</span>] = &#123;<span class="number">0</span>&#125;;    <span class="comment">//S-box</span></span><br><span class="line"> </span><br><span class="line"><span class="keyword">char</span> key[<span class="number">256</span>] = &#123;<span class="string">"just for test"</span>&#125;;</span><br><span class="line"> </span><br><span class="line"><span class="keyword">char</span> pData[<span class="number">512</span>] = <span class="string">"Data"</span>;</span><br><span class="line"><span class="keyword">int</span> i=<span class="number">0</span>;</span><br><span class="line"> </span><br><span class="line">ULONG len = <span class="built_in">strlen</span>(pData);</span><br><span class="line"> </span><br><span class="line"><span class="built_in">printf</span>(<span class="string">"pData = %s\n"</span>,pData);</span><br><span class="line"> </span><br><span class="line"><span class="built_in">printf</span>(<span class="string">"key = %s, length = %d\n\n"</span>,key,<span class="built_in">strlen</span>(key));</span><br><span class="line"> </span><br><span class="line">rc4_init(s,(<span class="keyword">unsigned</span> <span class="keyword">char</span> *)key,<span class="built_in">strlen</span>(key));   <span class="comment">//已经完成了初始化</span></span><br><span class="line"> </span><br><span class="line"><span class="built_in">printf</span>(<span class="string">"完成对S[i]的初始化，如下：\n\n"</span>);</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"> </span><br><span class="line"><span class="keyword">for</span>(i=<span class="number">0</span>; i&lt;<span class="number">256</span>; i++)</span><br><span class="line"> </span><br><span class="line">&#123;</span><br><span class="line"> </span><br><span class="line"><span class="built_in">printf</span>(<span class="string">"%-3d "</span>,s[i]);</span><br><span class="line"> </span><br><span class="line">&#125;</span><br><span class="line"> </span><br><span class="line"><span class="built_in">printf</span>(<span class="string">"\n\n"</span>);</span><br><span class="line"></span><br><span class="line"><span class="keyword">for</span>(i=<span class="number">0</span>;i&lt;<span class="number">256</span>;i++)<span class="comment">//用s2[i]暂时保留经过初始化的s[i]，很重要的！！！</span></span><br><span class="line"><span class="comment">//这里之所以做保留是因为s在经过初始化后需要做一个备份，以保证在加解密的时候经过crypt函数生成的密钥流一样，只要使用相同的密钥流才能够保证数据在加密之后能够被正常解密，这也是流密码的一大特性</span></span><br><span class="line">&#123;</span><br><span class="line"> </span><br><span class="line">s2[i]=s[i];</span><br><span class="line"> </span><br><span class="line">&#125;</span><br><span class="line"> </span><br><span class="line"><span class="built_in">printf</span>(<span class="string">"已经初始化，现在加密:\n\n"</span>);</span><br><span class="line"> </span><br><span class="line">rc4_crypt(s,(<span class="keyword">unsigned</span> <span class="keyword">char</span> *)pData,len);<span class="comment">//加密</span></span><br><span class="line"> </span><br><span class="line"><span class="built_in">printf</span>(<span class="string">"pData = %s\n\n"</span>,pData);</span><br><span class="line"> </span><br><span class="line"><span class="built_in">printf</span>(<span class="string">"已经加密，现在解密:\n\n"</span>);</span><br><span class="line"> </span><br><span class="line">rc4_init(s,(<span class="keyword">unsigned</span> <span class="keyword">char</span> *)key, <span class="built_in">strlen</span>(key));   <span class="comment">//初始化密钥</span></span><br><span class="line"> </span><br><span class="line">rc4_crypt(s2,(<span class="keyword">unsigned</span> <span class="keyword">char</span> *)pData,len);<span class="comment">//解密</span></span><br><span class="line"> </span><br><span class="line"><span class="built_in">printf</span>(<span class="string">"pData = %s\n\n"</span>,pData);</span><br><span class="line"> </span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>main的流程：</p>
+<ol>
+<li>声明两个S盒，两个S盒的大小都是256字节，并都被定义为0；</li>
+<li>声明并定义密钥(key)；</li>
+<li>声明并定义要加密的数据，即明文，这里的长度是随意的，长度范围为[0,255]；</li>
+<li>进入初始化函数rc4_init，我们来看下初始化函数的代码：</li>
+</ol>
+<h2 id="rc4_init_u51FD_u6570"><a href="#rc4_init_u51FD_u6570" class="headerlink" title="rc4_init函数"></a>rc4_init函数</h2><figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">rc4_init</span><span class="params">(<span class="keyword">unsigned</span> <span class="keyword">char</span> *s, <span class="keyword">unsigned</span> <span class="keyword">char</span> *key, <span class="keyword">unsigned</span> <span class="keyword">long</span> Len)</span> <span class="comment">//初始化函数</span></span><br><span class="line"><span class="comment">//初始化过程只是根据秘钥打乱了s这个0-255数组的顺序，具体怎么打乱的不需要知道</span></span><br><span class="line"></span>&#123;</span><br><span class="line"> </span><br><span class="line"><span class="keyword">int</span> i =<span class="number">0</span>, j = <span class="number">0</span>;</span><br><span class="line"> </span><br><span class="line"><span class="keyword">char</span> k[<span class="number">256</span>] = &#123;<span class="number">0</span>&#125;;</span><br><span class="line"> </span><br><span class="line"><span class="keyword">unsigned</span> <span class="keyword">char</span> tmp = <span class="number">0</span>;</span><br><span class="line"> </span><br><span class="line"><span class="keyword">for</span>(i=<span class="number">0</span>;i&lt;<span class="number">256</span>;i++)</span><br><span class="line"> </span><br><span class="line">&#123;</span><br><span class="line"> </span><br><span class="line">s[i]=i; <span class="comment">//s是0-255的数组</span></span><br><span class="line"> </span><br><span class="line">k[i]=key[i%Len]; <span class="comment">//k是根据秘钥生成的一个秘钥循环数组</span></span><br><span class="line"> </span><br><span class="line">&#125;</span><br><span class="line"> </span><br><span class="line"><span class="keyword">for</span> (i=<span class="number">0</span>; i&lt;<span class="number">256</span>; i++)</span><br><span class="line"> </span><br><span class="line">&#123;</span><br><span class="line"> </span><br><span class="line">j=(j+s[i]+k[i])%<span class="number">256</span>; <span class="comment">//根据秘钥去初始化(打乱)s数组的顺序</span></span><br><span class="line"> </span><br><span class="line">tmp = s[i];</span><br><span class="line"> </span><br><span class="line">s[i] = s[j]; <span class="comment">//交换s[i]和s[j]</span></span><br><span class="line"> </span><br><span class="line">s[j] = tmp;</span><br><span class="line"> </span><br><span class="line">&#125;</span><br><span class="line"> </span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>rc4_init的流程：</p>
+<ol>
+<li>非常简单的一个函数。首先要明确参数，main传进来的参数是S盒，密钥以及密钥的长度；</li>
+<li>第一个循环是对S盒进行初始赋值，将S盒赋值为0-255，然后根据密钥循环生成一个大小为256字节的密钥循环数组；</li>
+<li>第二个循环是根据密钥去打乱S盒的顺序，具体的打乱规则如代码所示，针对每一个s[i]，s[i]与k[i]混淆后产生一个要交换的索引j，然后s[i]与s[j]交换</li>
+</ol>
+<p>其实具体的交换规则我们不需要知道，没什么意思，我们只需要知道S盒经过rc4_init之后，生成了一个很乱的S盒，且这个S盒的生成与循环密钥数组有关，可以这样理解，将这个函数看做一个黑盒，全0的S盒和密钥循环数组k(由给定的密钥生成)被放进这个黑盒中，按下黑盒的搅拌开关，搅拌成功后黑盒吐出来一个面目全非的S盒，这个S盒会用于接下来的加密与解密操作。</p>
+<p>书接上文，接着来看main的流程：</p>
+<ol>
+<li>S盒经过rc4_init之后，得到一个全新的S盒，然后这个S盒会被copy一份存储在S2中，S2是新S盒的一个副本，S用于加密操作，S2用于解密操作，以保证在加解密的时候经过crypt函数生成的密钥流一样。</li>
+<li>进入rc4_crypt进行加密；</li>
+</ol>
+<h2 id="rc4_crypt_u51FD_u6570"><a href="#rc4_crypt_u51FD_u6570" class="headerlink" title="rc4_crypt函数"></a>rc4_crypt函数</h2><figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">rc4_crypt</span><span class="params">(<span class="keyword">unsigned</span> <span class="keyword">char</span> *s, <span class="keyword">unsigned</span> <span class="keyword">char</span> *Data, <span class="keyword">unsigned</span> <span class="keyword">long</span> Len)</span> <span class="comment">//加解密</span></span><br><span class="line"><span class="comment">//打乱之后，在对s进行一系列的变换后当做密钥流</span></span><br><span class="line"></span>&#123;</span><br><span class="line"> </span><br><span class="line"><span class="keyword">int</span> i = <span class="number">0</span>, j = <span class="number">0</span>, t = <span class="number">0</span>;</span><br><span class="line"> </span><br><span class="line"><span class="keyword">unsigned</span> <span class="keyword">long</span> k = <span class="number">0</span>;</span><br><span class="line"> </span><br><span class="line"><span class="keyword">unsigned</span> <span class="keyword">char</span> tmp;</span><br><span class="line"> </span><br><span class="line"><span class="keyword">for</span>(k=<span class="number">0</span>;k&lt;Len;k++)</span><br><span class="line"> </span><br><span class="line">&#123;</span><br><span class="line"> </span><br><span class="line">i=(i+<span class="number">1</span>)%<span class="number">256</span>;</span><br><span class="line"> </span><br><span class="line">j=(j+s[i])%<span class="number">256</span>;</span><br><span class="line"> </span><br><span class="line">tmp = s[i];</span><br><span class="line"> </span><br><span class="line">s[i] = s[j]; <span class="comment">//交换s[x]和s[y]</span></span><br><span class="line"> </span><br><span class="line">s[j] = tmp;</span><br><span class="line"> </span><br><span class="line">t=(s[i]+s[j])%<span class="number">256</span>;</span><br><span class="line"> </span><br><span class="line">Data[k] ^= s[t];</span><br><span class="line"> </span><br><span class="line">&#125;</span><br><span class="line"> </span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>rc4_crypt的流程：</p>
+<p>函数就一个循环，该循环完成加密操作，这个循环对S盒又进行了一系列变换操作，然后才作为加密明文的密钥流，这里需要注意的是，对于每一次循环，明文只在最后一步跟S盒进行了异或操作，体现出流密码的特性.</p>
+<p>到这里rc4算法的加密过程就结束了，我们可以这样理解，不管是rc4_init还是rc4_crypt，这两个函数所做的很多工作都是根据给定的密钥经过一系列杂七杂八的操作去生成较为安全的密钥流，然后明文只需要跟密钥流异或一下就生成了明文</p>
+<p>书接上文，接着看main的流程：</p>
+<ol>
+<li>加密之后，解密操作就顺其自然了。还记得前面保存的S盒的副本S2吗，解密的过程就是通过S2产生相同的密钥流，然后与密文进行异或，由于异或的可逆性，所以相同的密钥流在与密文异或后会得到相应的明文。</li>
+</ol>
+<p>这就是rc4算法的整体流程</p>
+<hr>
+<h1 id="0x03_rc4_u5728_u73B0_u5B9E_u4E2D_u7684_u5177_u4F53_u5E94_u7528"><a href="#0x03_rc4_u5728_u73B0_u5B9E_u4E2D_u7684_u5177_u4F53_u5E94_u7528" class="headerlink" title="0x03 rc4在现实中的具体应用"></a>0x03 rc4在现实中的具体应用</h1><p>是使用最广泛的软件流密码之一,并且广泛应用在SSL和WEP层协议中。</p>
+<p>让我们来看一下RC4算法在手机和AP的通信中应用：</p>
+<ol>
+<li>客户发出验证请求</li>
+<li>AP接到请求后AP产生一个随机数，该随机数会以明文方式发送给客户端</li>
+<li>客户端使用WEP密钥(该密钥是用户连入AP时需要输入的，是连入AP的凭证)用RC4算法(此时RC4算法的密钥就是用的前面的WEP密钥，该密钥为用户和AP共享的)加密数据包(携带着经过加密的随机数)并且将它发回</li>
+<li>AP 解密数据包(用共享密钥+rc4算法解密)并且同原始随机数比较</li>
+<li>AP 向客户端发出成功信息</li>
+</ol>
+<p>在SSL中的应用已经被废弃掉了，在今年9月份，三大浏览器厂商明确明年将放弃RC4加密支持，所以SSL中的应用就不说了</p>
+<h1 id="0x04__u5C3E_u58F0"><a href="#0x04__u5C3E_u58F0" class="headerlink" title="0x04 尾声"></a>0x04 尾声</h1><p>对于rc4的破解，看到过一篇还不错的帖子，没来得及细看，先放着，留着以后看——<a href="http://bbs.pediy.com/showthread.php?t=174969" target="_blank" rel="external">RC4算法暴力破解的尝试</a></p>
+<hr>
+<p>关于流密码，就打算写到这了，下面开始转战分组密码。。。</p>
+
+        </div>
+        <footer class="article-footer">
+            
+
+
+
+    <a data-url="http://yoursite.com/2015/12/26/密码系列3-流密码实战之RC4算法/" data-id="cikb9uutd0011ssqnpar6eay6" class="article-share-link"><i class="fa fa-share"></i>分享到</a>
+<script>
+    (function ($) {
+        $('body').on('click', function() {
+            $('.article-share-box.on').removeClass('on');
+        }).on('click', '.article-share-link', function(e) {
+            e.stopPropagation();
+
+            var $this = $(this),
+                url = $this.attr('data-url'),
+                encodedUrl = encodeURIComponent(url),
+                id = 'article-share-box-' + $this.attr('data-id'),
+                offset = $this.offset(),
+                box;
+
+            if ($('#' + id).length) {
+                box = $('#' + id);
+
+                if (box.hasClass('on')){
+                    box.removeClass('on');
+                    return;
+                }
+            } else {
+                var html = [
+                    '<div id="' + id + '" class="article-share-box">',
+                        '<input class="article-share-input" value="' + url + '">',
+                        '<div class="article-share-links">',
+                            '<a href="https://twitter.com/intent/tweet?url=' + encodedUrl + '" class="article-share-twitter" target="_blank" title="Twitter"></a>',
+                            '<a href="https://www.facebook.com/sharer.php?u=' + encodedUrl + '" class="article-share-facebook" target="_blank" title="Facebook"></a>',
+                            '<a href="http://pinterest.com/pin/create/button/?url=' + encodedUrl + '" class="article-share-pinterest" target="_blank" title="Pinterest"></a>',
+                            '<a href="https://plus.google.com/share?url=' + encodedUrl + '" class="article-share-google" target="_blank" title="Google+"></a>',
+                        '</div>',
+                    '</div>'
+                ].join('');
+
+              box = $(html);
+
+              $('body').append(box);
+            }
+
+            $('.article-share-box.on').hide();
+
+            box.css({
+                top: offset.top + 25,
+                left: offset.left
+            }).addClass('on');
+
+        }).on('click', '.article-share-box', function (e) {
+            e.stopPropagation();
+        }).on('click', '.article-share-box-input', function () {
+            $(this).select();
+        }).on('click', '.article-share-box-link', function (e) {
+            e.preventDefault();
+            e.stopPropagation();
+
+            window.open(this.href, 'article-share-box-window-' + Date.now(), 'width=500,height=450');
+        });
+    })(jQuery);
+</script>
+
+        </footer>
+    </div>
+</article>
+
+<section id="comments">
+
+    <div id="disqus_thread">
+    <noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+<script>
+var disqus_shortname = 'hexo-theme-hueman';
+
+
+var disqus_url = 'http://yoursite.com/2015/12/26/密码系列3-流密码实战之RC4算法/';
+
+(function() {
+var dsq = document.createElement('script');
+dsq.type = 'text/javascript';
+dsq.async = true;
+dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+})();
+</script>
+
+</section>
+
+                        </div>
+                    </section>
+                    <aside id="sidebar">
+    <a class="sidebar-toggle" title="Expand Sidebar"><i class="toggle icon"></i></a>
+    <div class="sidebar-top">
+        <p>关注我 :</p>
+        <ul class="social-links">
+            
+                
+                <li>
+                    <a class="social-tooltip" title="twitter" href="/" target="_blank">
+                        <i class="icon fa fa-twitter"></i>
+                    </a>
+                </li>
+                
+            
+                
+                <li>
+                    <a class="social-tooltip" title="facebook" href="/" target="_blank">
+                        <i class="icon fa fa-facebook"></i>
+                    </a>
+                </li>
+                
+            
+                
+                <li>
+                    <a class="social-tooltip" title="google-plus" href="/" target="_blank">
+                        <i class="icon fa fa-google-plus"></i>
+                    </a>
+                </li>
+                
+            
+                
+                <li>
+                    <a class="social-tooltip" title="github" href="https://github.com/ppoffice/hexo-theme-hueman" target="_blank">
+                        <i class="icon fa fa-github"></i>
+                    </a>
+                </li>
+                
+            
+                
+                <li>
+                    <a class="social-tooltip" title="weibo" href="/" target="_blank">
+                        <i class="icon fa fa-weibo"></i>
+                    </a>
+                </li>
+                
+            
+                
+                <li>
+                    <a class="social-tooltip" title="rss" href="/" target="_blank">
+                        <i class="icon fa fa-rss"></i>
+                    </a>
+                </li>
+                
+            
+        </ul>
+    </div>
+    
+        
+<nav id="article-nav">
+    
+        <a href="/2015/12/28/密码系列4-分组密码之大名鼎鼎的DES/" id="article-nav-newer" class="article-nav-link-wrap">
+        <strong class="article-nav-caption">下一篇</strong>
+        <p class="article-nav-title">
+        
+            密码系列4-分组密码之大名鼎鼎的DES
+        
+        </p>
+        <i class="icon fa fa-chevron-right" id="icon-chevron-right"></i>
+    </a>
+    
+    
+        <a href="/2015/12/26/密码系列2-流密码实战之A5算法/" id="article-nav-older" class="article-nav-link-wrap">
+        <strong class="article-nav-caption">上一篇</strong>
+        <p class="article-nav-title">密码系列2-流密码实战之A5算法</p>
+        <i class="icon fa fa-chevron-left" id="icon-chevron-left"></i>
+        </a>
+    
+</nav>
+
+    
+    <div class="widgets-container">
+        
+            
+                
+    <div class="widget-wrap">
+        <h3 class="widget-title">最新文章</h3>
+        <div class="widget">
+            <ul id="recent-post" class="">
+                
+                    <li>
+                        
+                        <div class="item-thumbnail">
+                            <a href="/2016/02/06/hello-world/" class="thumbnail">
+    
+    
+        <span class="thumbnail-image thumbnail-none"></span>
+    
+</a>
+                        </div>
+                        
+                        <div class="item-inner">
+                            <p class="item-category"></p>
+                            <p class="item-title"><a href="/2016/02/06/hello-world/" class="title">想起来啥写啥</a></p>
+                            <p class="item-date"><time datetime="2016-02-06T15:23:57.681Z" itemprop="datePublished">2016-02-06</time></p>
+                        </div>
+                    </li>
+                
+                    <li>
+                        
+                        <div class="item-thumbnail">
+                            <a href="/2016/01/19/写着玩-狂艹装载/" class="thumbnail">
+    
+    
+        <span style="background-image:url(/img/写着玩-狂艹装载/0.PNG)" alt="写着玩-狂艹装载" class="thumbnail-image"></span>
+    
+</a>
+                        </div>
+                        
+                        <div class="item-inner">
+                            <p class="item-category"><a class="article-category-link" href="/categories/reverse-related/">reverse related</a></p>
+                            <p class="item-title"><a href="/2016/01/19/写着玩-狂艹装载/" class="title">写着玩-狂艹装载</a></p>
+                            <p class="item-date"><time datetime="2016-01-19T11:37:30.000Z" itemprop="datePublished">2016-01-19</time></p>
+                        </div>
+                    </li>
+                
+                    <li>
+                        
+                        <div class="item-thumbnail">
+                            <a href="/2016/01/19/写着玩-回顾以前的PE岁月/" class="thumbnail">
+    
+    
+        <span style="background-image:url(/img/写着玩-回顾以前的PE岁月/0.PNG)" alt="写着玩-回顾以前的PE岁月" class="thumbnail-image"></span>
+    
+</a>
+                        </div>
+                        
+                        <div class="item-inner">
+                            <p class="item-category"><a class="article-category-link" href="/categories/reverse-related/">reverse related</a></p>
+                            <p class="item-title"><a href="/2016/01/19/写着玩-回顾以前的PE岁月/" class="title">写着玩-回顾以前的PE岁月</a></p>
+                            <p class="item-date"><time datetime="2016-01-19T07:24:33.000Z" itemprop="datePublished">2016-01-19</time></p>
+                        </div>
+                    </li>
+                
+                    <li>
+                        
+                        <div class="item-thumbnail">
+                            <a href="/2016/01/18/写着玩-强撸静态链接（续）/" class="thumbnail">
+    
+    
+        <span style="background-image:url(/img/写着玩-强撸静态链接（续）/0.PNG)" alt="写着玩-强撸静态链接（续）" class="thumbnail-image"></span>
+    
+</a>
+                        </div>
+                        
+                        <div class="item-inner">
+                            <p class="item-category"><a class="article-category-link" href="/categories/reverse-related/">reverse related</a></p>
+                            <p class="item-title"><a href="/2016/01/18/写着玩-强撸静态链接（续）/" class="title">写着玩-强撸静态链接（续）</a></p>
+                            <p class="item-date"><time datetime="2016-01-18T11:03:01.000Z" itemprop="datePublished">2016-01-18</time></p>
+                        </div>
+                    </li>
+                
+                    <li>
+                        
+                        <div class="item-thumbnail">
+                            <a href="/2016/01/17/写着玩-硬怼目标文件/" class="thumbnail">
+    
+    
+        <span style="background-image:url(/img/写着玩-硬怼目标文件/0.PNG)" alt="写着玩-硬怼目标文件" class="thumbnail-image"></span>
+    
+</a>
+                        </div>
+                        
+                        <div class="item-inner">
+                            <p class="item-category"><a class="article-category-link" href="/categories/reverse-related/">reverse related</a></p>
+                            <p class="item-title"><a href="/2016/01/17/写着玩-硬怼目标文件/" class="title">写着玩-硬怼目标文件</a></p>
+                            <p class="item-date"><time datetime="2016-01-17T12:50:32.000Z" itemprop="datePublished">2016-01-17</time></p>
+                        </div>
+                    </li>
+                
+            </ul>
+        </div>
+    </div>
+
+            
+                
+    <div class="widget-wrap widget-list">
+        <h3 class="widget-title">分类</h3>
+        <div class="widget">
+            <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/cryptography/">cryptography</a><span class="category-list-count">12</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/reverse-related/">reverse related</a><span class="category-list-count">10</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/think-for-fun/">think for fun</a><span class="category-list-count">1</span></li></ul>
+        </div>
+    </div>
+
+
+            
+                
+    <div class="widget-wrap widget-list">
+        <h3 class="widget-title">归档</h3>
+        <div class="widget">
+            <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/02/">February 2016</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/01/">January 2016</a><span class="archive-list-count">13</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2015/12/">December 2015</a><span class="archive-list-count">9</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2015/11/">November 2015</a><span class="archive-list-count">1</span></li></ul>
+        </div>
+    </div>
+
+
+            
+                
+    <div class="widget-wrap widget-list">
+        <h3 class="widget-title">标签</h3>
+        <div class="widget">
+            <ul class="tag-list"><li class="tag-list-item"><a class="tag-list-link" href="/tags/人丑就要多读书/">人丑就要多读书</a><span class="tag-list-count">6</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/密码学/">密码学</a><span class="tag-list-count">12</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/操作系统/">操作系统</a><span class="tag-list-count">3</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/编译原理/">编译原理</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/随想/">随想</a><span class="tag-list-count">1</span></li></ul>
+        </div>
+    </div>
+
+
+            
+                
+    <div class="widget-wrap widget-float">
+        <h3 class="widget-title">标签云</h3>
+        <div class="widget tagcloud">
+            <a href="/tags/人丑就要多读书/" style="font-size: 16.67px;">人丑就要多读书</a> <a href="/tags/密码学/" style="font-size: 20px;">密码学</a> <a href="/tags/操作系统/" style="font-size: 13.33px;">操作系统</a> <a href="/tags/编译原理/" style="font-size: 10px;">编译原理</a> <a href="/tags/随想/" style="font-size: 10px;">随想</a>
+        </div>
+    </div>
+
+
+            
+                
+    <div class="widget-wrap widget-list">
+        <h3 class="widget-title">链接</h3>
+        <div class="widget">
+            <ul>
+                
+                    <li>
+                        <a href="http://hexo.io">Hexo</a>
+                    </li>
+                
+            </ul>
+        </div>
+    </div>
+
+
+            
+        
+    </div>
+</aside>
+                </div>
+            </div>
+        </div>
+        <footer id="footer">
+    <div class="container">
+        <div class="container-inner">
+            <a id="back-to-top" href="javascript:;"><i class="icon fa fa-angle-up"></i></a>
+            <div class="credit">
+                <h1 class="logo-wrap">
+                    <a href="/" class="logo"></a>
+                </h1>
+                <p>&copy; 2016 John Doe</p>
+                <p>Powered by <a href="//hexo.io/" target="_blank">Hexo</a>. Theme by <a href="//github.com/ppoffice" target="_blank">PPOffice</a></p>
+            </div>
+        </div>
+    </div>
+</footer>
+        
+    
+        <script src="/vendor/fancybox/jquery.fancybox.pack.js" type="text/javascript"></script>
+    
+
+    
+        <script src="/vendor/scrollLoading/jquery.scrollLoading.js" type="text/javascript"></script>
+        <script src="/vendor/scrollLoading/main.js" type="text/javascript"></script>
+    
+
+
+<!-- Custom Scripts -->
+<script src="/js/main.js" type="text/javascript"></script>
+
+    </div>
+</body>
+</html>

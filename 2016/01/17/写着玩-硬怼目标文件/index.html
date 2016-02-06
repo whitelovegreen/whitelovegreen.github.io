@@ -1,0 +1,550 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    
+    <title>写着玩-硬怼目标文件 | Hexo</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    
+        <meta name="keywords" content="人丑就要多读书" />
+    
+    <meta name="description" content="0x00 口胡最近dota有点上头，就是怼，马上就能回家跟基友回家黑店了，我是屌屌的3号位，哈哈哈。。。目标文件，怼起。。。
+0x01 目标文件的格式还记得我们前面所说的后缀是.o的文件，就是他了，他就是目标文件的一种，其实他已经很接近可执行文件了，不，它已经可以执行了，只要你给他创造相应的条件的话。所以，我们将目标文件与可执行文件看成是一种类型的文件也未尝不可。在windows下，我们统称为PE">
+<meta property="og:type" content="article">
+<meta property="og:title" content="写着玩-硬怼目标文件">
+<meta property="og:url" content="http://yoursite.com/2016/01/17/写着玩-硬怼目标文件/index.html">
+<meta property="og:site_name" content="Hexo">
+<meta property="og:description" content="0x00 口胡最近dota有点上头，就是怼，马上就能回家跟基友回家黑店了，我是屌屌的3号位，哈哈哈。。。目标文件，怼起。。。
+0x01 目标文件的格式还记得我们前面所说的后缀是.o的文件，就是他了，他就是目标文件的一种，其实他已经很接近可执行文件了，不，它已经可以执行了，只要你给他创造相应的条件的话。所以，我们将目标文件与可执行文件看成是一种类型的文件也未尝不可。在windows下，我们统称为PE">
+<meta property="og:image" content="http://yoursite.com/img/写着玩-硬怼目标文件/0.PNG">
+<meta property="og:updated_time" content="2016-01-18T10:59:47.041Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="写着玩-硬怼目标文件">
+<meta name="twitter:description" content="0x00 口胡最近dota有点上头，就是怼，马上就能回家跟基友回家黑店了，我是屌屌的3号位，哈哈哈。。。目标文件，怼起。。。
+0x01 目标文件的格式还记得我们前面所说的后缀是.o的文件，就是他了，他就是目标文件的一种，其实他已经很接近可执行文件了，不，它已经可以执行了，只要你给他创造相应的条件的话。所以，我们将目标文件与可执行文件看成是一种类型的文件也未尝不可。在windows下，我们统称为PE">
+
+    
+
+    
+
+    <link rel="stylesheet" href="/vendor/font-awesome/css/font-awesome.min.css" type="text/css">
+    <link rel="stylesheet" href="/vendor/titillium-web/styles.css" type="text/css">
+    <link rel="stylesheet" href="/vendor/source-code-pro/styles.css" type="text/css">
+
+    <link rel="stylesheet" href="/css/style.css" type="text/css">
+
+    <script src="/vendor/jquery/2.0.3/jquery.min.js" type="text/javascript"></script>
+    
+    
+        <link rel="stylesheet" href="/vendor/fancybox/jquery.fancybox.css" type="text/css">
+    
+    
+        <link rel="stylesheet" href="/vendor/scrollLoading/style.css" type="text/css">
+    
+    
+    
+
+</head>
+
+<body>
+    <div id="wrap">
+        <header id="header">
+    <div id="header-outer" class="outer">
+        <div class="container">
+            <div class="container-inner">
+                <div id="header-title">
+                    <h1 class="logo-wrap">
+                        <a href="/" class="logo"></a>
+                    </h1>
+                    
+                </div>
+                <div id="header-inner" class="nav-container">
+                    <a id="main-nav-toggle" class="nav-icon fa fa-bars"></a>
+                    <div class="nav-container-inner">
+                        <ul id="main-nav">
+                            
+                                <li class="main-nav-list-item" >
+                                    <a class="main-nav-list-link" href="/hexo-theme-hueman/">主页</a>
+                                </li>
+                            
+                                        <ul class="main-nav-list"><li class="main-nav-list-item"><a class="main-nav-list-link" href="/categories/cryptography/">cryptography</a></li><li class="main-nav-list-item"><a class="main-nav-list-link" href="/categories/reverse-related/">reverse related</a></li><li class="main-nav-list-item"><a class="main-nav-list-link" href="/categories/think-for-fun/">think for fun</a></li></ul>
+                                    
+                                <li class="main-nav-list-item" >
+                                    <a class="main-nav-list-link" href="/hexo-theme-hueman/about/index.html">关于</a>
+                                </li>
+                            
+                        </ul>
+                        <nav id="sub-nav">
+                            <div id="search-form-wrap">
+
+    <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" results="0" class="search-form-input" placeholder="搜索"><input type="hidden" name="sitesearch" value="http://yoursite.com"></form>
+
+</div>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+        <div class="container">
+            <div class="main-body container-inner">
+                <div class="main-body-inner">
+                    <section id="main">
+                        <div class="main-body-header">
+    <h1 class="header">
+    
+    <a class="page-title-link" href="/categories/reverse-related/">reverse related</a>
+    </h1>
+</div>
+                        <div class="main-body-content">
+                            <article id="post-写着玩-硬怼目标文件" class="article article-single article-type-post" itemscope itemprop="blogPost">
+    <div class="article-inner">
+        
+            <header class="article-header">
+                
+    
+        <h1 class="article-title" itemprop="name">
+        写着玩-硬怼目标文件
+        </h1>
+    
+
+            </header>
+        
+        <div class="article-subtitle">
+            <a href="/2016/01/17/写着玩-硬怼目标文件/" class="article-date">
+    <time datetime="2016-01-17T12:50:32.000Z" itemprop="datePublished">2016-01-17</time>
+</a>
+            
+    <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/人丑就要多读书/">人丑就要多读书</a></li></ul>
+
+        </div>
+        <div class="article-entry" itemprop="articleBody">
+            <h1 id="0x00__u53E3_u80E1"><a href="#0x00__u53E3_u80E1" class="headerlink" title="0x00 口胡"></a>0x00 口胡</h1><p>最近dota有点上头，就是怼，马上就能回家跟基友回家黑店了，我是屌屌的3号位，哈哈哈。。。<br>目标文件，怼起。。。</p>
+<h1 id="0x01__u76EE_u6807_u6587_u4EF6_u7684_u683C_u5F0F"><a href="#0x01__u76EE_u6807_u6587_u4EF6_u7684_u683C_u5F0F" class="headerlink" title="0x01 目标文件的格式"></a>0x01 目标文件的格式</h1><p>还记得我们前面所说的后缀是.o的文件，就是他了，他就是目标文件的一种，其实他已经很接近可执行文件了，不，它已经可以执行了，只要你给他创造相应的条件的话。所以，我们将目标文件与可执行文件看成是一种类型的文件也未尝不可。在windows下，我们统称为PE-COFF文件格式，在linux下，统称为ELF文件。</p>
+<p>还有动态链接库-（DLL &amp; .so），静态链接库-（windows下的.lib,linux的.a）也都是可执行文件的格式，但是静态链接库稍有不同，它是把很多目标文件捆绑在一起形成一个文件，再加上一些索引，可以简单的理解为一个包含有很多目标文件的文件包。</p>
+<p>ELF文件类型：<br><img src="/img/写着玩-硬怼目标文件/0.PNG" alt=""><br><img src="/img/写着玩-硬怼目标文件/1.PNG" alt=""></p>
+<h1 id="0x02_ELF_u6587_u4EF6_u7ED3_u6784"><a href="#0x02_ELF_u6587_u4EF6_u7ED3_u6784" class="headerlink" title="0x02 ELF文件结构"></a>0x02 ELF文件结构</h1><p>ELF文件基本结构图：<br><img src="/img/写着玩-硬怼目标文件/2.PNG" alt=""></p>
+<p>ELF目标文件格式的最前部是ELF文件头(ELF Header)，它包含了描述整个文件的基本属性。比如ELF文件版本、目标机器型号、程序入口地址等。紧接着是ELF文件各个段。其中ELF文件中与段有关的重要结构是段表(Section Header Table)，该表描述了ELF文件包含的所有段的信息。比如每个段的段名、段的长度、在文件中的偏移、读写权限及段的其他属性。</p>
+<h2 id="1-__u6587_u4EF6_u5934"><a href="#1-__u6587_u4EF6_u5934" class="headerlink" title="1. 文件头"></a>1. 文件头</h2><p>可以用readelf命令来详细查看ELF文件：</p>
+<p><img src="/img/写着玩-硬怼目标文件/3.PNG" alt=""><br><img src="/img/写着玩-硬怼目标文件/4.PNG" alt=""></p>
+<p><strong><em>ELF文件头(ELF_Ehdr)结构的具体定义：</em></strong><br><img src="/img/写着玩-硬怼目标文件/5.PNG" alt=""><br><img src="/img/写着玩-硬怼目标文件/6.PNG" alt=""><br><img src="/img/写着玩-硬怼目标文件/7.PNG" alt=""><br><img src="/img/写着玩-硬怼目标文件/8.PNG" alt=""></p>
+<p><strong><em>ELF文件头结构成员具体含义：</em></strong><br><img src="/img/写着玩-硬怼目标文件/9.PNG" alt=""><br><img src="/img/写着玩-硬怼目标文件/10.PNG" alt=""></p>
+<p><strong><em>ELF文件头中的魔数(前16字节e_ident含义)：</em></strong><br><img src="/img/写着玩-硬怼目标文件/11.PNG" alt=""><br><img src="/img/写着玩-硬怼目标文件/12.PNG" alt=""></p>
+<p><strong><em>文件类型</em></strong><br><img src="/img/写着玩-硬怼目标文件/13.PNG" alt=""><br><img src="/img/写着玩-硬怼目标文件/14.PNG" alt=""></p>
+<p><strong><em>机器类型</em></strong><br><img src="/img/写着玩-硬怼目标文件/15.PNG" alt=""></p>
+<h2 id="2-__u6BB5_u8868"><a href="#2-__u6BB5_u8868" class="headerlink" title="2. 段表"></a>2. 段表</h2><p><strong><em>段表总体描述</em></strong><br><img src="/img/写着玩-硬怼目标文件/16.PNG" alt=""><br><img src="/img/写着玩-硬怼目标文件/17.PNG" alt=""></p>
+<p>所以，段表就是一个数组。</p>
+<p><strong><em>数组成员(ELF32_Shdr结构定义)</em></strong><br><img src="/img/写着玩-硬怼目标文件/18.PNG" alt=""><br><img src="/img/写着玩-硬怼目标文件/19.PNG" alt=""><br><img src="/img/写着玩-硬怼目标文件/27.PNG" alt=""></p>
+<p><strong><em>由段表视角出发得到的ELF文件布局</em></strong><br><img src="/img/写着玩-硬怼目标文件/20.PNG" alt=""><br><img src="/img/写着玩-硬怼目标文件/21.PNG" alt=""></p>
+<p><strong><em>段描述符(ELF32-Shdr)各字段具体含义</em></strong></p>
+<p><strong>段的类型(sh_types)</strong><br><img src="/img/写着玩-硬怼目标文件/22.PNG" alt=""><br><img src="/img/写着玩-硬怼目标文件/23.PNG" alt=""></p>
+<p><strong>段的标志位(sh_flag)</strong><br><img src="/img/写着玩-硬怼目标文件/24.PNG" alt=""></p>
+<p>对于系统保留段，下表列出了他们的属性</p>
+<p><img src="/img/写着玩-硬怼目标文件/25.PNG" alt=""><br><img src="/img/写着玩-硬怼目标文件/26.PNG" alt=""></p>
+<p><strong>段的链接信息</strong><br><img src="/img/写着玩-硬怼目标文件/28.PNG" alt=""></p>
+<h2 id="3-__u91CD_u5B9A_u4F4D_u8868"><a href="#3-__u91CD_u5B9A_u4F4D_u8868" class="headerlink" title="3. 重定位表"></a>3. 重定位表</h2><p><img src="/img/写着玩-硬怼目标文件/29.PNG" alt=""><br><img src="/img/写着玩-硬怼目标文件/30.PNG" alt=""></p>
+<p>在介绍链接的过程的时候，会详细的介绍重定位表的作用</p>
+<h2 id="4-__u5B57_u7B26_u4E32_u8868"><a href="#4-__u5B57_u7B26_u4E32_u8868" class="headerlink" title="4. 字符串表"></a>4. 字符串表</h2><p>这是个很重要的表，对于我们把整个ELF文件结构框架搭建起来必不可少<br><img src="/img/写着玩-硬怼目标文件/31.PNG" alt=""><br><img src="/img/写着玩-硬怼目标文件/32.PNG" alt=""><br><img src="/img/写着玩-硬怼目标文件/33.PNG" alt=""></p>
+<p>即：ELF文件头(e_shstrndx)-&gt;段表中的段表字符串表信息-&gt;段表字符串表-&gt;解析各个段。具体的索引想一下就知道了，这里就口胡下，首先拿到文件头中的e_shstrndx字段的值，得知下标和段表的起始位置，则由段表的起始位置+段表数组的成员大小(40 byte)*下标，可以得到段表字符串表的一些列信息，什么起始偏移，大小啊什么的，那么就可以找到段表字符串表的具体位置了，这时可以把段表字符串表拿到内存，供以后解析各个段时使用，然后再返回段表去解析各个段。</p>
+<h2 id="5-__u94FE_u63A5_u7684_u63A5_u53E3-_u7B26_u53F7"><a href="#5-__u94FE_u63A5_u7684_u63A5_u53E3-_u7B26_u53F7" class="headerlink" title="5. 链接的接口-符号"></a>5. 链接的接口-符号</h2><p>每个函数或变量都有自己独特的名字，才能避免链接过程中不同变量和函数之间的混淆。在链接中，我们将函数和变量统称为符号，函数名或变量名就是符号名。</p>
+<p><strong><em>符号概述</em></strong><br><img src="/img/写着玩-硬怼目标文件/34.PNG" alt=""></p>
+<p>由于局部符号、段名、行号等对于其他目标文件来说是”不可见的”，在链接过程中无关紧要，我们只关心全局符号。我们可以使用很多命令来查看ELF文件的符号表，比如上面介绍的readelf、objdump，当然还有nm。</p>
+<p><img src="/img/写着玩-硬怼目标文件/35.PNG" alt=""></p>
+<p>ELF文件中的符号表往往是文件中的一个段，段名一般叫”.symtab”.符号表的结构很简单，它是一个ELF32_sym结构的数组，每个ELF32_sym结构对应一个符号。这个数组的第一个元素，也就是下标为0的元素为无效的”未定义”符号</p>
+<p><strong><em>ELF32_sym结构定义</em></strong><br><img src="/img/写着玩-硬怼目标文件/36.PNG" alt=""><br><strong><em>各字段含义</em></strong><br><img src="/img/写着玩-硬怼目标文件/37.PNG" alt=""></p>
+<p>对一些字段的详解：<br><strong>符号类型和绑定信息(st_info)</strong><br>该成员低4位表示符号的类型，高28位表示符号绑定信息，见下表：<br><img src="/img/写着玩-硬怼目标文件/38.PNG" alt=""></p>
+<p><strong>符号所在段(st_shndx)</strong><br>如果符号定义在本目标文件中，那么这个成员表示符号所在的段在段表中的下标；但是如果符号不是定义在本目标文件中，或者对于有些特殊符号，sh_shndx的值有些特殊，见下表：<br><img src="/img/写着玩-硬怼目标文件/39.PNG" alt=""></p>
+<p><strong>符号值(st_value)</strong><br><img src="/img/写着玩-硬怼目标文件/40.PNG" alt=""><br><img src="/img/写着玩-硬怼目标文件/41.PNG" alt=""></p>
+<p>通过上图中划红线的步骤可以找到该符号所对应的具体内容，比如，函数的话可以找到该函数所对应的具体代码处，而全局初始化变量的话，则可以找到全局初始化变量所对应的具体值。</p>
+<p>还是以SimpleSection.o为例：<br><img src="/img/写着玩-硬怼目标文件/42.PNG" alt=""><br><img src="/img/写着玩-硬怼目标文件/43.PNG" alt=""><br><img src="/img/写着玩-硬怼目标文件/44.PNG" alt=""></p>
+<p><strong><em>符号修饰和函数签名</em></strong><br>对于符号修饰和函数签名问题，它是为了解决符号名冲突问题。很久以前，UNIX下的C语言就规定，C语言源代码文件中的所有全局的变量和函数经过编译以后，相对应的符号名前加上下划线”<em>“。而Fortran语言的源代码经过编译后，所有的符号名前面加上”</em>“，后面也加上”<em>“。现在linux下的GCC编译器，默认去掉了在C语言符号前加”</em>“的这种方式；但是windows平台下的编译器还保持着。VC++编译器，GCC在windows下的版本(cygwin,mingw)都会加”_”。GCC编译器可以通过参数选项”-fleading-underscore”或”-fno-leading-underscore”来打开和关闭是否在C语言符号前加上下划线。</p>
+<p><strong>C++符号修饰</strong><br>C++都用过，强大而又复杂。他的很多机制都为符号的管理带来了很多麻烦。比如类、继承、虚机制、重载、名称空间等特性。为了支持这些特性，发明了符号修饰或符号改编的机制。</p>
+<p><em>对于函数重载</em><br>给例子：<br><figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">func</span><span class="params">(<span class="keyword">int</span>)</span></span>;</span><br><span class="line"><span class="function"><span class="keyword">float</span> <span class="title">func</span><span class="params">(<span class="keyword">float</span>)</span></span>;</span><br><span class="line"><span class="keyword">class</span> C &#123;</span><br><span class="line">	<span class="function"><span class="keyword">int</span> <span class="title">func</span><span class="params">(<span class="keyword">int</span>)</span></span>;</span><br><span class="line">	<span class="keyword">class</span> C2&#123;</span><br><span class="line">		<span class="function"><span class="keyword">int</span> <span class="title">func</span><span class="params">(<span class="keyword">int</span>)</span></span>;</span><br><span class="line">	&#125;;</span><br><span class="line">&#125;;</span><br><span class="line"></span><br><span class="line"><span class="keyword">namespace</span> N &#123;</span><br><span class="line">	<span class="function"><span class="keyword">int</span> <span class="title">func</span><span class="params">(<span class="keyword">int</span>)</span></span>;</span><br><span class="line">	<span class="keyword">class</span> C &#123;</span><br><span class="line">		<span class="function"><span class="keyword">int</span> <span class="title">func</span><span class="params">(<span class="keyword">int</span>)</span></span>;</span><br><span class="line">	&#125;;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></p>
+<p>这段代码中有6个同名函数叫func，但他们的返回类型和参数及所在的名称空间不同。我们引入函数签名以及修饰后名称的概念。一个函数签名对应一个修饰后名称。C++的源代码编译后的目标文件中所使用的符号名是相应的函数和变量的修饰后名称。上面的6个函数的函数签名以及修饰后名称是：</p>
+<p><img src="/img/写着玩-硬怼目标文件/45.PNG" alt=""></p>
+<p>下面解释下不同的函数签名是怎样修饰的。GCC的基本C++名称修饰方法如下：所有的符号都以”_Z”开头，对于嵌套的名字(在名称空间或在类里面的)，后面紧跟”N”，然后是各个名称空间和类的名字，每个名字前是名字字符串长度，在以”E”结尾。比如N::C::func经过名称修饰以后就是_ZN1N1C4funcE。对于一个函数来说，他的参数列表紧跟在”E”后面。对于int类型来说，就是字母”i”。所以整个N::C::func(int)函数签名经过修饰为_ZN1N1C4funcEi。更为具体的修饰方法在这不介绍，可以去查GCC名称修饰标准。有工具可以帮我们解析被修饰过的名称，比如：<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ c++filt _ZN1N1C4funcEi</span><br><span class="line">N::C::func(int)</span><br></pre></td></tr></table></figure></p>
+<p>这种修饰机制不光用到函数名上，他也被用到全局变量和静态变量上。但有一点需要注意，那就是变量的类型是没有被加入到修饰后名称中的，所以不论这个变量是整形还是浮点型甚至是一个全局对象，他们的名称都是一样的。</p>
+<p>不同的编译器厂商的名称修饰方法可能不同，在Visual C++下：</p>
+<p><img src="/img/写着玩-硬怼目标文件/46.PNG" alt=""></p>
+<p>以int N::C::func(int)这个函数签名来说明VC++修饰规则，其实我们都能猜出来→_→修饰名字由”?”开头，接着是函数名”@”符号结尾的函数名；后面跟着由”@”结尾的类名”C”和名称空间”N”，再一个”@”表示函数的名称空间结束，第一个”A”表示函数调用类型为”__cdecl”(函数调用类型会在以后说)，接着是函数的参数类型及返回值，由”@”结束，最后由”Z”结尾。</p>
+<p>其实，VC++的名称修饰规则并没有对外公开。MS提供了一个UNDecorateSymbolName()的API，可以将休市后名称转换成函数签名。</p>
+<p>由于不同的编译器采用不同的名字修饰方法，必然会导致由不用编译器编译产生的目标文件无法正常相互链接，这是导致不同编译器之间不能相互操作的主要原因之一(被坑过T_T)。。。</p>
+<p><strong><em>extern “C”</em></strong><br><img src="/img/写着玩-硬怼目标文件/47.PNG" alt=""><br><img src="/img/写着玩-硬怼目标文件/48.PNG" alt=""><br><img src="/img/写着玩-硬怼目标文件/49.PNG" alt=""></p>
+<p><strong><em>弱符号与强符号</em></strong><br><img src="/img/写着玩-硬怼目标文件/50.PNG" alt=""><br><img src="/img/写着玩-硬怼目标文件/51.PNG" alt=""><br><img src="/img/写着玩-硬怼目标文件/52.PNG" alt=""><br><img src="/img/写着玩-硬怼目标文件/53.PNG" alt=""><br><img src="/img/写着玩-硬怼目标文件/54.PNG" alt=""><br><img src="/img/写着玩-硬怼目标文件/55.PNG" alt=""></p>
+<h2 id="6-__u8C03_u8BD5_u4FE1_u606F"><a href="#6-__u8C03_u8BD5_u4FE1_u606F" class="headerlink" title="6. 调试信息"></a>6. 调试信息</h2><p>在GCC编译时加上”-g”参数编译器就会在产生的目标文件里面加上调试信息</p>
+<h1 id="0x03__u5C0F_u7ED3"><a href="#0x03__u5C0F_u7ED3" class="headerlink" title="0x03 小结"></a>0x03 小结</h1><p>主要分析了各种目标文件的格式，对于ELF文件的代码段、数据段和BSS段没有过多阐述。详细介绍了ELF文件的文件头、段表、重定位表、字符串表、符号表、调试表等相关结构。</p>
+<p>无路时可执行文件、目标文件还是库，他们实际上都是基于段的文件或是这种文件的集合，程序的源代码经过编译以后，按照代码和数据分别存放到相应的段中、编译器(汇编器)还会将一些辅助信息，比如符号、重定位信息等也按照表的方式存放到目标文件中，通常情况下，一个表就是一个段。</p>
+<p>有了这些目标文件后，接下来就是如何将他们合起来，形成一个可以使用的程序或更得模块，这就是静态链接的问题，下面会在静态链接的续集介绍</p>
+
+        </div>
+        <footer class="article-footer">
+            
+
+
+
+    <a data-url="http://yoursite.com/2016/01/17/写着玩-硬怼目标文件/" data-id="cikb9uuub001nssqn6brrqve9" class="article-share-link"><i class="fa fa-share"></i>分享到</a>
+<script>
+    (function ($) {
+        $('body').on('click', function() {
+            $('.article-share-box.on').removeClass('on');
+        }).on('click', '.article-share-link', function(e) {
+            e.stopPropagation();
+
+            var $this = $(this),
+                url = $this.attr('data-url'),
+                encodedUrl = encodeURIComponent(url),
+                id = 'article-share-box-' + $this.attr('data-id'),
+                offset = $this.offset(),
+                box;
+
+            if ($('#' + id).length) {
+                box = $('#' + id);
+
+                if (box.hasClass('on')){
+                    box.removeClass('on');
+                    return;
+                }
+            } else {
+                var html = [
+                    '<div id="' + id + '" class="article-share-box">',
+                        '<input class="article-share-input" value="' + url + '">',
+                        '<div class="article-share-links">',
+                            '<a href="https://twitter.com/intent/tweet?url=' + encodedUrl + '" class="article-share-twitter" target="_blank" title="Twitter"></a>',
+                            '<a href="https://www.facebook.com/sharer.php?u=' + encodedUrl + '" class="article-share-facebook" target="_blank" title="Facebook"></a>',
+                            '<a href="http://pinterest.com/pin/create/button/?url=' + encodedUrl + '" class="article-share-pinterest" target="_blank" title="Pinterest"></a>',
+                            '<a href="https://plus.google.com/share?url=' + encodedUrl + '" class="article-share-google" target="_blank" title="Google+"></a>',
+                        '</div>',
+                    '</div>'
+                ].join('');
+
+              box = $(html);
+
+              $('body').append(box);
+            }
+
+            $('.article-share-box.on').hide();
+
+            box.css({
+                top: offset.top + 25,
+                left: offset.left
+            }).addClass('on');
+
+        }).on('click', '.article-share-box', function (e) {
+            e.stopPropagation();
+        }).on('click', '.article-share-box-input', function () {
+            $(this).select();
+        }).on('click', '.article-share-box-link', function (e) {
+            e.preventDefault();
+            e.stopPropagation();
+
+            window.open(this.href, 'article-share-box-window-' + Date.now(), 'width=500,height=450');
+        });
+    })(jQuery);
+</script>
+
+        </footer>
+    </div>
+</article>
+
+<section id="comments">
+
+    <div id="disqus_thread">
+    <noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+<script>
+var disqus_shortname = 'hexo-theme-hueman';
+
+
+var disqus_url = 'http://yoursite.com/2016/01/17/写着玩-硬怼目标文件/';
+
+(function() {
+var dsq = document.createElement('script');
+dsq.type = 'text/javascript';
+dsq.async = true;
+dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+})();
+</script>
+
+</section>
+
+                        </div>
+                    </section>
+                    <aside id="sidebar">
+    <a class="sidebar-toggle" title="Expand Sidebar"><i class="toggle icon"></i></a>
+    <div class="sidebar-top">
+        <p>关注我 :</p>
+        <ul class="social-links">
+            
+                
+                <li>
+                    <a class="social-tooltip" title="twitter" href="/" target="_blank">
+                        <i class="icon fa fa-twitter"></i>
+                    </a>
+                </li>
+                
+            
+                
+                <li>
+                    <a class="social-tooltip" title="facebook" href="/" target="_blank">
+                        <i class="icon fa fa-facebook"></i>
+                    </a>
+                </li>
+                
+            
+                
+                <li>
+                    <a class="social-tooltip" title="google-plus" href="/" target="_blank">
+                        <i class="icon fa fa-google-plus"></i>
+                    </a>
+                </li>
+                
+            
+                
+                <li>
+                    <a class="social-tooltip" title="github" href="https://github.com/ppoffice/hexo-theme-hueman" target="_blank">
+                        <i class="icon fa fa-github"></i>
+                    </a>
+                </li>
+                
+            
+                
+                <li>
+                    <a class="social-tooltip" title="weibo" href="/" target="_blank">
+                        <i class="icon fa fa-weibo"></i>
+                    </a>
+                </li>
+                
+            
+                
+                <li>
+                    <a class="social-tooltip" title="rss" href="/" target="_blank">
+                        <i class="icon fa fa-rss"></i>
+                    </a>
+                </li>
+                
+            
+        </ul>
+    </div>
+    
+        
+<nav id="article-nav">
+    
+        <a href="/2016/01/18/写着玩-强撸静态链接（续）/" id="article-nav-newer" class="article-nav-link-wrap">
+        <strong class="article-nav-caption">下一篇</strong>
+        <p class="article-nav-title">
+        
+            写着玩-强撸静态链接（续）
+        
+        </p>
+        <i class="icon fa fa-chevron-right" id="icon-chevron-right"></i>
+    </a>
+    
+    
+        <a href="/2016/01/17/写着玩-强撸静态链接/" id="article-nav-older" class="article-nav-link-wrap">
+        <strong class="article-nav-caption">上一篇</strong>
+        <p class="article-nav-title">写着玩-强撸静态链接</p>
+        <i class="icon fa fa-chevron-left" id="icon-chevron-left"></i>
+        </a>
+    
+</nav>
+
+    
+    <div class="widgets-container">
+        
+            
+                
+    <div class="widget-wrap">
+        <h3 class="widget-title">最新文章</h3>
+        <div class="widget">
+            <ul id="recent-post" class="">
+                
+                    <li>
+                        
+                        <div class="item-thumbnail">
+                            <a href="/2016/02/06/hello-world/" class="thumbnail">
+    
+    
+        <span class="thumbnail-image thumbnail-none"></span>
+    
+</a>
+                        </div>
+                        
+                        <div class="item-inner">
+                            <p class="item-category"></p>
+                            <p class="item-title"><a href="/2016/02/06/hello-world/" class="title">想起来啥写啥</a></p>
+                            <p class="item-date"><time datetime="2016-02-06T15:23:57.681Z" itemprop="datePublished">2016-02-06</time></p>
+                        </div>
+                    </li>
+                
+                    <li>
+                        
+                        <div class="item-thumbnail">
+                            <a href="/2016/01/19/写着玩-狂艹装载/" class="thumbnail">
+    
+    
+        <span style="background-image:url(/img/写着玩-狂艹装载/0.PNG)" alt="写着玩-狂艹装载" class="thumbnail-image"></span>
+    
+</a>
+                        </div>
+                        
+                        <div class="item-inner">
+                            <p class="item-category"><a class="article-category-link" href="/categories/reverse-related/">reverse related</a></p>
+                            <p class="item-title"><a href="/2016/01/19/写着玩-狂艹装载/" class="title">写着玩-狂艹装载</a></p>
+                            <p class="item-date"><time datetime="2016-01-19T11:37:30.000Z" itemprop="datePublished">2016-01-19</time></p>
+                        </div>
+                    </li>
+                
+                    <li>
+                        
+                        <div class="item-thumbnail">
+                            <a href="/2016/01/19/写着玩-回顾以前的PE岁月/" class="thumbnail">
+    
+    
+        <span style="background-image:url(/img/写着玩-回顾以前的PE岁月/0.PNG)" alt="写着玩-回顾以前的PE岁月" class="thumbnail-image"></span>
+    
+</a>
+                        </div>
+                        
+                        <div class="item-inner">
+                            <p class="item-category"><a class="article-category-link" href="/categories/reverse-related/">reverse related</a></p>
+                            <p class="item-title"><a href="/2016/01/19/写着玩-回顾以前的PE岁月/" class="title">写着玩-回顾以前的PE岁月</a></p>
+                            <p class="item-date"><time datetime="2016-01-19T07:24:33.000Z" itemprop="datePublished">2016-01-19</time></p>
+                        </div>
+                    </li>
+                
+                    <li>
+                        
+                        <div class="item-thumbnail">
+                            <a href="/2016/01/18/写着玩-强撸静态链接（续）/" class="thumbnail">
+    
+    
+        <span style="background-image:url(/img/写着玩-强撸静态链接（续）/0.PNG)" alt="写着玩-强撸静态链接（续）" class="thumbnail-image"></span>
+    
+</a>
+                        </div>
+                        
+                        <div class="item-inner">
+                            <p class="item-category"><a class="article-category-link" href="/categories/reverse-related/">reverse related</a></p>
+                            <p class="item-title"><a href="/2016/01/18/写着玩-强撸静态链接（续）/" class="title">写着玩-强撸静态链接（续）</a></p>
+                            <p class="item-date"><time datetime="2016-01-18T11:03:01.000Z" itemprop="datePublished">2016-01-18</time></p>
+                        </div>
+                    </li>
+                
+                    <li>
+                        
+                        <div class="item-thumbnail">
+                            <a href="/2016/01/17/写着玩-硬怼目标文件/" class="thumbnail">
+    
+    
+        <span style="background-image:url(/img/写着玩-硬怼目标文件/0.PNG)" alt="写着玩-硬怼目标文件" class="thumbnail-image"></span>
+    
+</a>
+                        </div>
+                        
+                        <div class="item-inner">
+                            <p class="item-category"><a class="article-category-link" href="/categories/reverse-related/">reverse related</a></p>
+                            <p class="item-title"><a href="/2016/01/17/写着玩-硬怼目标文件/" class="title">写着玩-硬怼目标文件</a></p>
+                            <p class="item-date"><time datetime="2016-01-17T12:50:32.000Z" itemprop="datePublished">2016-01-17</time></p>
+                        </div>
+                    </li>
+                
+            </ul>
+        </div>
+    </div>
+
+            
+                
+    <div class="widget-wrap widget-list">
+        <h3 class="widget-title">分类</h3>
+        <div class="widget">
+            <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/cryptography/">cryptography</a><span class="category-list-count">12</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/reverse-related/">reverse related</a><span class="category-list-count">10</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/think-for-fun/">think for fun</a><span class="category-list-count">1</span></li></ul>
+        </div>
+    </div>
+
+
+            
+                
+    <div class="widget-wrap widget-list">
+        <h3 class="widget-title">归档</h3>
+        <div class="widget">
+            <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/02/">February 2016</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/01/">January 2016</a><span class="archive-list-count">13</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2015/12/">December 2015</a><span class="archive-list-count">9</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2015/11/">November 2015</a><span class="archive-list-count">1</span></li></ul>
+        </div>
+    </div>
+
+
+            
+                
+    <div class="widget-wrap widget-list">
+        <h3 class="widget-title">标签</h3>
+        <div class="widget">
+            <ul class="tag-list"><li class="tag-list-item"><a class="tag-list-link" href="/tags/人丑就要多读书/">人丑就要多读书</a><span class="tag-list-count">6</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/密码学/">密码学</a><span class="tag-list-count">12</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/操作系统/">操作系统</a><span class="tag-list-count">3</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/编译原理/">编译原理</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/随想/">随想</a><span class="tag-list-count">1</span></li></ul>
+        </div>
+    </div>
+
+
+            
+                
+    <div class="widget-wrap widget-float">
+        <h3 class="widget-title">标签云</h3>
+        <div class="widget tagcloud">
+            <a href="/tags/人丑就要多读书/" style="font-size: 16.67px;">人丑就要多读书</a> <a href="/tags/密码学/" style="font-size: 20px;">密码学</a> <a href="/tags/操作系统/" style="font-size: 13.33px;">操作系统</a> <a href="/tags/编译原理/" style="font-size: 10px;">编译原理</a> <a href="/tags/随想/" style="font-size: 10px;">随想</a>
+        </div>
+    </div>
+
+
+            
+                
+    <div class="widget-wrap widget-list">
+        <h3 class="widget-title">链接</h3>
+        <div class="widget">
+            <ul>
+                
+                    <li>
+                        <a href="http://hexo.io">Hexo</a>
+                    </li>
+                
+            </ul>
+        </div>
+    </div>
+
+
+            
+        
+    </div>
+</aside>
+                </div>
+            </div>
+        </div>
+        <footer id="footer">
+    <div class="container">
+        <div class="container-inner">
+            <a id="back-to-top" href="javascript:;"><i class="icon fa fa-angle-up"></i></a>
+            <div class="credit">
+                <h1 class="logo-wrap">
+                    <a href="/" class="logo"></a>
+                </h1>
+                <p>&copy; 2016 John Doe</p>
+                <p>Powered by <a href="//hexo.io/" target="_blank">Hexo</a>. Theme by <a href="//github.com/ppoffice" target="_blank">PPOffice</a></p>
+            </div>
+        </div>
+    </div>
+</footer>
+        
+    
+        <script src="/vendor/fancybox/jquery.fancybox.pack.js" type="text/javascript"></script>
+    
+
+    
+        <script src="/vendor/scrollLoading/jquery.scrollLoading.js" type="text/javascript"></script>
+        <script src="/vendor/scrollLoading/main.js" type="text/javascript"></script>
+    
+
+
+<!-- Custom Scripts -->
+<script src="/js/main.js" type="text/javascript"></script>
+
+    </div>
+</body>
+</html>

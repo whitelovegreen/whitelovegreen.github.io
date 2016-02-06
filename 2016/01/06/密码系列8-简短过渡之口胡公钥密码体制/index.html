@@ -1,0 +1,532 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    
+    <title>密码系列8-简短过渡之口胡公钥密码体制 | Hexo</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    
+        <meta name="keywords" content="密码学" />
+    
+    <meta name="description" content="0x00 公钥密码体制概念在公钥密码体制以前的整个密码学史中, 所有的密码算法, 包括原始手工计算的、由机械设备实现的以及由计算机实现的, 都是基于代换和置换这两个基本工具。而公钥密码体制则为密码学的发展提供了新的理论和技术基础, 一方面公钥密码算法的基本工具不再是代换和置换, 而是数学函数;另一方面公钥密码算法是以非对称的形式使用两个密钥, 两个密钥的使用对保密性、密钥分配、认证等都有着深刻的意">
+<meta property="og:type" content="article">
+<meta property="og:title" content="密码系列8-简短过渡之口胡公钥密码体制">
+<meta property="og:url" content="http://yoursite.com/2016/01/06/密码系列8-简短过渡之口胡公钥密码体制/index.html">
+<meta property="og:site_name" content="Hexo">
+<meta property="og:description" content="0x00 公钥密码体制概念在公钥密码体制以前的整个密码学史中, 所有的密码算法, 包括原始手工计算的、由机械设备实现的以及由计算机实现的, 都是基于代换和置换这两个基本工具。而公钥密码体制则为密码学的发展提供了新的理论和技术基础, 一方面公钥密码算法的基本工具不再是代换和置换, 而是数学函数;另一方面公钥密码算法是以非对称的形式使用两个密钥, 两个密钥的使用对保密性、密钥分配、认证等都有着深刻的意">
+<meta property="og:image" content="http://yoursite.com/img/密码系列8-简短过渡之口胡公钥密码体制/0.PNG">
+<meta property="og:updated_time" content="2016-01-07T08:11:18.046Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="密码系列8-简短过渡之口胡公钥密码体制">
+<meta name="twitter:description" content="0x00 公钥密码体制概念在公钥密码体制以前的整个密码学史中, 所有的密码算法, 包括原始手工计算的、由机械设备实现的以及由计算机实现的, 都是基于代换和置换这两个基本工具。而公钥密码体制则为密码学的发展提供了新的理论和技术基础, 一方面公钥密码算法的基本工具不再是代换和置换, 而是数学函数;另一方面公钥密码算法是以非对称的形式使用两个密钥, 两个密钥的使用对保密性、密钥分配、认证等都有着深刻的意">
+
+    
+
+    
+
+    <link rel="stylesheet" href="/vendor/font-awesome/css/font-awesome.min.css" type="text/css">
+    <link rel="stylesheet" href="/vendor/titillium-web/styles.css" type="text/css">
+    <link rel="stylesheet" href="/vendor/source-code-pro/styles.css" type="text/css">
+
+    <link rel="stylesheet" href="/css/style.css" type="text/css">
+
+    <script src="/vendor/jquery/2.0.3/jquery.min.js" type="text/javascript"></script>
+    
+    
+        <link rel="stylesheet" href="/vendor/fancybox/jquery.fancybox.css" type="text/css">
+    
+    
+        <link rel="stylesheet" href="/vendor/scrollLoading/style.css" type="text/css">
+    
+    
+    
+
+</head>
+
+<body>
+    <div id="wrap">
+        <header id="header">
+    <div id="header-outer" class="outer">
+        <div class="container">
+            <div class="container-inner">
+                <div id="header-title">
+                    <h1 class="logo-wrap">
+                        <a href="/" class="logo"></a>
+                    </h1>
+                    
+                </div>
+                <div id="header-inner" class="nav-container">
+                    <a id="main-nav-toggle" class="nav-icon fa fa-bars"></a>
+                    <div class="nav-container-inner">
+                        <ul id="main-nav">
+                            
+                                <li class="main-nav-list-item" >
+                                    <a class="main-nav-list-link" href="/hexo-theme-hueman/">主页</a>
+                                </li>
+                            
+                                        <ul class="main-nav-list"><li class="main-nav-list-item"><a class="main-nav-list-link" href="/categories/cryptography/">cryptography</a></li><li class="main-nav-list-item"><a class="main-nav-list-link" href="/categories/reverse-related/">reverse related</a></li><li class="main-nav-list-item"><a class="main-nav-list-link" href="/categories/think-for-fun/">think for fun</a></li></ul>
+                                    
+                                <li class="main-nav-list-item" >
+                                    <a class="main-nav-list-link" href="/hexo-theme-hueman/about/index.html">关于</a>
+                                </li>
+                            
+                        </ul>
+                        <nav id="sub-nav">
+                            <div id="search-form-wrap">
+
+    <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" results="0" class="search-form-input" placeholder="搜索"><input type="hidden" name="sitesearch" value="http://yoursite.com"></form>
+
+</div>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+        <div class="container">
+            <div class="main-body container-inner">
+                <div class="main-body-inner">
+                    <section id="main">
+                        <div class="main-body-header">
+    <h1 class="header">
+    
+    <a class="page-title-link" href="/categories/cryptography/">cryptography</a>
+    </h1>
+</div>
+                        <div class="main-body-content">
+                            <article id="post-密码系列8-简短过渡之口胡公钥密码体制" class="article article-single article-type-post" itemscope itemprop="blogPost">
+    <div class="article-inner">
+        
+            <header class="article-header">
+                
+    
+        <h1 class="article-title" itemprop="name">
+        密码系列8-简短过渡之口胡公钥密码体制
+        </h1>
+    
+
+            </header>
+        
+        <div class="article-subtitle">
+            <a href="/2016/01/06/密码系列8-简短过渡之口胡公钥密码体制/" class="article-date">
+    <time datetime="2016-01-06T13:35:08.000Z" itemprop="datePublished">2016-01-06</time>
+</a>
+            
+    <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/密码学/">密码学</a></li></ul>
+
+        </div>
+        <div class="article-entry" itemprop="articleBody">
+            <h1 id="0x00__u516C_u94A5_u5BC6_u7801_u4F53_u5236_u6982_u5FF5"><a href="#0x00__u516C_u94A5_u5BC6_u7801_u4F53_u5236_u6982_u5FF5" class="headerlink" title="0x00 公钥密码体制概念"></a>0x00 公钥密码体制概念</h1><p>在公钥密码体制以前的整个密码学史中, 所有的密码算法, 包括原始手工计算的、由机械设备实现的以及由计算机实现的, 都是基于代换和置换这两个基本工具。而公钥密码体制则为密码学的发展提供了新的理论和技术基础, 一方面公钥密码算法的基本工具不再是代换和置换, 而是数学函数;另一方面公钥密码算法是以非对称的形式使用两个密钥, 两个密钥的使用对保密性、密钥分配、认证等都有着深刻的意义。可以说公钥密码体制的出现在密码学史上是迄今为止最大的而且是惟一真正的革命。公钥密码体制的概念是在解决单钥密码体制中最难解决的两个问题时提出的, 这两个问题是密钥分配和数字签字。单钥密码体制在进行密钥分配时, 要求通信双方或者已经有一个共享的密钥, 或者可借助于一个密钥分配中心。对第1 个要求, 常常可用人工方式传送双方最初共享的密钥, 这种方法成本很高, 而且还完全依赖于信使的可靠性。第2 个要求则完全依赖于密钥分配中心的可靠性。第2 个问题数字签字考虑的是如何为数字化的消息或文件提供一种类似于为书面文件手书签字的方法。1976 年W .Diffie 和M .Hellman 对解决上述两个问题有了突破, 从而提出了公钥密码体制。</p>
+<h1 id="0x01__u516C_u94A5_u5BC6_u7801_u4F53_u5236_u7684_u539F_u7406"><a href="#0x01__u516C_u94A5_u5BC6_u7801_u4F53_u5236_u7684_u539F_u7406" class="headerlink" title="0x01 公钥密码体制的原理"></a>0x01 公钥密码体制的原理</h1><p>公钥密码算法的最大特点是采用两个相关密钥将加密和解密能力分开, 其中一个密钥是公开的, 称为公开密钥, 简称公开钥, 用于加密; 另一个密钥是为用户专用, 因而是保密的, 称为秘密密钥, 简称秘密钥, 用于解密。因此公钥密码体制也称为双钥密码体制。算法有以下重要特性: 已知密码算法和加密密钥, 求解密密钥在计算上是不可行的。</p>
+<p>下图是公钥体制加密的框图</p>
+<p><img src="/img/密码系列8-简短过渡之口胡公钥密码体制/0.PNG" alt=""></p>
+<p>加密过程有以下几步:</p>
+<ol>
+<li>要求接收消息的端系统, 产生一对用来加密和解密的密钥, 如图中的接收者B, 产生一对密钥PKB , SKB , 其中PKB 是公开钥, SKB 是秘密钥。</li>
+<li>端系统B 将加密密钥( 如图中的PKB ) 予以公开。另一密钥则被保密( 图中的SKB )。</li>
+<li>A要想向B发送消息m，则使用B的公开钥加密m，表示为c=EPKB[m],其中c是密文，E是加密算法。<br>4.B收到密文c后，用自己的秘密钥SKB解密，表示为m=DSKB[c]，其中D是解密算法。<br>因为只有B 知道SKB , 所以其他人都无法对c 解密。</li>
+</ol>
+<p>公钥加密算法不仅能用于加、解密, 还能用于对发方A 发送的消息m 提供认证, 如下图：</p>
+<p><img src="/img/密码系列8-简短过渡之口胡公钥密码体制/1.PNG" alt=""></p>
+<ol>
+<li>用户A用自己的秘密钥SKA对m加密，表示为c=ESKA[m]，将c发往B。</li>
+<li>B用A的公开钥PKA对c解密m=DPKA[c]因为从m得到c是经过A的秘密钥SKA加密，只有A才能做到。因此c可当做A对m的数字签字。另一方面，任何人只要得不到A的秘密钥SKA就不能篡改m，所以获得了对消息来源和消息完整性的认证。</li>
+</ol>
+<p>在实际应用中, 特别是用户数目很多时, 以上认证方法需要很大的存储空间, 因为每个文件都必须以明文形式存储以方便实际使用, 同时还必须存储每个文件被加密后的密文形式即数字签字, 以便在有争议时用来认证文件的来源和内容。改进的方法是减小文件的数字签字的大小, 即先将文件经过一个函数压缩成长度较小的比特串, 得到的比特串称为认证符。认证符具有这样一个性质: 如果保持认证符的值不变而修改文件这在计算上是不可行的。用发送者的秘密钥对认证符加密, 加密后的结果为原文件的数字签字。</p>
+<p>就是现在说的数字签名技术，数字签名技术是将摘要信息用发送者的私钥加密，与原文一起传送给接收者。接收者只有用发送者的公钥才能解密被加密的摘要信息，然后用HASH函数对收到的原文产生一个摘要信息，与解密的摘要信息对比。如果相同，则说明收到的信息是完整的，在传输过程中没有被修改，否则说明信息被修改过，因此数字签名能够验证信息的完整性。数字签名是个加密的过程，数字签名验证是个解密的过程。这样说应该很清楚了</p>
+<p>口胡一下，就是比如A给B一份文件，这个文件B拿到的就是这个文件的明文，而非文件的加密，现在的问题是B并不知道这个文件是不是A给他的，也可能有人假传圣旨，这时B不必慌张，因为随着该文件一块到的还有该文件的数字签名，数字签名的产生是该文件经过一个hash函数产生一个能够代表该文件的文件摘要，然后A用它的私钥对该摘要进行加密后生成的，相当于A用自己的私钥在这份文件上盖了个戳，说这是我A发的，那么B如何验证呢？B会用A公布的公钥对这个数字签名进行解密，然后B会用同样的hash对该文件生成文件摘要，然后比对该文件摘要与解密的文件摘要是否一致，一致则说明该文件确实来源于A，这个过程其实也保证了文件数据的完整性，因为一旦有人篡改文件，那么该文件的文件摘要就会改变，那么在B处生成的文件摘要就无法与解密数字签名后的文件摘要进行匹配，这时B就会知道该文件出了问题，然后采取相应的措施。</p>
+<p>以上认证过程中, 由于消息是由用户自己的秘密钥加密的, 所以消息不能被他人篡改, 但却能被他人窃听。这是因为任何人都能用用户的公开钥对消息解密得到明文信息。为了同时提供认证功能和保密性, 可使用双重加、解密。如下图所示：</p>
+<p><img src="/img/密码系列8-简短过渡之口胡公钥密码体制/2.PNG" alt=""></p>
+<p>发方首先用自己的秘密钥SKA对消息m加密，用于提供数字签字。再用收方的公开钥PKB第2次加密，表示为c=EPKB[ESKA[m]]<br>解密过程为m=DPKA[DSKB[c]]，即收方先用自己的秘密钥,再用发方的公开钥对收到的密文两次解密。</p>
+<h1 id="0x02__u516C_u94A5_u5BC6_u7801_u7B97_u6CD5_u5E94_u6EE1_u8DB3_u7684_u8981_u6C42"><a href="#0x02__u516C_u94A5_u5BC6_u7801_u7B97_u6CD5_u5E94_u6EE1_u8DB3_u7684_u8981_u6C42" class="headerlink" title="0x02 公钥密码算法应满足的要求"></a>0x02 公钥密码算法应满足的要求</h1><ol>
+<li>接收方B产生密钥对（公开钥PKB和秘密钥SKB）在计算上是容易的。</li>
+<li>发方A用收方的公开钥对消息m加密以产生密文c，即c=EPKB[m]在计算上是容易的。</li>
+<li>收方B用自己的秘密钥对c解密，即m=DSKB[c]在计算上是容易的。</li>
+<li>敌手由B的公开钥PKB求秘密钥SKB在计算上是不可行的。</li>
+<li>敌手由密文c和B的公开钥PKB恢复明文m在计算上是不可行的。</li>
+<li>加、解密次序可换，即EPKB[DSKB(m)]=DSKB[EPKB(m)]<br>(其中最后一条虽然非常有用，但不是对所有的算法都作要求。)</li>
+</ol>
+<p>以上要求的本质之处在于要求一个陷门单向函数。单向函数是两个集合X、Y 之间的一个映射, 使得Y 中每一元素y 都有惟一的一个原像x∈ X, 且由x 易于计算它的像y ,由y 计算它的原像x 是不可行的。这里所说的易于计算是指函数值能在其输入长度的多项式时间内求出, 即如果输入长n 比特, 则求函数值的计算时间是na 的某个倍数, 其中a 是一固定的常数。这时称求函数值的算法属于多项式类P , 否则就是不可行的。例如,函数的输入是n 比特, 如果求函数值所用的时间是2n 的某个倍数, 则认为求函数值是不可行的。注意这里的易于计算和不可行两个概念与计算复杂性理论中复杂度的概念极为相似, 然而又存在着本质的区别。在复杂性理论中, 算法的复杂度是以算法在最坏情况或平均情况时的复杂度来度量的。而在此所说的两个概念是指算法在几乎所有情况下的情形。称一个函数是陷门单向函数, 是指该函数是易于计算的, 但求它的逆是不可行的, 除非再已知某些附加信息。当附加信息给定后, 求逆可在多项式时间完成。总结为: 陷门单向函数是一族可逆函数f k , 满足：</p>
+<ol>
+<li>k和X已知时，Y=fk(X)易于计算。</li>
+<li>k和Y已知时，X=f-1k(Y)易于计算。</li>
+<li>Y已知但k未知，X=f-1k(Y)计算上是不可行的。</li>
+</ol>
+<p>因此, 研究公钥密码算法就是要找出合适的陷门单向函数。</p>
+<h1 id="0x03__u5BF9_u516C_u94A5_u5BC6_u7801_u4F53_u5236_u7684_u653B_u51FB"><a href="#0x03__u5BF9_u516C_u94A5_u5BC6_u7801_u4F53_u5236_u7684_u653B_u51FB" class="headerlink" title="0x03 对公钥密码体制的攻击"></a>0x03 对公钥密码体制的攻击</h1><p>和单钥密码体制一样, 如果密钥太短, 公钥密码体制也易受到穷搜索攻击。因此密钥必须足够长才能抗击穷搜索攻击。然而又由于公钥密码体制所使用的可逆函数的计算复杂性与密钥长度常常不是呈线性关系, 而是增大得更快。所以密钥长度太大又会使得加解密运算太慢而不实用。因此公钥密码体制目前主要用于密钥管理和数字签字。</p>
+<p>对公钥密码算法的第2 种攻击法是寻找从公开钥计算秘密钥的方法。目前为止, 对常用公钥算法还都未能够证明这种攻击是不可行的。</p>
+<p>还有一种仅适用于对公钥密码算法的攻击法, 称为可能字攻击。例如对56 比特的DES 密钥用公钥密码算法加密后发送, 敌手用算法的公开钥对所有可能的密钥加密后与截获的密文相比较。如果一样, 则相应的明文即DES 密钥就被找出。因此不管公钥算法的密钥多长, 这种攻击的本质是对56 比特DES 密钥的穷搜索攻击。抵抗方法是在欲发送的明文消息后添加一些随机比特。</p>
+<p>由于是简短的过渡blog，所以就口胡到这。。。</p>
+
+        </div>
+        <footer class="article-footer">
+            
+
+
+
+    <a data-url="http://yoursite.com/2016/01/06/密码系列8-简短过渡之口胡公钥密码体制/" data-id="cikb9uuso000mssqnvlm0iihg" class="article-share-link"><i class="fa fa-share"></i>分享到</a>
+<script>
+    (function ($) {
+        $('body').on('click', function() {
+            $('.article-share-box.on').removeClass('on');
+        }).on('click', '.article-share-link', function(e) {
+            e.stopPropagation();
+
+            var $this = $(this),
+                url = $this.attr('data-url'),
+                encodedUrl = encodeURIComponent(url),
+                id = 'article-share-box-' + $this.attr('data-id'),
+                offset = $this.offset(),
+                box;
+
+            if ($('#' + id).length) {
+                box = $('#' + id);
+
+                if (box.hasClass('on')){
+                    box.removeClass('on');
+                    return;
+                }
+            } else {
+                var html = [
+                    '<div id="' + id + '" class="article-share-box">',
+                        '<input class="article-share-input" value="' + url + '">',
+                        '<div class="article-share-links">',
+                            '<a href="https://twitter.com/intent/tweet?url=' + encodedUrl + '" class="article-share-twitter" target="_blank" title="Twitter"></a>',
+                            '<a href="https://www.facebook.com/sharer.php?u=' + encodedUrl + '" class="article-share-facebook" target="_blank" title="Facebook"></a>',
+                            '<a href="http://pinterest.com/pin/create/button/?url=' + encodedUrl + '" class="article-share-pinterest" target="_blank" title="Pinterest"></a>',
+                            '<a href="https://plus.google.com/share?url=' + encodedUrl + '" class="article-share-google" target="_blank" title="Google+"></a>',
+                        '</div>',
+                    '</div>'
+                ].join('');
+
+              box = $(html);
+
+              $('body').append(box);
+            }
+
+            $('.article-share-box.on').hide();
+
+            box.css({
+                top: offset.top + 25,
+                left: offset.left
+            }).addClass('on');
+
+        }).on('click', '.article-share-box', function (e) {
+            e.stopPropagation();
+        }).on('click', '.article-share-box-input', function () {
+            $(this).select();
+        }).on('click', '.article-share-box-link', function (e) {
+            e.preventDefault();
+            e.stopPropagation();
+
+            window.open(this.href, 'article-share-box-window-' + Date.now(), 'width=500,height=450');
+        });
+    })(jQuery);
+</script>
+
+        </footer>
+    </div>
+</article>
+
+<section id="comments">
+
+    <div id="disqus_thread">
+    <noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+<script>
+var disqus_shortname = 'hexo-theme-hueman';
+
+
+var disqus_url = 'http://yoursite.com/2016/01/06/密码系列8-简短过渡之口胡公钥密码体制/';
+
+(function() {
+var dsq = document.createElement('script');
+dsq.type = 'text/javascript';
+dsq.async = true;
+dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+})();
+</script>
+
+</section>
+
+                        </div>
+                    </section>
+                    <aside id="sidebar">
+    <a class="sidebar-toggle" title="Expand Sidebar"><i class="toggle icon"></i></a>
+    <div class="sidebar-top">
+        <p>关注我 :</p>
+        <ul class="social-links">
+            
+                
+                <li>
+                    <a class="social-tooltip" title="twitter" href="/" target="_blank">
+                        <i class="icon fa fa-twitter"></i>
+                    </a>
+                </li>
+                
+            
+                
+                <li>
+                    <a class="social-tooltip" title="facebook" href="/" target="_blank">
+                        <i class="icon fa fa-facebook"></i>
+                    </a>
+                </li>
+                
+            
+                
+                <li>
+                    <a class="social-tooltip" title="google-plus" href="/" target="_blank">
+                        <i class="icon fa fa-google-plus"></i>
+                    </a>
+                </li>
+                
+            
+                
+                <li>
+                    <a class="social-tooltip" title="github" href="https://github.com/ppoffice/hexo-theme-hueman" target="_blank">
+                        <i class="icon fa fa-github"></i>
+                    </a>
+                </li>
+                
+            
+                
+                <li>
+                    <a class="social-tooltip" title="weibo" href="/" target="_blank">
+                        <i class="icon fa fa-weibo"></i>
+                    </a>
+                </li>
+                
+            
+                
+                <li>
+                    <a class="social-tooltip" title="rss" href="/" target="_blank">
+                        <i class="icon fa fa-rss"></i>
+                    </a>
+                </li>
+                
+            
+        </ul>
+    </div>
+    
+        
+<nav id="article-nav">
+    
+        <a href="/2016/01/07/密码系列9-数论不白学之RSA/" id="article-nav-newer" class="article-nav-link-wrap">
+        <strong class="article-nav-caption">下一篇</strong>
+        <p class="article-nav-title">
+        
+            密码系列9-数论不白学之RSA
+        
+        </p>
+        <i class="icon fa fa-chevron-right" id="icon-chevron-right"></i>
+    </a>
+    
+    
+        <a href="/2016/01/04/密码系列7-公钥密码之从RSA看数论/" id="article-nav-older" class="article-nav-link-wrap">
+        <strong class="article-nav-caption">上一篇</strong>
+        <p class="article-nav-title">密码系列7-公钥密码之从RSA看数论</p>
+        <i class="icon fa fa-chevron-left" id="icon-chevron-left"></i>
+        </a>
+    
+</nav>
+
+    
+    <div class="widgets-container">
+        
+            
+                
+    <div class="widget-wrap">
+        <h3 class="widget-title">最新文章</h3>
+        <div class="widget">
+            <ul id="recent-post" class="">
+                
+                    <li>
+                        
+                        <div class="item-thumbnail">
+                            <a href="/2016/02/06/hello-world/" class="thumbnail">
+    
+    
+        <span class="thumbnail-image thumbnail-none"></span>
+    
+</a>
+                        </div>
+                        
+                        <div class="item-inner">
+                            <p class="item-category"></p>
+                            <p class="item-title"><a href="/2016/02/06/hello-world/" class="title">想起来啥写啥</a></p>
+                            <p class="item-date"><time datetime="2016-02-06T15:23:57.681Z" itemprop="datePublished">2016-02-06</time></p>
+                        </div>
+                    </li>
+                
+                    <li>
+                        
+                        <div class="item-thumbnail">
+                            <a href="/2016/01/19/写着玩-狂艹装载/" class="thumbnail">
+    
+    
+        <span style="background-image:url(/img/写着玩-狂艹装载/0.PNG)" alt="写着玩-狂艹装载" class="thumbnail-image"></span>
+    
+</a>
+                        </div>
+                        
+                        <div class="item-inner">
+                            <p class="item-category"><a class="article-category-link" href="/categories/reverse-related/">reverse related</a></p>
+                            <p class="item-title"><a href="/2016/01/19/写着玩-狂艹装载/" class="title">写着玩-狂艹装载</a></p>
+                            <p class="item-date"><time datetime="2016-01-19T11:37:30.000Z" itemprop="datePublished">2016-01-19</time></p>
+                        </div>
+                    </li>
+                
+                    <li>
+                        
+                        <div class="item-thumbnail">
+                            <a href="/2016/01/19/写着玩-回顾以前的PE岁月/" class="thumbnail">
+    
+    
+        <span style="background-image:url(/img/写着玩-回顾以前的PE岁月/0.PNG)" alt="写着玩-回顾以前的PE岁月" class="thumbnail-image"></span>
+    
+</a>
+                        </div>
+                        
+                        <div class="item-inner">
+                            <p class="item-category"><a class="article-category-link" href="/categories/reverse-related/">reverse related</a></p>
+                            <p class="item-title"><a href="/2016/01/19/写着玩-回顾以前的PE岁月/" class="title">写着玩-回顾以前的PE岁月</a></p>
+                            <p class="item-date"><time datetime="2016-01-19T07:24:33.000Z" itemprop="datePublished">2016-01-19</time></p>
+                        </div>
+                    </li>
+                
+                    <li>
+                        
+                        <div class="item-thumbnail">
+                            <a href="/2016/01/18/写着玩-强撸静态链接（续）/" class="thumbnail">
+    
+    
+        <span style="background-image:url(/img/写着玩-强撸静态链接（续）/0.PNG)" alt="写着玩-强撸静态链接（续）" class="thumbnail-image"></span>
+    
+</a>
+                        </div>
+                        
+                        <div class="item-inner">
+                            <p class="item-category"><a class="article-category-link" href="/categories/reverse-related/">reverse related</a></p>
+                            <p class="item-title"><a href="/2016/01/18/写着玩-强撸静态链接（续）/" class="title">写着玩-强撸静态链接（续）</a></p>
+                            <p class="item-date"><time datetime="2016-01-18T11:03:01.000Z" itemprop="datePublished">2016-01-18</time></p>
+                        </div>
+                    </li>
+                
+                    <li>
+                        
+                        <div class="item-thumbnail">
+                            <a href="/2016/01/17/写着玩-硬怼目标文件/" class="thumbnail">
+    
+    
+        <span style="background-image:url(/img/写着玩-硬怼目标文件/0.PNG)" alt="写着玩-硬怼目标文件" class="thumbnail-image"></span>
+    
+</a>
+                        </div>
+                        
+                        <div class="item-inner">
+                            <p class="item-category"><a class="article-category-link" href="/categories/reverse-related/">reverse related</a></p>
+                            <p class="item-title"><a href="/2016/01/17/写着玩-硬怼目标文件/" class="title">写着玩-硬怼目标文件</a></p>
+                            <p class="item-date"><time datetime="2016-01-17T12:50:32.000Z" itemprop="datePublished">2016-01-17</time></p>
+                        </div>
+                    </li>
+                
+            </ul>
+        </div>
+    </div>
+
+            
+                
+    <div class="widget-wrap widget-list">
+        <h3 class="widget-title">分类</h3>
+        <div class="widget">
+            <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/cryptography/">cryptography</a><span class="category-list-count">12</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/reverse-related/">reverse related</a><span class="category-list-count">10</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/think-for-fun/">think for fun</a><span class="category-list-count">1</span></li></ul>
+        </div>
+    </div>
+
+
+            
+                
+    <div class="widget-wrap widget-list">
+        <h3 class="widget-title">归档</h3>
+        <div class="widget">
+            <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/02/">February 2016</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/01/">January 2016</a><span class="archive-list-count">13</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2015/12/">December 2015</a><span class="archive-list-count">9</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2015/11/">November 2015</a><span class="archive-list-count">1</span></li></ul>
+        </div>
+    </div>
+
+
+            
+                
+    <div class="widget-wrap widget-list">
+        <h3 class="widget-title">标签</h3>
+        <div class="widget">
+            <ul class="tag-list"><li class="tag-list-item"><a class="tag-list-link" href="/tags/人丑就要多读书/">人丑就要多读书</a><span class="tag-list-count">6</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/密码学/">密码学</a><span class="tag-list-count">12</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/操作系统/">操作系统</a><span class="tag-list-count">3</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/编译原理/">编译原理</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/随想/">随想</a><span class="tag-list-count">1</span></li></ul>
+        </div>
+    </div>
+
+
+            
+                
+    <div class="widget-wrap widget-float">
+        <h3 class="widget-title">标签云</h3>
+        <div class="widget tagcloud">
+            <a href="/tags/人丑就要多读书/" style="font-size: 16.67px;">人丑就要多读书</a> <a href="/tags/密码学/" style="font-size: 20px;">密码学</a> <a href="/tags/操作系统/" style="font-size: 13.33px;">操作系统</a> <a href="/tags/编译原理/" style="font-size: 10px;">编译原理</a> <a href="/tags/随想/" style="font-size: 10px;">随想</a>
+        </div>
+    </div>
+
+
+            
+                
+    <div class="widget-wrap widget-list">
+        <h3 class="widget-title">链接</h3>
+        <div class="widget">
+            <ul>
+                
+                    <li>
+                        <a href="http://hexo.io">Hexo</a>
+                    </li>
+                
+            </ul>
+        </div>
+    </div>
+
+
+            
+        
+    </div>
+</aside>
+                </div>
+            </div>
+        </div>
+        <footer id="footer">
+    <div class="container">
+        <div class="container-inner">
+            <a id="back-to-top" href="javascript:;"><i class="icon fa fa-angle-up"></i></a>
+            <div class="credit">
+                <h1 class="logo-wrap">
+                    <a href="/" class="logo"></a>
+                </h1>
+                <p>&copy; 2016 John Doe</p>
+                <p>Powered by <a href="//hexo.io/" target="_blank">Hexo</a>. Theme by <a href="//github.com/ppoffice" target="_blank">PPOffice</a></p>
+            </div>
+        </div>
+    </div>
+</footer>
+        
+    
+        <script src="/vendor/fancybox/jquery.fancybox.pack.js" type="text/javascript"></script>
+    
+
+    
+        <script src="/vendor/scrollLoading/jquery.scrollLoading.js" type="text/javascript"></script>
+        <script src="/vendor/scrollLoading/main.js" type="text/javascript"></script>
+    
+
+
+<!-- Custom Scripts -->
+<script src="/js/main.js" type="text/javascript"></script>
+
+    </div>
+</body>
+</html>
